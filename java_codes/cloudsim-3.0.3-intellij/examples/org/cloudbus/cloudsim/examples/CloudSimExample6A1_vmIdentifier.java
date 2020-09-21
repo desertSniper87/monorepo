@@ -1,0 +1,371 @@
+/*
+ * Title:        CloudSim Toolkit
+ * Description:  CloudSim (Cloud Simulation) Toolkit for Modeling and Simulation
+ *               of Clouds
+ * Licence:      GPL - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Copyright (c) 2009, The University of Melbourne, Australia
+ */
+
+
+package org.cloudbus.cloudsim.examples;
+
+import org.cloudbus.cloudsim.*;
+import org.cloudbus.cloudsim.core.CloudSim;
+import org.cloudbus.cloudsim.provisioners.BwProvisionerSimple;
+import org.cloudbus.cloudsim.provisioners.PeProvisionerSimple;
+import org.cloudbus.cloudsim.provisioners.RamProvisionerSimple;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+import org.jfree.ui.ApplicationFrame;
+import org.jfree.ui.RefineryUtilities;
+
+import java.awt.*;
+import java.text.DecimalFormat;
+import java.util.*;
+import java.util.List;
+
+/**
+ * An example showing how to create
+ * scalable simulations.
+ */
+public class CloudSimExample6A1_vmIdentifier extends ApplicationFrame{
+
+    private static XYSeriesCollection dataSetCloudletVsCloudletID;
+    private static XYSeries seriesNumberofVmVsTotalFinishTime;
+
+    /** The cloudlet list. */
+    private static List<Cloudlet> cloudletList;
+
+    /** The vmlist. */
+    private static List<Vm> vmlist;
+
+    public CloudSimExample6A1_vmIdentifier(String title) {
+        super(title);
+        JFreeChart chartCloudletVsCloudletID = ChartFactory.createXYLineChart(
+                "Cloudlet finishing time chart", // Title
+                "No. of VMs", // x-axis Label
+                "Finishing Time", // y-axis Label
+                dataSetCloudletVsCloudletID, // Dataset
+                PlotOrientation.VERTICAL, // Plot Orientation
+                true, // Show Legend
+                true, // Use tooltips
+                false // Configure chart to generate URLs?
+        );
+
+        ChartPanel chartPanelCloudletVsCloudletID = new ChartPanel( chartCloudletVsCloudletID );
+//        chartPanelCloudletVsCloudletID.setPreferredSize( new java.awt.Dimension( 560 , 367 ) );
+        chartPanelCloudletVsCloudletID.setPreferredSize( new Dimension( 800 , 600 ) );
+        setContentPane( chartPanelCloudletVsCloudletID );
+        XYPlot plot = (XYPlot) chartCloudletVsCloudletID.getPlot();
+        plot.getRenderer().setSeriesPaint(0, Color.RED);
+    }
+
+    private static List<Vm> createVM(int userId, int vms) {
+
+        //Creates a container to store VMs. This list is passed to the broker later
+        LinkedList<Vm> list = new LinkedList<Vm>();
+
+        //VM Parameters
+        long size = 10000; //image size (MB)
+        int ram = 512; //vm memory (MB)
+        int mips = 1000;
+        long bw = 1000;
+        int pesNumber = 1; //number of cpus
+        String vmm = "Xen"; //VMM name
+
+        //create VMs
+        Vm[] vm = new Vm[vms];
+
+        for(int i=0;i<vms;i++){
+//			vm[i] = new Vm(i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerSpaceSharedBinPackingA1());
+//			vm[i] = new Vm(i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerSpaceSharedBinPackingA1());
+            //for creating a VM with a space shared scheduling policy for cloudlets:
+//			vm[i] = Vm(i, userId, mips, pesNumber, ram, bw, size, priority, vmm, new CloudletSchedulerSpaceShared());
+            vm[i] = new Vm(i, userId, mips, pesNumber, ram, bw, size, vmm, new CloudletSchedulerTimeShared());
+
+            list.add(vm[i]);
+        }
+
+        return list;
+    }
+
+
+    private static List<Cloudlet> createCloudlet(int userId, int cloudlets){                    /* Here we go */
+        // Creates a container to store Cloudlets
+        LinkedList<Cloudlet> list = new LinkedList<Cloudlet>();
+
+        //cloudlet parameters
+        long length;
+        long fileSize = 300;
+        long outputSize = 300;
+        int pesNumber = 1;
+        UtilizationModel utilizationModel = new UtilizationModelFull();
+
+        Cloudlet[] cloudlet = new Cloudlet[cloudlets];
+        Random random = new Random(10000);
+
+        for(int i=0;i<cloudlets;i++){
+            //length = random.nextInt(1000)*40;
+            length = random.nextInt(1000)+1;
+            cloudlet[i] = new Cloudlet(i, length, pesNumber, fileSize, outputSize, utilizationModel, utilizationModel, utilizationModel);
+            // setting the owner of these Cloudlets
+            cloudlet[i].setUserId(userId);
+            list.add(cloudlet[i]);
+        }
+
+        return list;
+    }
+
+
+
+    ////////////////////////// STATIC METHODS ///////////////////////
+
+    /**
+     * Creates main() to run this example
+     */
+    public static void main(String[] args) {
+        Log.printLine("Starting CloudSimExample6...");
+
+        try {
+            // First step: Initialize the CloudSim package. It should be called
+            // before creating any entities.
+            int num_user = 1;   // number of grid users
+            Calendar calendar = Calendar.getInstance();
+            boolean trace_flag = false;  // mean trace events
+            int number_of_simulations = 20;
+            seriesNumberofVmVsTotalFinishTime = new XYSeries("A1");
+
+            // Initialize the CloudSim library
+            CloudSim.init(num_user, calendar, trace_flag);
+
+            // Second step: Create Datacenters
+            //Datacenters are the resource providers in CloudSim. We need at list one of them to run a CloudSim simulation
+            @SuppressWarnings("unused")
+            Datacenter datacenter0 = createDatacenter("Datacenter_0");
+            @SuppressWarnings("unused")
+            Datacenter datacenter1 = createDatacenter("Datacenter_1");
+
+            int vms = 0;
+
+
+            DatacenterBrokerA1[] brokerArray = new DatacenterBrokerA1[number_of_simulations];
+
+            for (int i = 0; i < number_of_simulations; i++) {
+                //Third step: Create Broker
+                brokerArray[i] = createBroker();
+                int brokerId = brokerArray[i].getId();
+
+                //Fourth step: Create Cloudlets and send them to broker
+
+                cloudletList = createCloudlet(brokerId,4000); // creating 4000 cloudlets
+
+                vms += 1;
+                vmlist = createVM(brokerId, vms); //creating vms
+
+                brokerArray[i].submitVmList(vmlist);
+                brokerArray[i].submitCloudletList(cloudletList);
+
+            }
+            // Fifth step: Starts the simulation
+            CloudSim.startSimulation();
+            //CloudSim.stopSimulation();
+
+            // Final step: Print results when simulation is over
+            for (int i = 0; i < number_of_simulations; i++) {
+                List<Cloudlet> newList = brokerArray[i].getCloudletReceivedList();
+                seriesNumberofVmVsTotalFinishTime.add(i, newList.get(3999).getFinishTime());
+                //CloudSim.stopSimulation();
+                printCloudletList(newList);
+            }
+
+
+            dataSetCloudletVsCloudletID = new XYSeriesCollection();
+            dataSetCloudletVsCloudletID.addSeries(seriesNumberofVmVsTotalFinishTime);
+            CloudSimExample6A1_vmIdentifier chart = new CloudSimExample6A1_vmIdentifier("Execution time vs Cloudlets");
+            chart.pack();
+            RefineryUtilities.centerFrameOnScreen(chart);
+            chart.setVisible(true);
+
+            Log.printLine("CloudSimExample6 finished!");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            Log.printLine("The simulation has been terminated due to an unexpected error");
+        }
+    }
+
+    private static Datacenter createDatacenter(String name){
+
+        // Here are the steps needed to create a PowerDatacenter:
+        // 1. We need to create a list to store one or more
+        //    Machines
+        List<Host> hostList = new ArrayList<Host>();
+
+        // 2. A Machine contains one or more PEs or CPUs/Cores. Therefore, should
+        //    create a list to store these PEs before creating
+        //    a Machine.
+        List<Pe> peList1 = new ArrayList<Pe>();
+
+        int mips = 1000;
+
+        // 3. Create PEs and add these into the list.
+        //for a quad-core machine, a list of 4 PEs is required:
+        peList1.add(new Pe(0, new PeProvisionerSimple(mips))); // need to store Pe id and MIPS Rating
+        peList1.add(new Pe(1, new PeProvisionerSimple(mips)));
+        peList1.add(new Pe(2, new PeProvisionerSimple(mips)));
+        peList1.add(new Pe(3, new PeProvisionerSimple(mips)));
+
+        //Another list, for a dual-core machine
+        List<Pe> peList2 = new ArrayList<Pe>();
+
+        peList2.add(new Pe(0, new PeProvisionerSimple(mips)));
+        peList2.add(new Pe(1, new PeProvisionerSimple(mips)));
+
+        //4. Create Hosts with its id and list of PEs and add them to the list of machines
+        int hostId=0;
+        int ram = 2048; //host memory (MB)
+        long storage = 1000000; //host storage
+        int bw = 10000;
+
+        hostList.add(
+                new Host(
+                        hostId,
+                        new RamProvisionerSimple(ram),
+                        new BwProvisionerSimple(bw),
+                        storage,
+                        peList1,
+                        new VmSchedulerTimeShared(peList1)
+                )
+        ); // This is our first machine
+
+        hostId++;
+
+        hostList.add(
+                new Host(
+                        hostId,
+                        new RamProvisionerSimple(ram),
+                        new BwProvisionerSimple(bw),
+                        storage,
+                        peList2,
+                        new VmSchedulerTimeShared(peList2)
+                )
+        ); // Second machine
+
+
+        //To create a host with a space-shared allocation policy for PEs to VMs:
+        //hostList.add(
+        //		new Host(
+        //			hostId,
+        //			new CpuProvisionerSimple(peList1),
+        //			new RamProvisionerSimple(ram),
+        //			new BwProvisionerSimple(bw),
+        //			storage,
+        //			new VmSchedulerSpaceShared(peList1)
+        //		)
+        //	);
+
+        //To create a host with a oportunistic space-shared allocation policy for PEs to VMs:
+        //hostList.add(
+        //		new Host(
+        //			hostId,
+        //			new CpuProvisionerSimple(peList1),
+        //			new RamProvisionerSimple(ram),
+        //			new BwProvisionerSimple(bw),
+        //			storage,
+        //			new VmSchedulerOportunisticSpaceShared(peList1)
+        //		)
+        //	);
+
+
+        // 5. Create a DatacenterCharacteristics object that stores the
+        //    properties of a data center: architecture, OS, list of
+        //    Machines, allocation policy: time- or space-shared, time zone
+        //    and its price (G$/Pe time unit).
+        String arch = "x86";      // system architecture
+        String os = "Linux";          // operating system
+        String vmm = "Xen";
+        double time_zone = 10.0;         // time zone this resource located
+        double cost = 3.0;              // the cost of using processing in this resource
+        double costPerMem = 0.05;		// the cost of using memory in this resource
+        double costPerStorage = 0.1;	// the cost of using storage in this resource
+        double costPerBw = 0.1;			// the cost of using bw in this resource
+        LinkedList<Storage> storageList = new LinkedList<Storage>();	//we are not adding SAN devices by now
+
+        DatacenterCharacteristics characteristics = new DatacenterCharacteristics(
+                arch, os, vmm, hostList, time_zone, cost, costPerMem, costPerStorage, costPerBw);
+
+
+        // 6. Finally, we need to create a PowerDatacenter object.
+        Datacenter datacenter = null;
+        try {
+            datacenter = new Datacenter(name, characteristics, new VmAllocationPolicySimple(hostList), storageList, 0);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return datacenter;
+    }
+
+    //We strongly encourage users to develop their own broker policies, to submit vms and cloudlets according
+    //to the specific rules of the simulated scenario
+    private static DatacenterBrokerA1 createBroker(){
+
+        DatacenterBrokerA1 broker;
+        try {
+            broker = new DatacenterBrokerA1("Broker");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        return broker;
+    }
+
+    /**
+     * Prints the Cloudlet objects
+     * @param list  list of Cloudlets
+     */
+    private static void printCloudletList(List<Cloudlet> list) {
+        int size = list.size();
+        Cloudlet cloudlet;
+
+        String indent = "    ";
+        Log.printLine();
+        Log.printLine("========== OUTPUT ==========");
+        Log.printLine("Cloudlet ID" + indent + "STATUS" + indent +
+                "Data center ID" + indent + "VM ID" + indent + indent + "Time" + indent + "Start Time" + indent + "Finish Time");
+
+        DecimalFormat dft = new DecimalFormat("###.##");
+        for (int i = 0; i < size; i++) {
+            cloudlet = list.get(i);
+            Log.print(indent + cloudlet.getCloudletId() + indent + indent);
+
+            if (cloudlet.getCloudletStatus() == Cloudlet.SUCCESS){
+                Log.print("SUCCESS");
+
+                Log.printLine( indent + indent + cloudlet.getResourceId() + indent + indent + indent + cloudlet.getVmId() +
+                        indent + indent + indent + dft.format(cloudlet.getActualCPUTime()) +
+                        indent + indent + dft.format(cloudlet.getExecStartTime())+ indent + indent + indent + dft.format(cloudlet.getFinishTime()));
+                //seriesNumberofVmVsTotalFinishTime.add(i, cloudlet.getFinishTime() );
+
+
+
+                /*try {
+                    ChartUtilities.saveChartAsJPEG(new File("chartA1sortByID.jpg"), chart, 500, 300);
+                } catch (IOException e) {
+                    System.err.println("Problem occurred creating chart.");
+                } catch (ParameterException e) {
+                    e.printStackTrace();
+                }*/
+
+            }
+        }
+
+    }
+}

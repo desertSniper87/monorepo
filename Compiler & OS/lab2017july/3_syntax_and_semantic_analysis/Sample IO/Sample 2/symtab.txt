@@ -1,0 +1,28 @@
+Line No 11
+
+ ScopeTable # 3
+
+ ScopeTable # 2
+ 4 --> < a , ID , { 9, 7 }>
+ 6 --> < c , ID , -1e+007>
+ 7 --> < d , ID , 3.14159>
+ 12 --> < i , ID , 1>
+ 13 --> < j , ID , -1e+007>
+
+ ScopeTable # 1
+ 18 --> < main , ID > 
+
+
+Line No 16
+
+ ScopeTable # 2
+ 4 --> < a , ID , { 9, 7 }>
+ 6 --> < c , ID , 2>
+ 7 --> < d , ID , 3.14159>
+ 12 --> < i , ID , 10>
+ 13 --> < j , ID , 10>
+
+ ScopeTable # 1
+ 18 --> < main , ID > 
+
+

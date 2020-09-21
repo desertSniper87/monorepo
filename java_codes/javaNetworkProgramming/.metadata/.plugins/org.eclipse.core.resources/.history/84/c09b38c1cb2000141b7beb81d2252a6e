@@ -1,0 +1,11 @@
+package chapter8SocketsForClients;
+
+import java.net.*;
+import java.io.*;
+
+public class Example81dayTimeClient {
+	public static void main (String[] args){
+		String hostname = args > 0 ? args[0] : "time.nist.gov";
+	}
+
+}

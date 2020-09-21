@@ -1,0 +1,4 @@
+
+Error at Line 2 : Undeclared Variable: d
+
+Error at Line 4 : syntax error, unexpected RETURN, expecting SEMICOLON or COMMA

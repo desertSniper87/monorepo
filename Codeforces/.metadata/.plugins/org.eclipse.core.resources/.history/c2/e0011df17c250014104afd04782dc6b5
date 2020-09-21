@@ -1,0 +1,21 @@
+from pip._vendor.distlib.compat import raw_input
+
+n = int(input())
+m = int(input())
+a = int(input())
+
+blockHeight = int(n/a)
+blockWidth = int(m/a)
+
+if (bool(n%a) == False:
+    blockHeight += 1
+    print (bool(n%a))
+    
+if (bool(m%a) == False:
+    blockWidth += 1
+    print (bool(m%a))
+    
+block = blockHeight+blockWidth
+
+print(block)
+

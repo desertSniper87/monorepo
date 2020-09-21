@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shop Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <!--Temporary stylesheet from signup page-->
+    <link href="css/signup.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Sample eCommerce FrontEnd</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item active" id="profileButton">
+              <a class="nav-link" href="#">Profile
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item" id="signupButton">
+              <a class="nav-link" href="sign-up.html">Sign Up</a>
+            </li>
+            <li class="nav-item" id="loginButton">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item d-none" id="logoutButton">
+              <a class="nav-link" href="">Log Out 
+                <span id="navUsername"></span> (<span id="navAccountType"></span>)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <!--<div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>-->
+        <div class="col-md-8 col-lg-6">
+          <div class="align-items-center py-5">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <h3 class="login-heading mb-4">Welcome to E-Commerce! <span id="welcomeUsername">User</span></h3>
+              <button type="button" class="btn btn-primary d-none" id="uploadBtn" data-toggle="modal" data-target="#uploadFormModal">
+                Upload New Item
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="orderContainer"></div>
+    <!-- Modal for form uplaod -->
+    <div class="modal fade" id="uploadFormModal" tabindex="-1" role="dialog" aria-labelledby="uploadFormModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="uploadFormModalTitle">Upload Item Information</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="itemUploadForm" enctype="multipart/form-data">
+            <div class="modal-body">
+              <div class="form-label-group">
+                <input name="image" type="file" id="inputImage" accept="image/*" class="form-control" placeholder="Image" required autofocus>
+                <label for="inputImage">Product Image</label>
+              </div>
+              <div class="form-label-group">
+                <input name="name" type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
+                <label for="inputName">Product Name</label>
+              </div>
+              <div class="form-group">
+                <label for="inputDescription">Product Description</label>
+                <textarea name="description" type="text" id="inputDescription" class="form-control" placeholder="Name" required autofocus>
+                </textarea>
+              </div>
+              <div class="form-label-group">
+                <input name="available_quantity" type="number" min="1" max="9999" step="1" id="inputQuantity" class="form-control" placeholder="Available Quantity" required autofocus>
+                <label for="inputQuantity">Available Quantity</label>
+              </div>
+              <div class="form-label-group">
+                <input name="price_taka" type="number" min="0.01" step="0.01" id="inputPrice" class="form-control" placeholder="Price (In Taka)" required autofocus>
+                <label for="inputPrice">Price (in Taka)</label>
+              </div>
+              <div class="form-group">
+                <label for="categorySelect">Product Type</label>
+                <select name="category" class="form-control" id="categorySelect"></select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button submit" class="btn btn-primary">Upload</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!--Mustache HTML Templates-->
+    <script type="text/template" id="categorySelectTemplate">
+      {{#data}}
+            <option value="{{name}}">{{name}}</option>
+      {{/data}}
+    </script>
+
+    <!--Template for order for buyer-->
+    <script type="text/template" id="buyerOrderTemplate">
+      <div class="row">
+        <h3> Invoice/Order History</h3>
+      </div>
+      {{#data}}
+        <div class="row">
+           <div class="col-6">
+              <h5>Order No. {{id}}</h4>
+           </div>
+           <div class="col-6 text-right">
+              <h6>Time: {{timestamp}}</h4>
+           </div>
+        </div>
+        {{#carts}}
+            <div class="row">
+              <div class="col-4">
+                  <h6>Product Name: {{product_name}}</h6>
+              </div>
+              <div class="col-4">
+                  <h6>Quantity: {{quantity}}</h6>
+              </div>
+              <div class="col-4 text-right">
+                  <h6>Total Price: {{total}} Tk</h6>
+              </div>
+            </div>
+        {{/carts}}
+        <h5>Order Total: {{order_total}} Tk</h5>
+      {{/data}}
+    </script>
+    <!--Card Template for seller product list-->
+    <script type="text/template" id="productCardTemplate">
+      {{#data.length}}
+        <div class="row"> 
+            <div class="col-3 mx-auto">
+              <h6>Uploaded Products</h6>
+            </div>
+        </div>
+      {{/data.length}}
+        <div class="row">
+        <div class="col-lg-9">
+            {{#data}}
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100 data-itemId={{id}}" >
+                    <a href="{{image}}"><img class="card-img-top" src="{{image}}" alt=""></a>
+                    <div class="card-body">
+                      <h4 data-itemId="{{id}}" class="card-title btnProductDetails">
+                        <h5 style="color: blue;">{{name}}</h5>
+                      </h4>
+                      <h5 class="cardPrice" value="{{price_taka}}">Taka {{price_taka}}</h5>
+                      <p class="card-text cardDesc" value="{{description}}">{{description}}</p>
+                    </div>
+                  </div>
+                </div>
+              {{/data}}
+         </div>
+        </div>
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Mustache-->
+    <script src="vendor/mustache/mustache.js"></script>
+    <!--global variables-->
+    <script src="js/rest_api/config.js"></script>
+    <!--js cookie-->
+    <script src="vendor/js-cookie/js.cookie.js"></script>
+    <!--Extra JavaScript For Profile-->
+    <script src="js/rest_api/navbarUpdate.js"></script>
+    <script src="js/rest_api/profile.js"></script>
+    <!--Miscellaneous-->
+    <script src="js/rest_api/logout.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,949 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1030{\fonttbl{\f0\fswiss Arial;}{\f1\fswiss\fcharset0 Arial;}{\f2\froman Times New Roman;}{\f3\fswiss\fprq2 Arial;}{\f4\fswiss\fprq2\fcharset0 Arial;}{\f5\fmodern Courier New;}{\f6\fmodern\fcharset0 Courier New;}{\f7\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red0\green128\blue0;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue128;}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\cf1\b\f0\fs32 Sokoban\cf2\b0\fs52\par
+\cf3\f1\fs20\par
+Sokoban\'ae Registered Trademark of \cf2 Falcon Co., Ltd.\f0 ,\cf3  Japan\par
+\f1 Sokoban Copyright \'a9 1982-2019 by \cf2 Hiroyuki Imabayashi,\cf3\f0  Japan\f1\par
+Sokoban Copyright \'a9 1989, 1990, 2001-2019 by \cf2 Falcon Co., Ltd.\f0 ,\cf3  Japan\par
+\par
+\f1 Sokoban YASC Copyright \'a9 2001-2019 by \cf2\f0 Brian Damgaard,\cf3  Denmark\par
+Version: 1.\f1 654\par
+\f0 E-mail: BrianDamgaard@\f1 jubii\f0 .dk\par
+Website: {\cf0{\field{\*\fldinst{HYPERLINK https://sourceforge.net/projects/sokobanyasc/ }}{\fldrslt{http\f1\lang1033 s\f0\lang1030 ://sourceforge.net/projects/sokobanyasc/\ul0\cf0\f0 }}}}\f0\fs16\par
+\fs20\par
+\cf1\b\fs32 License\cf3\b0\fs20\par
+\par
+Sokoban YASC - Yet Another Sokoban Clone\par
+\f1 Copyright \'a9 2001-2019 by Brian Damgaard, Denmark\f0\par
+\par
+This program is free software: you can redistribute it and/or modify\f1  \f0 it under the terms of the GNU General Public License as published by\f1  \f0 the Free Software Foundation, either version 3 of the License, or\f1  \f0 (at your option) any later version.\par
+\par
+This program is distributed in the hope that it will be useful,\f1  \f0 but WITHOUT ANY WARRANTY; without even the implied warranty of\f1  \f0 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\f1  \f0 GNU General Public License for more details.\par
+\par
+You should have received a copy of the GNU General Public License\f1  \f0 along with this program.  If not, see {\cf0{\field{\*\fldinst{HYPERLINK http://www.gnu.org/licenses/ }}{\fldrslt{http://www.gnu.org/licenses/\ul0\cf0}}}}\f0\fs20 .\par
+\par
+\b Additional Terms\b0\par
+Redistribution \f1 of the material \f0 is subject to the following GNU General Public License\f1  compliant additional terms\f0 :\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Preservation of the author attributions listed under the "Credits" section is required.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Misrepresentation of the origin is prohibited\f1 ,\f0  and modified versions must be marked as\f1  \f0 such.\par
+
+\pard\cf0\par
+\cf1\b\fs32 Credits\cf3\b0\fs20\par
+\par
+\f1 Please note that the links mentioned in this section are the original ones and may not exist anymore.\f0\par
+\par
+Standard Sokoban skin and application icons:\par
+\f1 Copyright \'a9 1997-2000 by \cf2\f0 Games 4 Brains\cf3 .\par
+\f1 Original w\f0 ebsite: {\cf0{\field{\*\fldinst{HYPERLINK http://www.games4brains.de }}{\fldrslt{http://www.games4brains.de\ul0\cf0}}}}\cf0\f0\fs20\par
+\par
+Additional Sokoban skins\f1  and illustrations\f0 :\par
+\f1 Copyright \'a9 by \cf2\f0 Gerry Wiseman\cf3 .\par
+\par
+\f1 "KSokoban" skin:\par
+Copyright \'a9 by \cf2 Anders Widell\cf3\f0 .\par
+\f1 Original w\f0 ebsite: {\cf0{\field{\*\fldinst{HYPERLINK http://hem.passagen.se/awl/ksokoban }}{\fldrslt{http://hem.passagen.se/awl/ksokoban\ul0\cf0}}}}\f0\fs20\par
+\par
+\f1 "Macintosh" skin:\par
+Copyright \'a9 by \cf2 Scott Lindhurst\cf3\f0 .\par
+\f1 Original w\f0 ebsite: \cf0 http:sneezingtiger.com/sokoban/\cf3\par
+\par
+Built-in level collection "\f1 Crazy Monk\f0 ":\par
+\f1 Copyright \'a9 by \cf2\f0 Jean-Pierre M\f1 artel\f0  and Matthias M\f1 eger\cf3\f0 .\par
+Original \f1 level e-mail address\f0 :\f1  sokomonk@laposte.net\par
+\f0\par
+Built-in level collection "du Peloux":\par
+\f1 Copyright \'a9 by \cf2\f0 Aymeric du Peloux\cf3 .\par
+Original level website:\f1  {\cf0\f0{\field{\*\fldinst{HYPERLINK http://membres.lycos.fr/nabokos }}{\fldrslt{http://membres.lycos.fr/nabokos\ul0\cf0}}}}\f0\fs20\par
+\par
+Built-in level collection ""GRIGoRusha":\par
+\f1 Copyright \'a9 by \cf2\f0 Evgeny Grigoriev\cf3 .\par
+Original level website:\f1  {\cf0\f0{\field{\*\fldinst{HYPERLINK http://grigr.narod.ru }}{\fldrslt{http://grigr.narod.ru\ul0\cf0}}}}\f0\fs20\par
+\par
+Built-in level collection "Haywood":\par
+\f1 Copyright \'a9 by \cf2\f0 Lee J Haywood\cf3 .\par
+Original level website:\f1  {\cf0\f0{\field{\*\fldinst{HYPERLINK http://leehaywood.org/games/crossoban/ }}{\fldrslt{http://leehaywood.org/games/crossoban/\ul0\cf0}}}}\f0\fs20\par
+\par
+Built-in level collection "Holland":\par
+\f1 Copyright \'a9 by \cf2\f0 David Holland\cf3 .\par
+Original level website:\f1  {\cf0\f0{\field{\*\fldinst{HYPERLINK http://www.clickfest88.freeserve.co.uk/ }}{\fldrslt{http://www.clickfest88.freeserve.co.uk/\ul0\cf0}}}}\f0\fs20\par
+\par
+Built-in level collection "Skinner":\par
+\f1 Copyright \'a9 by \cf2\f0 David W. Skinner\cf3 .\par
+\cf0 Original level website:\f1  {\f0{\field{\*\fldinst{HYPERLINK http://users.bentonrea.com/~sasquatch/sokoban/ }}{\fldrslt{http://users.bentonrea.com/~sasquatch/sokoban/\ul0\cf0}}}}\cf3\f0\fs20\par
+\par
+Built-in level collection "Sladkey":\par
+\f1 Copyright \'a9 by \cf2\f0 Rick Sladkey\cf3 .\par
+\cf0 Original level website:\f1  {{\field{\*\fldinst{HYPERLINK http://home.comcast.net/~jrsladkey/sokoban/index.htm }}{\fldrslt{http://home.comcast.net/~jrsladkey/sokoban/index.htm\ul0\cf0}}}}\f1\fs20\par
+\cf3\f0\par
+Built-in level collection "YASGen":\par
+\f1 Copyright \'a9 by \cf2\f0 Brian Damgaard\cf3 .\par
+\cf0 Original level website:\f1  {\f0{\field{\*\fldinst{HYPERLINK https://sourceforge.net/projects/sokobanyasc/ }}{\fldrslt{http\f1\lang1033 s\f0\lang1030 ://sourceforge.net/projects/sokobanyasc/\ul0\cf0\f0 }}}}\cf3\f0\fs20\par
+\par
+Built-in level collection "Yoshio":\par
+\f1 Copyright \'a9 by \cf2\f0 Yoshio Murase\cf3 .\par
+\cf0 Original level website:\f1  {\f0{\field{\*\fldinst{HYPERLINK http://www.ne.jp/asahi/ai/yoshio/sokoban/ }}{\fldrslt{http://www.ne.jp/asahi/ai/yoshio/sokoban/\ul0\cf0}}}}\f2\fs24\par
+\cf3\f0\fs20\par
+"Mandala"\f1  eyecandy\f0 :\par
+\f1 Copyright \'a9 by \cf2\f0 Anthony Steele\cf3 .\par
+\f1 Original w\f0 ebsite:\f1  {\cf0\f0{\field{\*\fldinst{HYPERLINK http://users.iafrica.com/a/as/asteele/mandala/ }}{\fldrslt{http://users.iafrica.com/a/as/asteele/mandala/\ul0\cf0}}}}\f0\fs20\par
+\par
+\f1 PNG Image loader source code:\par
+Copyright \'a9 by \cf2\f0 Michael Vinther\cf3 .\par
+\f1 Original w\f0 ebsite:\f1  {\cf0{\field{\*\fldinst{HYPERLINK http://sourceforge.net/projects/imagefilelib/ }}{\fldrslt{http://sourceforge.net/projects/imagefilelib/\ul0\cf0}}}}\f1\fs20  \f0\par
+\par
+\f1 Sokoban YASC, YASGen, YASO, and YASS source code:\par
+Copyright \'a9 by \cf2\f0 Brian Damgaard\cf3 .\par
+\cf0 Original website:\f1  {\f0{\field{\*\fldinst{HYPERLINK https://sourceforge.net/projects/sokobanyasc/ }}{\fldrslt{http\f1\lang1033 s\f0\lang1030 ://sourceforge.net/projects/sokobanyasc/\ul0\cf0\f0 }}}}\cf3\f0\fs20\par
+\par
+\cf1\b\fs32 Acknowledgments\cf3\b0\fs20\par
+\par
+I would like to thank all who have contributed to the program, e.g., by sending comments, suggestions, and bug\f1  \f0 reports. I am particularly indebted to:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 David Holland\cf3 ,\cf2  \cf3 for sharing a lot of insight into how a good Sokoban program should work.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Fred Minklei\cf3 , for so many good ideas and suggestions about game features and user-interface and for graphical contributions.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Games 4 Brains\cf3 , for letting me use their excellent Sokoban game graphics.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Gerry Wiseman\cf3 , for allowing the distribution of his excellent skins \f1 and illustrations \f0 under the GPL license.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2\f1 John Polhemus\cf3\f0 , for \f1 his great help with the English texts and for writing an exceptionally good skin tutorial.\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Joris Wit\cf3 , for fruitful comments and suggestions concerning the file format.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Lee J Haywood\cf0 , for sharing a lot of ideas and for a long-standing correspondence on Sokoban \f1\lang1033 topics\f0\lang1030 .\cf3\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Matthias Meger\cf3\f1 , \f0 for a fruitful exchange of ideas about Sokoban related algorithms\f1 , e.g., solvers, optimizers, and deadlock detection\f0 .\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Raymond Groenestein\cf3\f1 , for his great help with the English texts.\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\cf2 Sebastien Gouezel\cf3\f1 , for inventing the "Vicinity search" optimization method, and generously sharing information on the method and its implementation. By sharing his ideas and insights on the subject, he has made a significant and lasting contribution to the Sokoban game itself, transcending the implementation of the algorithm in the YASO optimizer.\f0\par
+
+\pard\par
+\cf1\b\fs32 Trademarks\cf3\b0\fs20\par
+\par
+Company names, brand names and product names are trademarks or registered trademarks of their respective holders.\par
+\par
+\cf1\b\fs32 Introduction\cf3\b0\fs20\par
+\par
+\b Welcome to the Sokoban game!\b0\par
+\par
+"Sokoban" is a \f1 J\f0 apanese word for \b\f1 w\f0 arehouse keeper\b0\f1 .\f0  Basically, the job of a warehouse keeper is to place boxes within the warehouse in an organized man\f1 ner, and this is the key idea in the Sokoban puzzle game \f0 invented in Japan \f1 in \f0 1982 by \cf2 Hiroyuki Imabayashi\cf0\f1 , \f0 winning a computer game contest with his \cf3 program. The rules are simple \f1 and yet \f0 give rise to \f1 challenging and \f0 beautiful \f1 puzzles ranging from simple to extraordinarily complex ones.\par
+\par
+The Sokoban YASC program includes a large set of popular puzzles, or "levels", as they often are called. There are many thousands more available on the internet, and thanks to the standardized Sokoban level format, most of them can be played with this program. \par
+\f0\par
+\cf1\b\fs32 The Rules\par
+\cf3\b0\fs20\par
+The game consists of a warehouse made up of \b walls\b0  that form passages.\f1  \f0 Within the warehouse are the \b pusher\b0  and an equal number of \b boxes\b0  and \b storage locations\b0 .\f1  \f0 The pusher can only push a box\f1 , never pull, and only one box can be pushed at a time\f0 .\f1  \f0 The goal is to push all the boxes into the storage locations\f1 .\f0\par
+\par
+\f1 These rules present a variety of challenges. \f0 Since the pusher can't pull a box\f1 , there are some pushes that are irreversible. A box \f0 is stuck when pushed into a corner or against a wall that it can't be pushed out of or away from.\f1  \f0 In real life a warehouse keeper can't walk through boxes\f1  or \f0 walls.\f1  \f0 The same is true for the pusher in the game, so the pusher can also be stuck or trapped in an area \f1 surrounded by walls and boxes where the \f0 boxes can't be pushed out of the way.\par
+\par
+\cf1\b\fs32 Recommended Levels for Beginners\par
+\cf3\b0\fs20\par
+David W. Skinner's level sets \b "Microban"\b0  and \b "Microban\f1  II\f0 "\b0  are highly recommended for beginners and children. Most of these puzzles are small and illustrate a particular concept. More experienced players should also find them interesting for their variety.\par
+\par
+The level sets "Microban" and "Microban\f1  II\f0 " can be found in the "Skinner" collection.\par
+\par
+Aymeric du Peloux's \b "MiniCosmos"\b0  levels are also excellent for beginners. They systematically and progressively introduce the beginner to typical Sokoban themes.\par
+\par
+The "MiniCosmos" levels can be found in the "Peloux" collection.\par
+\par
+\cf1\b\fs32 How to Play\par
+\cf3\b0\fs20\par
+The pusher is moved using the arrow keys or the mouse.\par
+\par
+\cf1\b Mouse Functions\cf3\b0\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\b Drag and drop\b0  a box by placing the cursor on a box, pressing and holding down the left mouse button, dragging the box to the desired position, then releasing the button.\f1  \f0 The pusher will figure out the best way to do all the running and pushing needed.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 A\f1  \f0 variant \f1 to "drag and drop" \f0 is \b\f1 click\f0  and drop\b0 . Left-click on a box to select it, move the cursor to the desired position and left-click again to drop it. "Click and drop" is easier for long moves than holding down the left mouse button while using "drag and drop".\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 To \b move the pusher\b0  without moving boxes, apply "drag and drop" or "\f1 click \f0 and drop" to the pusher.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Rotating the \b m\f0 ousewheel down\b0  will undo the latest move.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Rotating the \b m\f0 ousewheel up\b0  will redo a move from history.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Left-click a \b wall\f1  cell\b0\f0  to show the boxes that can be moved in the current point in the game. Click again to show the board normally.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Left-click an \b empty \f1 floor cell\b0\f0  to select it and show the boxes that can be moved there. Click one of those boxes to move it to the selected floor \f1 cell\f0 , or click the selected floor \f1 cell \f0 a second time to show the board normally again.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\b\f3 Double-click a wall \f4 cell\f3  \b0 to enter \b replay mode.\b0  Here you can watch all the moves comfortably instead of single\f4 -\f3 stepping through them using "Redo" and "Undo". Stop replaying at any time with a single left mouse button click. A single \b right mouse button click\b0  toggles the direction of play during replay.\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 A "Browse" button appears on the status bar after you have made one or more moves in a game. \b P\f0 oint\b0  at this button with the cursor\f1  \f0 to enter \b browse mode.\b0   Here you can comfortably browse through the\f1  \f0 moves \f1 in the game \f0 by moving the cursor over the\f1  \f0 history \f1 slider\f0 .\f1  \f0 You can leave the browsing mode in two ways.\f1  1) Moving the cursor away from the history slider will return you to the point in the game where you entered the browsing mode. 2) Clicking on the history slider will take you to the selected point in the game.\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Clicking the \b right mouse button\b0  is a very convenient shortcut that offers an alternative to frequently used actions for normal move selections. If your mouse doesn't have a wheel the default action of the right mouse button during normal game play is "Undo move". If your mouse has a wheel it can be rotated to undo or redo moves. The default action for the right mouse button on a mouse with a wheel is "Open currently selected snapshot" (if any) or "restart the level" if no snapshot is selected. In "Settings", you can select which action to assign to right clicks.\f0\par
+
+\pard\par
+In \b reverse mode\b0 , i.e., when \f1 you try to \f0 solve\f1  a level \f0 backwards, the \b p\f1 usher \f0 can jump\b0  to get out of a fenced\f1  \f0 in area.\f1  Use "drag and drop" or "click and drop" to move the pusher from the fenced in area to an empty floor cell somewhere else on the board. Jumps can also be made using the keyboard by combining [Ctrl] with the arrow keys.\f0\par
+\par
+Of course, a solution cannot include a jump after a box \f1 has been \f0 moved, hence, jumps are only allowed \b before pulling the first box.\b0  You can, however, use "Settings" to enable jumps during the entire game if you think this makes it easier to search for a solution.\par
+\par
+\cf1\b Keyboard Functions\cf3\b0\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Move around:\tab\tab\tab\tab\b Arrow keys\b0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Undo last move:\tab\tab\tab [\b Delete\b0 ] or [\b Backspace\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Redo move from history:\tab\tab [\b Insert\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Redo all moves from history:\tab\tab [\b End\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Restart level:\tab\tab\tab\tab [\b Home\b0 ] (or [\b Enter\b0 ], when no \f1 snapshot\f0 s)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Open selected \f1 snapshot\f0 :\tab\tab [\b Enter\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Save position as a \f1 snapshot\f0 :\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] + \f0 [\b Enter\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Toggle window:\tab\tab\tab [\b Shift\b0 ] (\f1 G\f0 ame or \f1 snapshot\f0 s)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Toggle game mode:\tab\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  \f0 [\b Shift\b0 ] (\f1 "\f0 Normal mode\f1 "\f0  or \f1 "\f0 Reverse mode\f1 "\f0 )\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Previous level:\tab\tab\tab [\b Page up\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Search p\f0 revious \f1 unsolved \f0 level:\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0 + \f0 [\b Page up\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Next level:\tab\tab\tab\tab [\b Page down\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Search n\f0 ext \f1 unsolved \f0 level:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0 + \f0 [\b Page down\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Replay moves forwards:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  \f0 [\b End\b0 ] (Press again to change speed)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Replay moves backwards:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  \f0 [\b Home\b0 ] (Press again to change speed)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy level to clipboard:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b\f0 C\b0 ]\f1  (Using \i "fill floors?"\i0  setting)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy level to clipboard:\tab\tab\f1 [\b Alt\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 C\b0 ]\f1  (Using opposite \i "fill floors?"\i0  setting)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Copy level to clipboard:\tab\tab [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b\f0 C\b0 ]\f1  (Run-length encoding)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f0 Copy \f1 board \f0 to clipboard:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b B\b0\f0 ]\f1  (Using \i "fill floors?"\i0  setting)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f0 Copy \f1 board \f0 to clipboard:\tab\tab\f1 [\b Alt\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b B\b0\f0 ]\f1  (Using opposite \i "fill floors?"\i0  setting)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy board to clipboard:\tab\tab [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b B\b0\f0 ]\f1  (Run-length encoding)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy normalized board to clipboard:\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b Alt\b0\f0 ]\f1  + [\b B\b0\f0 ]\f1  (Using \i "fill floors?"\i0  setting)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy normalized board to clipboard:\tab [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b Alt\b0\f0 ]\f1  + [\b B\b0\f0 ]\f1  (Run-length encoding)\par
+
+\pard\f0\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 solution/moves \f0 to clipboard:\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b M\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 solution/moves \f0 to clipboard:\tab\f1 [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1 [\b M\b0\f0 ]\f1  (Run-length encoding)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 solution/pushes \f0 to clipboard:\tab\f1 [\b Ctrl\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b P\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 solution/pushes \f0 to clipboard:\tab\f1 [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b P\b0\f0 ]\f1  (Run-length encoding)\f0\par
+
+\pard\f1\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f0 Copy \f1 moves \f0 to clipboard:\f1\tab\f0\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b F\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 moves \f0 to clipboard:\f1\tab\f0\tab\f1 [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b F\b0\f0 ]\f1  (Run-length encoding)\f0\par
+
+\pard\f1\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f0 Copy \f1 continuation moves \f0 to clipboard:\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b G\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Copy \f1 continuation moves \f0 to clipboard:\tab\f1 [\b Shift\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b G\b0\f0 ]\f1  (Run-length encoding)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Open tools:\tab\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0 + [\b T\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 New snapshot of current position:\tab [\b Shift\b0\f0 ]\b\f1  \b0 + [\b\f0 Ctrl\b0\f1 ]\b  \b0 + [\b T\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Open editor:\tab\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0 + [\b D\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Open solver:\tab\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0 + [\b Q\b0\f0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Show best solution/moves:\tab\tab\f1 [\b Alt\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 M\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Show best solution/pushes:\tab\tab\f1 [\b Alt\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b\f0 P\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Replay level solutions:\tab\f0\tab\tab\f1 [\b Shift\b0\f0 ]\b\f1  \b0 + [\b\f0 Ctrl\b0\f1 ]\b  \b0 + [\b L\b0\f0 ]\f1  (Replays solutions for solved levels, starting with the current level)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Import from clipboard:\tab\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b\f0 V\b0 ] (Imports levels, solutions, and \f1 snapshot\f0 s)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Toggle "Show coordinates":\tab\tab [\b Ctrl\b0\f0 ]\b\f1  \b0\f0 +\f1  [\b Alt\b0 ]\b  \b0\f0 +\f1 [\b F2\b0\f0 ]\f1   (Shows/hides board coordinates during gameplay)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Calculate pushes lower bound:\tab\tab [\b 0\b0 ] (The digit zero, not the letter "O")\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Pushes lower bound => clipboard:\tab [\b Ctrl\b0 ] + [\b 0\b0 ] (Calculates the pushes lower bound and copies it to the clipboard)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Make screenshot:\tab\tab\tab [\b Ctrl\b0 ] + [\b .\b0 ] (Saves a screenshot in the folder "Application data folder\\Screenshots", overwriting any existing files with no warnings. Tip: Consider setting the maximum skin scale factor to 100% for best image quality, and for getting a consistent scale for levels which are small enough not to be downscaled)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Make screenshots:\tab\tab\tab [\b Shift\b0 ] + [\b .\b0 ] (Replays moves and saves a screenshot for each move)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 R\f0 otate/mirror \f1 puzzle\f0 :\par
+{\pntext\f7\'B7\tab}\f1 Reset:\tab\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b\f0 1\b0 ]\par
+{\pntext\f7\'B7\tab}\f1 Rotate 90 degrees clockwise:\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 2\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Rotate 180 degrees clockwise:\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 3\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Rotate 270 degrees clockwise:\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 4\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Flip horizontally\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 5\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Flip horizontally + rotate 90:\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 6\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Flip vertically:\tab\tab\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 7\b0\f0 ]\par
+{\pntext\f7\'B7\tab}\f1 Flip horizontally + rotate 270:\tab\tab [\b\f0 Ctrl\b0\f1 ]\b  \b0\f0 +\f1  [\b 8\b0\f0 ]\par
+
+\pard\par
+In \b reverse mode\b0 , i.e., when \f1 you try to solve \f0 a level backwards, there are two situations where you \f1 can \f0 combine the \f1 [\b\f0 Ctrl\b0\f1 ] \f0 key with an arrow key. \par
+\par
+Before pulling the first box, the p\f1 usher \f0 can jump over walls and boxes to get out of a fenced\f1  \f0 in area: \par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Jump:\tab\tab\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  \f0 [\b Arrow key\b0 ]\par
+
+\pard\par
+When the keyboard is used for reverse mode play, it's sometimes necessary to move the pusher without pulling a box that normally would be dragged along by the pusher. There are two ways to accomplish this:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Move p\f1 usher\f0  without pulling a box:\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  \f0 [\b Arrow key\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Alternatively, you can let the pusher \b bump into the box\b0 , as if you wanted to push it. This detaches the box so you can move the pusher in the opposite direction without pulling the box.\f0\par
+
+\pard\par
+Using the mouse to drag-and-drop a box typically moves the box and the pusher several steps in one operation. With default settings, "Undo move" and "Redo move" mimic this behavior. Use the [\b Ctrl\b0 ] key in combination with "Undo move" and "Redo move" in order to perform single-step moves instead (or combined moves, if the option in settings has been changed to single-step moves). Using the [Ctrl] key in combination applies to mouse functions and buttons as well as keyboard functions for "Undo move" and "Redo move". Note however that single-stepping breaks up a combined move for the rest of the current session, but it has no long-term consequences because an optimal combined move ordering is calculated each time a level is loaded.\par
+\par
+\cf1\b Keyboard Shortcuts\cf3\b0\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Show help:\tab\tab\tab\tab\f1 [\b\f0 F1\b0 ]\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Settings:\tab\tab\tab\tab\f1 [\b\f0 F2\b0 ] (Pressing [\b F2\b0 ] twice opens the skin\f1  \f0 selector)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Default skin - red boxes:\tab\tab\f1 [\b\f0 F3\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Default skin - yellow boxes:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  [\b\f0 F3\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Next \f1\lang1033 skin in skin folder\f0\lang1030 , if any:\f1\lang1033\tab\f0\lang1030\tab\f1 [\b\f0 F4\b0 ]\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1\lang1033 Previous skin in skin folder, if any:\tab\lang1030 [\b\lang1033 Shift\b0\lang1030 ] \f0 +\f1  [\b\f0 F\f1\lang1033 4\b0\f0\lang1030 ]\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Music player - show/hide:\tab\tab\f1 [\b\f0 F5\b0 ]\f1  (Not available in this version)\f0\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Music player - play/pause:\tab\tab\f1 [\b\f0 F6\b0 ]\f1  (Not available in this version)\f0\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Music player - stop:\tab\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  [\b\f0 F6\b0 ]\f1  (Not available in this version)\f0\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Music player - previous track:\tab\tab\f1 [\b\f0 F7\b0 ]\f1  (Not available in this version)\f0\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Music player - next track:\tab\tab\f1 [\b\f0 F8\b0 ]\f1  (Not available in this version.)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\fi-200\li200\f1 Tools:\tab\tab\tab\tab [\b F9\b0\f0 ]\f1  ([Ctrl] + [F9]: New snapshot of current position)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Default window size:\tab\tab\tab\f1 [\b\f0 F11\b0 ]\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Default window size, centered:\tab\tab\f1 [\b\f0 Ctrl\b0\f1 ] \f0 +\f1  [\b\f0 F11\b0 ]\par
+
+\pard\fi-200\li200\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Toggle normal/maximized window:\tab\f1 [\b\f0 F12\b0 ]\par
+
+\pard\par
+\cf1\b\fs32 Solutions\par
+\cf3\b0\fs20\par
+Sokoban YASC automatically saves your best solutions. The status of the "Solution" button indicates whether you have solved the currently loaded level. A "grayed" button shows that no solution has been found yet, while an enabled button indicates that clicking the button will replay the best solution found so far.\par
+\par
+Solutions can be optimized for \b moves or pushes\b0  and in case you have one of each, the "Solution" button offers you the choice which one to replay.\par
+\par
+Sokoban YASC ships with solutions for many of the built-in levels, but in order not to spoil the fun, they are "hidden" when the program is installed. You can, however, \b import built-in solutions\b0  using the "Open" window. Sokoban YASC does not distinguish between imported solutions and your own solutions, hence, after an import you cannot see who solved the level.\par
+\par
+\cf1\b\fs32 Scoring Metrics\par
+\cf3\b0\fs20\par
+There are 2 natural metrics for the Sokoban game:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\b Moves\tab\b0\tab Number of p\f1 usher \f0 moves\par
+{\pntext\f7\'B7\tab}\b Pushes\b0\tab\tab Number of box pushes\par
+
+\pard\par
+During the game these numbers are always visible on the statusbar. Additionally, \f1 4\f0  extra metrics are shown when the cursor\f1  hovers over the \f0 moves or \f1 the \f0 pushes:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\b Box lines\b0\tab\tab Straight\f1  \f0 line box pushes\par
+{\pntext\f7\'B7\tab}\b Box \f1 changes\f0\tab\b0\tab Changing focus from one box to another\par
+{\pntext\f7\'B7\tab}\b P\f1 ushing sessions\b0\f0\tab\f1 Changing from moving the pusher to pushing the boxes\f0\par
+{\pntext\f7\'B7\tab}\b P\f1 usher lines\b0\tab\tab Straight line pusher moves\f0\par
+
+\pard\par
+\f1 By convention, when metrics appear as text they are separated by "/" like this: \i "Moves/Pushes/Box lines/Box changes/Pushing sessions/Pusher lines".\i0\f0\par
+\par
+\cf1\b\fs32 Settings\par
+\cf3\b0\fs20\par
+Sokoban YASC is highly configurable. In fact, you can configure almost everything: Background images, game graphics, menu buttons, sound effects etc.\par
+\par
+If you are a seasoned Sokoban solver, you probably want to \b disable move animation\b0  so you don't have to watch every single step when you use the mouse to drag and drop a box.\f1  \f0 This option is the very first one:\f1  \cf2\b\f0 "Control | Move animation | Enabled\f1 ".\f0\par
+\b0\par
+\cf1\b\fs32 Skins\cf3\fs24\par
+\b0\fs20\par
+\f1 T\f0 he skin import feature lets you change the \f1 visible \f0 appearance of the game in a single operation\f1 , instead of \f0 changing the settings manually one option at a time\f1 .\f0\par
+\par
+The import is very flexible and is not limited to a fixed skin format. Instead, the import is controlled by scripts, one script for each format. That way, it's possible for you to write and add your own scripts when new skin formats are introduced by other Sokoban \f1 clones\f0 .\par
+\par
+Sokoban YASC comes with \f1 9\f0  built-in scripts for importing skins from:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 JSoko\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Sokoban++ (skins \f1 with "pseudo 3D" walls \f0 are not supported)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Sokoban BDE\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Sokoban for Windows\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 SokobanP\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Sokoban YASC Settings\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Sokofan (some features, like different pusher tiles for moves and pushes, are not supported)\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Visual Sokoban (skins using \f1 "\f0 .gif\f1 "\f0  images are not supported)\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 YSokoban\f1  (YSokoban uses the common skin format)\f0\par
+
+\pard\par
+Flexibility often costs a little in terms of complexity, and in this case, the important thing to notice is that each time you import a skin, you must also \b specify the skin format\b0 . You will probably forget it sometimes, and\f1  \f0 when a skin is interpreted as being of a different type, the walls, the boxes, etc., are bound to look very strange, leaving no doubt that something is wrong. In that case, simply load the skin again, this time specifying the correct format.\par
+\par
+\cf1\b Skin \f1 P\f0 ost-processing\cf3\b0\par
+\par
+Sometimes, a few manual adjustments are required after importing a skin. Here are some typical examples:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Skins with seamless walls, that is, walls with separate images for each type of junction, often come\f1  \f0 with a \b wall\f1  cap \b0\f0 to fill the gap that otherwise would occur between \f1 the squares in \f0 a \f1 2 x 2 squares\f0  wall quadrant. With default settings, wall\f1  caps \f0 are p\f1 laced \f0 midways between two \f1 square\f0 s, but some skins require a different offset. In "Settings", you find this option under: \cf2\b "Graphics | Board | Figures | Wall | Wall\f1  cap\f0  offset, pixels".\cf3\b0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Skins with seamless walls often reserve\f1  \f0 a part of the \f1 square \f0 for a \b shadow\b0 . This looks good for inner walls, but because Sokoban YASC normally uses your own background image instead of a skin-specific background, outer walls often look better without the shadow. Therefore, "Settings" lets you remove the shadow for outer walls. You find this option under: \cf2\b "Graphics | Board | Figures | Wall | Outer wall \f1 trimming\f0 , pixels".\cf3\b0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Some skins are not originally designed for \b smooth animation\b0  like Sokoban YASC uses. Often, Sokoban YASC succeeds in producing acceptable results even in this case, but sometimes it's preferable to switch off smooth animation and instead move the p\f1 ushe\f0 r and the boxes stepwise. In "Settings", you find this option under: \cf2\b "Control | Move animation | Smooth animation".\cf3\b0\par
+
+\pard\par
+\cf1\b Skin Tips\cf3\b0\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 If a skin requires several manual adjustments you probably \f1\lang1033 d\f0\lang1030 on't want to do it all over again\f1\lang1033  the\f0\lang1030  next time you load it. To avoid that, open \b "Settings"\b0  and select \b "Files | Save as..."\b0  in the main menu. Now enter an appropriate name and save the settings. The next time you want to use the skin, load your settings-file instead of the raw skin. It is also faster to load skins from settings-files than raw skins.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 In the game window, pressing [\b F2\b0 ] twice opens the skin selector. This shortcut is sometimes more convenient than choosing "Settings" and then selecting "Skins | Load skin...\f1 "\f0  in the "Settings" main menu.\par
+
+\pard\par
+\cf1\b\f1 Note for Skin Designers\cf3\b0\f0\par
+\par
+\f1 Sokoban YASC skins are in a format that aspires to be a common format for Sokoban skins, or at least a sub-set of a common format. All the imagery for the different entities in the game (e.g., boxes, walls, and the pusher), are put together in a single image. This makes it very easy to distribute and share skins.\par
+\par
+The format reserves an area of the image for any extra information that is required for proper treatment of the skin. This extra information is stored as text inside the image. The text is, however, not visually readable; to the eye it appears as randomly colored dots. The skin format uses a tiled layout with all cells having the same size, and the area reserved for the text is the cell located in the \b 4th column\b0  in the \b 4th row\b0 . This cell has a 1-pixel border along the top, left, and right sides, and a 2-pixel border along the bottom reserved for any visual skin codes, so the text only occupies the inner area.\par
+\par
+Sokoban YASC provides the necessary tool for editing and viewing this extra information. It is easier to use the tool than to read the following guide, but for completeness, here is how to use it:\par
+\f0\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 In the main window, open \b\f0 "Settings"\b0\f1 .\f0\par
+{\pntext\f7\'B7\tab}\f1 In the "Settings" window, select \b "Skins | Load skin..."\b0  in the menu.\f0\par
+{\pntext\f7\'B7\tab}\f1 Now you are in the skin selector window. Open the skin image you want to edit.\f0\par
+{\pntext\f7\'B7\tab}\f1 When the skin image has been opened, click the \b "Menu"\b0  button and select \b "Image text..."\b0 .\f0\par
+{\pntext\f7\'B7\tab}\f1 Use the mouse or the "Section" numbers to \b select the area\b0  of the image where the textual information resides. The common Sokoban skin format requires it to be the cell located in the \b 4th column\b0  in the \b 4th row\b0 . You must select the entire cell, including the pixels on the border reserved for visual information. Often, Sokoban YASC has already selected the correct area for you, but it is up to you to ensure that the selection is correct.\f0\par
+{\pntext\f7\'B7\tab}\f1 Now \b right-click the text panel\b0  in order to bring up the context menu.\f0\par
+{\pntext\f7\'B7\tab}\f1 In the context menu, look at the first item, \b "Edit"\b0 , which toggles editing on/off. If this is the first time you use it in this session, you will need to click it once to enable editing. (You can verify that editing is enabled by bringing up the context menu again. There should be a check mark next to "Edit", indicating that editing is enabled.)\f0\par
+{\pntext\f7\'B7\tab}\f1 Now edit the text, and when you are done, you can either save it by choosing \b "OK"\b0 , or you can drop any changes by choosing \b "Cancel"\b0 .\f0\par
+
+\pard\par
+\f1 You can look at the existing skins for typical examples of what textual information to put in a skin. The text is formatted as easily understood so-called INI-files.\par
+\f0\par
+\cf1\b\f1\fs32 Level Editor\cf3\b0\f0\fs20\par
+\par
+\f1 The built-in level editor is found in the \b "Tools" window\b0 . The editor \f0 has a long list of features, most notably:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 An almost unlimited \b "undo/redo"\b0  feature where the transactions even are saved from one session to the next. The transactions are kept until you \f1 start \f0 editing another level.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 An \b internal clipboard\b0\f1  which allows you to store several items. \f0 The clipboard items are independent of the level currently being edited. Th\f1 is means\f0 , you can use the\f1 m \f0 in different levels and \f1 the items exist \f0 until you delete them manually\f1 .\f0\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 Cosmetic\f1  \f0 modifications of a level, e.g., rotating, mirroring, and adding or removing extra walls, \b don't lose existing solutions\b0  or saved \f1 snapshot\f0 s. This only works as long as the structure of the level is intact, of course.\par
+
+\pard\par
+There are\f1  \f0 a few \b limitations\b0  you should be aware of:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200 The "Tools" window doesn't have the same flexible support for skins as the main window. Skins used in the "Tools" window must have a fixed format with 7 tiles horizontally arranged: Pusher, pusher-on-goal, box, box-on-goal, goal, wall, and floor. \b The floor should preferably be blank\b0 , otherwise there may be a severe runtime penalty.\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\b "Undo/redo" is not fully supported \f1 in case \f0 you cancel the editing operation.\b0  You can leave the editor either by choosing "O\f1 K\f0 " (or "Exit" which has the same \f1 effect\f0 ) which applies any modifications you have made, or you can leave by choosing "Cancel", in which case all modifications are dropped. The transaction history will only be intact after cancel\f1 ing \f0 if it still \f1 contains \f0 the path to the state the level was in when you opened the editor\f1 . This \f0 path is lost \f1 if \f0 you \f1 have used \f0 "undo" to go back before the opening state and then \f1 have made \f0 new modifications\f1  here\f0 . This sounds (and is) complicated, therefore\f1 ,\f0  it's better to save your work on the internal clipboard than to rely on \f1 "undo/redo" to restore a state later.\f0\par
+
+\pard\f1\par
+\cf1\b\fs32 Solver Plugins\cf3\b0\f0\fs20\par
+\par
+\f1 Sokoban YASC supports solvers adhering to the \i "Common Sokoban Plugins Interface"\i0  first introduced by \cf2\f0 Joris Wit\cf3\f1  in his Sokoban++ program. This means that all solvers with that interface can be plugged into Sokoban YASC. You can open them, one at a time, and try solving levels with them. Solvers run in the background so you can continue playing while they search for a solution.\par
+\par
+To select and use a solver, open the \b "Tools" window\b0  and choose the "Solver" tool.\par
+\f0\par
+\f1 Sokoban YASC ships with the \b YASS solver \b0 plugin. YASS is an acronym for "Yet Another Sokoban Solver" and it excels in finding push-optimal solutions for small levels.\par
+\f0\par
+\cf1\b\f1\fs32 Optimizer Plugins\cf3\b0\f0\fs20\par
+\par
+\f1 Sokoban YASC supports optimizers adhering to the \i "Common Sokoban Plugins Interface".\i0  This means that all optimizers with that interface can be plugged into Sokoban YASC. You can open them, one at a time, and try optimizing solutions with them. Optimizers run in the background so you can continue playing while they search for optimizations.\par
+\par
+To select and use an optimizer, open the \b "Tools" window\b0  and choose the "Optimizer" tool.\par
+\f0\par
+\f1 Sokoban YASC ships with the \b YASO optimizer\b0  plugin. YASO is an acronym for "Yet Another Sokoban Optimizer" and it can optimize moves, pushes, or box lines, using the secondary metrics (box lines, box changes, pushing sessions, and pusher lines) as tie-breakers. The YASO optimizer typically finds local optimizations which only require re-ordering the pushes for a few boxes. There are better optimizers available however, so it is recommended to search the internet for other optimizers. \par
+\par
+Contrary to what one might expect, an optimizer may work in a way where it sometimes pays off to run the optimizer again on the output from a previous run, even if its termination wasn't caused by manual intervention or by a time limit. Therefore, it's recommended to check if that applies to the optimizers you use.\par
+\par
+Please note that the term "optimizer" is a bit of misnomer in that an optimizer seldom can guarantee optimal results. An optimizer searches for improvements of existing solutions and snapshots, and optimality can only be guaranteed for the smallest levels.\par
+\par
+\cf1\b\fs32 Level Generator\cf3\b0\f0\fs20\par
+\par
+\f1 The Sokoban game is well-suited for level generation using a so-called genetic algorithm (GA), with techniques like inheritance and mutation known from evolutionary biology. The built-in \b YASGen\b0  level generator uses this approach.\par
+\par
+\b Generating New Candidates\b0\par
+The generator operates with a set of equally sized candidates (levels) sorted in decreasing order on their measured quality, or "fitness" as it is called in GA parlance. In biology, a "locus" (plural "loci") is a position on a chromosome, and an "allele" is the contents at a given locus. Using these terms, each candidate consists of a "chromosome" (a Sokoban board) with a given number of "loci" (board squares). New candidates are created by selecting 2 existing candidates as "parents", mixing their "alleles" (the contents of the board squares), and adding some random mutations to create 2 "children". \par
+\par
+\i Technical note: The selection method in YASGen is the so-called "rank selection", meaning that the candidates are chosen probabilistically depending on their position in the sorted candidate set. The better candidates have a higher chance of being selected, but all candidates have a chance. This helps in keeping the diversity of the population large. The "mixing of the alleles" is a so-called  "one-point crossover" where a point is chosen randomly, and then the first child inherits all alleles to the left of, and including, that point from the first parent, and all alleles to the right of that point from the second parent, and vice versa for the second child.\i0\par
+\par
+\b Fitness Function\b0\par
+Measuring the quality of a candidate requires a fitness function. YASGen offers the choice between measuring "number of pushes" and "number of box lines + box changes". The latter is only an estimate and not an exact measure like the number of pushes. However, box lines and box changes may sometimes be a better measure of the level complexity.\par
+\par
+\b Evaluating New Candidates\b0\par
+After having generated a new candidate using crossover and mutations, the next step is to calculate its quality according to the selected fitness function. The calculation is best explained by an example with "pushes" as fitness function, and "backward search" as calculation method, in which case the new unevaluated candidate is a level with walls and goals only.\par
+\par
+The evaluation starts with putting boxes on all the goal-squares. It then begins pulling the boxes around on the board, \b as if it is playing Sokoban in reverse mode, the difference being that the board has no box starting positions,\b0  meaning that the search is not targeting a particular position. Instead, it is assumed that the more pulls it takes to reach a position, the more difficult it will be later for a human player to find the pushes to go forwards from that position to the terminal position. So when the search cannot find more positions by pulling boxes, then \b one of the positions requiring the highest number of pulls is elevated to the start position\b0  for the candidate.\par
+\par
+The result is that the number of backward pulls is the fitness measure for the candidate. This is also the number of pushes for an optimal forward solution.\par
+\par
+What follows is a description of the level generator settings.\par
+\par
+\b Generator Settings - Evolution\b0\par
+The number of candidates in the \b population\b0  is fixed during the generation. A new candidate enters the population if its measured quality (its fitness) is better than the lowest valued member of the existing population. The population should have a reasonable size to help keep the diversity large.\par
+\par
+The \b open limit\b0  prevents the generator from spending too much time on a candidate. For instance, a board with a wide open area has many permutations but very little complexity.\par
+\par
+Sooner or later the population converges towards a local optimum where new candidates rarely qualify as new members of the population. To improve the diversity, the generator operates with "aging". When a certain number of successive candidates do not qualify as new members of the population, then the candidate in the population which had the greatest number of chances to reproduce is evicted, making room for a new candidate, no matter what quality it has. The \b inactivity threshold\b0  controls how often the eviction occurs. \par
+\par
+The generator operates with two \b level types\b0 : Goals must be connected, or they may be scattered at random.\par
+\par
+\b Generator Settings - Fitness\b0\par
+The fitness is a measure of the quality of the candidates. The \b number of pushes\b0  is a suitable measure, but sometimes the \b number of box lines and box changes\b0  give a better picture of the complexity of a level. However, for efficiency the generator only makes an estimate of the number of box lines and box changes.\par
+\par
+A level may begin with one or more trivial forced pushes. \b Discarding trivial opening pushes\b0  gives a better picture of the complexity. This feature, as well as discounting trivial tail pushes, is only in use when the fitness is calculated using a backward search. Please see further down.\par
+ \par
+Levels may have a "tail" of easy pushes at the end of the game. \b Discounting tail pushes\b0  may give a better picture of the complexity. The setting for this option is the number of box contacts \i per box\i0  at the end of the game. An example: When 2 box contacts per box are discounted, the fitness calculation ignores final pushes for 3 boxes A, B, and C like "AAABBACCBBBCCCC" because no box is contacted more than twice in this ending.\par
+\par
+The fitness of a level candidate is calculated by finding the longest optimal game on the board. A \b forward search\b0  finds the longest game by pushing the boxes away from their starting positions. A \b backward search\b0  finds the longest game by pulling boxes away from their final target positions.\par
+\par
+The \b backward search is strongly recommended\b0  because it is much more efficient than the forward search. The backward search only requires a single search, whereas the forward search requires several searches, one for each pusher zone on the board starting position.\par
+\par
+The only practical use for the forward search is to post-process an existing level in case its starting position has some qualities (e.g., symmetry) which should be retained.\par
+\par
+\b Generator Settings - Reproduction\b0\par
+In each generation, two existing candidates are selected for reproduction, and two "children" are created by means of \b crossover\b0  and \b mutations\b0 . Probabilities expressed as percentages control how often these genetic operators are used. When the level generator is seeded with a single level (e.g., via the editor), this level can be treated as a \b fixed template\b0  with immutable walls and goals or boxes (depending on the search direction). Whenever possible, all generated candidate levels will include the immutable objects.\par
+\par
+\b Generator Settings - Random Boards\b0\par
+To start the level generator, it must be seeded with a board. This seed can either be a board from an existing level or a randomly generated board. The size of the seeding board defines the shape of all the generated candidates.\par
+\par
+\b Generator Settings - Generator\b0\par
+The fitness of a candidate is calculated by finding the longest optimal game on the board. For instance, when the calculation uses a backward search, the search begins with all boxes on their final target positions, then the search pulls the boxes around on the board, counting how many pulls it takes to get to each of the new positions. \par
+\par
+The \b transposition table\b0  contains all the positions found during the search. Consulting this table, the search can avoid analyzing the same position more than once, i.e., the search avoids getting caught in infinite loops, moving boxes back and forth between identical positions. \b If the table becomes full, then the search must stop\b0 . This means that the size of the transposition table can have a direct impact on the length of the longest found game.\par
+\par
+The generator runs in the background, so you can continue playing while it performs its calculations. The \b task priority\b0  controls how much computing time the generator gets, compared to the other tasks running on the computer.\par
+\par
+All choices made by the generator (e.g., which mutations to perform, which candidates to select for reproduction) are based on a so-called \b pseudo random number generator\b0 , a function producing a sequence of seemingly random numbers.\par
+\par
+Normally, the number seed should be chosen randomly because it makes the generator produce a new sequence of events, even when all the other settings are the same.\par
+\par
+If there is a need for reproducible results, then a fixed number seed can be chosen. This causes the generator to produce the same sequence of events in two runs with identical settings and identical start candidates.\par
+\f0\par
+\cf1\b\f1\fs32 Level and Skin Capture\cf3\b0\f0\fs20\par
+\par
+
+\pard\sl240\slmult1\f1 This tool lets you extract Sokoban levels and skins from images, which can be loaded from files, the clipboard, or the screen. After loading the image, the extraction is a three step process:\par
+
+\pard\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\fi-360\li360 Specify where the level is in the image.\par
+{\pntext\f7\'B7\tab}Specify the number of columns and rows in the level.\par
+{\pntext\f7\'B7\tab}Specify the contents of each square in the level.\par
+
+\pard\par
+Now the level and the skin can be used in the game, saved as files, or copied to the clipboard.\par
+\par
+The skin may require further processing, such as adding directional pusher images, or editing the wall cap if the level did not provide one. You can edit the skin in any image editor.\par
+\par
+When a skin has been captured and saved, it can be used for subsequent extractions of levels from other images having the same skin. All that is needed is to specify which skin to use for the extraction. There are two different forms:\par
+\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent0{\pntxtb\'B7}}\fi-360\li360 Extract a level using a skin with exactly the same scale (i.e., column width and row height) as the level to be extracted from the image.\par
+{\pntext\f7\'B7\tab}Extract a level using a skin with a different scale than the level to be extracted from the image.\par
+
+\pard\par
+The former can be applied as soon as the image has been loaded. The latter requires entering the board position and the number of columns and rows before it is applicable, and since it is slightly more error-prone, a careful inspection of the extracted level is necessary. The two methods represent a compromise between recognition quality, user friendliness, and ease of implementation. They are not in any way near the state of the art in image recognition software.\par
+\par
+\cf1\b\fs32 Duplicate Finder\cf3\b0\f0\fs20\par
+\par
+\f1 Contrary to what one might expect, the duplicate finder is not located in the "Tools" window but in the "Open" window. To launch the duplicate finder, open the \b "Open" window\b0 , select the "Menu" button, and then select "Find duplicate levels...".\par
+\par
+The duplicate finder tool comes in three flavors:\par
+\f0\par
+
+\pard{\pntext\f7\'B7\tab}{\*\pn\pnlvlblt\pnf7\pnindent200{\pntxtb\'B7}}\fi-200\li200\f1 Find levels similar to the current level.\f0\par
+{\pntext\f7\'B7\tab}\f1 Find duplicates of levels in the current collection.\f0\par
+{\pntext\f7\'B7\tab}\f1 Find all duplicate levels.\f0\par
+
+\pard\par
+\cf1\b\fs32 Level File Format\cf3\fs24\par
+\b0\fs20\par
+Levels are stored \f1 as \f0 normal text files \f1 and \f0 can be edited in all text editors capable of handling files in plain ASCII format. Windows' own "Notepad" is such an editor.\par
+\par
+The syntax follows the de facto standard used by most other Sokoban programs. Thus, it is possible to import levels from many other programs.\par
+\par
+Levels can be \f1 50\f0  x \f1 50\f0  \f1 squares\f0  with maximum \f1 1200 \f0 boxes.\par
+Each game is limited to \f1 100\f0 000 moves.\par
+\par
+\f1 These limits are specific to Sokoban YASC. The Sokoban game itself does not impose any limits.\f0\par
+\par
+\cf4\b Caution\par
+\cf3\b0\par
+Sokoban YASC automatically updates level files with your solutions, snapshots, and current game history. Normally this is what you want, but \b it is a problem if some of your private level collections must keep their old file format\b0  for compatibility with other programs. When you use the "Open" window to browse and select levels you can choose to \b open a copy\b0  of the level instead of the original. Please note that this applies to that level only, and not to other levels if you later use the browse buttons in the main menu to change level. You can\f1 ,\f0  however\f1 ,\f0  use "Settings" to disable the auto-save feature more permanently by setting the value of the following options accordingly:\par
+\par
+\cf2\b "Control | Solutions | Save best solutions automatically"\cf3\b0\par
+\par
+\cf2\b "Control | \f1 Snapshots\f0  | Save \f1 snapshots \f0 automatically"\cf3\b0\par
+\par
+\cf2\b "Control | Timing | Enabled"\cf3\b0\par
+\par
+Please remember that disabling these features makes it up to you to secure any solutions you find, for example by using the "Save as..." button to save a level to a new file.\par
+\par
+\b File Format\b0\par
+\par
+\f5\fs16 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+::         \cf1 Sokoban (c) by Falcon Co., Ltd., Japan\cf3          ::\par
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+::                    \cf2 File Format 0.\f6 17\cf3\f5                     ::\par
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+::                                                        ::\par
+:: File Notes      \f6   \f5                           Optional   ::\par
+:: Puzzle 1                                    Required   ::\par
+::    Title                                    Optional*  ::\par
+::    Board                                    See legend ::\par
+::    Puzzle Notes                             Optional   ::\par
+::    Saved Game or Solution 1                 Optional   ::\par
+::      Title                                  Optional*  ::\par
+::      Moves                                  See legend ::\par
+::      Notes                                  Optional   ::\par
+::    Saved Game or Solution 2                 Optional   ::\par
+::    ... (more saved games and solutions)                ::\par
+:: Puzzle 2                                    Optional   ::\par
+:: ... (more puzzles)                                     ::\par
+::                                                        ::\par
+:: Remarks:                                               ::\par
+::                                                        ::\par
+:: \cf2 File Notes\cf3                                              ::\par
+::   File notes consist of unstructured text and          ::\par
+::   key/value properties, such as "Author: Name". Lines  ::\par
+::   beginning with "::" are comments meant to be read    ::\par
+::   only by a person examining the file in a text        ::\par
+::   editor, and should not be displayed by the Sokoban   ::\par
+::   program.                                             ::\par
+::                                                        ::\par
+::   The optional but recommended property                ::\par
+::   "Collection: Name" assigns a name to the puzzle      ::\par
+::   collection. When a collection is copied from the     ::\par
+::   internet, for example, and pasted into a Sokoban     ::\par
+::   program, this information allows the collection to   ::\par
+::   be saved with the proper name.                       ::\par
+::                                                        ::\par
+:: \cf2 Titles\cf3                                                  ::\par
+::   A title line is the last non-blank text line before  ::\par
+::   a \f6 board\f5 , a saved game, or a solution, provided the \f6  \f5  ::\par
+::   line is preceded  by a blank line or it is the only  ::\par
+::   text line at this position in the file.              ::\par
+::                                                        ::\par
+::   Title lines are optional unless a single or a last   ::\par
+::   text line from a preceding puzzle, saved game,       ::\par
+::   solution, or file header can be mistaken for a title ::\par
+::   line.                                                ::\par
+::                                                        ::\par
+:: \cf2 Puzzle Notes\cf3                                            ::\par
+::   Two special key/value pairs are supported in puzzle  ::\par
+::   notes: "Title" and "Author", hence, titles can       ::\par
+::   either come from a title line or from a key/value    ::\par
+::   pair.                                                ::\par
+::                                                        ::\par
+::::::::::::::::::::::::::: \cf5 Board\cf3  ::::::::::::::::::::::::::\par
+:: Legend.................:      :.................Legend ::\par
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+:: Wall...................: \b #\b0   \b #\b0  :...................Wall ::\par
+:: Pusher.................: \b p\b0   \b @\b0  :.................Pusher ::\par
+:: Pusher on goal square..: \b P\b0   \b +\b0  :..Pusher on goal square ::\par
+:: Box....................: \b b\b0   \b $\b0  :....................Box ::\par
+:: Box on goal square.....: \b B\b0   \b *\b0  :.....Box on goal square ::\par
+:: Goal square............: \b .\b0   \b .\b0  :............Goal square ::\par
+:: Floor..................: \b  \b0   \b  \b0  :..................Floor ::\par
+:: Floor..................: \b -\b0   \b _\b0  :..................Floor ::\par
+::                                                        ::\par
+:: Remarks:                                               ::\par
+::                                                        ::\par
+::   The first and the last non-empty square in each row  ::\par
+::   must be a wall or a box on a goal. An \f6 empty \f5 interior\f6  ::\f5\par
+\f6 ::   \f5 row is written with at least one "-" or "_".\f6          ::\f5\par
+::                                                        ::\par
+::   Boards may be \cf2 run-length encoded\cf3  (RLE), e.g.,        ::\par
+::   "###----p.#" may be encoded as "3#4-p.#", and        ::\par
+::   "#-#-#-##-#-#-#" may be encoded as "2(3(#-)#)".\f6   \f5     ::\par
+::   \f6 A \f5 row cannot be split over multiple lines. \f6           \f5 ::\par
+::                                                        ::\par
+::   Rows may be combined on a single line by\f6  \f5 using\f6  "|"   ::\par
+::  \f5  as a \cf2 row separator\cf3 , e.g.,\f6  \f5 "--3#|3#-#|#pb.#|5#".\f6       ::\par
+::  \f5  A "|" at the end of a line is optional and may\f6  be    ::\par
+::  \f5  omitted.      \f6                             \f5            ::\par
+::                                                        ::\par
+::::::::::::::::::::::::::: \cf5 Moves\cf3  ::::::::::::::::::::::::::\par
+:: Legend.................:      :.................Legend ::\par
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+:: Move pusher up.........: \b u\b0   \b U\b0  :.......Push/pull box up ::\par
+:: Move pusher down.......: \b d\b0   \b D\b0  :.....Push/pull box down ::\par
+:: Move pusher left.......: \b l\b0   \b L\b0  :.....Push/pull box left ::\par
+:: Move pusher right......: \b r\b0   \b R\b0  :....Push/pull box right ::\par
+:: Begin jump.............: \b [\b0   \b ]\b0  :...............End jump ::\par
+:: Begin pusher change....: \b\{\b0   \b\}\b0  :......End pusher change ::\par
+:: Current position.......: \b *\b0   \b *\b0  :.......Current position ::\par
+::                                                        ::\par
+:: Remarks:                                               ::\par
+::                                                        ::\par
+::   Moves may be \cf2 run-length encoded\cf3 , e.g., "3r\f6 4\f5 U" means  ::\par
+::   "rrrU\f6 UU\f5 U", and "2(3(dr)R)" means "drdrdrRdrdrdrR".   ::\par
+::   Each line must, however, have at least one proper    ::\par
+::   non-digit character. Spaces between moves are        ::\par
+::   allowed.                                             ::\par
+::                                                        ::\par
+::   \cf2 Jumps and pulls\cf3 : Only in reverse mode saved games    ::\par
+::   and solutions.                                       ::\par
+::                                                        ::\par
+::   \cf2 Reverse mode\cf3  saved games and solutions must begin    ::\par
+::   with a jump, even if it is empty. An example:        ::\par
+::   "[]U[rr]d".                                          ::\par
+::                                                        ::\par
+::   \cf2 Pusher changes\cf3 : Only in puzzles with multiple        ::\par
+::   pushers, e.g., Multiban. Moves inside the braces     ::\par
+::   depict the relative movement to get from the         ::\par
+::   currently active pusher to the next active pusher.   ::\par
+::   At game start, a "\{...\}" sequence activates the      ::\par
+::   pusher relative to the top-left pusher. An example:  ::\par
+::   "\{rddd\}Urr\{uul\}uLU". If the top-left pusher is the   ::\par
+::   first active pusher, then the empty "\{\}" can be      ::\par
+::   omitted.                                             ::\par
+::                                                        ::\par
+::   The \cf2 current position\cf3  is optional and defaults to the ::\par
+::   position after the last move.                        ::\par
+::                                                        ::\par
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\par
+\f0\par
+\b\fs20 An example file:\b0\par
+\par
+\cf2\f5\fs16 ----------------------------------------------------------------------\par
+\f6 Collection: YASGen\f5\par
+Author\f6 : \f5 YASGen & Brian Damgaard\par
+Copyright (c) 2003 by Brian Damgaard\par
+These levels may be freely distributed provided they \f6 are \f5 credited with\par
+the author's name.\par
+\par
+Chaos\par
+\par
+  #####\par
+###p .#\par
+# b #.#\par
+#  bb #\par
+#.  # #\par
+#   b.#\par
+#######\par
+\par
+Solution/Moves\par
+dDuurrddLLrrddLLUlluuRDRddrruuLLrruullDlldddRRuULrrruullDldRddlUruuurr\par
+ddddLLuuRlddrruUUdlldlldRRuuulDrddlluRurrrddLLUluRRlddrruUlldlldRRRllu\par
+uulD\par
+----------------------------------------------------------------------\cf3\f0\fs20\par
+
+\pard\qc\f1\par
+--oOo--\par
+\par
+\i The boxes and events presented in this game are fictional.\par
+Any similarity to actual boxes, living or dead, is purely coincidental.\i0\f0\par
+}
+ 

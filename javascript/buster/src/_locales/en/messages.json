@@ -1,0 +1,588 @@
+{
+  "extensionName": {
+    "message": "Buster: Captcha Solver for Humans",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Save time by asking Buster to solve captchas for you.",
+    "description": "Description of the extension."
+  },
+
+  "optionSectionTitle_services": {
+    "message": "Services",
+    "description": "Title of the options section."
+  },
+
+  "optionTitle_speechService": {
+    "message": "Speech service",
+    "description": "Title of the option."
+  },
+
+  "optionValue_speechService_googleSpeechApi": {
+    "message": "Google Cloud Speech API",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_ibmSpeechApi": {
+    "message": "IBM Watson Speech to Text API",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_microsoftSpeechApi": {
+    "message": "Microsoft Azure Speech to Text API",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_witSpeechApiDemo": {
+    "message": "Wit Speech API (demo)",
+    "description": "Value of the option."
+  },
+
+  "optionValue_speechService_witSpeechApi": {
+    "message": "Wit Speech API",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_ibmSpeechApiLoc": {
+    "message": "API location",
+    "description": "Title of the option."
+  },
+
+  "optionValue_ibmSpeechApiLoc_frankfurt": {
+    "message": "Frankfurt",
+    "description": "Value of the option."
+  },
+
+  "optionValue_ibmSpeechApiLoc_dallas": {
+    "message": "Dallas",
+    "description": "Value of the option."
+  },
+
+  "optionValue_ibmSpeechApiLoc_washington": {
+    "message": "Washington DC",
+    "description": "Value of the option."
+  },
+
+  "optionValue_ibmSpeechApiLoc_sydney": {
+    "message": "Sydney",
+    "description": "Value of the option."
+  },
+
+  "optionValue_ibmSpeechApiLoc_tokyo": {
+    "message": "Tokyo",
+    "description": "Value of the option."
+  },
+
+  "optionTitle_microsoftSpeechApiLoc": {
+    "message": "API location",
+    "description": "Title of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastUs": {
+    "message": "East US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastUs2": {
+    "message": "East US 2",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westUs": {
+    "message": "West US",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westUs2": {
+    "message": "West US 2",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_eastAsia": {
+    "message": "East Asia",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_southeastAsia": {
+    "message": "Southeast Asia",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_westEu": {
+    "message": "West Europe",
+    "description": "Value of the option."
+  },
+
+  "optionValue_microsoftSpeechApiLoc_northEu": {
+    "message": "North Europe",
+    "description": "Value of the option."
+  },
+
+  "optionSectionTitle_misc": {
+    "message": "Miscellaneous",
+    "description": "Title of the options section."
+  },
+
+  "optionTitle_loadEnglishChallenge": {
+    "message": "Load challenge in English",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_tryEnglishSpeechModel": {
+    "message": "Retry speech recognition with English model",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_simulateUserInput": {
+    "message": "Simulate user input",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_autoUpdateClientApp": {
+    "message": "Automatically update client app",
+    "description": "Title of the option."
+  },
+
+  "optionTitle_witSpeechApiLang": {
+    "message": "API language",
+    "description": "Title of the option."
+  },
+
+  "optionValue_witSpeechApiLang_afrikaans": {
+    "message": "Afrikaans",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_arabic": {
+    "message": "Arabic",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_azerbaijani": {
+    "message": "Azerbaijani",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_bengali": {
+    "message": "Bengali",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_bulgarian": {
+    "message": "Bulgarian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_catalan": {
+    "message": "Catalan",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_chinese": {
+    "message": "Chinese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_croatian": {
+    "message": "Croatian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_czech": {
+    "message": "Czech",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_danish": {
+    "message": "Danish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_dutch": {
+    "message": "Dutch",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_english": {
+    "message": "English",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_estonian": {
+    "message": "Estonian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_finnish": {
+    "message": "Finnish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_french": {
+    "message": "French",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_georgian": {
+    "message": "Georgian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_german": {
+    "message": "German",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_greek": {
+    "message": "Greek",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_hebrew": {
+    "message": "Hebrew",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_hindi": {
+    "message": "Hindi",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_hungarian": {
+    "message": "Hungarian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_icelandic": {
+    "message": "Icelandic",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_indonesian": {
+    "message": "Indonesian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_italian": {
+    "message": "Italian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_japanese": {
+    "message": "Japanese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_kannada": {
+    "message": "Kannada",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_korean": {
+    "message": "Korean",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_laothian": {
+    "message": "Laothian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_latvian": {
+    "message": "Latvian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_lithuanian": {
+    "message": "Lithuanian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_malay": {
+    "message": "Malay",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_mongolian": {
+    "message": "Mongolian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_norwegian": {
+    "message": "Norwegian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_persian": {
+    "message": "Persian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_polish": {
+    "message": "Polish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_portuguese": {
+    "message": "Portuguese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_romanian": {
+    "message": "Romanian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_russian": {
+    "message": "Russian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_serbian": {
+    "message": "Serbian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_slovak": {
+    "message": "Slovak",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_slovenian": {
+    "message": "Slovenian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_spanish": {
+    "message": "Spanish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_swahili": {
+    "message": "Swahili",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_swedish": {
+    "message": "Swedish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_tamil": {
+    "message": "Tamil",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_telugu": {
+    "message": "Telugu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_thai": {
+    "message": "Thai",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_turkish": {
+    "message": "Turkish",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_ukrainian": {
+    "message": "Ukrainian",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_urdu": {
+    "message": "Urdu",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_vietnamese": {
+    "message": "Vietnamese",
+    "description": "Value of the option."
+  },
+
+  "optionValue_witSpeechApiLang_zulu": {
+    "message": "Zulu",
+    "description": "Value of the option."
+  },
+
+  "inputLabel_apiKey": {
+    "message": "API key",
+    "description": "Label of the input."
+  },
+
+  "inputLabel_apiKeyType": {
+    "message": "API key: $TYPE$",
+    "description": "Label of the input.",
+    "placeholders": {
+      "type": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+
+  "inputLabel_appLocation": {
+    "message": "App location",
+    "description": "Label of the input."
+  },
+
+  "inputLabel_manifestLocation": {
+    "message": "Manifest location",
+    "description": "Label of the input."
+  },
+
+  "buttonText_addApi": {
+    "message": "Add API",
+    "description": "Text of the button."
+  },
+
+  "buttonText_solve": {
+    "message": "Solve the challenge",
+    "description": "Text of the button."
+  },
+
+  "buttonText_reset": {
+    "message": "Reset the challenge",
+    "description": "Text of the button."
+  },
+
+  "buttonText_downloadApp": {
+    "message": "Download app",
+    "description": "Text of the button."
+  },
+
+  "buttonText_installApp": {
+    "message": "Install app",
+    "description": "Text of the button."
+  },
+
+  "buttonText_goBack": {
+    "message": "Go back",
+    "description": "Text of the button."
+  },
+
+  "linkText_installGuide": {
+    "message": "Installation guide",
+    "description": "Text of the link."
+  },
+
+  "pageContent_optionClientAppDownloadDesc": {
+    "message": "Download and install the client app to enable user input simulation. $INSTALLGUIDE$",
+    "description": "Page content.",
+    "placeholders": {
+      "installGuide": {
+        "content": "$1",
+        "example": "Installation guide"
+      }
+    }
+  },
+
+  "pageContent_optionClientAppOSError": {
+    "message": "Your operating system is not supported.",
+    "description": "Page content."
+  },
+
+  "pageContent_installTitle": {
+    "message": "Install Buster Client",
+    "description": "Page content."
+  },
+
+  "pageContent_installDesc": {
+    "message": "The client app enables Buster to simulate user input and helps improve the success rate of the extension and lower the occurrence of temporary blocks.",
+    "description": "Page content."
+  },
+
+  "pageContent_installSuccessTitle": {
+    "message": "Installation finished",
+    "description": "Page content."
+  },
+
+  "pageContent_installSuccessDesc": {
+    "message": "The client app has been installed for the current browser.",
+    "description": "Page content."
+  },
+
+  "pageContent_installErrorTitle": {
+    "message": "Something went wrong",
+    "description": "Page content."
+  },
+
+  "pageContent_installErrorDesc": {
+    "message": "The installation has failed. Check the browser console for more details, and open an issue on GitHub if this error persists.",
+    "description": "Page content."
+  },
+
+  "pageContent_manifestLocationDesc": {
+    "message": "The manifest location is browser-dependent, edit the path only if the installation does not succeed.",
+    "description": "Page content."
+  },
+
+  "pageTitle": {
+    "message": "$PAGETITLE$ - $EXTENSIONNAME$",
+    "description": "Title of the page.",
+    "placeholders": {
+      "pageTitle": {
+        "content": "$1",
+        "example": "Options"
+      },
+      "extensionName": {
+        "content": "$2",
+        "example": "Extension Name"
+      }
+    }
+  },
+
+  "pageTitle_options": {
+    "message": "Options",
+    "description": "Title of the page."
+  },
+
+  "pageTitle_contribute": {
+    "message": "Contribute",
+    "description": "Title of the page."
+  },
+
+  "info_updatingClientApp": {
+    "message": "Updating client app. Solving will continue in a moment, do not switch away from the current tab.",
+    "description": "Info message."
+  },
+
+  "error_captchaNotSolved": {
+    "message": "Captcha could not be solved. Try again after requesting a new challenge.",
+    "description": "Error message."
+  },
+
+  "error_missingApiKey": {
+    "message": "API key missing. Visit the options page to configure the service.",
+    "description": "Error message."
+  },
+
+  "error_scriptsNotAllowed": {
+    "message": "Content scripts are not allowed on this page.",
+    "description": "Error message."
+  },
+
+  "error_missingClientApp": {
+    "message": "Cannot connect to client app. Finish setting up the app or turn off user input simulation from the extension's options page.",
+    "description": "Error message."
+  },
+
+  "error_outdatedClientApp": {
+    "message": "The client app is outdated. Download and install the latest version from the extension's options page.",
+    "description": "Error message."
+  },
+
+  "error_clientAppUpdateFailed": {
+    "message": "The client app cannot be updated. Download and install the latest version from the extension's options page.",
+    "description": "Error message."
+  },
+
+  "error_internalError": {
+    "message": "Something went wrong. Open the browser console for more details.",
+    "description": "Error message."
+  }
+}

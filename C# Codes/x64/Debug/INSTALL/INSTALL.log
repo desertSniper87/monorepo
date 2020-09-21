@@ -1,0 +1,14 @@
+﻿  -- Install configuration: "Debug"
+  -- Installing: C:/Program Files/PIME/lib/pkgconfig/jsoncpp.pc
+  -- Installing: C:/Program Files/PIME/lib/jsoncpp.lib
+  -- Installing: C:/Program Files/PIME/include/json/allocator.h
+  -- Installing: C:/Program Files/PIME/include/json/assertions.h
+  -- Installing: C:/Program Files/PIME/include/json/autolink.h
+  -- Installing: C:/Program Files/PIME/include/json/config.h
+  -- Installing: C:/Program Files/PIME/include/json/features.h
+  -- Installing: C:/Program Files/PIME/include/json/forwards.h
+  -- Installing: C:/Program Files/PIME/include/json/json.h
+  -- Installing: C:/Program Files/PIME/include/json/reader.h
+  -- Installing: C:/Program Files/PIME/include/json/value.h
+  -- Installing: C:/Program Files/PIME/include/json/version.h
+  -- Installing: C:/Program Files/PIME/include/json/writer.h

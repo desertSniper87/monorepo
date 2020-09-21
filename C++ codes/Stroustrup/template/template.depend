@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385106802 source:e:\programming code\c++ codes\stroustrup\template\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

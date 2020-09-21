@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Card.java&apos; to &apos;examp_p261_Card.java&apos;&#x0D;&#x0A;- Original project: &apos;7.Array.and.ArrayLists&apos;&#x0D;&#x0A;- Original element: &apos;Card.java&apos;&#x0D;&#x0A;- Renamed element: &apos;examp_p261_Card.java&apos;" description="Rename compilation unit &apos;Card.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Card.java" name="examp_p261_Card.java" references="false" stamp="1341328032104" version="1.0"/>
+</session>

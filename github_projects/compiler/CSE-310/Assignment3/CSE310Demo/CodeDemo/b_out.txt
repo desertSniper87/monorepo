@@ -1,0 +1,18 @@
+b -> ( id RELOP num )
+s -> id = num;
+s -> id = num;
+s -> if ( b ) s else s
+p -> s
+
+if x!=100 goto level0
+goto level1
+level0:
+x = 100
+
+goto level2
+level1:
+x = 0
+
+level2:
+END.
+

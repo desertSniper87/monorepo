@@ -1,0 +1,32 @@
+<style type="text/css" media="screen">
+  .btn{
+    /*display: inline-block; */
+    /*padding: 2px 8px;*/
+      /*height: 40px; */
+      /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*vertical-align: middle;*/
+  }
+</style>
+ <div class="card" style="width: 20rem;">
+
+     {% if instance.image %}
+
+     <a href="{{ instance.get_absolute_url }}" class="">
+     <img class="card-img-top" src={{instance.image.url}} alt="Card image cap">
+     </a>
+
+     {% endif %}
+
+  <div class="card-block">
+      <h4 class="card-title">{{ instance.title }}</h4>
+      <p class="card-text">{{instance.description|truncatechars:140}}</p>
+    <!--<div class="btn-group text-center">-->
+        <a href={{ instance.get_absolute_url }} class="btn btn-primary">Details</a>
+
+     {%include 'products/snippets/update-cart.html' with product=instance cart=cart in_card=True%}
+
+    <!--</div>-->
+
+  </div>
+</div>

@@ -1,0 +1,783 @@
+Control
+	Move animation
+		Enabled
+		Smooth animation
+		Player direction animation (appropriate images required)
+		Do move (milliseconds)
+		Undo move (milliseconds)
+		Replay moves (milliseconds per move)
+		Animate moves on mouse wheel up/down, if animation is enabled
+		Forklift driving (appropriate images required)
+			Enabled
+			Drive in reverse (squares)
+	Pathfinding
+		Maximum search time (milliseconds)
+		Maximum pushes lower bound calculation time (milliseconds)
+		Minimize moves or pushes
+		Show legal moves
+			Enabled
+			Size (%)
+			Transparent image
+			Transparency (%)
+			Player cursor
+				Enabled
+				Color
+				Pen width (pixels)
+				Size (pixels)
+				Shadow
+					Enabled
+					Color
+			Box cursor
+				Enabled
+				Color
+				Pen width (pixels)
+				Size (pixels)
+				Shadow
+					Enabled
+					Color
+			Deadlocks
+				Enabled
+				Color
+			Jump moves
+				Enabled
+				Colors
+					Background
+					Text
+					Text shadow
+			Animation (appropriate images required)
+				Player animation enabled
+				Box animation enabled
+		Show board coordinates
+	Solutions
+		"Show solution" preferred type
+		Save best solutions automatically
+		Save old best solutions after finding better ones
+		Save old best solutions after clipboard import
+		Solutions require at least one push
+		Animation (appropriate images required)
+			Player animation enabled
+			Box animation enabled
+		Include secondary metrics in solution button hint
+		Allow deletion of best solutions in "Snapshots" window
+		Error recovery
+			Enabled
+	Snapshots
+		Save snapshots automatically
+		Include secondary metrics (e.g., box lines) in titles
+	Reverse mode
+		Show box startpositions as goals
+		Allow jumps after first box is moved
+	Do/undo moves
+		Undo/redo combined moves in one operation
+		Optimize moves between pushes
+		Left-click empty square action
+		Right-click action
+		Shift key action
+	Deadlock detection
+		Enabled
+		Type
+		Block moves leading to low and medium type deadlocks
+		Log deadlocks calculated at level load time (for testing)
+		Show simple dead squares
+			Enabled
+			Color
+			Transparency (%)
+	Timing
+		Enabled
+		Idle time threshold
+			Enabled
+			Seconds
+	Windows
+		Main window
+			Left
+			Top
+			Width
+			Height
+			Board dimensions in title line
+			Collection name in title line
+		Open window
+			Left
+			Top
+			Width
+			Height
+			Disk group box
+				Width
+				Height
+			Folder list box
+				Width
+			Level preview
+				Height
+			Solution columns
+			Include built-in solutions
+			Tooltips
+				Enabled
+				Horizontal offset, pixels
+				Vertical offset, pixels
+		Tools window
+			Left
+			Top
+			Width
+			Height
+			Collection name in title line
+		Snapshots and solutions window
+			Left
+			Top
+			Width
+			Height
+		Internal clipboard window
+			Left
+			Top
+			Width
+			Height
+	Cursors
+		Selection cursor
+		Drag cursor
+		Tracking cursor
+	Tools
+		Solver
+			Filename
+			Priority
+			Add plugin name to solution titles
+			Add date to solution notes
+			Statistics enabled
+			Time limit (host side as opposed to plugin side)
+				Enabled
+				Seconds
+		Optimizer
+			Filename
+			Priority
+			Add plugin name to solution titles
+			Add date to solution notes
+			Statistics enabled
+			Discard dethroned solutions found in the same session
+			Separate "best moves" and "best pushes" solutions: Initialize optimization accordingly
+			Time limit (host side as opposed to plugin side)
+				Enabled
+				Seconds
+			Alternating optimizations
+				Enabled
+				Type
+				Trigger
+				Repeat
+					Enabled
+					Type
+			Intervals
+				"Wall-ify" boxes outside range of pushes to be optimized
+				Subinterval overlap (%)
+		Generator
+			Priority
+		Level and skin capture
+			Snap to nearby edges
+			Grid
+				Color
+				Shadow color
+			Texts
+				Default skin file name
+			Append new levels to collections
+				Check for duplicates
+		Duplicate finder
+			Advanced identity check (misses some symmetric duplicates)
+			Current level
+				Match threshold (%)
+			Current collection
+				(No options)
+			All levels
+				(No options)
+		Skin export
+			Base format, columns x rows
+	Level format
+		Add file format description to level files
+		Pretty-print saved solutions and snapshots
+		Copy to clipboard
+			Fill floors
+			Floor fill character
+			Level collections: Include level comments  
+			Show combined moves
+			Export level based on solution slice: Include titles
+		Run-length encoding: Floor character
+	Miscellaneous
+		Restore last position when a level is reopened
+		Auto advance to next level when a level has been solved
+		Mouse tracking mode enabled
+		Board dimensions
+		Board dimensions: Show floor count
+		On pressing the [Esc] key in the main window
+		On changing Windows display driver
+		Confirm running multiple instances of the application
+		Enable screensaver
+		Use only one processor (requires restart to take effect)
+Sound
+	Sound enabled
+	Sound volume (%) (may not work)
+	Reset sound effects when a skin is loaded
+	Sound effects
+		Move
+			Enabled
+			Filename
+		Push
+			Enabled
+			Filename
+		Goal
+			Enabled
+			Filename
+		Illegal move
+			Enabled
+			Filename
+		Solution
+			Enabled
+			Filename
+		Undo move
+			Enabled
+			Filename
+		Jump
+			Enabled
+			Filename
+		Restart
+			Enabled
+			Filename
+		Menu button
+			Enabled
+			Filename
+		Menu selection
+			Enabled
+			Filename
+Graphics
+	Background
+		Visible
+		Image
+			Filename
+			Section
+				Left
+				Top
+				Width
+				Height
+			View
+			Antialiasing
+		Color
+	Board
+		Background
+			Visible
+			Image
+				Filename
+				Section
+					Left
+					Top
+					Width
+					Height
+				View
+				Antialiasing
+				Background color
+				Background color tolerance (%)
+				Mask image using background color
+				Transparent image
+				Transparency (%)
+			Color
+		Reverse mode background
+			Visible
+			Image
+				Filename
+				Section
+					Left
+					Top
+					Width
+					Height
+				View
+				Antialiasing
+				Background color
+				Background color tolerance (%)
+				Mask image using background color
+				Transparent image
+				Transparency (%)
+			Color
+			Player start position
+				Visible
+				Grid size, pixels
+				Grid color
+				Grid shadow color
+		Figures
+			Player
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+				Color
+				Animation
+					Image
+						Filename
+						Section
+							Left
+							Top
+							Width
+							Height
+						Mask image using background color
+						Background color
+						Background color tolerance (%)
+						Background color masks exterior pixels only
+						Antialiasing
+					In-between frames
+			Player on goal square
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+				Color
+				Use "Player" image for move animation
+				Use "Player" image for highlighting reachable squares
+				Animation
+					Image
+						Filename
+						Section
+							Left
+							Top
+							Width
+							Height
+						Mask image using background color
+						Background color
+						Background color tolerance (%)
+						Background color masks exterior pixels only
+						Antialiasing
+					In-between frames
+			Box
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+				Color
+				Animation
+					Image
+						Filename
+						Section
+							Left
+							Top
+							Width
+							Height
+						Mask image using background color
+						Background color
+						Background color tolerance (%)
+						Background color masks exterior pixels only
+						Antialiasing
+					In-between frames
+			Box on goal square
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+				Color
+				Use "Box" image for move animation
+				Use "Box" image for highlighting reachable squares
+				Animation
+					Image
+						Filename
+						Section
+							Left
+							Top
+							Width
+							Height
+						Mask image using background color
+						Background color
+						Background color tolerance (%)
+						Background color masks exterior pixels only
+						Antialiasing
+					In-between frames
+			Goal square
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+					Transparent image
+					Transparency (%)
+				Color
+			Wall
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+				Color
+				Type (appropriate images required)
+				Wall cap offset, pixels
+					Left
+					Top
+				Outer wall trimming, pixels
+					Left
+					Top
+					Right
+					Bottom
+			Floor
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Background color masks exterior pixels only
+					Antialiasing
+					Transparent image
+					Transparency (%)
+				Color
+				Visible
+			Maximum zoom factor (%)
+		Grid (appropriate images required)
+			Enabled
+			Color 1
+			Color 2
+	Menu
+		Transparent buttons
+		Text shadow
+		Buttons
+			Disabled button
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Background color
+					Background color tolerance (%)
+				Mask image using background color
+				Transparency (%)
+				Font color
+				Text shadow color
+			Enabled button
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Background color
+					Background color tolerance (%)
+				Mask image using background color
+				Transparency (%)
+				Font color
+				Text shadow color
+			Focused, enabled button
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Background color
+					Background color tolerance (%)
+				Mask image using background color
+				Transparency (%)
+				Font color
+				Text shadow color
+			Focused, disabled button
+				Image
+					Filename
+					Section
+						Left
+						Top
+						Width
+						Height
+					Background color
+					Background color tolerance (%)
+				Mask image using background color
+				Transparency (%)
+				Font Color
+				Text shadow color
+		Edges
+			Edgesmoothing enabled
+			Transparency (%)
+		Font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Popup menu
+			Colors
+				Background
+				Background text
+				Highlighted text
+				Button
+				Button text
+				Focused button
+				Focused button text
+				Grayed button
+				Grayed button text
+				Window
+				Window text
+				Focused window
+				Focused window text
+	Status
+		Image
+			Filename
+			Section
+				Left
+				Top
+				Width
+				Height
+			Background color
+			Background color tolerance (%)
+		Mask image using background color
+		Transparency (%)
+		Edges
+			Edgesmoothing enabled
+			Transparency (%)
+		Image slices
+			Left
+			Body
+			Right
+		Buttons
+			Transparency (%)
+		Panels
+			Bounds
+				Top
+				Bottom
+			Color
+			Transparency (%)
+			Rounding rectangle (pixels)
+		Font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Subtexts
+			Transparent subtexts
+			Font color
+			Font size
+		Text shadow
+		Text shadow color
+	Multiple views
+		Colors
+			Background
+			Focused background
+			Line
+			Text
+			Focused text
+			Shadow
+		Background transparency (%)
+		Font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+	Tools
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Buttons
+			Image
+				Filename
+		Board
+			Background
+				Visible
+				Image
+					Filename
+					View
+					Antialiasing
+				Color
+			Skin
+				Image
+					Filename
+					Mask image using background color
+					Background color
+					Background color tolerance (%)
+					Antialiasing
+			Square set
+				Selected squares color
+				Not selected squares color
+				Transparency (%)
+		Editor
+			Cursors
+				Cell cursor
+					Pen color
+					Pen width (pixels)
+					Shadow color
+				Eraser cursor
+					Pen color
+					Pen width (pixels)
+					Shadow color
+				Selection cursor
+					Pen color
+					Pen width (pixels)
+					Shadow color
+			Frame
+				Color
+				Shadow color
+			Grid
+				Enabled
+		Replay
+			Speed track bar colors
+				Background color
+				Slider color
+				Font color
+				Shadow color
+		Internal clipboard
+			Window font
+				Name
+				Size
+				Color
+				Bold
+				Italic
+				Underlined
+			Colors
+				Background
+				Background text
+				Highlighted text
+				Button
+				Button text
+				Focused button
+				Focused button text
+				Grayed button
+				Grayed button text
+				Window
+				Window text
+				Focused window
+				Focused window text
+				Notes - window
+			Edit font
+				Name
+				Size
+				Color
+				Bold
+				Italic
+				Underlined
+			Texts
+				Clipboard item
+		Duplicate levels
+			Colors
+				Background color 1
+				Text color 1
+				Background color 2
+				Text color 2
+				Highlight background color
+				Highlight text color
+	Snapshots and solutions
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Colors
+			Background
+			Background text
+			Highlighted text
+			Button
+			Button text
+			Focused button
+			Focused button text
+			Grayed button
+			Grayed button text
+			Window
+			Window text
+			Focused window
+			Focused window text
+			Notes - window
+		Edit font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Texts
+			Solution
+			Best Solution
+			Solution/Moves
+			Solution/Pushes
+			Normal mode snapshot
+			Reverse mode snapshot
+	Open window
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+		Colors
+			Collection background color
+			Collection text color
+	Options window
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+	Duplicates window
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined
+	Help window
+		Window font
+			Name
+			Size
+			Color
+			Bold
+			Italic
+			Underlined

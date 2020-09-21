@@ -1,0 +1,7 @@
+This is kdbxviewer, a tool to dump all contents of a KeePass2
+Database files (kdbx) in various formats. It is based on the
+cryptkeyper/libcx9r package.
+
+https://max-weller.github.io/kdbx-viewer/
+
+See COPYING for license information.

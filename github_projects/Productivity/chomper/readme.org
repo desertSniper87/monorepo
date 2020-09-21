@@ -1,0 +1,95 @@
+* Chomper
+
+[[../assets/chomper_example.gif?raw=true]]
+
+Chomper is a Python command-line program for use on Linux which can either create blacklists of blocked websites or whitelists of allowed websites for specified periods of time. The program is intended to help people with issues being productive on a computer due to Internet distractions.
+
+Most internet blocking programs operate just by modifying [[https://en.wikipedia.org/wiki/Hosts_(file)][the hosts file]]. This approach only allows for creating blacklists. Additionally, the hosts file approach does not allow you to block particular URLs - it only allows you to block particular domains.
+
+Chomper instead filters outgoing requests through a transparent proxy, which allows for filtering requests at the URL level. This means you can make nuanced blacklists and whitelists, so that you can block websites without sacrificing your ability to do work.
+* Installation
+Before beginning installation, you should have git and [[https://www.gnu.org/software/screen/manual/screen.html][screen]] installed. Additionally, it would be good to have [[https://github.com/pyenv/pyenv][pyenv]] installed and on your PATH. Finally, when installing Chomper, make sure to use an account which has admin privileges.
+
+1. Clone Chomper into some repository, e.g. ~/chomper, and change directories to the repository.
+2. Execute ~make init~ into your terminal.
+3. Enter ~pipenv shell~ into your terminal. Once the new shell starts, enter mitmdump into your terminal. After mitmdump begins for the first time, exit mitmdump (Ctrl-C Ctrl-C).
+4. There should now be various certificate files in ~/.mitmproxy which have been generated after you ran mitmdump for the first time. Now, we have to import these certificates to your web browser.
+  + Google Chrome: Go to Settings > Advanced Settings > Manage Certificates > Authorities. Click import, select mitmproxy-ca.pem, tick all three boxes, and click OK.
+  + Firefox: Go Preferences > Privacy and Security > Certificates > View Certificates > Authorities. Click import, select mitmproxy-ca.pem, tick all three boxes, and click OK.
+5. Open /etc/sysctl.d/99-sysctl.conf as root in your favorite text editor. Uncomment the entries ~net.ipv4.ip_forward=1~ and ~net.ipv6.conf.all_forwarding=1~. Save and exit the text editor. Execute ~sudo sysctl -p~ in the terminal.
+
+You're now ready to use Chomper!
+* Usage
+Chomper is configured through a simple YAML file. The first level defines the names of the rules, and the second level defines whether a rules is a blacklist or whitelist, and the addresses involved in a rule. An example configuration file which I use is found below. 
+#+BEGIN_SRC yaml
+  coding:
+    - block_type:
+        - whitelist
+    - addresses:
+      - github.com/coleifer/peewee
+      - stackoverflow.com
+      - unix.stackexchange.com
+      - aws.amazon.com
+      - upwork.com
+      - doc.peewee-orm.com
+      - pandas.pydata.org
+      - python.org
+      - amazonaws.com
+  nosocial:
+    - block_type:
+        - blacklist
+    - addresses:
+        - facebook.com
+        - instagram.com
+        - twitter.com
+        - snapchat.com
+  allon:
+    - block_type:
+        - blacklist
+    - addresses:
+        - abcxyz.com
+  alloff:
+    - block_type:
+        - whitelist 
+    - addresses:
+        - abcdxyz.com
+#+END_SRC
+The easiest way to use Chomper is through the /chomper/ shell script in the ~bin~ directory . /chomper/ takes two arguments - the rule and the block_length. /chomper/ assumes you are using the YAML file in ./data/rules.yaml. With the above YAML file, ~./chomper coding 10~ will enact the whitelist for the addresses underneath coding for 10 minutes. If you attempt to use chomper again before the 10 minutes are up, you will be prevented from doing so. The allon/alloff rules are temporary hacks to either allow or blacklist all sites.
+
+Alternatively, you can use chomper directly through the command-line interface defined in ./chomper/block.py. This is the best entry point for anyone who wants to create their own scripts.
+
+If you enact a block using chomper and change your mind, if you have sudo privileges, you can reset the block with ~make reset~.
+* Hardcore Mode
+If you use Linux and have root privileges, it is impossible to prevent yourself from breaking any sort of Internet block. If you want to use Chomper seriously, I suggest that after installing Chopmer, you do the following:
+
+1. Create a new account with administrative privileges. Give this account a very long, complicated password. Write down the password, and store it in some secure, but difficult to access location.
+2. While your main account still has root privileges, run ~make lock~ from the base directory and enter your password where prompted.
+3. Remove your administrative privileges, log out, and log back in.
+   
+You will now be able to use Chomper through /chomp/ as described above, but you will not be able to edit the code, or kill any processes started by Chomper to block websites.
+
+If you want to keep a back-door which allows you to have delayed access to root privileges, I suggest the nifty [[https://github.com/miheerdew/delayed-admin][delayed-admin tool]].
+* Known Issues
+1. Some whitelisted websites may not function properly if dependencies are not also whitelisted. Two examples:
+   + If you only whitelist Upwork.com, a freelancing platform, you will likely receive a message telling you to stop blocking cookies, and may be locked out of certain actions in your account.
+   + If you fail to whitelist amazonaws.com, you will not see images or videos on many websites which store these resources on AWS S3.
+* Feature Development
+** Short-Term (Within 2 months)
++ Fix known issues.
++ Further automate installation.
++ Write tests to ensure YAML file is properly formatted.
++ Add ability to use wildcards in filtering.
++ Ability to schedule sequential blacklists/whitelists.
+** Medium-Term (Within 6 months)
++ GUI Interface.
++ Support for MacOS.
+** Long-Term (Within 18 months)
++ Compatiblity with VPNs/Tor.
+* Support
+You can ask questions and join the development discussion on the [[https://gitter.im/chomperapp/Lobby][Chomper Gitter channel]].
+
+Please post bug reports and feature requests (only) in GitHub issues.
+* License
+Chomper is licensed according to the GPLv3. See the COPYING file for more details.
+* Contributors
+Chomper was created and is maintained by Aniket Panjwani. For a full list of contributors, go here.

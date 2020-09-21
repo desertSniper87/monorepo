@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+{#{{ qs }}#}
+
+{#{{object_list}}#}
+<div class="row mb-3">
+    {% if request.GET.q %}
+    <div class="col-12 mb-5">
+        আপনি সার্চ করেছেন: <b>{{query}}</b> এর জন্য
+        <hr/>
+    </div>
+    {% else %}
+       <div class="col-12 mb-5 mx-5">
+        {% include "search/snippets/search-form.html" %}
+           <!--<input class='form-control' type="text" placeholder="search"/>-->
+       </div>
+    {% endif %}
+        
+<div class="col-12 mb-2 mx-auto">
+{% if request.GET.q is None %}
+    <h1>ফিচারড পণ্য সমূহ:</h1>
+{% endif %}
+</div>
+{% for obj in object_list %}
+<!--<div class="row mx-5">-->
+    <div class="col mx-5">
+    {% include "products/snippets/card.html" with instance=obj%}
+    {#{% if forloop.counter|divisibleby:3 %}#}
+    <!--</div> </div> <div class='row'> <div class="col-12"><hr/> </div>-->
+        {#{% else %}#}
+    <!--</div>-->
+        {#{% endif %}#}
+</div>
+{%endfor%}
+{#<a href='{{ obj.get_absolute_url }}'>{{ obj.title }}<br/></a>#}
+{% endblock content %}

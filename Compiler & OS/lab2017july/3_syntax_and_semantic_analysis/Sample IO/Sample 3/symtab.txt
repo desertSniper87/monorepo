@@ -1,0 +1,32 @@
+Line No 3
+
+ ScopeTable # 2
+
+ ScopeTable # 1
+ 14 --> < foo , ID > 
+
+
+Line No 7
+
+ ScopeTable # 3
+ 4 --> < a , ID , -1e+007>
+ 5 --> < b , ID , -1e+007>
+
+ ScopeTable # 1
+ 14 --> < foo , ID > 
+ 30 --> < bar , ID > 
+
+
+Line No 22
+
+ ScopeTable # 4
+ 6 --> < c , ID , { -1, -1, -1 }>
+
+ ScopeTable # 1
+ 4 --> < a , ID , -1e+007>
+ 9 --> < f , ID > 
+ 14 --> < foo , ID > 
+ 18 --> < main , ID > 
+ 30 --> < bar , ID > 
+
+

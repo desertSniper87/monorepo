@@ -1,0 +1,980 @@
+
+line 1: Turbo Pascal comment found: {This is a 
+
+program}
+
+line 5: 111192019 found
+
+Symbol Table:
+
+[147]--> < NUM, 111192019 > 
+
+line 6: a found
+
+Symbol Table:
+
+[97]--> < ID, a > 
+[147]--> < NUM, 111192019 > 
+
+line 6: ":=" found
+
+Symbol Table:
+
+[51]--> < ASSIGNOP, := > 
+[97]--> < ID, a > 
+[147]--> < NUM, 111192019 > 
+
+line 6: 5.2 found
+
+Symbol Table:
+
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[97]--> < ID, a > 
+[147]--> < NUM, 111192019 > 
+
+line 6: "mod" found
+
+Symbol Table:
+
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[97]--> < ID, a > 
+[123]--> < MULOP, mod > 
+[147]--> < NUM, 111192019 > 
+
+line 6: h found
+
+Symbol Table:
+
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[147]--> < NUM, 111192019 > 
+
+line 8: 4 found
+
+Symbol Table:
+
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[147]--> < NUM, 111192019 > 
+
+line 8: "div" found
+
+Symbol Table:
+
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+
+line 8: 4.3 found
+
+Symbol Table:
+
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+
+line 10: 3.4E2 found
+
+Symbol Table:
+
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+
+line 11: 2.5E+3 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+
+line 12: 3.4E-3 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 13: 3E-3 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 16: Keyword "INTEGER" found
+
+line 16: a found
+
+"a" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 16: "," found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 16: b found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 16: "," found
+
+"," already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 16: c found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 17: Double quoted string found: "This \\
+is a multi-line \"quoted \\
+string."
+
+line 21: Double quoted string found: "This is a single-line quoted string"
+
+line 21: ":" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 21: ")" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: Keyword "IF" found
+
+line 22: "(" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: c found
+
+"c" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: "=" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: c found
+
+"c" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: "-" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: 1 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 22: ")" found
+
+")" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 23: C singleline comment found: // do nothing :)
+
+line 24: d found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: ":=" found
+
+":=" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: d found
+
+"d" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: "-" found
+
+"-" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: 1 found
+
+"1" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: ";" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 24: Turbo Pascal comment found: {This is an assignment statement}
+
+line 26: Keyword "ARRAY" found
+
+line 26: "[" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 26: 10 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 26: "]" found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 26: ":" found
+
+":" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 26: hello found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[117]--> < ID, hello > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 26: ";" found
+
+";" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[117]--> < ID, hello > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 29: Keyword "PROGRAM" found
+
+line 29: Keyword "BEGIN" found
+
+line 29: Keyword "NOT" found
+
+line 29: Keyword "ELSE" found
+
+line 29: Keyword "DO" found
+
+line 29: Keyword "WHILE" found
+
+line 33: Error: Ill-formed Number "8.abc" found !!!
+
+line 33: Error: Ill-formed Id "ab.c" found !!!
+
+line 33: 888 found
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[46]--> < DOT, . > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[73]--> < NUM, 888 > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[117]--> < ID, hello > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+";" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[46]--> < DOT, . > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[73]--> < NUM, 888 > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[117]--> < ID, hello > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+line 33: 888 found
+
+"888" already exists in the symbol table.
+
+Symbol Table:
+
+[1]--> < NUM, 2.5E+3 > 
+[25]--> < NUM, 10 > 
+[33]--> < NUM, 4.3 > 
+[40]--> < PAREN, ( > 
+[41]--> < PAREN, ) > 
+[43]--> < NUM, 5.2 > 
+[44]--> < COMMA, , > 
+[45]--> < ADDOP, - > 
+[46]--> < DOT, . > 
+[49]--> < NUM, 1 > 
+[51]--> < ASSIGNOP, := > 
+[52]--> < NUM, 4 > 
+[58]--> < COLON, : > --> < NUM, 3E-3 > 
+[59]--> < SEMICOLON, ; > 
+[61]--> < RELOP, = > 
+[73]--> < NUM, 888 > 
+[91]--> < BRACKET, [ > 
+[93]--> < BRACKET, ] > 
+[97]--> < ID, a > 
+[98]--> < ID, b > 
+[99]--> < ID, c > 
+[100]--> < ID, d > 
+[104]--> < ID, h > 
+[117]--> < ID, hello > 
+[123]--> < MULOP, mod > 
+[138]--> < NUM, 3.4E2 > 
+[147]--> < NUM, 111192019 > 
+[174]--> < MULOP, div > 
+[178]--> < NUM, 3.4E-3 > 
+
+Input file contains 34 lines in total

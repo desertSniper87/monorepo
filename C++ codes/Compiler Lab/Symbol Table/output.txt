@@ -1,0 +1,19 @@
+In slot:0
+==,RELOP
+
+In slot:1
+<=,RELOP
+
+In slot:5
+i,IDENTIFIER
+
+In slot:6
+123,NUMBER
+
+In slot:8
+231,NUMBER
+
+In slot:10
+foo,FUNCTION
+105,NUMBER
+

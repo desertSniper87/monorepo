@@ -1,0 +1,344 @@
+﻿  Building Custom Rule C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/jsoncpp/src/jsontestrunner/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\CMakeFiles\generate.stamp is up-to-date.
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe --json-checker --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\fail_test_array_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_05.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_06.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_07.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_05.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_06.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_07.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_08.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_09.json"
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\fail_test_array_01.json OK
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_05.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_06.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_07.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_05.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_06.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_07.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_08.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_09.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_00.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_complex_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_05.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_06_64bits.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_07_64bits.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_08_64bits.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_large_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_04.json parsing failed
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_00.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_complex_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_05.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_06_64bits.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_07_64bits.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_08_64bits.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_large_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_preserve_comment_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_05.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_06.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_07.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_08.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_09.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_10.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_11.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_12.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_01.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_05.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_01.json"
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_preserve_comment_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_05.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_06.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_07.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_08.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_09.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_10.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_11.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_12.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_05.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_01.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_02.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_03.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_04.json parsing failed
+  TESTING: C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_05.json parsing failed
+  
+  Failure details:
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_05.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_06.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_array_07.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_05.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_06.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_07.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_08.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_basic_09.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_00.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_comment_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_complex_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_05.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_06_64bits.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_07_64bits.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_integer_08_64bits.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_large_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_object_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_preserve_comment_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_05.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_06.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_07.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_08.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_09.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_10.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_11.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_real_12.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_05.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_01.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_02.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_03.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_04.json
+  Parsing failed:
+  
+  
+  * Test C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_05.json
+  Parsing failed:
+  
+  
+  Test results: 1 passed, 56 failed.
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_02.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_03.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_04.json"
+  C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\jsontestrunner\Debug\jsontestrunner_exe.exe  --json-writer StyledWriter "C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\jsoncpp\test\data\test_string_unicode_05.json"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.

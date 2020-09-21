@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+Position	position.py	/^class Position:$/;"	c
+Positiontest	positionTest.py	/^class Positiontest(unittest.TestCase):$/;"	c
+__init__	position.py	/^    def __init__(self, turn, board=None, move=None):$/;"	m	class:Position
+__str__	position.py	/^    def __str__(self):$/;"	m	class:Position
+bestMove	position.py	/^    def bestMove(self):$/;"	m	class:Position
+check_line	position.py	/^    def check_line(self, line, player):$/;"	m	class:Position
+diagonal_win	position.py	/^    def diagonal_win(self, player):$/;"	m	class:Position
+dim_x	position.py	/^    dim_x = 3$/;"	v	class:Position
+dim_y	position.py	/^    dim_y = 3$/;"	v	class:Position
+horizontal_win	position.py	/^    def horizontal_win(self, player):$/;"	m	class:Position
+init_from_board	position.py	/^    def init_from_board(cls, turn, board):$/;"	m	class:Position
+init_from_board_move	position.py	/^    def init_from_board_move(cls, turn, board, move):$/;"	m	class:Position
+main	positionTest.py	/^def main():$/;"	f
+minimax	position.py	/^    def minimax(self):$/;"	m	class:Position
+move	position.py	/^    def move(self, i, j):$/;"	m	class:Position
+possible_moves	position.py	/^    def possible_moves(self):$/;"	m	class:Position
+rev_diagonal_win	position.py	/^    def rev_diagonal_win(self, player):$/;"	m	class:Position
+showBoardMove	position.py	/^    def showBoardMove(self, move, turn):$/;"	m	class:Position
+switch_turns	position.py	/^    def switch_turns(self):$/;"	m	class:Position
+test_best_move	positionTest.py	/^    def test_best_move(self):$/;"	m	class:Positiontest
+test_minimax	positionTest.py	/^    def test_minimax(self):$/;"	m	class:Positiontest
+test_move	positionTest.py	/^    def test_move(self):$/;"	m	class:Positiontest
+test_possible_moves	positionTest.py	/^    def test_possible_moves(self):$/;"	m	class:Positiontest
+test_testNew	positionTest.py	/^    def test_testNew(self):$/;"	m	class:Positiontest
+test_win	positionTest.py	/^    def test_win(self):$/;"	m	class:Positiontest
+turns	position.py	/^    turns = ('x', 'o')$/;"	v	class:Position
+vertical_win	position.py	/^    def vertical_win(self, player):$/;"	m	class:Position
+win	position.py	/^    def win(self, player):$/;"	m	class:Position

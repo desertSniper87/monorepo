@@ -1,0 +1,12 @@
+{
+    "name": "My-Harp-App",
+    "version": "1.0.0",
+    "description": "A Harp App on Heroku",
+    "dependencies": {
+        "harp": "*"
+    },
+    "scripts": {
+        "start": "NODE_ENV=production harp server -p $PORT",
+        "dev": "harp server"
+    }
+}

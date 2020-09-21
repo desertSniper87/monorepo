@@ -1,0 +1,520 @@
+[Sokoban YASC Skin Script]
+SkinType=Sokoban++ (2019)
+FileType=INI
+FileFilter=INI-files (*.ini)|*.ini
+ImageFile=tiles.combined_file
+UseBackground=no
+
+=================
+Sokoban++ (2019)
+=================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+if {tiles.combined_file}
+
+if {tiles.real_width}
+ColWidth={tiles.real_width}
+endif
+if {tiles.real_height}
+RowHeight={tiles.real_height}
+endif
+if {tiles.width}
+ColWidth={tiles.width}
+endif
+if {tiles.height}
+RowHeight={tiles.height}
+endif
+
+FileName={tiles.combined_file}
+Player-u={Rect {tiles.mover_up}}
+Player-r={Rect {tiles.mover_right}}
+Player-d={Rect {tiles.mover_down}}
+Player-l={Rect {tiles.mover_left}}
+else
+FileName={tiles.mover_up}
+Player-u={Rect 0,0,0,0}
+FileName={tiles.mover_right}
+Player-r={Rect 0,0,0,0}
+FileName={tiles.mover_down}
+Player-d={Rect 0,0,0,0}
+FileName={tiles.mover_left}
+Player-l={Rect 0,0,0,0}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player - Animation - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Player-u={Rect {tiles.mover_up}}
+Player-r={Rect {tiles.mover_right}}
+Player-d={Rect {tiles.mover_down}}
+Player-l={Rect {tiles.mover_left}}
+else
+FileName={tiles.mover_up}
+Player-u={Rect 0,0,0,0}
+FileName={tiles.mover_right}
+Player-r={Rect 0,0,0,0}
+FileName={tiles.mover_down}
+Player-d={Rect 0,0,0,0}
+FileName={tiles.mover_left}
+Player-l={Rect 0,0,0,0}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+
+[Graphics - Board - Figures - Player on goal square - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Player-u={Rect {tiles.mover_up_store}}
+Player-r={Rect {tiles.mover_right_store}}
+Player-d={Rect {tiles.mover_down_store}}
+Player-l={Rect {tiles.mover_left_store}}
+else
+FileName={tiles.mover_up_store}
+Player-u={Rect 0,0,0,0}
+FileName={tiles.mover_right_store}
+Player-r={Rect 0,0,0,0}
+FileName={tiles.mover_down_store}
+Player-d={Rect 0,0,0,0}
+FileName={tiles.mover_left_store}
+Player-l={Rect 0,0,0,0}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Player-u={Rect {tiles.mover_up_store}}
+Player-r={Rect {tiles.mover_right_store}}
+Player-d={Rect {tiles.mover_down_store}}
+Player-l={Rect {tiles.mover_left_store}}
+else
+FileName={tiles.mover_up_store}
+Player-u={Rect 0,0,0,0}
+FileName={tiles.mover_right_store}
+Player-r={Rect 0,0,0,0}
+FileName={tiles.mover_down_store}
+Player-d={Rect 0,0,0,0}
+FileName={tiles.mover_left_store}
+Player-l={Rect 0,0,0,0}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.object}}
+else
+FileName={tiles.object}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+if {header.author}  = XSokoban Team
+Background color tolerance (%)=4
+endif
+
+[Graphics - Board - Figures - Box - Animation - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.object}}
+else
+FileName={tiles.object}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+if {header.author}  = XSokoban Team
+Background color tolerance (%)=4
+endif
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+
+[Graphics - Board - Figures - Box on goal square - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.object_store}}
+else
+FileName={tiles.object_store}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+if {header.author}  = XSokoban Team
+Background color tolerance (%)=4
+endif
+
+[Graphics - Board - Figures - Box on goal square - Animation - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.object_store}}
+else
+FileName={tiles.object_store}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+if {header.author}  = XSokoban Team
+Background color tolerance (%)=4
+endif
+
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.store}}
+else
+FileName={tiles.store}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+else
+FileName={tiles.wall}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+
+if {tiles.wall_u}
+wall={Rect {tiles.wall}}
+wall-u={Rect {tiles.wall_u}}
+wall-r={Rect {tiles.wall_r}}
+wall-d={Rect {tiles.wall_d}}
+wall-l={Rect {tiles.wall_l}}
+wall-u-r={Rect {tiles.wall_u_r}}
+wall-u-d={Rect {tiles.wall_u_d}}
+wall-u-l={Rect {tiles.wall_u_l}}
+wall-r-d={Rect {tiles.wall_d_r}}
+wall-r-l={Rect {tiles.wall_l_r}}
+wall-d-l={Rect {tiles.wall_d_l}}
+wall-u-r-d={Rect {tiles.wall_u_d_r}}
+wall-u-r-l={Rect {tiles.wall_u_l_r}}
+wall-u-d-l={Rect {tiles.wall_u_d_l}}
+wall-r-d-l={Rect {tiles.wall_d_l_r}}
+wall-u-r-d-l={Rect {tiles.wall_u_d_l_r}}
+wall-cap={Rect {tiles.wall_top}}
+else
+Section={Rect {tiles.wall}}
+endif
+
+else
+FileName={tiles.wall}
+wall={Rect 0,0,0,0}
+FileName={tiles.wall_u}
+wall-u={Rect 0,0,0,0}
+FileName={tiles.wall_r}
+wall-r={Rect 0,0,0,0}
+FileName={tiles.wall_d}
+wall-d={Rect 0,0,0,0}
+FileName={tiles.wall_l}
+wall-l={Rect 0,0,0,0}
+FileName={tiles.wall_u_r}
+wall-u-r={Rect 0,0,0,0}
+FileName={tiles.wall_u_d}
+wall-u-d={Rect 0,0,0,0}
+FileName={tiles.wall_u_l}
+wall-u-l={Rect 0,0,0,0}
+FileName={tiles.wall_d_r}
+wall-r-d={Rect 0,0,0,0}
+FileName={tiles.wall_l_r}
+wall-r-l={Rect 0,0,0,0}
+FileName={tiles.wall_d_l}
+wall-d-l={Rect 0,0,0,0}
+FileName={tiles.wall_u_d_r}
+wall-u-r-d={Rect 0,0,0,0}
+FileName={tiles.wall_u_l_r}
+wall-u-r-l={Rect 0,0,0,0}
+FileName={tiles.wall_u_d_l}
+wall-u-d-l={Rect 0,0,0,0}
+FileName={tiles.wall_d_l_r}
+wall-r-d-l={Rect 0,0,0,0}
+FileName={tiles.wall_u_d_l_r}
+wall-u-r-d-l={Rect 0,0,0,0}
+FileName={tiles.wall_top}
+wall-cap={Rect 0,0,0,0}
+endif
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left={tiles.wall_top_x}
+Top={tiles.wall_top_y}
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+if {tiles.combined_file}
+FileName={tiles.combined_file}
+Section={Rect {tiles.ground}}
+else
+FileName={tiles.ground}
+endif
+Background color={tiles.transparent_color}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Color={background.color}
+Color={tiles.transparent_color}
+
+[Sound - Sound effects - Move]
+Filename={sounds.move}
+
+[Sound - Sound effects - Push]
+Filename={sounds.move_object}
+
+[Sound - Sound effects - Goal]
+Filename={sounds.move_object}
+
+[Sound - Sound effects - Solution]
+Filename={sounds.finishlevel}
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+
+[Graphics - Background - Image]
+Filename={background.image}
+View={Self.Lookup.{background.image_options}}
+
+[Lookup]
+CENTER=Center
+NORMAL=Fill
+STRETCH=Fill
+TILE=Tile
+
+endif
+
+perform {header.name}
+
+end -- script
+
+============
+[Bio Truck]
+============
+
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=2
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=2
+
+end
+
+===========================
+[Björn Källmark's Sokoban]
+===========================
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+
+end
+
+=============
+[DoubleBlue]
+=============
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=3
+Bottom=3
+
+end
+
+====================
+[Family Guy Stewie]
+====================
+
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=20
+
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=20
+
+end
+
+=======================
+[Fred the Dung Beetle]
+=======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+end
+
+=============
+[Graduation]
+=============
+
+[Control - Move animation]
+Smooth animation=no
+
+end
+
+==========================
+[Knight in Shining Armor]
+==========================
+
+[Control - Move animation]
+Smooth animation=no
+
+end
+
+===========
+[LOTR Elf]
+===========
+
+[Control - Move animation]
+Smooth animation=no
+
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=2
+
+end
+
+==============
+[NightShift2]
+==============
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=4
+Bottom=4
+
+end
+
+=====================
+[PacMan Plus (v1.5)]
+=====================
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+
+if {tiles.width} = 16
+
+Left=6
+Top=0
+Right=4
+Bottom=1
+
+else
+
+if {tiles.width} = 24
+
+Left=9
+Top=0
+Right=7
+Bottom=2
+
+else
+
+if {tiles.width} = 32
+
+Left=12
+Top=0
+Right=9
+Bottom=4
+
+else
+
+if {tiles.width} = 40
+
+Left=14
+Top=0
+Right=10
+Bottom=3
+
+endif
+endif
+endif
+endif
+
+end
+
+===========
+[Predator]
+===========
+
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=2
+
+end
+
+============================
+[Sokoban for the Macintosh]
+============================
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=8
+Top=8
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=2
+Bottom=2
+
+end
+
+

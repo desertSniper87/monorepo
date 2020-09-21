@@ -1,0 +1,2 @@
+include ':mslider-espresso', ':mslider-uiautomator', ':holo-style'
+include 'example', 'lib'

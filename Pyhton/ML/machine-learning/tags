@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+Agent	projects/smartcab/smartcab/environment.py	/^class Agent(object):$/;"	c
+DummyAgent	projects/smartcab/smartcab/environment.py	/^class DummyAgent(Agent):$/;"	c
+Environment	projects/smartcab/smartcab/environment.py	/^class Environment(object):$/;"	c
+LearningAgent	projects/smartcab/smartcab/agent.py	/^class LearningAgent(Agent):$/;"	c
+ModelComplexity	projects/boston_housing/visuals.py	/^def ModelComplexity(X, y):$/;"	f
+ModelLearning	projects/boston_housing/visuals.py	/^def ModelLearning(X, y):$/;"	f
+PredictTrials	projects/boston_housing/visuals.py	/^def PredictTrials(X, y, fitter, data):$/;"	f
+RoutePlanner	projects/smartcab/smartcab/planner.py	/^class RoutePlanner(object):$/;"	c
+Simulator	projects/smartcab/smartcab/simulator.py	/^class Simulator(object):$/;"	c
+TrafficLight	projects/smartcab/smartcab/environment.py	/^class TrafficLight(object):$/;"	c
+__init__	projects/smartcab/smartcab/agent.py	/^    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.5):$/;"	m	class:LearningAgent
+__init__	projects/smartcab/smartcab/environment.py	/^    def __init__(self, env):$/;"	m	class:Agent
+__init__	projects/smartcab/smartcab/environment.py	/^    def __init__(self, env):$/;"	m	class:DummyAgent
+__init__	projects/smartcab/smartcab/environment.py	/^    def __init__(self, state=None, period=None):$/;"	m	class:TrafficLight
+__init__	projects/smartcab/smartcab/environment.py	/^    def __init__(self, verbose=False, num_dummies=100, grid_size = (8, 6)):$/;"	m	class:Environment
+__init__	projects/smartcab/smartcab/planner.py	/^    def __init__(self, env, agent):$/;"	m	class:RoutePlanner
+__init__	projects/smartcab/smartcab/simulator.py	/^    def __init__(self, env, size=None, update_delay=2.0, display=True, log_metrics=False, optimi/;"	m	class:Simulator
+_load_label_names	projects/image-classification/helper.py	/^def _load_label_names():$/;"	f
+_preprocess_and_save	projects/image-classification/helper.py	/^def _preprocess_and_save(normalize, one_hot_encode, features, labels, filename):$/;"	f
+_print_success_message	projects/image-classification/problem_unittests.py	/^def _print_success_message():$/;"	f
+act	projects/smartcab/smartcab/environment.py	/^    def act(self, agent, action):$/;"	m	class:Environment
+batch_features_labels	projects/image-classification/helper.py	/^def batch_features_labels(features, labels, batch_size):$/;"	f
+biplot	projects/customer_segments/visuals.py	/^def biplot(good_data, reduced_data, pca):$/;"	f
+build_state	projects/smartcab/smartcab/agent.py	/^    def build_state(self):$/;"	m	class:LearningAgent
+calculate_reliability	projects/smartcab/visuals.py	/^def calculate_reliability(data):$/;"	f
+calculate_safety	projects/smartcab/visuals.py	/^def calculate_safety(data):$/;"	f
+channel_results	projects/customer_segments/visuals.py	/^def channel_results(reduced_data, outliers, pca_samples):$/;"	f
+choose_action	projects/smartcab/smartcab/agent.py	/^    def choose_action(self, state):$/;"	m	class:LearningAgent
+cluster_results	projects/customer_segments/visuals.py	/^def cluster_results(reduced_data, preds, centers, pca_samples):$/;"	f
+cm	projects/customer_segments/visuals.py	/^import matplotlib.cm as cm$/;"	I
+color_choices	projects/smartcab/smartcab/environment.py	/^    color_choices = ['cyan', 'red', 'blue', 'green', 'orange', 'magenta', 'yellow']$/;"	v	class:DummyAgent
+colors	projects/smartcab/smartcab/simulator.py	/^    colors = {$/;"	v	class:Simulator
+compute_dist	projects/smartcab/smartcab/environment.py	/^    def compute_dist(self, a, b):$/;"	m	class:Environment
+createQ	projects/smartcab/smartcab/agent.py	/^    def createQ(self, state):$/;"	m	class:LearningAgent
+create_agent	projects/smartcab/smartcab/environment.py	/^    def create_agent(self, agent_class, *args, **kwargs):$/;"	m	class:Environment
+curves	projects/boston_housing/visuals.py	/^import sklearn.learning_curve as curves$/;"	I
+display_image_predictions	projects/image-classification/helper.py	/^def display_image_predictions(features, labels, predictions):$/;"	f
+display_stats	projects/image-classification/helper.py	/^def display_stats(cifar10_dataset_folder_path, batch_id, sample_id):$/;"	f
+distribution	projects/finding_donors/visuals.py	/^def distribution(data, transformed = False):$/;"	f
+evaluate	projects/finding_donors/visuals.py	/^def evaluate(results, accuracy, f1):$/;"	f
+feature_plot	projects/finding_donors/visuals.py	/^def feature_plot(importances, X_train, y_train):$/;"	f
+filter_data	projects/titanic_survival_exploration/visuals.py	/^def filter_data(data, condition):$/;"	f
+get_deadline	projects/smartcab/smartcab/environment.py	/^    def get_deadline(self, agent):$/;"	m	class:Environment
+get_maxQ	projects/smartcab/smartcab/agent.py	/^    def get_maxQ(self, state):$/;"	m	class:LearningAgent
+get_next_waypoint	projects/smartcab/smartcab/environment.py	/^    def get_next_waypoint(self):$/;"	m	class:Agent
+get_state	projects/smartcab/smartcab/environment.py	/^    def get_state(self):$/;"	m	class:Agent
+hard_time_limit	projects/smartcab/smartcab/environment.py	/^    hard_time_limit = -100  # Set a hard time limit even if deadline is not enforced.$/;"	v	class:Environment
+learn	projects/smartcab/smartcab/agent.py	/^    def learn(self, state, action, reward):$/;"	m	class:LearningAgent
+load_cfar10_batch	projects/image-classification/helper.py	/^def load_cfar10_batch(cifar10_dataset_folder_path, batch_id):$/;"	f
+load_preprocess_training_batch	projects/image-classification/helper.py	/^def load_preprocess_training_batch(batch_id, batch_size):$/;"	f
+mpatches	projects/finding_donors/visuals.py	/^import matplotlib.patches as mpatches$/;"	I
+next_waypoint	projects/smartcab/smartcab/planner.py	/^    def next_waypoint(self):$/;"	m	class:RoutePlanner
+np	projects/boston_housing/visuals.py	/^import numpy as np$/;"	I
+np	projects/customer_segments/visuals.py	/^import numpy as np$/;"	I
+np	projects/finding_donors/visuals.py	/^import numpy as np$/;"	I
+np	projects/image-classification/helper.py	/^import numpy as np$/;"	I
+np	projects/image-classification/problem_unittests.py	/^import numpy as np$/;"	I
+np	projects/smartcab/visuals.py	/^import numpy as np$/;"	I
+np	projects/titanic_survival_exploration/visuals.py	/^import numpy as np$/;"	I
+pause	projects/smartcab/smartcab/simulator.py	/^    def pause(self):$/;"	m	class:Simulator
+pca_results	projects/customer_segments/visuals.py	/^def pca_results(good_data, pca):$/;"	f
+pd	projects/customer_segments/visuals.py	/^import pandas as pd$/;"	I
+pd	projects/finding_donors/visuals.py	/^import pandas as pd$/;"	I
+pd	projects/smartcab/visuals.py	/^import pandas as pd$/;"	I
+pd	projects/titanic_survival_exploration/visuals.py	/^import pandas as pd$/;"	I
+pl	projects/boston_housing/visuals.py	/^import matplotlib.pyplot as pl$/;"	I
+pl	projects/finding_donors/visuals.py	/^import matplotlib.pyplot as pl$/;"	I
+plot_trials	projects/smartcab/visuals.py	/^def plot_trials(csv):$/;"	f
+plt	projects/customer_segments/visuals.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	projects/image-classification/helper.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	projects/smartcab/visuals.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	projects/titanic_survival_exploration/visuals.py	/^import matplotlib.pyplot as plt$/;"	I
+preprocess_and_save_data	projects/image-classification/helper.py	/^def preprocess_and_save_data(cifar10_dataset_folder_path, normalize, one_hot_encode):$/;"	f
+render	projects/smartcab/smartcab/simulator.py	/^    def render(self, trial, testing=False):$/;"	m	class:Simulator
+render_text	projects/smartcab/smartcab/simulator.py	/^    def render_text(self, trial, testing=False):$/;"	m	class:Simulator
+reset	projects/smartcab/smartcab/agent.py	/^    def reset(self, destination=None, testing=False):$/;"	m	class:LearningAgent
+reset	projects/smartcab/smartcab/environment.py	/^    def reset(self):$/;"	m	class:TrafficLight
+reset	projects/smartcab/smartcab/environment.py	/^    def reset(self, destination=None, testing=False):$/;"	m	class:Agent
+reset	projects/smartcab/smartcab/environment.py	/^    def reset(self, testing=False):$/;"	m	class:Environment
+route_to	projects/smartcab/smartcab/planner.py	/^    def route_to(self, destination=None):$/;"	m	class:RoutePlanner
+run	projects/smartcab/smartcab/agent.py	/^def run():$/;"	f
+run	projects/smartcab/smartcab/simulator.py	/^    def run(self, tolerance=0.05, n_test=0):$/;"	m	class:Simulator
+sense	projects/smartcab/smartcab/environment.py	/^    def sense(self, agent):$/;"	m	class:Environment
+set_primary_agent	projects/smartcab/smartcab/environment.py	/^    def set_primary_agent(self, agent, enforce_deadline=False):$/;"	m	class:Environment
+step	projects/smartcab/smartcab/environment.py	/^    def step(self):$/;"	m	class:Environment
+survival_stats	projects/titanic_survival_exploration/visuals.py	/^def survival_stats(data, outcomes, key, filters = []):$/;"	f
+test_con_pool	projects/image-classification/problem_unittests.py	/^def test_con_pool(conv2d_maxpool):$/;"	f
+test_conv_net	projects/image-classification/problem_unittests.py	/^def test_conv_net(conv_net):$/;"	f
+test_flatten	projects/image-classification/problem_unittests.py	/^def test_flatten(flatten):$/;"	f
+test_folder_path	projects/image-classification/problem_unittests.py	/^def test_folder_path(cifar10_dataset_folder_path):$/;"	f
+test_fully_conn	projects/image-classification/problem_unittests.py	/^def test_fully_conn(fully_conn):$/;"	f
+test_nn_image_inputs	projects/image-classification/problem_unittests.py	/^def test_nn_image_inputs(neural_net_image_input):$/;"	f
+test_nn_keep_prob_inputs	projects/image-classification/problem_unittests.py	/^def test_nn_keep_prob_inputs(neural_net_keep_prob_input):$/;"	f
+test_nn_label_inputs	projects/image-classification/problem_unittests.py	/^def test_nn_label_inputs(neural_net_label_input):$/;"	f
+test_normalize	projects/image-classification/problem_unittests.py	/^def test_normalize(normalize):$/;"	f
+test_one_hot_encode	projects/image-classification/problem_unittests.py	/^def test_one_hot_encode(one_hot_encode):$/;"	f
+test_output	projects/image-classification/problem_unittests.py	/^def test_output(output):$/;"	f
+test_train_nn	projects/image-classification/problem_unittests.py	/^def test_train_nn(train_neural_network):$/;"	f
+tf	projects/image-classification/problem_unittests.py	/^import tensorflow as tf$/;"	I
+update	projects/smartcab/smartcab/agent.py	/^    def update(self):$/;"	m	class:LearningAgent
+update	projects/smartcab/smartcab/environment.py	/^    def update(self):$/;"	m	class:Agent
+update	projects/smartcab/smartcab/environment.py	/^    def update(self):$/;"	m	class:DummyAgent
+update	projects/smartcab/smartcab/environment.py	/^    def update(self, t):$/;"	m	class:TrafficLight
+valid_actions	projects/smartcab/smartcab/environment.py	/^    valid_actions = [None, 'forward', 'left', 'right']$/;"	v	class:Environment
+valid_headings	projects/smartcab/smartcab/environment.py	/^    valid_headings = [(1, 0), (0, -1), (-1, 0), (0, 1)]  # E, N, W, S$/;"	v	class:Environment
+valid_inputs	projects/smartcab/smartcab/environment.py	/^    valid_inputs = {'light': TrafficLight.valid_states, 'oncoming': valid_actions, 'left': valid/;"	v	class:Environment
+valid_states	projects/smartcab/smartcab/environment.py	/^    valid_states = [True, False]  # True = NS open; False = EW open$/;"	v	class:TrafficLight

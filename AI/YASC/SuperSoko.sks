@@ -1,0 +1,87 @@
+[Sokoban YASC Skin Script]
+SkinType=SuperSoko (2019)
+FileType=Image
+FileFilter=
+Columns=5
+Rows=1
+
+Please note that SuperSoko skins
+don't include the player, hence,
+all SuperSoko skins appear with
+the default player. 
+
+=================
+SuperSoko (2019)
+=================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+
+(SuperSoko skins don't contain player images.)
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+
+(SuperSoko skins does not contain players.)
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+Section={Tile 4, 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+Section={Tile 5, 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+Section={Tile 3, 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={Filename}
+Section={Tile 1, 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+Section={Tile 2, 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+
+end -- script
+

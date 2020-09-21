@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="60" version="2.0">
+<workbenchAdvisor/>
+<window height="768" width="1024" x="-29" y="305">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="281" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1347722160358" focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp__p17_5_AccountRecord.java" partName="examp__p17_5_AccountRecord.java" path="E:/Programming Code/Java Codes/Deitel &amp; Deitel/17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java" title="examp__p17_5_AccountRecord.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="438" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p740_17_6_CreateTextFile.java" partName="examp_p740_17_6_CreateTextFile.java" path="E:/Programming Code/Java Codes/Deitel &amp; Deitel/17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java" title="examp_p740_17_6_CreateTextFile.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="273" selectionTopPixel="225"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p744_17_8_CreateTextFileTest.java" partName="examp_p744_17_8_CreateTextFileTest.java" path="E:/Programming Code/Java Codes/Deitel &amp; Deitel/17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java" title="examp_p744_17_8_CreateTextFileTest.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="250" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.callhierarchy.view" partName="Call Hierarchy">
+<viewState search_scope_type="1"/>
+</view>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="org.eclipse.jpt.jpa.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.callhierarchy.view"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.69860893" ratioLeft="452" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.callhierarchy.view" label="Call Hierarchy"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/27.Networking/src/examp_p1144_27_5_Server.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/27.Networking/src/examp_p1148_27_6_ServerTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/27.Networking/src/examp_p1151_27_7_Client.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/27.Networking/src/examp_p1151_27_7_Client.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/E:/Class%20Lecture/CSE%20201/Java%20Slides/Codes/Networking%20Codes/Networking%20Codes/Socket%20Programming%20-%202/Server.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java"/>
+</editors>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="324" y="23"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3028" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3026" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3016" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3069" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3198" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3364" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3364" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3257" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3288" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3343" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3433" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3524" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="3492" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="1092" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="324" y="23"/>
+</item>
+<item historyLabel="examp_p1148_27_6_ServerTest.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p1151_27_7_Client.java" index="2">
+<position info="not_deleted" x="2" y="0"/>
+</item>
+<item historyLabel="examp_p1144_27_5_Server.java" index="0">
+<position info="not_deleted" x="324" y="23"/>
+</item>
+<item historyLabel="examp_p1151_27_7_Client.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p1148_27_6_ServerTest.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p1151_27_7_Client.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p1148_27_6_ServerTest.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp__p17_5_AccountRecord.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p740_17_6_CreateTextFile.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp_p744_17_8_CreateTextFileTest.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp__p17_5_AccountRecord.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp__p17_5_AccountRecord.java" index="4">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="examp_p740_17_6_CreateTextFile.java" index="5">
+<position info="not_deleted" x="609" y="0"/>
+</item>
+<item historyLabel="examp_p744_17_8_CreateTextFileTest.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="examp__p17_5_AccountRecord.java" index="4">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="examp_p740_17_6_CreateTextFile.java" index="5">
+<position info="not_deleted" x="944" y="0"/>
+</item>
+<item historyLabel="examp__p17_5_AccountRecord.java" index="4">
+<position info="not_deleted" x="438" y="0"/>
+</item>
+<item historyLabel="examp_p740_17_6_CreateTextFile.java" index="5">
+<position info="not_deleted" x="944" y="0"/>
+</item>
+<item historyLabel="Server.java" index="7">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="examp_p744_17_8_CreateTextFileTest.java" index="8">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="Server.java" index="7">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item active="true" historyLabel="examp_p744_17_8_CreateTextFileTest.java" index="8">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" tooltip="E:\Class Lecture\CSE 201\Java Slides\Codes\Networking Codes\Networking Codes\Socket Programming - 2\Server.java">
+<persistable uri="file:/E:/Class%20Lecture/CSE%20201/Java%20Slides/Codes/Networking%20Codes/Networking%20Codes/Socket%20Programming%20-%202/Server.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p744_17_8_CreateTextFileTest.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java">
+<persistable path="/17.Files.Streams.and.Object.Serialization/src/examp_p744_17_8_CreateTextFileTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p740_17_6_CreateTextFile.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java">
+<persistable path="/17.Files.Streams.and.Object.Serialization/src/examp_p740_17_6_CreateTextFile.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp__p17_5_AccountRecord.java" tooltip="17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java">
+<persistable path="/17.Files.Streams.and.Object.Serialization/src/examp__p17_5_AccountRecord.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p1151_27_7_Client.java" tooltip="27.Networking/src/examp_p1151_27_7_Client.java">
+<persistable path="/27.Networking/src/examp_p1151_27_7_Client.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p1148_27_6_ServerTest.java" tooltip="27.Networking/src/examp_p1148_27_6_ServerTest.java">
+<persistable path="/27.Networking/src/examp_p1148_27_6_ServerTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p1144_27_5_Server.java" tooltip="27.Networking/src/examp_p1144_27_5_Server.java">
+<persistable path="/27.Networking/src/examp_p1144_27_5_Server.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p375_9_5_comissionEmployeeTest.java" tooltip="9.Object-Oriented.Programming.Inheritence/src/examp_p375_9_5_comissionEmployeeTest.java">
+<persistable path="/9.Object-Oriented.Programming.Inheritence/src/examp_p375_9_5_comissionEmployeeTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p370_9_4_ComissionEmployee.java" tooltip="9.Object-Oriented.Programming.Inheritence/src/examp_p370_9_4_ComissionEmployee.java">
+<persistable path="/9.Object-Oriented.Programming.Inheritence/src/examp_p370_9_4_ComissionEmployee.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p1065_26_4_PrintTask_Modified.java" tooltip="26.Multithreading/src/examp_p1065_26_4_PrintTask_Modified.java">
+<persistable path="/26.Multithreading/src/examp_p1065_26_4_PrintTask_Modified.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p262_DeckOfCards.java" tooltip="7.Array.and.ArrayLists/src/examp_p262_DeckOfCards.java">
+<persistable path="/7.Array.and.ArrayLists/src/examp_p262_DeckOfCards.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p261_Card.java" tooltip="7.Array.and.ArrayLists/src/examp_p261_Card.java">
+<persistable path="/7.Array.and.ArrayLists/src/examp_p261_Card.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p252_InitArray.java" tooltip="7.Array.and.ArrayLists/src/examp_p252_InitArray.java">
+<persistable path="/7.Array.and.ArrayLists/src/examp_p252_InitArray.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InterruptedException.class" tooltip="java.lang.InterruptedException">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=26.Multithreading/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.lang(InterruptedException.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="examp_p1065_26_4_PrintTask.java" tooltip="26.Multithreading/src/examp_p1065_26_4_PrintTask.java">
+<persistable path="/26.Multithreading/src/examp_p1065_26_4_PrintTask.java"/>
+</file>
+</mruList>
+</workbench>

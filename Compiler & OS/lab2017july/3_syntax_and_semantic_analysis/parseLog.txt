@@ -1,0 +1,12 @@
+type_specifier -> INT
+type_specifier -> INT
+declaration_list -> ID 
+declaration_list -> declaration_list COMMA ID 
+var_declaration -> type_specifier declaration_list SEMICOLON
+statement -> var_declaration  
+statements -> statement  
+type_specifier -> INT
+declaration_list -> ID 
+var_declaration -> type_specifier declaration_list SEMICOLON
+statement -> var_declaration  
+statements -> statements statement  

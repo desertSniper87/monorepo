@@ -1,0 +1,141 @@
+I foo FUNCTION
+Symbol not found in scope: 1
+
+foo Inserted in scope table: 1 at position 2, 0
+
+I i VAR
+Symbol not found in scope: 1
+
+i Inserted in scope table: 1 at position 0, 0
+
+L foo
+Symbol found: foo in scope: 1
+
+L j
+Symbol not found in scope: 1
+
+I 5 NUMBER
+Symbol not found in scope: 1
+
+5 Inserted in scope table: 1 at position 4, 0
+
+P A
+Printing Table 1
+0 --> < i VAR > 
+1-->
+2 --> < foo FUNCTION > 
+3-->
+4 --> < 5 NUMBER > 
+5-->
+6-->
+
+D j
+Symbol not found in scope 1, Cannot delete
+
+P A
+Printing Table 1
+0 --> < i VAR > 
+1-->
+2 --> < foo FUNCTION > 
+3-->
+4 --> < 5 NUMBER > 
+5-->
+6-->
+
+S
+Changing scope table to table 2
+I <= RELOP
+Symbol not found in scope: 2
+
+<= Inserted in scope table: 2 at position 4, 0
+
+I == RELOP
+Symbol not found in scope: 2
+
+== Inserted in scope table: 2 at position 2, 0
+
+D i
+Symbol found:i in scope 1. Deleting.
+
+Symbol not found in scope 2, Cannot delete
+
+L i
+Symbol not found in scope: 1
+
+Symbol not found in scope: 2
+
+P A
+Printing Table 1
+0-->
+1-->
+2 --> < foo FUNCTION > 
+3-->
+4 --> < 5 NUMBER > 
+5-->
+6-->
+
+Printing Table 2
+0-->
+1-->
+2 --> < == RELOP > 
+3-->
+4 --> < <= RELOP > 
+5-->
+6-->
+
+I <= RELOP
+Symbol found: <= in scope: 2
+
+The symbol <= already exists at 4
+
+I foo FUNCTION
+Symbol not found in scope: 2
+
+foo Inserted in: Table 2 at position 2, 0
+
+D ==
+Symbol not found in scope 1, Cannot delete
+
+Symbol found:== in scope 2. Deleting.
+
+P A
+Printing Table 1
+0-->
+1-->
+2 --> < foo FUNCTION > 
+3-->
+4 --> < 5 NUMBER > 
+5-->
+6-->
+
+Printing Table 2
+0-->
+1-->
+2-->
+3-->
+4 --> < <= RELOP > 
+5-->
+6-->
+
+E
+Reverting scope table to table 1
+I t t
+Symbol not found in scope: 1
+
+t Inserted in: Table 1 at position 4, 0
+
+I k k
+Symbol not found in scope: 1
+
+k Inserted in: Table 1 at position 2, 0
+
+P A
+Printing Table 1
+0-->
+1-->
+2 --> < foo FUNCTION >  --> < k k > 
+3-->
+4 --> < 5 NUMBER >  --> < t t > 
+5-->
+6-->
+

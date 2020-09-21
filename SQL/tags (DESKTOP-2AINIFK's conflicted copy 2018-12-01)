@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+capital	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    capital integer,$/;"	E	table:country
+city	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^CREATE TABLE city ($/;"	t
+code	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    code character(3) NOT NULL,$/;"	E	table:country
+code2	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    code2 character(2) NOT NULL,$/;"	E	table:country
+continent	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    continent text NOT NULL,$/;"	E	table:country
+country	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^CREATE TABLE country ($/;"	t
+countrycode	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    countrycode character(3) NOT NULL,$/;"	E	table:city
+countrycode	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    countrycode character(3) NOT NULL,$/;"	E	table:countrylanguage
+countrylanguage	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^CREATE TABLE countrylanguage ($/;"	t
+district	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    district text NOT NULL,$/;"	E	table:city
+element	sql-permutation-example.sql	/^    element TEXT$/;"	E	table:letters
+gnp	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    gnp numeric(10,2),$/;"	E	table:country
+gnpold	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    gnpold numeric(10,2),$/;"	E	table:country
+governmentform	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    governmentform text NOT NULL,$/;"	E	table:country
+headofstate	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    headofstate text,$/;"	E	table:country
+id	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    id integer NOT NULL,$/;"	E	table:city
+id	sql-permutation-example.sql	/^    id NUMBER, $/;"	E	table:letters
+indepyear	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    indepyear smallint,$/;"	E	table:country
+isofficial	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    isofficial boolean NOT NULL,$/;"	E	table:countrylanguage
+language	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    "language" text NOT NULL,$/;"	E	table:countrylanguage
+letters	sql-permutation-example.sql	/^CREATE TABLE letters($/;"	t
+lifeexpectancy	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    lifeexpectancy real,$/;"	E	table:country
+localname	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    localname text NOT NULL,$/;"	E	table:country
+name	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    name text NOT NULL,$/;"	E	table:city
+name	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    name text NOT NULL,$/;"	E	table:country
+percentage	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    percentage real NOT NULL$/;"	E	table:countrylanguage
+population	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    population integer NOT NULL$/;"	E	table:city
+population	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    population integer NOT NULL,$/;"	E	table:country
+region	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    region text NOT NULL,$/;"	E	table:country
+surfacearea	postgres-dbsamples-world/dbsamples-0.1/world/world.sql	/^    surfacearea real NOT NULL,$/;"	E	table:country

@@ -1,0 +1,38 @@
+-- VERSION_4
+-- START DISKCACHE
+E:\Programming Code\Pyhton\agriculturalInformationSystem\.metadata\.plugins\org.eclipse.core.resources\.projects\agriculturalInformationSystem\com.python.pydev.analysis\v2_indexcache
+agriculturalInformationSystem.__init__|1407868830504|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\agriculturalInformationSystem\__init__.py
+agriculturalInformationSystem.settings|1407868830625|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\agriculturalInformationSystem\settings.py
+agriculturalInformationSystem.wsgi|1407868830501|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\agriculturalInformationSystem\wsgi.py
+agriculturalInformationSystem.models|1407915262850|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\agriculturalInformationSystem\models.py
+manage|1407868830475|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\manage.py
+agriculturalInformationSystem.urls|1407868830500|E:\Programming Code\Pyhton\agriculturalInformationSystem\agriculturalInformationSystem\src\agriculturalInformationSystem\urls.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=agriculturalInformationSystem.settings
+2=agriculturalInformationSystem.wsgi
+3=agriculturalInformationSystem.urls
+-- END DICTIONARY
+-- START TREE 1
+16
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE_CLASSES!11@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATE_DEBUG!11@
+tim|1|TIME_ZONE!11@
+url|1|urlpatterns!27@
+use|3|USE_I18N!11@USE_L10N!11@USE_TZ!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,142 @@
+[Sokoban YASC Skin Script]
+SkinType=SokoStation4 (2019)
+FileType=INI
+FileFilter=INI-files (*.ini)|*.ini
+
+====================
+SokoStation4 (2019)
+====================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={mapping.sokoban1}
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={mapping.sokoban2}
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={mapping.box1}
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={mapping.box2}
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={mapping.target}
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={mapping.wall}
+Mask image using background color=no
+Antialiasing=High quality
+
+if {config.walls}
+FileName={mapping.w0000}
+wall={Rect 0,0,0,0}
+FileName={mapping.w0100}
+wall-u={Rect 0,0,0,0}
+FileName={mapping.w0010}
+wall-r={Rect 0,0,0,0}
+FileName={mapping.w0001}
+wall-d={Rect 0,0,0,0}
+FileName={mapping.w1000}
+wall-l={Rect 0,0,0,0}
+FileName={mapping.w0110}
+wall-u-r={Rect 0,0,0,0}
+FileName={mapping.w0101}
+wall-u-d={Rect 0,0,0,0}
+FileName={mapping.w1100}
+wall-u-l={Rect 0,0,0,0}
+FileName={mapping.w0011}
+wall-r-d={Rect 0,0,0,0}
+FileName={mapping.w1010}
+wall-r-l={Rect 0,0,0,0}
+FileName={mapping.w1001}
+wall-d-l={Rect 0,0,0,0}
+FileName={mapping.w0111}
+wall-u-r-d={Rect 0,0,0,0}
+FileName={mapping.w1110}
+wall-u-r-l={Rect 0,0,0,0}
+FileName={mapping.w1101}
+wall-u-d-l={Rect 0,0,0,0}
+FileName={mapping.w1011}
+wall-r-d-l={Rect 0,0,0,0}
+FileName={mapping.w1111}
+wall-u-r-d-l={Rect 0,0,0,0}
+if {config.corners}
+FileName={mapping.corner}
+wall-cap={Rect 0,0,0,0}
+endif
+endif
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={mapping.empty}
+Mask image using background color=no
+Antialiasing=High quality
+
+perform {filename.foldershortname}
+
+end -- script
+
+===============
+[SokoStation2]
+[SokoStation3]
+===============
+
+[Graphics - Board - Figures - Wall - Image]
+(mask the wall when the floor is hidden; see "Visible=no" below)
+Mask image using background color=yes
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=2
+Bottom=2
+
+[Graphics - Board - Figures - Floor]
+Visible=no
+end
+
+===============
+[SokoStation4]
+===============
+
+[Graphics - Board - Figures - Player - Image]
+Background color=004000
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color=400040
+
+[Graphics - Board - Figures - Floor]
+Visible=no
+end

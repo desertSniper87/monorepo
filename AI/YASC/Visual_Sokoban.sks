@@ -1,0 +1,285 @@
+[Sokoban YASC Skin Script]
+SkinType=Visual Sokoban (2019)
+FileType=INI
+FileFilter=Visual Sokoban  (*vsk)|*.vsk
+Separator=" "
+UseBackground=no
+
+======================
+Visual Sokoban (2019)
+======================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={blocks.@mover_up}
+Player-u={Rect 0,0,0,0}
+FileName={blocks.@mover_right}
+Player-r={Rect 0,0,0,0}
+FileName={blocks.@mover_down}
+Player-d={Rect 0,0,0,0}
+FileName={blocks.@mover_left}
+Player-l={Rect 0,0,0,0}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player - Highlight animation - Image]
+FileName={blocks.@mover_up}
+Player-u={Rect 0,0,0,0}
+FileName={blocks.@mover_right}
+Player-r={Rect 0,0,0,0}
+FileName={blocks.@mover_down}
+Player-d={Rect 0,0,0,0}
+FileName={blocks.@mover_left}
+Player-l={Rect 0,0,0,0}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={blocks.@mover_store_up}
+Player-u={Rect 0,0,0,0}
+FileName={blocks.@mover_store_right}
+Player-r={Rect 0,0,0,0}
+FileName={blocks.@mover_store_down}
+Player-d={Rect 0,0,0,0}
+FileName={blocks.@mover_store_left}
+Player-l={Rect 0,0,0,0}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player on goal square - Highlight animation - Image]
+FileName={blocks.@mover_store_up}
+Player-u={Rect 0,0,0,0}
+FileName={blocks.@mover_store_right}
+Player-r={Rect 0,0,0,0}
+FileName={blocks.@mover_store_down}
+Player-d={Rect 0,0,0,0}
+FileName={blocks.@mover_store_left}
+Player-l={Rect 0,0,0,0}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={blocks.@object}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+if {header.@author}  =  ©2000 XSokoban Team
+
+Background color tolerance (%)=4
+
+endif
+
+[Graphics - Board - Figures - Box - Highlight animation - Image]
+FileName={blocks.@object}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+if {header.@author}  =  ©2000 XSokoban Team
+
+Background color tolerance (%)=4
+
+endif
+
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={blocks.@object_store}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Box on goal square - Highlight animation - Image]
+FileName={blocks.@object_store}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={blocks.@store}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={blocks.@wall}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+FileName={walls.@wall_1}
+wall={Rect 0,0,0,0}
+FileName={walls.@wall_14}
+wall-u={Rect 0,0,0,0}
+FileName={walls.@wall_13}
+wall-r={Rect 0,0,0,0}
+FileName={walls.@wall_2}
+wall-d={Rect 0,0,0,0}
+FileName={walls.@wall_11}
+wall-l={Rect 0,0,0,0}
+FileName={walls.@wall_45}
+wall-u-r={Rect 0,0,0,0}
+FileName={walls.@wall_15}
+wall-u-d={Rect 0,0,0,0}
+FileName={walls.@wall_39}
+wall-u-l={Rect 0,0,0,0}
+FileName={walls.@wall_9}
+wall-r-d={Rect 0,0,0,0}
+FileName={walls.@wall_12}
+wall-r-l={Rect 0,0,0,0}
+FileName={walls.@wall_3}
+wall-d-l={Rect 0,0,0,0}
+FileName={walls.@wall_35}
+wall-u-r-d={Rect 0,0,0,0}
+FileName={walls.@wall_40}
+wall-u-r-l={Rect 0,0,0,0}
+FileName={walls.@wall_16}
+wall-u-d-l={Rect 0,0,0,0}
+FileName={walls.@wall_5}
+wall-r-d-l={Rect 0,0,0,0}
+FileName={walls.@wall_18}
+wall-u-r-d-l={Rect 0,0,0,0}
+FileName={walls.@wall_26}
+wall-cap-ul-ur={Rect 0,0,0,0}
+FileName={walls.@wall_20}
+wall-cap-dl-dr={Rect 0,0,0,0}
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={blocks.@ground}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+
+  if {back.@tile}
+
+[Graphics - Background - Image]
+Filename={back.@tile}
+View=Tile
+
+  else
+
+    if {back.@picture}
+
+[Graphics - Background - Image]
+Filename={back.@picture}
+View=Fill
+
+    endif -- picture
+
+  endif -- tile
+
+endif -- use background
+
+perform {header.@name}
+
+end  -- script
+
+===========================
+[Björn Källmark's Sokoban]
+===========================
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=10
+Top=10
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+
+end
+
+=========
+[Facets]
+=========
+
+[Graphics - Board - Figures - Wall - Image]
+Mask image using background color=Yes
+Background color=809DC6
+
+end
+
+=======================
+[Fred the Dung Beetle]
+=======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+[Graphics - Board - Figures - Player on goal square - Highlight animation - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+end
+
+====================
+[Invisible Sokoban]
+====================
+
+[Graphics - Board - Figures - Wall - Image]
+Mask image using background color=Yes
+Background color=809DC6
+
+end
+
+============
+[Moonlight]
+============
+
+[Graphics - Board - Figures - Wall - Image]
+Mask image using background color=Yes
+Background color=4B464D
+
+end
+
+==========
+[Pac-Ban]
+==========
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=1
+Top=1
+Right=5
+Bottom=5
+
+end
+
+

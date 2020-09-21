@@ -1,0 +1,16 @@
+<script charset="utf-8">
+  
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+var sites = [
+  'https://www.rescuetime.com/dashboard',
+  'https://weboas.is/',
+  'https://wakatime.com/dashboard',
+  'https://de.wikipedia.org/wiki/Special:Random'
+];
+
+location.href = sites[getRandomInt(sites.length)];
+</script>
+

@@ -1,0 +1,141 @@
+XSokoban 3.3c
+-------------
+
+This distribution
+contains all the files to compile and run the game,
+the original 50 sokoban screen files, 40 additional screen files
+gleaned from various public domain versions of sokoban, and a manual
+page that explains how the game works.
+
+
+    Installation
+    Credits
+    Fixes, Bug Reports, and Modifications
+    Redistribution
+    Play Safely!
+    NO WARRANTY!
+
+
+Installation
+
+
+    Edit the header file config.h to define the
+    appropriate paths and options for your system.  These defines
+    should be checked carefully to make sure they are correct. 
+
+
+	
+	You can compile xsokoban in either WWW mode or local mode.
+	Where it stores scores depends on the mode. The mode is
+	controlled by the WWW option; see "config.h" for
+	more details.
+
+    
+	If compiling in WWW mode, make sure you change the variable
+	HERE to refer to your location! 
+
+
+Do one of the following (A,B, or C) to produce a Makefile:
+
+  
+      A. (Easy) Run the script "configure" to produce the include file
+	 "config_local.h" and a Makefile. By default, the gnu C compiler
+	 is used to build; if you want to use "cc", do
+
+	    configure --with-CC=cc
+
+	 instead.
+
+ 
+      B. OR: Edit "config_local.h" by hand, and use "xmkmf" to
+        produce a Makefile from the Imakefile provided.
+	
+  
+      C. OR: Edit "config_local.h" and "Makefile" by hand to set the
+        compiler and compiler flags correctly and select the right
+	libraries to compile with. 
+    
+
+	If you want to have the game run in color, you will need the
+	XPM library. In this case, make sure that if you used options B
+	or C, the variable EXTRA_INCLUDES points to the directory
+	containing "xpm.h", and that EXTRA_LIBRARIES references the
+	directory containing the library "libXpm.a". 
+
+	Last time I checked, XPM could be obtained by FTP from
+	export.lcs.mit.edu:contrib/libraries. Make sure your version of
+	XPM is up to date. The current pixmaps definitely work with
+	versions 3.2g and 3.3, but not with version 2. They should work
+	with version 3.4, too.
+
+	If the xsokoban window doesn't fit on your screen, the default
+	pixmaps may be too large. This is a problem if the vertical
+	height is less than about 800 pixels. In this case, try using
+	the pixmaps in bitmaps/36/ by changing the variable "BITPATH"
+	to point there.
+
+
+    Compile by typing "make".  If something goes wrong, and you can track
+    down an error, send me a bug report (including what changes you needed
+    to make, and I will see about fixing it for later distributions). 
+
+    Some systems have non-ANSI X header files, and you will need to
+    turn off function prototypes in those headers, or get better header
+    files.  You will know this is happening if reams of errors start
+    popping up in "Xlib.h" 
+
+
+    Play the game by typing "xsokoban". If it complains about not being
+    able to read the scorefile, create one with "xsokoban -c". If this
+    doesn't work, it is probably because you need to create the score
+    directory. See config.h.
+
+
+    Set ROOTDIR to the desired final location for the xsokoban
+    data files, and rebuild.  Install the game by typing "make install" or by
+    manually copying the executable. Install the directories screens/,
+    scores/, bitmaps/, and saves/ under ROOTDIR.
+
+
+
+Credits
+
+    Unknown Hacker - Original curses(1) implementation.
+    Joseph L. Traub - X windows interface.
+    Kevin Solie - simultaneously developed X implementation (merged in).
+    Mark Linderman, Christos Zoulas - Mouse code (added to Solie's version).
+    Andrew Myers - Improved mouse UI, score ranking, WWW and color support
+
+Fixes, Bug Reports, and Modifications
+
+    If you make any changes to this program, fix any bugs, add any neat
+    features, or whatever, please send mail to andru@lcs.mit.edu
+    so that I can add them in to the newest release.
+
+Redistribution
+
+    XSokoban is distributed in the public domain and may be freely
+    redistributed. The standard anon FTP distribution site is
+
+    ftp.pmg.lcs.mit.edu:pub/xsokoban.
+
+    The WWW xsokoban home page is 
+
+    http://xsokoban.lcs.mit.edu/xsokoban.html
+
+Play Safely!
+    XSokoban is an addictive and time-consuming game. Like any other
+    computer game, if played for long periods of time, xsokoban can put
+    stress on the tendons and nerves in your arm, causing injury. The
+    injury may not cause pain until it is advanced. Take breaks. Make
+    sure your computer setup is ergonomic. Use the user interface
+    intelligently.
+
+NO WARRANTY!
+
+    As free software, XSokoban comes with absolutely no warranty. 
+    In no event will Andrew Myers or any other party be liable to 
+    you for damages.
+
+Andrew Myers
+andru@lcs.mit.edu

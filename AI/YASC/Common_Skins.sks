@@ -1,0 +1,853 @@
+[Sokoban YASC Skin Script]
+SkinType=Common Skins (2019)
+FileType=Image
+FileFilter=
+Columns=4..
+Rows=1..
+UseBackground=No
+
+====================
+Common Skins (2019)
+====================
+
+-- Add extra script lines from the image, if any. (They are not visually readable.)
+GetImageText {Tile 4, 4} "[" {Filename.Shortname} "]"
+
+if {Rows} = 6
+   perform Common_Skins
+else
+if {Rows} = 8
+   perform Common_Skins
+else
+if {Rows} = 10
+   perform Common_Skins
+else
+if {Rows} = 12
+   perform Common_Skins
+else
+if {Rows} = 1
+   perform Simple_1_Row_Skin
+else
+if {Rows} = 2
+   perform Common_Skins_2_or_4_Row_Skin
+else
+if {Rows} = 4
+   perform Common_Skins_2_or_4_Row_Skin
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {Self.{Filename.Shortname}.Background color tolerance (%)} = {}
+  (do nothing)
+else
+perform Background_Color_Tolerance
+endif
+
+if {Self.{Filename.Shortname}.Directional player}
+perform Directional_Player
+endif
+
+-- Handle skin-specific settings, if any.
+perform {Filename.Shortname}
+
+end -- script
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[Common_Skins]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+===========
+Background
+===========
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+[Graphics - Background - Image]
+FileName={FileName}
+Section={Tile 1,1}
+View=Tile
+endif
+
+if {Rows} = 6
+
+=============================================================
+6-row format with directional player images but no animation
+=============================================================
+
+[Control - Move animation]
+Player direction animation (appropriate images required)=yes
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+Player animation enabled=no
+Box animation enabled=no
+
+[Control - Solutions - Animation (appropriate images required)]
+Player animation enabled=no
+Box animation enabled=no
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={FileName}
+Section={Tile 1..4,5}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={FileName}
+Section={Tile 1..4,6}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+else -- {Rows} <> 6
+
+if {Rows} = 12
+
+===========================================================================
+12-row format with animation and directional player images but no wall cap
+===========================================================================
+
+[Control - Move animation]
+Player direction animation (appropriate images required)=yes
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+Player animation enabled=yes
+Box animation enabled=yes
+
+[Control - Solutions - Animation (appropriate images required)]
+Player animation enabled=yes
+Box animation enabled=yes
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={FileName}
+Section={Tile 1..4,-6}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-4}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={FileName}
+Section={Tile 1..4,-5}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-3}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+else -- {Rows} <> 12
+
+==============================
+8-row format or 10-row format
+==============================
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+Player animation enabled=yes
+Box animation enabled=yes
+
+[Control - Solutions - Animation (appropriate images required)]
+Player animation enabled=yes
+Box animation enabled=yes
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={FileName}
+Section={Tile 2,1}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-4}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={FileName}
+Section={Tile 2,2}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-3}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+endif -- {Rows} = 12
+
+endif -- {Rows} = 6
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={FileName}
+Section={Tile 3,1}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Box - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-2}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={FileName}
+Section={Tile 3,2}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Box on goal square - Animation - Image]
+FileName={FileName}
+Section={Tile 1..{Columns},-1}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={FileName}
+Section={Tile 1,2}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={FileName}
+
+-- Section={Tile 1..4,3..6} "old" format
+-- Section={Tile 1..3,3..4} "new" format
+-- Section={Tile 2,4} single-cell wall
+
+if {Rows} = 10
+   if {Self.{FileName.ShortName}.Wall type} = 3x2
+Section={Tile 1..3,3..4}
+   else
+Section={Tile 1..4,3..6}
+   endif
+else
+Section={Tile CommonSkinWall}
+endif
+
+wall={Rect CommonSkinWall}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+-- Read pixel codes in the skin settings cell 
+-- located in the 4th row and the 4th column.
+if {PixelCodes.3.3}
+
+--[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+--if {PixelCodes.Top.1}
+--Left={PixelCodes.Top.0}
+--endif
+--if {PixelCodes.Left.1}
+--Top={PixelCodes.Left.0}  
+--endif
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left={PixelCodes.Bottom.0}
+Top={PixelCodes.Bottom.2}
+Right={PixelCodes.Bottom.1}
+Bottom={PixelCodes.Bottom.3}
+
+endif
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={FileName}
+Section={Tile 1,1}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+
+end -- Common_Skins
+
+=====================
+[Directional_Player]
+=====================
+
+-- 3x2 wall skin with directional player images
+
+[Control - Move animation]
+Player direction animation (appropriate images required)=yes
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+
+if {Rows} = 10
+Player animation enabled=yes
+else
+Player animation enabled=no
+endif
+
+[Control - Solutions - Animation (appropriate images required)]
+if {Rows} = 10
+Player animation enabled=yes
+else
+Player animation enabled=no
+endif
+
+[Graphics - Board - Figures - Player - Image]
+Section={Tile 1..4,5}
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Section={Tile 1..4,6}
+
+end -- Directional_Player
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[Common_Skins_2_or_4_Row_Skin]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-- In contrast to common skins with more rows, 2-row skins are assumed
+-- to have transparent tiles.
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={Filename}
+Section={Tile 2,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={Filename}
+Section={Tile 2,2}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+Section={Tile 3,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+Section={Tile 3,2}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+Section={Tile 1,2}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={Filename}
+if {Rows} = 4
+Section={Tile 1..3,3..4}
+wall={Rect CommonSkinWall}
+Antialiasing=High quality
+Mask image using background color=no
+else
+if {Columns} = 4
+Section={Tile 4,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+else
+if {Columns} = 6
+Section={Tile 4..6,1..2}
+wall={Rect CommonSkinWall}
+Antialiasing=High quality
+endif
+endif
+endif
+Background color tolerance (%)=5
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+Section={Tile 1,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+if {Rows}=4
+Mask image using background color=no
+endif
+Background color tolerance (%)=5
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+Background color tolerance (%)=5
+
+end -- Common_Skins_2_or_4_Row_Skin
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[Simple_Skin_Settings]
+-- Antialiasing=Low quality (image scaling using bilinear interpolation)
+Antialiasing=High quality
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[Simple_1_Row_Skin]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+-- Simple 1-row skins are not formatted as common skins but it's
+-- convenient to support them in the same script. That way, the user
+-- doesn't need to change script.
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={Filename}
+Section={Tile 1,1}
+if {Columns} = 7
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 8
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 6
+Mask image using background color=no
+Antialiasing=High quality
+else
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+endif
+endif
+endif
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={Filename}
+if {Columns} = 7
+Section={Tile 2,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 8
+Section={Tile 2,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 6
+Section={Tile 1,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+Section={Tile 1,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+endif
+endif
+endif
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+if {Columns} = 7
+Section={Tile 3,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 8
+Section={Tile 3,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 6
+Section={Tile 2,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+Section={Tile 2,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+endif
+endif
+endif
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+if {Columns} = 4
+Section={Tile 2,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+else
+if {Columns} = 7
+Section={Tile 4,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 8
+Section={Tile 4,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 6
+Section={Tile 3,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+Section={Tile 3,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+endif
+endif
+endif
+endif
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+if {Columns} = 4
+Section={Tile 3,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+else
+if {Columns} = 7
+Section={Tile 5,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 8
+Section={Tile 5,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+if {Columns} = 6
+Section={Tile 4,1}
+Mask image using background color=no
+Antialiasing=High quality
+else
+Section={Tile 4,1}
+Antialiasing={Self.Simple_Skin_Settings.Antialiasing}
+endif
+endif
+endif
+endif
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={Filename}
+if {Columns} = 4
+Section={Tile 4,1}
+else
+if {Columns} = 5
+Section={Tile 5,1}
+else
+if {Columns} = 8
+Section={Tile 6,1}
+else
+Section={Tile -2,1}
+endif
+endif
+endif
+Antialiasing=High quality
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+if {Columns} = 8
+Section={Tile 7,1}
+else
+Section={Tile -1,1}
+endif
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+if {Columns} = 4
+Visible=no
+else
+if {Columns} = 5
+Visible=no
+else
+Visible=yes
+endif
+endif
+
+end -- Simple_1_Row_Skin
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[Background_Color_Tolerance]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Player - Animation - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Player on goal square - Animaition - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Box - Animation - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Box on goal square - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+[Graphics - Board - Figures - Box on goal square - Animation - Image]
+Background color tolerance (%)={Self.{Filename.Shortname}.Background color tolerance (%)}
+
+end
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Skin-specific settings for some known "foreign" skins not distributed
+together with Sokoban YASC, mostly YSokoban skins.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+=============
+[BK_skin_24]
+=============
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=8
+Top=8
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+
+end
+
+===============
+[BK_skin_24gw]
+===============
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=8
+Top=8
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+
+end
+
+=============================
+[BK-Classic-GreenMetalCombo]
+=============================
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=8
+Top=8
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+
+end
+
+=========
+[Blue20]
+=========
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=0
+Bottom=0
+
+end
+
+==============
+[HeavyMetal2]
+==============
+
+Background color tolerance (%)=2
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=4
+Bottom=4
+
+end
+
+===========
+[Lilliput]
+===========
+
+[Graphics - Board - Figures]
+Maximum zoom factor (%)=150
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=1
+Top=1
+Right=2
+Bottom=2
+
+end
+
+=============
+[Magnetonet]
+=============
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=4
+Bottom=4
+
+end
+
+
+===========
+[Moonstar]
+===========
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=4
+Bottom=4
+
+end
+
+=========
+[Skin36]
+=========
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=5
+Top=5
+Right=5
+Bottom=5
+
+end
+
+=============
+[Y-Pacman24]
+=============
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=1
+Top=1
+Right=5
+Bottom=5
+
+end

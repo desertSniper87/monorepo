@@ -1,0 +1,4 @@
+#cryptography
+django~=2.1
+djangorestframework
+psycopg2

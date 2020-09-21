@@ -1,0 +1,840 @@
+
+identifier_list -> ID
+output
+
+declarations -> e
+
+identifier_list -> ID
+i
+
+identifier_list -> identifier_list, ID
+j
+
+standard_type -> INTEGER
+
+type -> standard_type
+
+declarations -> declarations VAR identifier_list : type ;
+
+subprogram_declarations -> e
+
+identifier_list -> ID
+a
+
+standard_type -> REAL
+
+type -> ARRAY [ NUM .. NUM ] OF standard_type
+1 10
+
+parameter_list -> identifier_list : type
+
+arguments -> ( parameter_list )
+
+subprogram_head -> PROCEDURE ID arguments ;
+hello
+
+declarations -> e
+
+factor -> ID
+a
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression
+
+procedure_statement -> ID ( expression_list )
+print
+
+statement -> procedure_statement
+
+statement_list -> statement
+
+optional_statements -> statement_list
+
+compound_statement -> BEGIN optional_statements END
+
+subprogram_declaration -> subprogram_head declarations compound_statement
+
+subprogram_declarations -> subprogram_declarations subprogram_declaration ;
+
+identifier_list -> ID
+b
+
+identifier_list -> identifier_list, ID
+c
+
+standard_type -> REAL
+
+type -> standard_type
+
+parameter_list -> identifier_list : type
+
+arguments -> ( parameter_list )
+
+standard_type -> REAL
+
+subprogram_head -> FUNCTION ID arguments : standard_type ;
+foo
+
+declarations -> e
+
+factor -> ID
+b
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression
+
+factor -> ID
+c
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression_list, expressions
+
+procedure_statement -> ID ( expression_list )
+print
+
+statement -> procedure_statement
+
+statement_list -> statement
+
+optional_statements -> statement_list
+
+compound_statement -> BEGIN optional_statements END
+
+subprogram_declaration -> subprogram_head declarations compound_statement
+
+subprogram_declarations -> subprogram_declarations subprogram_declaration ;
+
+variable -> ID
+i
+
+factor -> NUM
+3
+
+term -> factor
+
+simple_expression -> term
+
+factor -> NUM
+4
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, i := 7
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 0.000000> 
+[117]--> < ID, hello, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement
+
+variable -> ID
+j
+
+factor -> NUM
+5
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, j := 5
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 5, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[117]--> < ID, hello, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+x
+
+factor -> NUM
+3.5E-5
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, x := 0.000035
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 0.000035> 
+[151]--> < ID, output, 0.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+y
+
+factor -> NUM
+4E3
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, y := 4000
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 0.000035> 
+[121]--> < ID, y, 4000.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+z
+
+factor -> ID
+x
+
+term -> factor
+
+simple_expression -> term
+
+factor -> ID
+y
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, z := 4000.000035
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 0.000035> 
+[121]--> < ID, y, 4000.000000> 
+[122]--> < ID, z, 4000.000035> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+x
+
+factor -> ID
+i
+
+term -> factor
+
+factor -> NUM
+0
+
+term -> term MULOP factor
+
+Attempt to divide by zero!
+
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, x := 0
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 0.000000> 
+[121]--> < ID, y, 4000.000000> 
+[122]--> < ID, z, 4000.000035> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+r
+
+factor -> NUM
+3
+
+term -> factor
+
+factor -> NUM
+2
+
+term -> term MULOP factor
+
+Attempted mod operation on real numbers!
+
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, r := 1
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 0.000000> 
+[121]--> < ID, y, 4000.000000> 
+[122]--> < ID, z, 4000.000035> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+x
+
+factor -> ID
+i
+
+term -> factor
+
+simple_expression -> term
+
+factor -> ID
+j
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+factor -> NUM
+8
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, x := 10
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[45]--> < ADDOP, -, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[56]--> < NUM, 8, 8.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 10.000000> 
+[121]--> < ID, y, 4000.000000> 
+[122]--> < ID, z, 4000.000035> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+z
+
+factor -> NUM
+5
+
+term -> factor
+
+factor -> ID
+j
+
+term -> term MULOP factor
+
+simple_expression -> term
+
+factor -> ID
+i
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, z := 32
+
+Symbol Table:
+
+[25]--> < NUM, 10, 10.000000> 
+[42]--> < MULOP, *, 0.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[45]--> < ADDOP, -, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[56]--> < NUM, 8, 8.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 10.000000> 
+[121]--> < ID, y, 4000.000000> 
+[122]--> < ID, z, 32.000000> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+variable -> ID
+y
+
+factor -> NUM
+13
+
+term -> factor
+
+factor -> NUM
+2.5
+
+term -> term MULOP factor
+
+simple_expression -> term
+
+factor -> ID
+x
+
+term -> factor
+
+simple_expression -> simple_expression ADDOP term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, y := 15.200000
+
+Symbol Table:
+
+[13]--> < NUM, 2.5, 2.500000> 
+[25]--> < NUM, 10, 10.000000> 
+[28]--> < NUM, 13, 13.000000> 
+[42]--> < MULOP, *, 0.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[45]--> < ADDOP, -, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[56]--> < NUM, 8, 8.000000> 
+[57]--> < ID, foo, 0.000000> 
+[82]--> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000> 
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000> 
+[120]--> < ID, x, 10.000000> 
+[121]--> < ID, y, 15.200000> 
+[122]--> < ID, z, 32.000000> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+
+statement_list -> statement_list ; statement
+
+factor -> ID
+i
+
+term -> factor
+
+simple_expression -> term
+
+factor -> NUM
+3
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression RELOP simple_expression
+
+factor -> ID
+j
+
+term -> factor
+
+simple_expression -> term
+
+factor -> NUM
+3
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression RELOP simple_expression
+
+factor -> ID
+j
+
+term -> factor
+
+simple_expression -> term
+
+factor -> NUM
+0
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression RELOP simple_expression
+
+factor -> ID
+y
+
+term -> factor
+
+simple_expression -> term
+
+factor -> NUM
+0
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression RELOP simple_expression
+
+factor -> ID
+i4
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression
+
+factor -> ID
+j4
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression_list, expressions
+
+factor -> ID
+i
+
+term -> factor
+
+factor -> ID
+j
+
+term -> term MULOP factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+expression_list -> expression_list, expressions
+
+procedure_statement -> ID ( expression_list )
+writeln
+
+statement -> procedure_statement
+
+variable -> ID
+x
+
+factor -> NUM
+29.05
+
+term -> factor
+
+simple_expression -> term
+
+expression -> simple_expression
+
+statement -> variable := expression 
+
+Assigned Value, x := 29.050000
+
+Symbol Table:
+
+[8]--> < RELOP, <>, 0.000000> 
+[13]--> < NUM, 2.5, 2.500000> 
+[25]--> < NUM, 10, 10.000000> 
+[28]--> < NUM, 13, 13.000000>
+[41]--> < ID, j4, 0.000000> 
+[42]--> < MULOP, *, 0.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[45]--> < ADDOP, -, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[56]--> < NUM, 8, 8.000000> 
+[57]--> < ID, foo, 0.000000> 
+[60]--> < RELOP, <, 0.000000> 
+[61]--> < RELOP, =, 0.000000> 
+[62]--> < RELOP, >, 0.000000> 
+[63]--> < ID, i4, 0.000000> 
+[82]--> < writeln, ID, 0.000000> --> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000>
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000>
+[120]--> < ID, x, 29.050000> 
+[121]--> < ID, y, 15.200000> 
+[122]--> < ID, z, 32.000000> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+[173]--> < NUM, 29.05, 29.050000> 
+
+statement -> IF expression THEN statement ELSE statement
+
+statement -> IF expression THEN statement
+
+statement -> WHILE expression DO statement
+
+statement -> WHILE expression DO statement
+
+statement_list -> statement_list ; statement
+
+optional_statements -> statement_list
+
+compound_statement -> BEGIN optional_statements END
+
+program -> PROGRAM ID ( identifier_list ) ;
+           declarations
+           subprogram_declarations
+           compound_statement
+modexample
+
+Symbol Table:
+
+[8]--> < RELOP, <>, 0.000000> 
+[13]--> < NUM, 2.5, 2.500000> 
+[25]--> < NUM, 10, 10.000000> 
+[28]--> < NUM, 13, 13.000000>
+[41]--> < ID, j4, 0.000000> 
+[42]--> < MULOP, *, 0.000000> 
+[43]--> < ADDOP, +, 0.000000> 
+[45]--> < ADDOP, -, 0.000000> 
+[47]--> < MULOP, /, 0.000000> 
+[48]--> < NUM, 0, 0.000000> 
+[49]--> < NUM, 1, 1.000000> 
+[50]--> < NUM, 2, 2.000000> 
+[51]--> < NUM, 3, 3.000000> 
+[52]--> < NUM, 4, 4.000000> 
+[53]--> < NUM, 3.5E-5, 0.000035> --> < 5, NUM, 5.000000> 
+[56]--> < NUM, 8, 8.000000> 
+[57]--> < ID, foo, 0.000000> 
+[60]--> < RELOP, <, 0.000000> 
+[61]--> < RELOP, =, 0.000000> 
+[62]--> < RELOP, >, 0.000000> 
+[63]--> < ID, i4, 0.000000> 
+[82]--> < writeln, ID, 0.000000> --> < ID, print, 0.000000> 
+[97]--> < ID, a, 0.000000> 
+[98]--> < ID, b, 0.000000> 
+[99]--> < ID, c, 0.000000>
+[105]--> < ID, i, 7.000000> 
+[106]--> < ID, j, 5.000000> 
+[114]--> < ID, r, 1.000000> 
+[117]--> < ID, hello, 0.000000>
+[120]--> < ID, x, 29.050000> 
+[121]--> < ID, y, 15.200000> 
+[122]--> < ID, z, 32.000000> 
+[123]--> < MULOP, mod, 0.000000> 
+[151]--> < ID, output, 0.000000> 
+[160]--> < NUM, 4E3, 4000.000000> 
+[164]--> < ID, modexample, 0.000000> 
+[173]--> < NUM, 29.05, 29.050000> 

@@ -1,0 +1,73 @@
+body {
+    font: normal .90em 'Droid Sans', arial, sans-serif;
+	letter-spacing: 0.035em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 1.25em;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+}
+
+#header h1 a { 
+  font: normal 150% 'News Cycle', arial, sans-serif;
+}
+
+#header h2 { 
+  font: normal 120% 'News Cycle', arial, sans-serif;
+}
+
+#header {
+    padding: 2em 0em 0em 0em;
+	margin-left: 0em;
+}
+
+.wrapper {
+	margin-left: -3em;
+	padding: 0.5em 0.5em 1.5em 1em;
+}
+
+/* Banner */
+
+#banner {
+	margin: 2em 0 2em 0;
+}
+
+#banner a img{
+	width: 100%;
+	display: block;
+}
+
+.container {
+	padding: 0 2em 0 2em;
+}
+
+.button {
+	font-size: 1.25em;
+	padding: 0.75em 2em 0.75em 2em;
+}
+
+#main-nav ul { 
+	margin-top: 3.2em;
+}
+
+#main-nav ul li { 
+    font: normal 85% 'News Cycle', arial;	
+	display: inline-block; 
+	margin: 0 0.5em 0 0.5em; 
+	border-radius: 0.5em; 
+}
+
+footer {
+    padding: 3em 0 2em 0;
+}
+
+.form_settings span {
+	float: left; 
+	width: 15em; 
+	text-align: left;
+}

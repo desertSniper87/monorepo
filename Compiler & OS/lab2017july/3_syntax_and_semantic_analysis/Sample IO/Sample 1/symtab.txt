@@ -1,0 +1,47 @@
+Line No 7
+
+ ScopeTable # 2
+ 4 --> < a , ID , -1e+007>
+ 5 --> < b , ID , -1e+007>
+
+ ScopeTable # 1
+ 4 --> < a , ID , -1e+007>
+ 14 --> < foo , ID > 
+ 19 --> < var , ID > 
+ 27 --> < x , ID , -1e+007>
+ 28 --> < y , ID , -1e+007>
+ 29 --> < z , ID , -1e+007>
+
+
+Line No 12
+
+ ScopeTable # 3
+
+ ScopeTable # 1
+ 4 --> < a , ID , -1e+007>
+ 14 --> < foo , ID > 
+ 19 --> < var , ID > 
+ 27 --> < x , ID , 2>
+ 28 --> < y , ID , -3>
+ 29 --> < z , ID , -1e+007>
+
+
+Line No 22
+
+ ScopeTable # 4
+ 4 --> < a , ID , { 1, 5 }>
+ 6 --> < c , ID , -1e+007>
+ 7 --> < d , ID , 7>
+ 12 --> < i , ID , 6>
+ 13 --> < j , ID , 1>
+
+ ScopeTable # 1
+ 4 --> < a , ID , -1e+007>
+ 14 --> < foo , ID > 
+ 18 --> < main , ID > 
+ 19 --> < var , ID > 
+ 27 --> < x , ID , 2>
+ 28 --> < y , ID , -3>
+ 29 --> < z , ID , -1e+007>
+
+

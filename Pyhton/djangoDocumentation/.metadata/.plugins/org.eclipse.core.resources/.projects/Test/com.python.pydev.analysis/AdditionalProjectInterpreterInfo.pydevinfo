@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE
+E:\Programming Code\Pyhton\djangoDocumentation\.metadata\.plugins\org.eclipse.core.resources\.projects\Test\com.python.pydev.analysis\v2_indexcache
+helloWorld|1407777758818|E:\Programming Code\Pyhton\djangoDocumentation\Test\helloWorld.py
+test2|1407829019824|E:\Programming Code\Pyhton\djangoDocumentation\Test\test2.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=Reporter.Article
+3=Reporter
+1=test2
+-- END DICTIONARY
+-- START TREE 1
+1
+rep|1|Reporter!9@
+-- END TREE
+-- START TREE 2
+6
+__u|2|__unicode__!2&10@__unicode__!3&10@
+art|1|Article!3&9@
+con|1|content!2&11@
+ful|1|full_name!3&11@
+hea|1|headline!2&11@
+pub|1|pub_date!2&11@
+-- END TREE

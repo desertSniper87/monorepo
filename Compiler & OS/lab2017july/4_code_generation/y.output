@@ -1,0 +1,1548 @@
+Terminals unused in grammar
+
+   CHAR
+
+
+State 27 conflicts: 1 reduce/reduce
+State 109 conflicts: 1 shift/reduce
+
+
+Grammar
+
+    0 $accept: start $end
+
+    1 start: program
+
+    2 program: program unit
+    3        | unit
+
+    4 unit: var_declaration
+    5     | func_declaration
+    6     | func_definition
+
+    7 func_declaration: type_specifier ID LPAREN parameter_list RPAREN SEMICOLON
+
+    8 func_definition: type_specifier ID LPAREN parameter_list RPAREN compound_statement
+
+    9 parameter_list: parameter_list COMMA type_specifier ID
+   10               | parameter_list COMMA type_specifier
+   11               | type_specifier ID
+   12               | unit
+   13               | type_specifier
+   14               | %empty
+
+   15 compound_statement: LCURL statements RCURL
+   16                   | LCURL RCURL
+
+   17 var_declaration: type_specifier declaration_list SEMICOLON
+
+   18 type_specifier: INT
+   19               | FLOAT
+   20               | VOID
+
+   21 declaration_list: declaration_list COMMA ID
+   22                 | declaration_list COMMA ID LSQBRAC CONST_INT RSQBRAC
+   23                 | ID
+   24                 | ID LSQBRAC CONST_INT RSQBRAC
+
+   25 statements: statement
+   26           | statements statement
+
+   27 statement: var_declaration
+   28          | expression_statement
+   29          | compound_statement
+   30          | FOR LPAREN expression_statement expression_statement expression RPAREN statement
+   31          | IF LPAREN expression RPAREN statement
+   32          | IF LPAREN expression RPAREN statement ELSE statement
+   33          | WHILE LPAREN expression RPAREN statement
+   34          | PRINTLN LPAREN ID RPAREN SEMICOLON
+   35          | RETURN expression SEMICOLON
+
+   36 expression_statement: SEMICOLON
+   37                     | expression SEMICOLON
+
+   38 variable: ID
+   39         | ID LSQBRAC expression RSQBRAC
+
+   40 expression: logic_expression
+   41           | variable ASSIGNOP logic_expression
+
+   42 logic_expression: rel_expression
+   43                 | rel_expression LOGICOP rel_expression
+
+   44 rel_expression: simple_expression
+   45               | simple_expression RELOP simple_expression
+
+   46 simple_expression: term
+   47                  | simple_expression ADDOP term
+
+   48 term: unary_expression
+   49     | term MULOP unary_expression
+
+   50 unary_expression: ADDOP unary_expression
+   51                 | NOT unary_expression
+   52                 | factor
+
+   53 factor: variable
+   54       | ID LPAREN argument_list RPAREN
+   55       | LPAREN expression RPAREN
+   56       | CONST_INT
+   57       | CONST_FLOAT
+   58       | CONST_CHAR
+   59       | variable INCOP
+   60       | variable DECOP
+
+   61 argument_list: argument_list COMMA logic_expression
+   62              | logic_expression
+   63              | %empty
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+SEMICOLON (258) 7 17 34 35 36 37
+INT (259) 18
+FLOAT (260) 19
+CHAR (261)
+COMMA (262) 9 10 21 22 61
+LCURL (263) 15 16
+RCURL (264) 15 16
+ID (265) 7 8 9 11 21 22 23 24 34 38 39 54
+LSQBRAC (266) 22 24 39
+RSQBRAC (267) 22 24 39
+FOR (268) 30
+LPAREN (269) 7 8 30 31 32 33 34 54 55
+RPAREN (270) 7 8 30 31 32 33 34 54 55
+IF (271) 31 32
+ELSE (272) 32
+WHILE (273) 33
+PRINTLN (274) 34
+RETURN (275) 35
+ASSIGNOP (276) 41
+LOGICOP (277) 43
+RELOP (278) 45
+ADDOP (279) 47 50
+MULOP (280) 49
+NOT (281) 51
+INCOP (282) 59
+DECOP (283) 60
+CONST_INT (284) 22 24 56
+CONST_FLOAT (285) 57
+CONST_CHAR (286) 58
+VOID (287) 20
+
+
+Nonterminals, with rules where they appear
+
+$accept (33)
+    on left: 0
+start (34)
+    on left: 1, on right: 0
+program (35)
+    on left: 2 3, on right: 1 2
+unit (36)
+    on left: 4 5 6, on right: 2 3 12
+func_declaration (37)
+    on left: 7, on right: 5
+func_definition (38)
+    on left: 8, on right: 6
+parameter_list (39)
+    on left: 9 10 11 12 13 14, on right: 7 8 9 10
+compound_statement (40)
+    on left: 15 16, on right: 8 29
+var_declaration (41)
+    on left: 17, on right: 4 27
+type_specifier (42)
+    on left: 18 19 20, on right: 7 8 9 10 11 13 17
+declaration_list (43)
+    on left: 21 22 23 24, on right: 17 21 22
+statements (44)
+    on left: 25 26, on right: 15 26
+statement (45)
+    on left: 27 28 29 30 31 32 33 34 35, on right: 25 26 30 31 32 33
+expression_statement (46)
+    on left: 36 37, on right: 28 30
+variable (47)
+    on left: 38 39, on right: 41 53 59 60
+expression (48)
+    on left: 40 41, on right: 30 31 32 33 35 37 39 55
+logic_expression (49)
+    on left: 42 43, on right: 40 41 61 62
+rel_expression (50)
+    on left: 44 45, on right: 42 43
+simple_expression (51)
+    on left: 46 47, on right: 44 45 47
+term (52)
+    on left: 48 49, on right: 46 47 49
+unary_expression (53)
+    on left: 50 51 52, on right: 48 49 50 51
+factor (54)
+    on left: 53 54 55 56 57 58 59 60, on right: 52
+argument_list (55)
+    on left: 61 62 63, on right: 54 61
+
+
+State 0
+
+    0 $accept: . start $end
+
+    INT    shift, and go to state 1
+    FLOAT  shift, and go to state 2
+    VOID   shift, and go to state 3
+
+    start             go to state 4
+    program           go to state 5
+    unit              go to state 6
+    func_declaration  go to state 7
+    func_definition   go to state 8
+    var_declaration   go to state 9
+    type_specifier    go to state 10
+
+
+State 1
+
+   18 type_specifier: INT .
+
+    $default  reduce using rule 18 (type_specifier)
+
+
+State 2
+
+   19 type_specifier: FLOAT .
+
+    $default  reduce using rule 19 (type_specifier)
+
+
+State 3
+
+   20 type_specifier: VOID .
+
+    $default  reduce using rule 20 (type_specifier)
+
+
+State 4
+
+    0 $accept: start . $end
+
+    $end  shift, and go to state 11
+
+
+State 5
+
+    1 start: program .
+    2 program: program . unit
+
+    INT    shift, and go to state 1
+    FLOAT  shift, and go to state 2
+    VOID   shift, and go to state 3
+
+    $default  reduce using rule 1 (start)
+
+    unit              go to state 12
+    func_declaration  go to state 7
+    func_definition   go to state 8
+    var_declaration   go to state 9
+    type_specifier    go to state 10
+
+
+State 6
+
+    3 program: unit .
+
+    $default  reduce using rule 3 (program)
+
+
+State 7
+
+    5 unit: func_declaration .
+
+    $default  reduce using rule 5 (unit)
+
+
+State 8
+
+    6 unit: func_definition .
+
+    $default  reduce using rule 6 (unit)
+
+
+State 9
+
+    4 unit: var_declaration .
+
+    $default  reduce using rule 4 (unit)
+
+
+State 10
+
+    7 func_declaration: type_specifier . ID LPAREN parameter_list RPAREN SEMICOLON
+    8 func_definition: type_specifier . ID LPAREN parameter_list RPAREN compound_statement
+   17 var_declaration: type_specifier . declaration_list SEMICOLON
+
+    ID  shift, and go to state 13
+
+    declaration_list  go to state 14
+
+
+State 11
+
+    0 $accept: start $end .
+
+    $default  accept
+
+
+State 12
+
+    2 program: program unit .
+
+    $default  reduce using rule 2 (program)
+
+
+State 13
+
+    7 func_declaration: type_specifier ID . LPAREN parameter_list RPAREN SEMICOLON
+    8 func_definition: type_specifier ID . LPAREN parameter_list RPAREN compound_statement
+   23 declaration_list: ID .
+   24                 | ID . LSQBRAC CONST_INT RSQBRAC
+
+    LSQBRAC  shift, and go to state 15
+    LPAREN   shift, and go to state 16
+
+    $default  reduce using rule 23 (declaration_list)
+
+
+State 14
+
+   17 var_declaration: type_specifier declaration_list . SEMICOLON
+   21 declaration_list: declaration_list . COMMA ID
+   22                 | declaration_list . COMMA ID LSQBRAC CONST_INT RSQBRAC
+
+    SEMICOLON  shift, and go to state 17
+    COMMA      shift, and go to state 18
+
+
+State 15
+
+   24 declaration_list: ID LSQBRAC . CONST_INT RSQBRAC
+
+    CONST_INT  shift, and go to state 19
+
+
+State 16
+
+    7 func_declaration: type_specifier ID LPAREN . parameter_list RPAREN SEMICOLON
+    8 func_definition: type_specifier ID LPAREN . parameter_list RPAREN compound_statement
+
+    INT    shift, and go to state 1
+    FLOAT  shift, and go to state 2
+    VOID   shift, and go to state 3
+
+    $default  reduce using rule 14 (parameter_list)
+
+    unit              go to state 20
+    func_declaration  go to state 7
+    func_definition   go to state 8
+    parameter_list    go to state 21
+    var_declaration   go to state 9
+    type_specifier    go to state 22
+
+
+State 17
+
+   17 var_declaration: type_specifier declaration_list SEMICOLON .
+
+    $default  reduce using rule 17 (var_declaration)
+
+
+State 18
+
+   21 declaration_list: declaration_list COMMA . ID
+   22                 | declaration_list COMMA . ID LSQBRAC CONST_INT RSQBRAC
+
+    ID  shift, and go to state 23
+
+
+State 19
+
+   24 declaration_list: ID LSQBRAC CONST_INT . RSQBRAC
+
+    RSQBRAC  shift, and go to state 24
+
+
+State 20
+
+   12 parameter_list: unit .
+
+    $default  reduce using rule 12 (parameter_list)
+
+
+State 21
+
+    7 func_declaration: type_specifier ID LPAREN parameter_list . RPAREN SEMICOLON
+    8 func_definition: type_specifier ID LPAREN parameter_list . RPAREN compound_statement
+    9 parameter_list: parameter_list . COMMA type_specifier ID
+   10               | parameter_list . COMMA type_specifier
+
+    COMMA   shift, and go to state 25
+    RPAREN  shift, and go to state 26
+
+
+State 22
+
+    7 func_declaration: type_specifier . ID LPAREN parameter_list RPAREN SEMICOLON
+    8 func_definition: type_specifier . ID LPAREN parameter_list RPAREN compound_statement
+   11 parameter_list: type_specifier . ID
+   13               | type_specifier .
+   17 var_declaration: type_specifier . declaration_list SEMICOLON
+
+    ID  shift, and go to state 27
+
+    $default  reduce using rule 13 (parameter_list)
+
+    declaration_list  go to state 14
+
+
+State 23
+
+   21 declaration_list: declaration_list COMMA ID .
+   22                 | declaration_list COMMA ID . LSQBRAC CONST_INT RSQBRAC
+
+    LSQBRAC  shift, and go to state 28
+
+    $default  reduce using rule 21 (declaration_list)
+
+
+State 24
+
+   24 declaration_list: ID LSQBRAC CONST_INT RSQBRAC .
+
+    $default  reduce using rule 24 (declaration_list)
+
+
+State 25
+
+    9 parameter_list: parameter_list COMMA . type_specifier ID
+   10               | parameter_list COMMA . type_specifier
+
+    INT    shift, and go to state 1
+    FLOAT  shift, and go to state 2
+    VOID   shift, and go to state 3
+
+    type_specifier  go to state 29
+
+
+State 26
+
+    7 func_declaration: type_specifier ID LPAREN parameter_list RPAREN . SEMICOLON
+    8 func_definition: type_specifier ID LPAREN parameter_list RPAREN . compound_statement
+
+    SEMICOLON  shift, and go to state 30
+    LCURL      shift, and go to state 31
+
+    compound_statement  go to state 32
+
+
+State 27
+
+    7 func_declaration: type_specifier ID . LPAREN parameter_list RPAREN SEMICOLON
+    8 func_definition: type_specifier ID . LPAREN parameter_list RPAREN compound_statement
+   11 parameter_list: type_specifier ID .
+   23 declaration_list: ID .
+   24                 | ID . LSQBRAC CONST_INT RSQBRAC
+
+    LSQBRAC  shift, and go to state 15
+    LPAREN   shift, and go to state 16
+
+    SEMICOLON  reduce using rule 23 (declaration_list)
+    COMMA      reduce using rule 11 (parameter_list)
+    COMMA      [reduce using rule 23 (declaration_list)]
+    $default   reduce using rule 11 (parameter_list)
+
+
+State 28
+
+   22 declaration_list: declaration_list COMMA ID LSQBRAC . CONST_INT RSQBRAC
+
+    CONST_INT  shift, and go to state 33
+
+
+State 29
+
+    9 parameter_list: parameter_list COMMA type_specifier . ID
+   10               | parameter_list COMMA type_specifier .
+
+    ID  shift, and go to state 34
+
+    $default  reduce using rule 10 (parameter_list)
+
+
+State 30
+
+    7 func_declaration: type_specifier ID LPAREN parameter_list RPAREN SEMICOLON .
+
+    $default  reduce using rule 7 (func_declaration)
+
+
+State 31
+
+   15 compound_statement: LCURL . statements RCURL
+   16                   | LCURL . RCURL
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    RCURL        shift, and go to state 36
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statements            go to state 52
+    statement             go to state 53
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 32
+
+    8 func_definition: type_specifier ID LPAREN parameter_list RPAREN compound_statement .
+
+    $default  reduce using rule 8 (func_definition)
+
+
+State 33
+
+   22 declaration_list: declaration_list COMMA ID LSQBRAC CONST_INT . RSQBRAC
+
+    RSQBRAC  shift, and go to state 63
+
+
+State 34
+
+    9 parameter_list: parameter_list COMMA type_specifier ID .
+
+    $default  reduce using rule 9 (parameter_list)
+
+
+State 35
+
+   36 expression_statement: SEMICOLON .
+
+    $default  reduce using rule 36 (expression_statement)
+
+
+State 36
+
+   16 compound_statement: LCURL RCURL .
+
+    $default  reduce using rule 16 (compound_statement)
+
+
+State 37
+
+   38 variable: ID .
+   39         | ID . LSQBRAC expression RSQBRAC
+   54 factor: ID . LPAREN argument_list RPAREN
+
+    LSQBRAC  shift, and go to state 64
+    LPAREN   shift, and go to state 65
+
+    $default  reduce using rule 38 (variable)
+
+
+State 38
+
+   30 statement: FOR . LPAREN expression_statement expression_statement expression RPAREN statement
+
+    LPAREN  shift, and go to state 66
+
+
+State 39
+
+   55 factor: LPAREN . expression RPAREN
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 67
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 40
+
+   31 statement: IF . LPAREN expression RPAREN statement
+   32          | IF . LPAREN expression RPAREN statement ELSE statement
+
+    LPAREN  shift, and go to state 68
+
+
+State 41
+
+   33 statement: WHILE . LPAREN expression RPAREN statement
+
+    LPAREN  shift, and go to state 69
+
+
+State 42
+
+   34 statement: PRINTLN . LPAREN ID RPAREN SEMICOLON
+
+    LPAREN  shift, and go to state 70
+
+
+State 43
+
+   35 statement: RETURN . expression SEMICOLON
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 71
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 44
+
+   50 unary_expression: ADDOP . unary_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable          go to state 72
+    unary_expression  go to state 73
+    factor            go to state 62
+
+
+State 45
+
+   51 unary_expression: NOT . unary_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable          go to state 72
+    unary_expression  go to state 74
+    factor            go to state 62
+
+
+State 46
+
+   56 factor: CONST_INT .
+
+    $default  reduce using rule 56 (factor)
+
+
+State 47
+
+   57 factor: CONST_FLOAT .
+
+    $default  reduce using rule 57 (factor)
+
+
+State 48
+
+   58 factor: CONST_CHAR .
+
+    $default  reduce using rule 58 (factor)
+
+
+State 49
+
+   29 statement: compound_statement .
+
+    $default  reduce using rule 29 (statement)
+
+
+State 50
+
+   27 statement: var_declaration .
+
+    $default  reduce using rule 27 (statement)
+
+
+State 51
+
+   17 var_declaration: type_specifier . declaration_list SEMICOLON
+
+    ID  shift, and go to state 75
+
+    declaration_list  go to state 14
+
+
+State 52
+
+   15 compound_statement: LCURL statements . RCURL
+   26 statements: statements . statement
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    RCURL        shift, and go to state 76
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statement             go to state 77
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 53
+
+   25 statements: statement .
+
+    $default  reduce using rule 25 (statements)
+
+
+State 54
+
+   28 statement: expression_statement .
+
+    $default  reduce using rule 28 (statement)
+
+
+State 55
+
+   41 expression: variable . ASSIGNOP logic_expression
+   53 factor: variable .
+   59       | variable . INCOP
+   60       | variable . DECOP
+
+    ASSIGNOP  shift, and go to state 78
+    INCOP     shift, and go to state 79
+    DECOP     shift, and go to state 80
+
+    $default  reduce using rule 53 (factor)
+
+
+State 56
+
+   37 expression_statement: expression . SEMICOLON
+
+    SEMICOLON  shift, and go to state 81
+
+
+State 57
+
+   40 expression: logic_expression .
+
+    $default  reduce using rule 40 (expression)
+
+
+State 58
+
+   42 logic_expression: rel_expression .
+   43                 | rel_expression . LOGICOP rel_expression
+
+    LOGICOP  shift, and go to state 82
+
+    $default  reduce using rule 42 (logic_expression)
+
+
+State 59
+
+   44 rel_expression: simple_expression .
+   45               | simple_expression . RELOP simple_expression
+   47 simple_expression: simple_expression . ADDOP term
+
+    RELOP  shift, and go to state 83
+    ADDOP  shift, and go to state 84
+
+    $default  reduce using rule 44 (rel_expression)
+
+
+State 60
+
+   46 simple_expression: term .
+   49 term: term . MULOP unary_expression
+
+    MULOP  shift, and go to state 85
+
+    $default  reduce using rule 46 (simple_expression)
+
+
+State 61
+
+   48 term: unary_expression .
+
+    $default  reduce using rule 48 (term)
+
+
+State 62
+
+   52 unary_expression: factor .
+
+    $default  reduce using rule 52 (unary_expression)
+
+
+State 63
+
+   22 declaration_list: declaration_list COMMA ID LSQBRAC CONST_INT RSQBRAC .
+
+    $default  reduce using rule 22 (declaration_list)
+
+
+State 64
+
+   39 variable: ID LSQBRAC . expression RSQBRAC
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 86
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 65
+
+   54 factor: ID LPAREN . argument_list RPAREN
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    $default  reduce using rule 63 (argument_list)
+
+    variable           go to state 72
+    logic_expression   go to state 87
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+    argument_list      go to state 88
+
+
+State 66
+
+   30 statement: FOR LPAREN . expression_statement expression_statement expression RPAREN statement
+
+    SEMICOLON    shift, and go to state 35
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    expression_statement  go to state 89
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 67
+
+   55 factor: LPAREN expression . RPAREN
+
+    RPAREN  shift, and go to state 90
+
+
+State 68
+
+   31 statement: IF LPAREN . expression RPAREN statement
+   32          | IF LPAREN . expression RPAREN statement ELSE statement
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 91
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 69
+
+   33 statement: WHILE LPAREN . expression RPAREN statement
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 92
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 70
+
+   34 statement: PRINTLN LPAREN . ID RPAREN SEMICOLON
+
+    ID  shift, and go to state 93
+
+
+State 71
+
+   35 statement: RETURN expression . SEMICOLON
+
+    SEMICOLON  shift, and go to state 94
+
+
+State 72
+
+   53 factor: variable .
+   59       | variable . INCOP
+   60       | variable . DECOP
+
+    INCOP  shift, and go to state 79
+    DECOP  shift, and go to state 80
+
+    $default  reduce using rule 53 (factor)
+
+
+State 73
+
+   50 unary_expression: ADDOP unary_expression .
+
+    $default  reduce using rule 50 (unary_expression)
+
+
+State 74
+
+   51 unary_expression: NOT unary_expression .
+
+    $default  reduce using rule 51 (unary_expression)
+
+
+State 75
+
+   23 declaration_list: ID .
+   24                 | ID . LSQBRAC CONST_INT RSQBRAC
+
+    LSQBRAC  shift, and go to state 15
+
+    $default  reduce using rule 23 (declaration_list)
+
+
+State 76
+
+   15 compound_statement: LCURL statements RCURL .
+
+    $default  reduce using rule 15 (compound_statement)
+
+
+State 77
+
+   26 statements: statements statement .
+
+    $default  reduce using rule 26 (statements)
+
+
+State 78
+
+   41 expression: variable ASSIGNOP . logic_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 72
+    logic_expression   go to state 95
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 79
+
+   59 factor: variable INCOP .
+
+    $default  reduce using rule 59 (factor)
+
+
+State 80
+
+   60 factor: variable DECOP .
+
+    $default  reduce using rule 60 (factor)
+
+
+State 81
+
+   37 expression_statement: expression SEMICOLON .
+
+    $default  reduce using rule 37 (expression_statement)
+
+
+State 82
+
+   43 logic_expression: rel_expression LOGICOP . rel_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 72
+    rel_expression     go to state 96
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 83
+
+   45 rel_expression: simple_expression RELOP . simple_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 72
+    simple_expression  go to state 97
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 84
+
+   47 simple_expression: simple_expression ADDOP . term
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable          go to state 72
+    term              go to state 98
+    unary_expression  go to state 61
+    factor            go to state 62
+
+
+State 85
+
+   49 term: term MULOP . unary_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable          go to state 72
+    unary_expression  go to state 99
+    factor            go to state 62
+
+
+State 86
+
+   39 variable: ID LSQBRAC expression . RSQBRAC
+
+    RSQBRAC  shift, and go to state 100
+
+
+State 87
+
+   62 argument_list: logic_expression .
+
+    $default  reduce using rule 62 (argument_list)
+
+
+State 88
+
+   54 factor: ID LPAREN argument_list . RPAREN
+   61 argument_list: argument_list . COMMA logic_expression
+
+    COMMA   shift, and go to state 101
+    RPAREN  shift, and go to state 102
+
+
+State 89
+
+   30 statement: FOR LPAREN expression_statement . expression_statement expression RPAREN statement
+
+    SEMICOLON    shift, and go to state 35
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    expression_statement  go to state 103
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 90
+
+   55 factor: LPAREN expression RPAREN .
+
+    $default  reduce using rule 55 (factor)
+
+
+State 91
+
+   31 statement: IF LPAREN expression . RPAREN statement
+   32          | IF LPAREN expression . RPAREN statement ELSE statement
+
+    RPAREN  shift, and go to state 104
+
+
+State 92
+
+   33 statement: WHILE LPAREN expression . RPAREN statement
+
+    RPAREN  shift, and go to state 105
+
+
+State 93
+
+   34 statement: PRINTLN LPAREN ID . RPAREN SEMICOLON
+
+    RPAREN  shift, and go to state 106
+
+
+State 94
+
+   35 statement: RETURN expression SEMICOLON .
+
+    $default  reduce using rule 35 (statement)
+
+
+State 95
+
+   41 expression: variable ASSIGNOP logic_expression .
+
+    $default  reduce using rule 41 (expression)
+
+
+State 96
+
+   43 logic_expression: rel_expression LOGICOP rel_expression .
+
+    $default  reduce using rule 43 (logic_expression)
+
+
+State 97
+
+   45 rel_expression: simple_expression RELOP simple_expression .
+   47 simple_expression: simple_expression . ADDOP term
+
+    ADDOP  shift, and go to state 84
+
+    $default  reduce using rule 45 (rel_expression)
+
+
+State 98
+
+   47 simple_expression: simple_expression ADDOP term .
+   49 term: term . MULOP unary_expression
+
+    MULOP  shift, and go to state 85
+
+    $default  reduce using rule 47 (simple_expression)
+
+
+State 99
+
+   49 term: term MULOP unary_expression .
+
+    $default  reduce using rule 49 (term)
+
+
+State 100
+
+   39 variable: ID LSQBRAC expression RSQBRAC .
+
+    $default  reduce using rule 39 (variable)
+
+
+State 101
+
+   61 argument_list: argument_list COMMA . logic_expression
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 72
+    logic_expression   go to state 107
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 102
+
+   54 factor: ID LPAREN argument_list RPAREN .
+
+    $default  reduce using rule 54 (factor)
+
+
+State 103
+
+   30 statement: FOR LPAREN expression_statement expression_statement . expression RPAREN statement
+
+    ID           shift, and go to state 37
+    LPAREN       shift, and go to state 39
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+
+    variable           go to state 55
+    expression         go to state 108
+    logic_expression   go to state 57
+    rel_expression     go to state 58
+    simple_expression  go to state 59
+    term               go to state 60
+    unary_expression   go to state 61
+    factor             go to state 62
+
+
+State 104
+
+   31 statement: IF LPAREN expression RPAREN . statement
+   32          | IF LPAREN expression RPAREN . statement ELSE statement
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statement             go to state 109
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 105
+
+   33 statement: WHILE LPAREN expression RPAREN . statement
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statement             go to state 110
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 106
+
+   34 statement: PRINTLN LPAREN ID RPAREN . SEMICOLON
+
+    SEMICOLON  shift, and go to state 111
+
+
+State 107
+
+   61 argument_list: argument_list COMMA logic_expression .
+
+    $default  reduce using rule 61 (argument_list)
+
+
+State 108
+
+   30 statement: FOR LPAREN expression_statement expression_statement expression . RPAREN statement
+
+    RPAREN  shift, and go to state 112
+
+
+State 109
+
+   31 statement: IF LPAREN expression RPAREN statement .
+   32          | IF LPAREN expression RPAREN statement . ELSE statement
+
+    ELSE  shift, and go to state 113
+
+    ELSE      [reduce using rule 31 (statement)]
+    $default  reduce using rule 31 (statement)
+
+
+State 110
+
+   33 statement: WHILE LPAREN expression RPAREN statement .
+
+    $default  reduce using rule 33 (statement)
+
+
+State 111
+
+   34 statement: PRINTLN LPAREN ID RPAREN SEMICOLON .
+
+    $default  reduce using rule 34 (statement)
+
+
+State 112
+
+   30 statement: FOR LPAREN expression_statement expression_statement expression RPAREN . statement
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statement             go to state 114
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 113
+
+   32 statement: IF LPAREN expression RPAREN statement ELSE . statement
+
+    SEMICOLON    shift, and go to state 35
+    INT          shift, and go to state 1
+    FLOAT        shift, and go to state 2
+    LCURL        shift, and go to state 31
+    ID           shift, and go to state 37
+    FOR          shift, and go to state 38
+    LPAREN       shift, and go to state 39
+    IF           shift, and go to state 40
+    WHILE        shift, and go to state 41
+    PRINTLN      shift, and go to state 42
+    RETURN       shift, and go to state 43
+    ADDOP        shift, and go to state 44
+    NOT          shift, and go to state 45
+    CONST_INT    shift, and go to state 46
+    CONST_FLOAT  shift, and go to state 47
+    CONST_CHAR   shift, and go to state 48
+    VOID         shift, and go to state 3
+
+    compound_statement    go to state 49
+    var_declaration       go to state 50
+    type_specifier        go to state 51
+    statement             go to state 115
+    expression_statement  go to state 54
+    variable              go to state 55
+    expression            go to state 56
+    logic_expression      go to state 57
+    rel_expression        go to state 58
+    simple_expression     go to state 59
+    term                  go to state 60
+    unary_expression      go to state 61
+    factor                go to state 62
+
+
+State 114
+
+   30 statement: FOR LPAREN expression_statement expression_statement expression RPAREN statement .
+
+    $default  reduce using rule 30 (statement)
+
+
+State 115
+
+   32 statement: IF LPAREN expression RPAREN statement ELSE statement .
+
+    $default  reduce using rule 32 (statement)

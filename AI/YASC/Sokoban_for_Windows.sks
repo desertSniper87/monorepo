@@ -1,0 +1,749 @@
+[Sokoban YASC Skin Script]
+SkinType=Sokoban for Windows (2019)
+FileType=INI
+FileFilter=SKN-files (*.skn)|*.skn
+UseBackground=no
+Columns=1..
+Rows=1
+
+===========================
+Sokoban for Windows (2019)
+===========================
+
+perform Sokoban_for_Windows
+end -- script
+
+======================
+[No_Background_Color]
+======================
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- No_Background_Color
+
+===================
+[Background_Color]
+===================
+Mask image using background color=yes
+Background color={BackgroundColor Top Left}
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- Background_Color
+
+======================
+[Sokoban_for_Windows]
+======================
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+
+if {Section Image}
+FileName={BaseSixtyFourDecode {Section Image} Skin bmp}
+else
+FileName={Skin.Image_File}
+endif
+
+Section={Tile {Skin.Floor}}
+if {SubString {Skin.Transparent} {Skin.Floor} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+
+if {IsInteger {Skin.Man_Up}}
+Player-u={Tile {Skin.Man_Up}}
+if {SubString {Skin.Transparent} {Skin.Man_Up} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+else
+if {IsInteger {Skin.Man}}
+Section={Tile {Skin.Man}}
+if {SubString {Skin.Transparent} {Skin.Man} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+endif
+endif
+
+if {IsInteger {Skin.Man_Right}}
+Player-r={Tile {Skin.Man_Right}}
+endif
+if {IsInteger {Skin.Man_Down}}
+Player-d={Tile {Skin.Man_Down}}
+endif
+if {IsInteger {Skin.Man_Left}}
+Player-l={Tile {Skin.Man_Left}}
+endif
+
+[Graphics - Board - Figures - Player - Highlight animation - Image]
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+
+if {IsInteger {Skin.Man_Up_Goal}}
+Player-u={Tile {Skin.Man_Up_Goal}}
+if {SubString {Skin.Transparent} {Skin.Man_Up_Goal} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+else
+if {IsInteger {Skin.Push_Up}}
+Player-u={Tile {Skin.Push_Up}}
+if {SubString {Skin.Transparent} {Skin.Push_Up} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+else
+if {IsInteger {Skin.Man_Up}}
+Player-u={Tile {Skin.Man_Up}}
+if {SubString {Skin.Transparent} {Skin.Man_Up} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+else
+if {IsInteger {Skin.Man_Goal}}
+Section={Tile {Skin.Man_Goal}}
+if {SubString {Skin.Transparent} {Skin.Man_Goal} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+else
+if {IsInteger {Skin.Man}}
+Section={Tile {Skin.Man}}
+if {SubString {Skin.Transparent} {Skin.Man} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Skin.Man_Right_Goal}}
+Player-r={Tile {Skin.Man_Right_Goal}}
+else
+if {IsInteger {Skin.Push_Right}}
+Player-r={Tile {Skin.Push_Right}}
+else
+if {IsInteger {Skin.Man_Right}}
+Player-r={Tile {Skin.Man_Right}}
+endif
+endif
+endif
+
+if {IsInteger {Skin.Man_Down_Goal}}
+Player-d={Tile {Skin.Man_Down_Goal}}
+else
+if {IsInteger {Skin.Push_Down}}
+Player-d={Tile {Skin.Push_Down}}
+else
+if {IsInteger {Skin.Man_Down}}
+Player-d={Tile {Skin.Man_Down}}
+endif
+endif
+endif
+
+if {IsInteger {Skin.Man_Left_Goal}}
+Player-l={Tile {Skin.Man_Left_Goal}}
+else
+if {IsInteger {Skin.Push_Left}}
+Player-l={Tile {Skin.Push_Left}}
+else
+if {IsInteger {Skin.Man_Left}}
+Player-l={Tile {Skin.Man_Left}}
+endif
+endif
+endif
+
+[Graphics - Board - Figures - Player on goal square - Highlight animation - Image]
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+Section={Tile {Skin.Pack}}
+if {SubString {Skin.Transparent} {Skin.Pack} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+
+[Graphics - Board - Figures - Box - Highlight animation - Image]
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+Section={Tile {Skin.Pack_Goal}}
+if {SubString {Skin.Transparent} {Skin.Pack_Goal} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+
+[Graphics - Board - Figures - Box on goal square - Highlight animation - Image]
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+Section={Tile {Skin.Goal}}
+if {SubString {Skin.Transparent} {Skin.Goal} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+if {IsInteger {Skin.Wall}}
+Section={Tile {Skin.Wall}}
+if {SubString {Skin.Transparent} {Skin.Wall} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+endif
+
+if {IsInteger {Skin.Wall_0}}
+
+if {SubString {Skin.Transparent} {Skin.Wall_0} 1} = 1
+perform Background_Color
+else
+perform No_Background_Color
+endif
+
+wall={Tile {Skin.Wall_0}}
+wall-u={Tile {Skin.Wall_1}}
+wall-r={Tile {Skin.Wall_2}}
+wall-d={Tile {Skin.Wall_4}}
+wall-l={Tile {Skin.Wall_8}}
+wall-u-r={Tile {Skin.Wall_3}}
+wall-u-d={Tile {Skin.Wall_5}}
+wall-u-l={Tile {Skin.Wall_9}}
+wall-r-d={Tile {Skin.Wall_6}}
+wall-r-l={Tile {Skin.Wall_A}}
+wall-d-l={Tile {Skin.Wall_C}}
+wall-u-r-d={Tile {Skin.Wall_7}}
+wall-u-r-l={Tile {Skin.Wall_B}}
+wall-u-d-l={Tile {Skin.Wall_D}}
+wall-r-d-l={Tile {Skin.Wall_E}}
+wall-u-r-d-l={Tile {Skin.Wall_F}}
+wall-cap={Tile {Skin.Wall_Top}}
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left={Skin.Wall_Top_X}
+Top={Skin.Wall_Top_Y}
+
+endif
+
+===========
+Background
+===========
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+
+[Graphics - Background - Image]
+
+if {Skin.Background_File}
+FileName={Skin.Background_File}
+View=Tile
+else
+if {Section {Background}}
+FileName={BaseSixtyFourDecode {Section Background} Background bmp}
+View=Tile
+else
+if {IsInteger {Skin.Outside}}
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+Section={Tile {Skin.Outside}}
+View=Tile
+else
+if {IsInteger {Skin.Floor}}
+FileName={[Graphics - Board - Figures - Floor - Image - FileName]}
+Section={Tile {Skin.Floor}}
+View=Tile
+endif
+endif
+endif
+endif
+
+endif
+
+perform {Description.Title}
+
+end -- Sokoban_for_Windows
+
+===============
+[AntiqueDesk2]
+===============
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=2
+
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=3
+
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+
+================================
+[Black Mouse Collecting Cheese]
+================================
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+===============
+[Blue Granite]
+===============
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=2
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=2
+end
+
+==================
+[ChineseCheckers]
+==================
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=6
+Top=6
+Right=8
+Bottom=8
+endif
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+=========
+[Circle]
+=========
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+===========
+[Football]
+===========
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+=================
+[Green Metallic]
+=================
+if {Skin.Type}
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=Yes
+Background color=FFFFFF
+Background color tolerance (%)=1
+Background color masks exterior pixels only=Yes
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=Yes
+Background color=FFFFFF
+Background color tolerance (%)=1
+Background color masks exterior pixels only=Yes
+[Graphics - Board - Figures - Player on goal square]
+[Graphics - Board - Figures - Box - Image]
+Mask image using background color=Yes
+Background color=FFFFFF
+[Graphics - Board - Figures - Box on goal square - Image]
+Mask image using background color=Yes
+Background color=FFFFFF
+else
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=0
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=0
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=0
+endif
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+if {ColWidth} = 100
+Left=16
+Top=16
+Right=24
+Bottom=24
+else
+Left=8
+Top=8
+Right=12
+Bottom=12
+endif
+endif
+end
+
+=============
+[HeavyMetal]
+=============
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Box - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Box on goal square - Image]
+Mask image using background color=no
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=7
+Top=7
+Right=10
+Bottom=10
+endif
+end
+
+==========
+[Jumanji]
+==========
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+[Graphics - Board - Figures - Box on goal square - Image]
+Background color tolerance (%)=2
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+============
+[Metallica]
+============
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=0
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=7
+Top=7
+Right=9
+Bottom=9
+endif
+end
+
+============
+[NeoKwinto]
+============
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=8
+Top=8
+Right=8
+Bottom=9
+endif
+end
+
+=============
+[NightShift]
+=============
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=6
+Bottom=6
+endif
+end
+
+==============
+[NightShift3]
+==============
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=5
+Top=5
+Right=8
+Bottom=8
+endif
+end
+
+===============
+[Piastrelle 1]
+[Piastrelle 2]
+[Plastico]
+===============
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=yes
+Antialiasing=Low quality (image scaling using bilinear interpolation)
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=yes
+Antialiasing=Low quality (image scaling using bilinear interpolation)
+
+[Graphics - Board - Figures - Box - Image]
+Mask image using background color=yes
+Antialiasing=Low quality (image scaling using bilinear interpolation)
+
+[Graphics - Board - Figures - Box on goal square - Image]
+Mask image using background color=yes
+Antialiasing=Low quality (image scaling using bilinear interpolation)
+end
+
+==========
+[Snooker]
+==========
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=4
+Bottom=4
+endif
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+==================
+[Sokoban Classic]
+==================
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+if {ColWidth} = 100
+Left=6
+Top=10
+Right=30
+Bottom=30
+else
+Left=3
+Top=4
+Right=15
+Bottom=15
+endif
+endif
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=2
+end
+
+====================
+[Sokoban Classic 2]
+====================
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=12
+Top=12
+Right=22
+Bottom=22
+endif
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=Yes
+Background color tolerance (%)=5
+Background color masks exterior pixels only=Yes
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=Yes
+Background color tolerance (%)=5
+Background color masks exterior pixels only=Yes
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+[Graphics - Board - Figures - Box - Image]
+Mask image using background color=Yes
+Background color tolerance (%)=20
+[Graphics - Board - Figures - Box on goal square - Image]
+Mask image using background color=Yes
+Background color tolerance (%)=15
+end
+
+========================
+[Sokoban for Macintosh]
+========================
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=6
+Top=6
+Right=8
+Bottom=8
+endif
+end
+
+==========
+[SokoBug]
+==========
+[Control - Move animation]
+Smooth animation=No
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=6
+Top=6
+Right=5
+Bottom=5
+endif
+end
+
+===========
+[SokoGems]
+===========
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+[Graphics - Board - Figures - Box on goal square - Image]
+Mask image using background color=no
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=8
+Top=8
+Right=8
+Bottom=9
+endif
+end
+
+======================
+[The Doughnut Of Zen]
+======================
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=15
+[Graphics - Board - Figures - Box on goal square - Image]
+Background color tolerance (%)=15
+end
+
+===============
+[The Gardener]
+===============
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+if {Self.Sokoban YASC Skin Script.UseBackground}
+(do nothing)
+else
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=4
+Bottom=4
+endif
+end
+
+================================
+[White Mouse Collecting Cheese]
+================================
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=25
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=25
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end
+
+==========
+[WinSoko]
+==========
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=20
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=20
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+end
+
+==============
+[XML Sokoban]
+==============
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+end
+
+===========
+[XSokoban]
+===========
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=2
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+end

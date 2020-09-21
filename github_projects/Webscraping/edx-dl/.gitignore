@@ -1,0 +1,25 @@
+.DS_Store
+semantic.cache
+Downloaded/
+*~
+.*.swp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ropeproject/
+
+# Distribution-related files
+*.egg-info
+/dist
+/build
+
+# Testing and CI files
+/.tox
+/.coverage
+/htmlcov
+.cache/
+
+# Application files
+edx-dl.cache

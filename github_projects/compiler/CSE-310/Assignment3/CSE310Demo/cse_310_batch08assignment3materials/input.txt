@@ -1,0 +1,54 @@
+program modexample(output);
+
+var
+
+    i,j: integer;
+
+procedure hello (a : array [1 .. 10] of real);
+
+begin
+	print(a)
+end;
+
+function foo (b,c : real) : real ;
+
+begin
+	print(b,c)
+end;
+
+begin
+
+	i := 3 + 4;
+	j := 5;
+
+	x := 3.5E-5;
+
+	y := 4E3;
+
+	z := x + y;
+
+	x := i / 0;
+
+	r := 3 mod 2;
+
+	x := i - j + 8;
+
+	z := 5 * j + i;
+
+	y := 13 / 2.5 + x;   
+
+    	while i < 3 do 
+
+      		while j > 3 do 
+
+          		if j <> 0 then 
+
+				if y = 0 then
+             
+					writeln(i4, j4, i mod j)
+			
+				else
+				 
+					x := 29.05
+
+end

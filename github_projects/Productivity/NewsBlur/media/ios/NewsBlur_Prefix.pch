@@ -1,0 +1,35 @@
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "Underscore.h"
+    #import "Utilities.h"
+    #import "ThemeManager.h"
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+
+//#define DEBUG 1
+//#define PROD_DEBUG 1
+
+#ifdef DEBUG
+    #define BACKGROUND_REFRESH_SECONDS 5
+    #define DEFAULT_NEWSBLUR_URL [NSString stringWithFormat:@"http://nb.local.com"]
+    #define DEFAULT_ICONS_HOST [NSString stringWithFormat:@"http://nb.local.com/rss_feeds/icon"]
+#elif PROD_DEBUG
+    #define BACKGROUND_REFRESH_SECONDS 5
+    #define DEFAULT_NEWSBLUR_URL [NSString stringWithFormat:@"http://debug.newsblur.com"]
+    #define DEFAULT_ICONS_HOST [NSString stringWithFormat:@"https://s3.amazonaws.com/icons.newsblur.com"]
+#else
+    #define BACKGROUND_REFRESH_SECONDS 10*60
+    #define DEFAULT_NEWSBLUR_URL [NSString stringWithFormat:@"https://www.newsblur.com"]
+    #define DEFAULT_ICONS_HOST [NSString stringWithFormat:@"https://s3.amazonaws.com/icons.newsblur.com"]
+#endif
+
+    #define _ Underscore
+    
+    #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+    #define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+    #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+    #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+    #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#endif

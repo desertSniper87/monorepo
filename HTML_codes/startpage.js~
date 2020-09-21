@@ -1,0 +1,5 @@
+var sites = [
+  'https://www.rescuetime.com/dashboard',
+  'https://en.wikipedia.org/wiki/Special:Random',
+  'https://weboas.is/'
+]

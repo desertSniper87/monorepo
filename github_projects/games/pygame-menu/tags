@@ -1,0 +1,236 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABOUT	example.py	/^ABOUT = ['PygameMenu {0}'.format(pygameMenu.__version__),$/;"	v
+ABOUT	example2.py	/^ABOUT = ['PygameMenu {0}'.format(pygameMenu.__version__),$/;"	v
+COLOR_BACKGROUND	example.py	/^COLOR_BACKGROUND = [128, 0, 128]$/;"	v
+COLOR_BACKGROUND	example2.py	/^COLOR_BACKGROUND = (128, 0, 128)$/;"	v
+COLOR_BLACK	example2.py	/^COLOR_BLACK = (0, 0, 0)$/;"	v
+COLOR_BLUE	example.py	/^COLOR_BLUE = (12, 12, 200)$/;"	v
+COLOR_WHITE	example.py	/^COLOR_WHITE = (255, 255, 255)$/;"	v
+COLOR_WHITE	example2.py	/^COLOR_WHITE = (255, 255, 255)$/;"	v
+DIFFICULTY	example2.py	/^DIFFICULTY = ['EASY']$/;"	v
+FONT_8BIT	pygameMenu/fonts.py	/^FONT_8BIT = __fontdir.format(__actualpath, '8bit')$/;"	v
+FONT_BEBAS	pygameMenu/fonts.py	/^FONT_BEBAS = __fontdir.format(__actualpath, 'bebas')$/;"	v
+FONT_FRANCHISE	pygameMenu/fonts.py	/^FONT_FRANCHISE = __fontdir.format(__actualpath, 'franchise')$/;"	v
+FONT_MUNRO	pygameMenu/fonts.py	/^FONT_MUNRO = __fontdir.format(__actualpath, 'munro')$/;"	v
+FONT_NEVIS	pygameMenu/fonts.py	/^FONT_NEVIS = __fontdir.format(__actualpath, 'nevis')$/;"	v
+FPS	example.py	/^FPS = 60$/;"	v
+FPS	example2.py	/^FPS = 60.0$/;"	v
+HELP	example.py	/^HELP = ['Press ESC to enable\/disable Menu',$/;"	v
+H_SIZE	example.py	/^H_SIZE = 600  # Height of window size$/;"	v
+JOY_AXIS_X	pygameMenu/locals.py	/^JOY_AXIS_X = 0$/;"	v
+JOY_AXIS_Y	pygameMenu/locals.py	/^JOY_AXIS_Y = 1$/;"	v
+JOY_BUTTON_BACK	pygameMenu/locals.py	/^JOY_BUTTON_BACK = 1$/;"	v
+JOY_BUTTON_SELECT	pygameMenu/locals.py	/^JOY_BUTTON_SELECT = 0$/;"	v
+JOY_CENTERED	pygameMenu/locals.py	/^JOY_CENTERED = (0, 0)$/;"	v
+JOY_DEADZONE	pygameMenu/locals.py	/^JOY_DEADZONE = 0.5$/;"	v
+JOY_DOWN	pygameMenu/locals.py	/^JOY_DOWN = (0, -1)$/;"	v
+JOY_LEFT	pygameMenu/locals.py	/^JOY_LEFT = (-1, 0)$/;"	v
+JOY_RIGHT	pygameMenu/locals.py	/^JOY_RIGHT = (1, 0)$/;"	v
+JOY_UP	pygameMenu/locals.py	/^JOY_UP = (0, 1)$/;"	v
+MENU_ALPHA	pygameMenu/config_menu.py	/^MENU_ALPHA = 90  # Alpha of menu color, 0: Opaque, 255: Transparent$/;"	v
+MENU_BACKGROUND_COLOR	example2.py	/^MENU_BACKGROUND_COLOR = (228, 55, 36)$/;"	v
+MENU_BGCOLOR	pygameMenu/config_menu.py	/^MENU_BGCOLOR = (0, 0, 0)  # Background color of Menu$/;"	v
+MENU_CENTERED_TEXT	pygameMenu/config_menu.py	/^MENU_CENTERED_TEXT = True  # Menu centered text$/;"	v
+MENU_CTRL_BACK	pygameMenu/config_controls.py	/^MENU_CTRL_BACK = __locals.K_BACKSPACE$/;"	v
+MENU_CTRL_CLOSE_MENU	pygameMenu/config_controls.py	/^MENU_CTRL_CLOSE_MENU = __locals.K_ESCAPE$/;"	v
+MENU_CTRL_DOWN	pygameMenu/config_controls.py	/^MENU_CTRL_DOWN = __locals.K_UP$/;"	v
+MENU_CTRL_ENTER	pygameMenu/config_controls.py	/^MENU_CTRL_ENTER = __locals.K_RETURN$/;"	v
+MENU_CTRL_LEFT	pygameMenu/config_controls.py	/^MENU_CTRL_LEFT = __locals.K_LEFT$/;"	v
+MENU_CTRL_RIGHT	pygameMenu/config_controls.py	/^MENU_CTRL_RIGHT = __locals.K_RIGHT$/;"	v
+MENU_CTRL_UP	pygameMenu/config_controls.py	/^MENU_CTRL_UP = __locals.K_DOWN$/;"	v
+MENU_DRAW_X	pygameMenu/config_menu.py	/^MENU_DRAW_X = 50  # Upper-left X-Position of objects into Menu$/;"	v
+MENU_DRAW_Y	pygameMenu/config_menu.py	/^MENU_DRAW_Y = 60  # Upper-left Y-Position of objects into Menu$/;"	v
+MENU_FONT_COLOR	pygameMenu/config_menu.py	/^MENU_FONT_COLOR = (255, 255, 255)  # Font color$/;"	v
+MENU_FONT_SIZE	pygameMenu/config_menu.py	/^MENU_FONT_SIZE = 40  # Font size of entries$/;"	v
+MENU_FONT_SIZE_TITLE	pygameMenu/config_menu.py	/^MENU_FONT_SIZE_TITLE = 50  # Menu font size title$/;"	v
+MENU_FONT_TEXT_SIZE	pygameMenu/config_textmenu.py	/^MENU_FONT_TEXT_SIZE = 25  # Text size$/;"	v
+MENU_HEIGHT	pygameMenu/config_menu.py	/^MENU_HEIGHT = 400  # Menu height (px)$/;"	v
+MENU_OPTION_MARGIN	pygameMenu/config_menu.py	/^MENU_OPTION_MARGIN = 15  # Option margin (px)$/;"	v
+MENU_OPTION_SHADOW	pygameMenu/config_menu.py	/^MENU_OPTION_SHADOW = True  # Indicates if a shadow is drawn on selected option$/;"	v
+MENU_SELECTEDCOLOR	pygameMenu/config_menu.py	/^MENU_SELECTEDCOLOR = (180, 180, 180)  # Color of selected item$/;"	v
+MENU_SELECTED_DRAW	pygameMenu/config_menu.py	/^MENU_SELECTED_DRAW = True  # Indicates if rectangle is drawn on a selected item$/;"	v
+MENU_SELECTED_WIDTH	pygameMenu/config_menu.py	/^MENU_SELECTED_WIDTH = 1  # Width of selected item$/;"	v
+MENU_TITLE_BG_COLOR	pygameMenu/config_menu.py	/^MENU_TITLE_BG_COLOR = (170, 65, 50)  # Background color$/;"	v
+MENU_WIDTH	pygameMenu/config_menu.py	/^MENU_WIDTH = 600  # Width of Menu (px)$/;"	v
+Menu	pygameMenu/menu.py	/^class Menu(object):$/;"	c
+PYGAMEMENU_PYMENUACTION	pygameMenu/locals.py	/^PYGAMEMENU_PYMENUACTION = "<class 'pygameMenu.locals._PymenuAction'>"$/;"	v
+PYGAMEMENU_TEXT_NEWLINE	pygameMenu/locals.py	/^PYGAMEMENU_TEXT_NEWLINE = ''  # Text newline on TextMenu object$/;"	v
+PYGAMEMENU_TYPE_SELECTOR	pygameMenu/locals.py	/^PYGAMEMENU_TYPE_SELECTOR = PymenuAction(2)  # Type of selector$/;"	v
+PYGAME_MENU_BACK	pygameMenu/locals.py	/^PYGAME_MENU_BACK = PymenuAction(0)  # Menu back$/;"	v
+PYGAME_MENU_CLOSE	pygameMenu/locals.py	/^PYGAME_MENU_CLOSE = PymenuAction(1)  # Close menu$/;"	v
+PYGAME_MENU_DISABLE_CLOSE	pygameMenu/locals.py	/^PYGAME_MENU_DISABLE_CLOSE = PymenuAction(10)  # Menu disable closing$/;"	v
+PYGAME_MENU_EXIT	pygameMenu/locals.py	/^PYGAME_MENU_EXIT = PymenuAction(3)  # Menu exit program$/;"	v
+PYGAME_MENU_RESET	pygameMenu/locals.py	/^PYGAME_MENU_RESET = PymenuAction(4)  # Menu reset$/;"	v
+PymenuAction	pygameMenu/locals.py	/^class PymenuAction(object):$/;"	c
+SHADOW_COLOR	pygameMenu/config_menu.py	/^SHADOW_COLOR = (0, 0, 0)  # Shadow color$/;"	v
+Selector	pygameMenu/selector.py	/^class Selector(object):$/;"	c
+TEXT_CENTERED	pygameMenu/config_textmenu.py	/^TEXT_CENTERED = False  # Text is centered$/;"	v
+TEXT_DRAW_X	pygameMenu/config_textmenu.py	/^TEXT_DRAW_X = 5  # X-Axis margin of text$/;"	v
+TEXT_FONT_COLOR	pygameMenu/config_textmenu.py	/^TEXT_FONT_COLOR = (255, 255, 255)  # Text font color$/;"	v
+TEXT_MARGIN	pygameMenu/config_textmenu.py	/^TEXT_MARGIN = 10  # Text margin (px)$/;"	v
+TextMenu	pygameMenu/textmenu.py	/^class TextMenu(Menu):$/;"	c
+WINDOW_SIZE	example2.py	/^WINDOW_SIZE = (640, 480)$/;"	v
+W_SIZE	example.py	/^W_SIZE = 800  # Width of window size$/;"	v
+__actualpath	pygameMenu/fonts.py	/^__actualpath = str(os.path.abspath($/;"	v
+__author__	pygameMenu/__init__.py	/^__author__ = 'ppizarror'$/;"	v
+__contributors__	pygameMenu/__init__.py	/^__contributors__ = [$/;"	v
+__description__	pygameMenu/__init__.py	/^__description__ = 'Menu for pygame, simple, lightweight and easy to use'$/;"	v
+__email__	pygameMenu/__init__.py	/^__email__ = 'pablo.pizarro@ing.uchile.cl'$/;"	v
+__eq__	pygameMenu/locals.py	/^    def __eq__(self, other):$/;"	m	class:PymenuAction	file:
+__fontdir	pygameMenu/fonts.py	/^__fontdir = '{0}\/fonts\/{1}.ttf'$/;"	v
+__init__	pygameMenu/locals.py	/^    def __init__(self, action):$/;"	m	class:PymenuAction
+__init__	pygameMenu/menu.py	/^    def __init__(self,$/;"	m	class:Menu
+__init__	pygameMenu/selector.py	/^    def __init__(self, title, elements, onchange=None, onreturn=None, default=0, **kwargs):$/;"	m	class:Selector
+__init__	pygameMenu/textmenu.py	/^    def __init__(self,$/;"	m	class:TextMenu
+__url__	pygameMenu/__init__.py	/^__url__ = 'https:\/\/github.com\/ppizarror\/pygame-menu'$/;"	v
+__version__	pygameMenu/__init__.py	/^__version__ = 'v1.95.2'$/;"	v
+_down	pygameMenu/menu.py	/^    def _down(self):$/;"	m	class:Menu
+_left	pygameMenu/menu.py	/^    def _left(self):$/;"	m	class:Menu
+_main	pygameMenu/menu.py	/^    def _main(self, events=None):$/;"	m	class:Menu
+_right	pygameMenu/menu.py	/^    def _right(self):$/;"	m	class:Menu
+_select	pygameMenu/menu.py	/^    def _select(self):$/;"	m	class:Menu
+_up	pygameMenu/menu.py	/^    def _up(self):$/;"	m	class:Menu
+about_menu	example.py	/^about_menu = pygameMenu.TextMenu(surface,$/;"	v
+about_menu	example2.py	/^about_menu = pygameMenu.TextMenu(surface,$/;"	v
+add_line	pygameMenu/textmenu.py	/^    def add_line(self, text):$/;"	m	class:TextMenu
+add_option	pygameMenu/menu.py	/^    def add_option(self, element_name, element, *args):$/;"	m	class:Menu
+add_option	pygameMenu/textmenu.py	/^    def add_option(self, element_name, element, *args):$/;"	m	class:TextMenu
+add_selector	pygameMenu/menu.py	/^    def add_selector(self, title, values, onchange, onreturn, default=0,$/;"	m	class:Menu
+add_selector_change	pygameMenu/menu.py	/^    def add_selector_change(self, title, values, fun, **kwargs):$/;"	m	class:Menu
+add_selector_return	pygameMenu/menu.py	/^    def add_selector_return(self, title, values, fun, **kwargs):$/;"	m	class:Menu
+apply	pygameMenu/selector.py	/^    def apply(self):$/;"	m	class:Selector
+author	setup.py	/^    author=__author__,$/;"	v
+author_email	setup.py	/^    author_email=__email__,$/;"	v
+bgfun	example.py	/^                       bgfun=mainmenu_background,$/;"	v
+bgfun	example2.py	/^                                 bgfun=main_background,$/;"	v
+bgfun	example2.py	/^                            bgfun=main_background,$/;"	v
+change	pygameMenu/selector.py	/^    def change(self):$/;"	m	class:Selector
+change_color_bg	example.py	/^def change_color_bg(c, **kwargs):$/;"	f
+change_difficulty	example2.py	/^def change_difficulty(d):$/;"	f
+classifiers	setup.py	/^    classifiers=[$/;"	v
+clock	example.py	/^clock = pygame.time.Clock()$/;"	v
+clock	example2.py	/^clock = pygame.time.Clock()$/;"	v
+color_selected	example2.py	/^                                 color_selected=COLOR_WHITE,$/;"	v
+color_selected	example2.py	/^                            color_selected=COLOR_WHITE,$/;"	v
+default	example.py	/^                        default=1,  # Optional parameter that sets default item of selector$/;"	v
+description	setup.py	/^    description=__description__,$/;"	v
+disable	pygameMenu/menu.py	/^    def disable(self):$/;"	m	class:Menu
+dopause	example.py	/^                                 dopause=False,$/;"	v
+dopause	example.py	/^                                dopause=False,$/;"	v
+dopause	example.py	/^                             dopause=False,$/;"	v
+draw	pygameMenu/menu.py	/^    def draw(self):$/;"	m	class:Menu
+draw	pygameMenu/textmenu.py	/^    def draw(self):$/;"	m	class:TextMenu
+dt	example.py	/^dt = 1.0 \/ FPS$/;"	v
+dt	example2.py	/^dt = 1 \/ FPS$/;"	v
+enable	pygameMenu/menu.py	/^    def enable(self):$/;"	m	class:Menu
+enabled	example.py	/^                       enabled=False,$/;"	v
+events	example.py	/^    events = pygame.event.get()$/;"	v
+events	example2.py	/^    events = pygame.event.get()$/;"	v
+font	example.py	/^                                 font=pygameMenu.fonts.FONT_NEVIS,$/;"	v
+font	example.py	/^                                font=pygameMenu.fonts.FONT_FRANCHISE,$/;"	v
+font	example.py	/^                             font=pygameMenu.fonts.FONT_NEVIS,$/;"	v
+font	example.py	/^                       font=pygameMenu.fonts.FONT_NEVIS,$/;"	v
+font	example2.py	/^                                 font=pygameMenu.fonts.FONT_BEBAS,$/;"	v
+font	example2.py	/^                            font=pygameMenu.fonts.FONT_BEBAS,$/;"	v
+font_color	example2.py	/^                                 font_color=COLOR_BLACK,$/;"	v
+font_color	example2.py	/^                            font_color=COLOR_BLACK,$/;"	v
+font_size	example2.py	/^                            font_size=30,$/;"	v
+font_size_title	example.py	/^                                 font_size_title=30,$/;"	v
+font_size_title	example2.py	/^                                 font_size_title=30,$/;"	v
+font_title	example.py	/^                                 font_title=pygameMenu.fonts.FONT_8BIT,$/;"	v
+font_title	example2.py	/^                                 font_title=pygameMenu.fonts.FONT_8BIT,$/;"	v
+get	pygameMenu/selector.py	/^    def get(self):$/;"	m	class:Selector
+get_title	pygameMenu/menu.py	/^    def get_title(self):$/;"	m	class:Menu
+help_menu	example.py	/^help_menu = pygameMenu.TextMenu(surface,$/;"	v
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v
+install_requires	setup.py	/^    install_requires=['pygame'],$/;"	v
+is_disabled	pygameMenu/menu.py	/^    def is_disabled(self):$/;"	m	class:Menu
+is_enabled	pygameMenu/menu.py	/^    def is_enabled(self):$/;"	m	class:Menu
+left	pygameMenu/selector.py	/^    def left(self):$/;"	m	class:Selector
+license	setup.py	/^    license='MIT',$/;"	v
+long_description	setup.py	/^    long_description = f.read()$/;"	v
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+main_background	example2.py	/^def main_background():$/;"	f
+main_menu	example2.py	/^main_menu = pygameMenu.Menu(surface,$/;"	v
+mainloop	pygameMenu/menu.py	/^    def mainloop(self, events):$/;"	m	class:Menu
+mainmenu_background	example.py	/^def mainmenu_background():$/;"	f
+menu	example.py	/^menu = pygameMenu.Menu(surface,$/;"	v
+menu_alpha	example.py	/^                             menu_alpha=85,$/;"	v
+menu_alpha	example.py	/^                       menu_alpha=90,$/;"	v
+menu_alpha	example2.py	/^                            menu_alpha=100,$/;"	v
+menu_color	example.py	/^                                menu_color=(30, 50, 107),  # Background color$/;"	v
+menu_color	example.py	/^                             menu_color=(0, 0, 0),  # Background color$/;"	v
+menu_color	example2.py	/^                                 menu_color=MENU_BACKGROUND_COLOR,$/;"	v
+menu_color	example2.py	/^                            menu_color=MENU_BACKGROUND_COLOR,$/;"	v
+menu_color_title	example.py	/^                                 menu_color_title=COLOR_BLUE,$/;"	v
+menu_color_title	example.py	/^                                menu_color_title=(120, 45, 30),$/;"	v
+menu_color_title	example.py	/^                             menu_color_title=(0, 0, 0),$/;"	v
+menu_color_title	example2.py	/^                                 menu_color_title=COLOR_WHITE,$/;"	v
+menu_height	example.py	/^                             menu_height=int(H_SIZE \/ 2),$/;"	v
+menu_height	example2.py	/^                                 menu_height=int(WINDOW_SIZE[1] * 0.6),$/;"	v
+menu_height	example2.py	/^                            menu_height=int(WINDOW_SIZE[1] * 0.6),$/;"	v
+menu_width	example.py	/^                             menu_width=600,$/;"	v
+menu_width	example2.py	/^                                 menu_width=int(WINDOW_SIZE[0] * 0.6),$/;"	v
+menu_width	example2.py	/^                            menu_width=int(WINDOW_SIZE[0] * 0.6),$/;"	v
+name	setup.py	/^    name='pygame-menu',$/;"	v
+onchange	example.py	/^                        onchange=None,  # Action when changing element with left\/right$/;"	v
+onchange	example2.py	/^                       onchange=change_difficulty)$/;"	v
+onclose	example.py	/^                                 onclose=PYGAME_MENU_DISABLE_CLOSE,  # Disable menu close (ESC button)$/;"	v
+onclose	example.py	/^                                onclose=PYGAME_MENU_DISABLE_CLOSE,  # Pressing ESC button does nothing$/;"	v
+onclose	example.py	/^                             onclose=PYGAME_MENU_RESET,  # If this menu closes (press ESC) back to main$/;"	v
+onclose	example.py	/^                       onclose=PYGAME_MENU_CLOSE,$/;"	v
+onclose	example2.py	/^                                 onclose=PYGAME_MENU_DISABLE_CLOSE,$/;"	v
+onclose	example2.py	/^                            onclose=PYGAME_MENU_DISABLE_CLOSE,$/;"	v
+onreturn	example.py	/^                        onreturn=change_color_bg,  # Action when pressing return on a element$/;"	v
+onreturn	example2.py	/^                       onreturn=None,$/;"	v
+option_shadow	example2.py	/^                                 option_shadow=False,$/;"	v
+option_shadow	example2.py	/^                            option_shadow=False,$/;"	v
+packages	setup.py	/^    packages=['pygameMenu'],$/;"	v
+play_function	example2.py	/^def play_function(difficulty, font):$/;"	f
+play_menu	example2.py	/^play_menu = pygameMenu.Menu(surface,$/;"	v
+random_color	example2.py	/^def random_color():$/;"	f
+reset	pygameMenu/menu.py	/^    def reset(self, total):$/;"	m	class:Menu
+reset_timer	example.py	/^def reset_timer():$/;"	f
+right	pygameMenu/selector.py	/^    def right(self):$/;"	m	class:Selector
+set_title	pygameMenu/menu.py	/^    def set_title(self, title, offsetx=0, offsety=0):$/;"	m	class:Menu
+surface	example.py	/^surface = pygame.display.set_mode((W_SIZE, H_SIZE))$/;"	v
+surface	example2.py	/^surface = pygame.display.set_mode(WINDOW_SIZE)$/;"	v
+text_color	example2.py	/^                                 text_color=COLOR_BLACK,$/;"	v
+text_fontsize	example.py	/^                                 text_fontsize=20,$/;"	v
+text_fontsize	example2.py	/^                                 text_fontsize=20,$/;"	v
+time_blit	example.py	/^    time_blit = timer_font.render(time_string, 1, COLOR_WHITE)$/;"	v
+time_blit_size	example.py	/^    time_blit_size = time_blit.get_size()$/;"	v
+time_string	example.py	/^    time_string = str(datetime.timedelta(seconds=int(timer[0])))$/;"	v
+timer	example.py	/^timer = [0.0]$/;"	v
+timer_font	example.py	/^timer_font = pygame.font.Font(pygameMenu.fonts.FONT_NEVIS, 100)$/;"	v
+timer_menu	example.py	/^timer_menu = pygameMenu.Menu(surface,$/;"	v
+title	example.py	/^                                 title='About',$/;"	v
+title	example.py	/^                                title='Help',$/;"	v
+title	example.py	/^                             title='Timer Menu',$/;"	v
+title	example.py	/^                       title='Main Menu',$/;"	v
+title	example2.py	/^                                 title='About',$/;"	v
+title	example2.py	/^                            title='Main menu',$/;"	v
+title_offsety	example.py	/^                             title_offsety=5,  # Adds 5px to title vertical position$/;"	v
+title_offsety	example.py	/^                       title_offsety=5,$/;"	v
+update_elements	pygameMenu/selector.py	/^    def update_elements(self, elements):$/;"	m	class:Selector
+update_selector	pygameMenu/menu.py	/^    def update_selector(self, selector_id, values):$/;"	m	class:Menu
+url	setup.py	/^    url=__url__,$/;"	v
+version	setup.py	/^    version=__version__$/;"	v
+window_height	example.py	/^                                 window_height=H_SIZE,$/;"	v
+window_height	example.py	/^                                window_height=H_SIZE,$/;"	v
+window_height	example.py	/^                             window_height=H_SIZE,$/;"	v
+window_height	example.py	/^                       window_height=H_SIZE,$/;"	v
+window_height	example2.py	/^                                 window_height=WINDOW_SIZE[1],$/;"	v
+window_height	example2.py	/^                            window_height=WINDOW_SIZE[1],$/;"	v
+window_width	example.py	/^                                 window_width=W_SIZE$/;"	v
+window_width	example.py	/^                                window_width=W_SIZE$/;"	v
+window_width	example.py	/^                             window_width=W_SIZE$/;"	v
+window_width	example.py	/^                       window_width=W_SIZE$/;"	v
+window_width	example2.py	/^                                 window_width=WINDOW_SIZE[0]$/;"	v
+window_width	example2.py	/^                            window_width=WINDOW_SIZE[0]$/;"	v
+write_on_console	example.py	/^                        write_on_console=True  # Optional parameters to change_color_bg function$/;"	v

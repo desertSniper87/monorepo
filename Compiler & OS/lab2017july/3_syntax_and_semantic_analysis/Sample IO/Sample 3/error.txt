@@ -1,0 +1,14 @@
+
+Error at Line 2 : Undeclared Function bar
+
+Error at Line 14 : Undeclared Variable d
+
+Error at Line 16 : Non-Integer operand on modulus operator
+
+Error at Line 17 : Type Mismatch
+
+Error at Line 18 : Total Number of Arguments mismatch in funtion bar
+
+Error at Line 19 : 1th argument mismatch in function bar
+
+Error at Line 20 : a is not a function

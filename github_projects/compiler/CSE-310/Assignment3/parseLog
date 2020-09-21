@@ -1,0 +1,484 @@
+At line: 1, lexeme: "example" of type "ID" has been inserted in symbol table.
+At line: 1, lexeme: "(" of type "PAREN1" has been inserted in symbol table.
+At line: 1, lexeme: "input" of type "ID" has been inserted in symbol table.
+identifier_list → ID
+At line: 1, lexeme: "," of type "COMMA" has been inserted in symbol table.
+At line: 1, lexeme: "output" of type "ID" has been inserted in symbol table.
+identifier_list → identifier_list COMMA ID
+At line: 1, lexeme: ")" of type "PAREN2" has been inserted in symbol table.
+At line: 1, lexeme: ";" of type "SEMICOLON" has been inserted in symbol table.
+declaration → ε
+At line: 2, lexeme: "x" of type "ID" has been inserted in symbol table.
+identifier_list → ID
+At line: 2, lexeme: "y" of type "ID" has been inserted in symbol table.
+identifier_list → identifier_list COMMA ID
+At line: 2, lexeme: ":" of type "COLON" has been inserted in symbol table.
+standard_type → INTEGER
+type → standard_type
+declarations → declarations VAR identifier_list COLON type SEMICOLON
+At line: 3, lexeme: "q" of type "ID" has been inserted in symbol table.
+identifier_list → ID
+standard_type → REAL
+type → standard_type
+declarations → declarations VAR identifier_list COLON type SEMICOLON
+At line: 4, lexeme: "c" of type "ID" has been inserted in symbol table.
+identifier_list → ID
+At line: 4, lexeme: "[" of type "BRACKET1" has been inserted in symbol table.
+At line: 4, lexeme: "3" of type "NUM" has been inserted in symbol table.
+At line: 4, lexeme: ".." of type "DOTDOT" has been inserted in symbol table.
+At line: 4, lexeme: "10" of type "NUM" has been inserted in symbol table.
+At line: 4, lexeme: "]" of type "BRACKET2" has been inserted in symbol table.
+standard_type → INTEGER
+type → ARRAY '[' NUM DOTDOT NUM ']' OF standard_type
+declarations → declarations VAR identifier_list COLON type SEMICOLON
+subprogram_declarations → εAt line: 6, lexeme: ":=" of type "ASSIGNOP" has been inserted in symbol table.
+variable → ID
+At line: 6, lexeme: "4" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 6
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, 4.000000 >
+[121]--> < ID, y, 0.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+statement_list → statement
+variable → ID
+At line: 7, lexeme: "123" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+At line: 7, lexeme: "+" of type "ADDOP" has been inserted in symbol table.
+simple_expression → term
+At line: 7, lexeme: "432" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 7
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, 4.000000 >
+[121]--> < ID, y, 0.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+variable → ID
+At line: 8, lexeme: "-" of type "ADDOP" has been inserted in symbol table.
+factor → ID
+term → factor
+simple_expression → sign term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 8
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 0.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+variable → ID
+At line: 9, lexeme: "7" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 9
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+variable → ID
+factor → NUM
+term → factor
+simple_expression → term
+At line: 10, lexeme: "2" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+At line: 10, lexeme: "5" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+At line: 10, lexeme: "6" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+At line: 10, lexeme: "1" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+At line: 10, lexeme: "*" of type "MULOP" has been inserted in symbol table.
+factor → NUM
+term → term MULOP factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 10
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+variable → ID
+At line: 11, lexeme: "0" of type "NUM" has been inserted in symbol table.
+factor → NUM
+term → factor
+At line: 11, lexeme: "and" of type "MULOP" has been inserted in symbol table.
+factor → NUM
+term → term MULOP factor
+simple_expression → term
+expression → simple_expression
+factor → '(' expression ')'
+term → factor
+factor → NUM
+term → term MULOP factor
+simple_expression → term
+factor → NUM
+term → factor
+At line: 11, lexeme: "mod" of type "MULOP" has been inserted in symbol table.
+factor → NUM
+term → term MULOP factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 11
+[10]--> < MULOP, mod, 0.000000 >
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[48]--> < NUM, 0, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < MULOP, and, 0.000000 > , < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+Line 12: Comment {
+} is found.
+At line: 14, lexeme: ">" of type "RELOP" has been inserted in symbol table.
+factor → ID
+term → factor
+simple_expression → term
+factor → NUM
+term → factor
+simple_expression → term
+expression → simple_expression RELOP simple_expression
+factor → '(' expression ')'
+term → factor
+simple_expression → term
+expression → simple_expression
+variable → ID
+factor → ID
+term → factor
+simple_expression → term
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 16
+[10]--> < MULOP, mod, 0.000000 >
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[48]--> < NUM, 0, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[62]--> < RELOP, >, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < MULOP, and, 0.000000 > , < NUM, 432, 432.000000 >
+variable → ID
+factor → ID
+term → factor
+simple_expression → term
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 17
+[10]--> < MULOP, mod, 0.000000 >
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[48]--> < NUM, 0, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[62]--> < RELOP, >, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < MULOP, and, 0.000000 > , < NUM, 432, 432.000000 >
+statement → IF expression THEN statement ELSE statement
+statement_list → statement_list SEMICOLON statement
+statement → write '(' ID ')'
+statement_list → statement_list SEMICOLON statement
+At line: 20, lexeme: "<" of type "RELOP" has been inserted in symbol table.
+factor → ID
+term → factor
+simple_expression → term
+factor → ID
+term → factor
+simple_expression → term
+expression → simple_expression RELOP simple_expression
+factor → '(' expression ')'
+term → factor
+simple_expression → term
+expression → simple_expression
+variable → ID
+factor → ID
+term → factor
+simple_expression → term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 22
+[10]--> < MULOP, mod, 0.000000 >
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[48]--> < NUM, 0, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[60]--> < RELOP, <, 0.000000 >
+[62]--> < RELOP, >, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < MULOP, and, 0.000000 > , < NUM, 432, 432.000000 >
+statement_list → statement
+variable → ID
+factor → ID
+term → factor
+simple_expression → term
+factor → NUM
+term → factor
+simple_expression → simple_expression ADDOP term
+expression → simple_expression
+statement → variable ASSIGNOP expression
+Assign on line: 24
+[10]--> < MULOP, mod, 0.000000 >
+[29]--> < ID, output, 0.000000 >
+[40]--> < PAREN1, (, 0.000000 >
+[41]--> < PAREN2, ), 0.000000 >
+[42]--> < MULOP, *, 0.000000 >
+[43]--> < ADDOP, +, 0.000000 >
+[44]--> < COMMA, ,, 0.000000 >
+[45]--> < ADDOP, -, 0.000000 >
+[48]--> < NUM, 0, 0.000000 >
+[49]--> < NUM, 1, 1.000000 >
+[50]--> < NUM, 2, 2.000000 >
+[51]--> < NUM, 3, 3.000000 >
+[52]--> < NUM, 4, 4.000000 >
+[53]--> < NUM, 5, 5.000000 >
+[54]--> < NUM, 6, 6.000000 >
+[55]--> < NUM, 7, 7.000000 >
+[58]--> < COLON, :, 0.000000 >
+[59]--> < SEMICOLON, ;, 0.000000 >
+[60]--> < RELOP, <, 0.000000 >
+[62]--> < RELOP, >, 0.000000 >
+[90]--> < ID, example, 0.000000 >
+[91]--> < BRACKET1, [, 0.000000 >
+[93]--> < BRACKET2, ], 0.000000 >
+[99]--> < ID, c, 0.000000 >
+[103]--> < ID, input, 0.000000 >
+[113]--> < ID, q, 0.000000 >
+[120]--> < ID, x, -4.000000 >
+[121]--> < ID, y, 7.000000 >
+[138]--> < DOTDOT, .., 0.000000 >
+[145]--> < NUM, 10, 10.000000 >
+[180]--> < ASSIGNOP, :=, 0.000000 >
+[239]--> < NUM, 123, 123.000000 >
+[245]--> < MULOP, and, 0.000000 > , < NUM, 432, 432.000000 >
+statement_list → statement_list SEMICOLON statement
+optional_statements → statement_list
+compound_statement → BEGIN optional_statements END
+statement → compound_statement
+statement → WHILE expression DO statement
+statement_list → statement_list SEMICOLON statement
+optional_statements → statement_list
+compound_statement → BEGIN optional_statements END
+program → PROGRAM ID '(' identifier_list ')' SEMICOLON declarations subprogram_declarations compound_statement

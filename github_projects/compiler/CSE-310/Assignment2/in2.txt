@@ -1,0 +1,33 @@
+{This is a 
+
+program}
+
+111192019
+a := 5.2 mod h
+
+4 div 4.3
+
+3.4E2
+2.5E+3
+3.4E-3
+3E-3
+
+
+integer a,b,c    
+"This \\
+is a multi-line \"quoted \\
+string."
+
+"This is a single-line quoted string" :)
+if (c = c - 1)
+	// do nothing :)
+d := d -1; {This is an assignment statement}
+
+array[10] : hello;
+
+
+program begin not else do while
+
+
+
+8.abc ab.c 888;888

@@ -1,0 +1,20 @@
+{% extends "mail/email_base.xhtml" %}
+
+{% load utils_tags %}
+
+{% block body %}
+    
+    <h2 style="color: #282F33; font-size: 18px; font-weight: bold;">
+        {% if reason %}{{ reason }}{% else %}Here's a backup of all of your subscriptions on NewsBlur.{% endif %} It contains <b style="#484F53">{{ feed_count }}</b> 
+        site{{ feed_count|pluralize }}.
+    </h2>
+    
+    <p style="line-height: 20px;">
+        You can re-upload the attached file to NewsBlur and immediately get any deleted sites back.
+    </p>
+
+    <p style="line-height: 20px;">
+        Just go to <a href="http://{% current_domain %}/?next=opml">Manage > Import > Upload OPML</a>.
+    </p>
+    
+{% endblock %}

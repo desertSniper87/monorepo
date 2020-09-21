@@ -1,0 +1,40 @@
+body {
+	line-height: 1.75em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.25em;
+	margin-bottom: 0.75em;
+}
+
+.button {
+	font-size: 1.25em;
+	padding: 0.65em 2.25em 0.65em 2.25em;
+}
+
+#header {
+    padding: 2em 0em 0em 0em;
+	margin-left: 0em;
+}
+
+#banner {
+	border-radius: 0.5em;
+	margin: 2em 0 2em 0;
+}
+
+#banner a img{
+	width: 100%;
+	display: block;
+}
+
+#main-nav ul { 
+	margin-top: 4.5em;
+}
+
+footer {
+    padding: 3em 0 2em 0;
+}

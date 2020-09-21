@@ -1,0 +1,12 @@
+project Helloworld is
+
+   for Languages use ("Ada", "C++");
+   for Source_Dirs use ("./**");
+
+   package Naming is
+      for Spec_Suffix ("C++") use ".hh";
+      for Body_Suffix ("C++") use ".cpp";
+   end Naming;
+
+end Helloworld;
+

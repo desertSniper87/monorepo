@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\libIME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\TextService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\KeyEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\EditSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeInfoEnum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\LangBarButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DrawUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\MessageWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\libIME.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\TextService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\KeyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\EditSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeInfoEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DisplayAttributeProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\LangBarButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ComPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\WindowsVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\DrawUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\MessageWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{72404E88-9741-318D-BE77-2EBAAE3F0822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0694C9C7-E050-3F6D-848E-8F4302D73B9D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

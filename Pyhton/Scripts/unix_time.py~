@@ -1,0 +1,18 @@
+import time
+import datetime
+from datetime import timedelta
+
+#This is the day of the time. Meaning at s, 00:00 the time has begun
+s = "04/09/2017"
+ep = time.mktime(datetime.datetime.strptime(s, "%d/%m/%Y").timetuple())
+print (ep)
+
+n = 5
+ep_time = datetime.datetime.fromtimestamp(ep)
+n_ago_s = ep_time
+# print (time.strftime('%d/%m/%Y', time.localtime(n_ago_s)))
+while (n_ago_s<datetime.datetime.now()):
+    n_ago_s += timedelta(days=n)
+# if n_ago_s>datetime.datetime.now():
+print(n_ago_s.strftime("%A %d %B %Y"))
+print ("04:00 am")

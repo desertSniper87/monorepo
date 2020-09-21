@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cloudsim-3.0.3-intellij:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cloudsim_3_0_3_intellij_jar</output-path>
+    <root id="archive" name="cloudsim-3.0.3-intellij.jar">
+      <element id="module-output" name="cloudsim-3.0.3-intellij" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/cloudsim-3.0.3-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/cloudsim-examples-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/cloudsim-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/cloudsim-examples-3.0.3-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../libraries/commons-math3-3.6.1-bin/commons-math3-3.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

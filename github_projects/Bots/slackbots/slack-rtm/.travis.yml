@@ -1,0 +1,9 @@
+language: clojure
+jdk:
+- oraclejdk8
+script:
+- lein test
+notifications:
+  email:
+    on_success: never
+    on_failure: always

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/symbol_table.dir/main.cpp.o  -o symbol_table 

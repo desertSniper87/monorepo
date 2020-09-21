@@ -1,0 +1,25 @@
+from sys import argv
+from pip._vendor.distlib.compat import raw_input
+
+script, filename = argv
+
+print ("We are going to erase filename %r" % filename)
+
+raw_input("?")
+
+print("Opening the file")
+target = open (filename)
+
+print ("Eradicating the file. Goodbye")
+target.truncate();
+
+print("Please enter three lines")
+line_1 = raw_input("Line1:")
+line_2 = raw_input("Line2:")
+line_3 = raw_input("Line3:")
+
+print("Now writing to the file")
+
+target.write (line_1)
+target.write (line_2)
+target.write (line_3)

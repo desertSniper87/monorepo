@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/modules/cloudsim/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-examples/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/modules/cloudTranscodingApp/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/documentation/src/main/resources/pom.xml" />
+        <option value="$PROJECT_DIR$/documentation/target/classes/pom.xml" />
+        <option value="$PROJECT_DIR$/documentation/target/maven-archiver/pom.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

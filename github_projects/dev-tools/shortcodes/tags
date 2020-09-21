@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AtomicShortcode	shortcodes.py	/^class AtomicShortcode(Shortcode):$/;"	c
+BlockShortcode	shortcodes.py	/^class BlockShortcode(Shortcode):$/;"	c
+InvalidTagError	shortcodes.py	/^class InvalidTagError(ShortcodeError):$/;"	c
+NestingError	shortcodes.py	/^class NestingError(ShortcodeError):$/;"	c
+Node	shortcodes.py	/^class Node:$/;"	c
+Parser	shortcodes.py	/^class Parser:$/;"	c
+RenderingError	shortcodes.py	/^class RenderingError(ShortcodeError):$/;"	c
+Shortcode	shortcodes.py	/^class Shortcode(Node):$/;"	c
+ShortcodeError	shortcodes.py	/^class ShortcodeError(Exception):$/;"	c
+Text	shortcodes.py	/^class Text(Node):$/;"	c
+__init__	shortcodes.py	/^    def __init__(self):$/;"	m	class:Node
+__init__	shortcodes.py	/^    def __init__(self, start='[%', end='%]', esc='\\\\'):$/;"	m	class:Parser
+__init__	shortcodes.py	/^    def __init__(self, tag, argstring, func):$/;"	m	class:Shortcode
+__init__	shortcodes.py	/^    def __init__(self, text):$/;"	m	class:Text
+__version__	shortcodes.py	/^__version__ = "2.5.0"$/;"	v
+_parse_sc_token	shortcodes.py	/^    def _parse_sc_token(self, content, stack, expecting, tags, ends):$/;"	m	class:Parser
+_parse_token	shortcodes.py	/^    def _parse_token(self, token, stack, expecting, tags, ends):$/;"	m	class:Parser
+_tokenize	shortcodes.py	/^    def _tokenize(self, text):$/;"	m	class:Parser
+args_handler	test_shortcodes.py	/^def args_handler(context, content, pargs, kwargs):$/;"	f
+author	setup.py	/^    author = 'Darren Mulholland',$/;"	v
+classifiers	setup.py	/^    classifiers = [$/;"	v
+code	docs/src/guide.mk	/^        code = html.escape(content)$/;"	m
+context_handler	test_shortcodes.py	/^def context_handler(context, content, pargs, kwargs):$/;"	f
+description	setup.py	/^    description = ($/;"	v
+divbyzero_handler	test_shortcodes.py	/^def divbyzero_handler(context, content, pargs, kwargs):$/;"	f
+endtag	docs/src/guide.mk	/^    parser.register(handler, tag, endtag=None)$/;"	m
+filepath	setup.py	/^filepath = os.path.join(os.path.dirname(__file__), 'shortcodes.py')$/;"	v
+foo_handler	test_shortcodes.py	/^def foo_handler(context, content, pargs, kwargs):$/;"	f
+globalends	shortcodes.py	/^globalends = []$/;"	v
+globaltags	shortcodes.py	/^globaltags = {}$/;"	v
+lang	docs/src/guide.mk	/^        lang = pargs[0]$/;"	m
+license	setup.py	/^    license = 'Public Domain',$/;"	v
+long_description	setup.py	/^    long_description = __doc__,$/;"	v
+meta	setup.py	/^    meta = dict(re.findall(regex, metafile.read(), flags=re.MULTILINE))$/;"	v
+name	setup.py	/^    name = 'shortcodes',$/;"	v
+output	docs/src/guide.mk	/^    output = parser.parse(text, context=None)$/;"	m
+parse	shortcodes.py	/^    def parse(self, text, context=None):$/;"	m	class:Parser
+parse_args	shortcodes.py	/^    def parse_args(self, argstring):$/;"	m	class:Shortcode
+parser	docs/src/guide.mk	/^    parser = shortcodes.Parser()$/;"	m
+parser	docs/src/guide.mk	/^    parser = shortcodes.Parser(start="\\[%", end="%]", esc="\\\\\\\\")$/;"	m
+py_modules	setup.py	/^    py_modules = ['shortcodes'],$/;"	v
+register	shortcodes.py	/^    def register(self, func, tag, end_tag=None):$/;"	m	class:Parser
+register	shortcodes.py	/^def register(tag, end_tag=None):$/;"	f
+register_function	shortcodes.py	/^    def register_function(function):$/;"	f	function:register
+render	shortcodes.py	/^    def render(self, context):$/;"	m	class:AtomicShortcode
+render	shortcodes.py	/^    def render(self, context):$/;"	m	class:BlockShortcode
+render	shortcodes.py	/^    def render(self, context):$/;"	m	class:Node
+render	shortcodes.py	/^    def render(self, context):$/;"	m	class:Text
+tagline	docs/config.py	/^tagline = "A Python library for parsing customizable WordPress-style shortcodes."$/;"	v
+test_args_with_double_quoted_strings	test_shortcodes.py	/^def test_args_with_double_quoted_strings():$/;"	f
+test_args_with_single_quoted_strings	test_shortcodes.py	/^def test_args_with_single_quoted_strings():$/;"	f
+test_context_object	test_shortcodes.py	/^def test_context_object():$/;"	f
+test_double_escaped_shortcode	test_shortcodes.py	/^def test_double_escaped_shortcode():$/;"	f
+test_escaped_shortcode	test_shortcodes.py	/^def test_escaped_shortcode():$/;"	f
+test_handler_exception	test_shortcodes.py	/^def test_handler_exception():$/;"	f
+test_invalid_tag_exception	test_shortcodes.py	/^def test_invalid_tag_exception():$/;"	f
+test_locally_registered_handler	test_shortcodes.py	/^def test_locally_registered_handler():$/;"	f
+test_locally_registered_wrap	test_shortcodes.py	/^def test_locally_registered_wrap():$/;"	f
+test_nonascii_args	test_shortcodes.py	/^def test_nonascii_args():$/;"	f
+test_parse_empty_string	test_shortcodes.py	/^def test_parse_empty_string():$/;"	f
+test_parse_single_shortcode	test_shortcodes.py	/^def test_parse_single_shortcode():$/;"	f
+test_parse_single_shortcode_with_text	test_shortcodes.py	/^def test_parse_single_shortcode_with_text():$/;"	f
+test_parse_string_no_shortcodes	test_shortcodes.py	/^def test_parse_string_no_shortcodes():$/;"	f
+test_unbalanced_tags_exception	test_shortcodes.py	/^def test_unbalanced_tags_exception():$/;"	f
+test_wrapping_and_text_mix	test_shortcodes.py	/^def test_wrapping_and_text_mix():$/;"	f
+test_wrapping_shortcode	test_shortcodes.py	/^def test_wrapping_shortcode():$/;"	f
+test_wrapping_simple_text	test_shortcodes.py	/^def test_wrapping_simple_text():$/;"	f
+test_wrapping_wrapping_shortcode	test_shortcodes.py	/^def test_wrapping_wrapping_shortcode():$/;"	f
+title	docs/config.py	/^title = "Shortcodes"$/;"	v
+url	setup.py	/^    url = 'http:\/\/mulholland.xyz\/dev\/shortcodes\/',$/;"	v
+version	setup.py	/^    version = meta['version'],$/;"	v
+wrap_handler	test_shortcodes.py	/^def wrap_handler(context, content, pargs, kwargs):$/;"	f

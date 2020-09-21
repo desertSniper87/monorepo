@@ -1,0 +1,233 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+API_KEY	src/request.py	/^    API_KEY = u"b11d3ce81059f8563bf1113af65beba5"$/;"	v	class:Request
+API_SECRET	src/auth.py	/^    API_SECRET = u"9435542fa196464b5306e28a0939e6f1"$/;"	v	class:Auth
+API_URL	src/request.py	/^    API_URL = "http:\/\/ws.audioscrobbler.com\/2.0\/?"$/;"	v	class:Request
+ATTENDING	src/event.py	/^    ATTENDING = 0$/;"	v	class:Event
+AUTH_URL	src/auth.py	/^    AUTH_URL = u"http:\/\/www.last.fm\/api\/auth\/"$/;"	v	class:Auth
+Album	src/album.py	/^class Album(Request):$/;"	c
+Artist	src/artist.py	/^class Artist(Request):$/;"	c
+Auth	src/auth.py	/^class Auth(Request):$/;"	c
+Chart	src/chart.py	/^class Chart(Request):$/;"	c
+Event	src/event.py	/^class Event(Request):$/;"	c
+Geo	src/geo.py	/^class Geo(Request):$/;"	c
+MAYBE_ATTENDING	src/event.py	/^    MAYBE_ATTENDING = 1$/;"	v	class:Event
+NOT_ATTENDING	src/event.py	/^    NOT_ATTENDING = 2$/;"	v	class:Event
+REQUEST_FORMAT	src/request.py	/^    REQUEST_FORMAT = "json"$/;"	v	class:Request
+Request	src/request.py	/^class Request(object):$/;"	c
+TestAlbum	tests/album.py	/^class TestAlbum:$/;"	c
+TestArtist	tests/artist.py	/^class TestArtist():$/;"	c
+TestAuth	tests/auth.py	/^class TestAuth():$/;"	c
+TestChart	tests/chart.py	/^class TestChart:$/;"	c
+TestEvent	tests/event.py	/^class TestEvent:$/;"	c
+TestGeo	tests/geo.py	/^class TestGeo:$/;"	c
+TestRequest	tests/request.py	/^class TestRequest(Request):$/;"	c
+Utils	tests/__init__.py	/^class Utils():$/;"	c
+__get__	src/request.py	/^    def __get__(self, url):$/;"	m	class:Request
+__init__	src/album.py	/^    def __init__(self, artist=None, album=None):$/;"	m	class:Album
+__init__	src/artist.py	/^    def __init__(self, name=None):$/;"	m	class:Artist
+__init__	src/auth.py	/^    def __init__(self, session=None):$/;"	m	class:Auth
+__init__	src/chart.py	/^    def __init__(self):$/;"	m	class:Chart
+__init__	src/event.py	/^    def __init__(self, event=None):$/;"	m	class:Event
+__init__	src/geo.py	/^    def __init__(self):$/;"	m	class:Geo
+__init__	src/request.py	/^    def __init__(self):$/;"	m	class:Request
+__init__	tests/album.py	/^    def __init__(self):$/;"	m	class:TestAlbum
+__init__	tests/artist.py	/^    def __init__(self):$/;"	m	class:TestArtist
+__init__	tests/auth.py	/^    def __init__(self):$/;"	m	class:TestAuth
+__init__	tests/chart.py	/^    def __init__(self):$/;"	m	class:TestChart
+__init__	tests/event.py	/^    def __init__(self):$/;"	m	class:TestEvent
+__init__	tests/geo.py	/^    def __init__(self):$/;"	m	class:TestGeo
+__makeurl__	src/request.py	/^    def __makeurl__(self, data=None):$/;"	m	class:Request
+__ok__	src/request.py	/^    def __ok__(self):$/;"	m	class:Request
+__post__	src/request.py	/^    def __post__(self, data):$/;"	m	class:Request
+add_tags	src/album.py	/^    def add_tags(self, tags=None, auth=None):$/;"	m	class:Album
+add_tags	src/artist.py	/^    def add_tags(self, tags=None, auth=None):$/;"	m	class:Artist
+assert_error_key	tests/__init__.py	/^    def assert_error_key(self, dictionary):  # pylint: disable=R0201$/;"	m	class:Utils
+assert_response_content	tests/__init__.py	/^    def assert_response_content(self, dictionary):  # pylint: disable=R0201$/;"	m	class:Utils
+attend	src/event.py	/^    def attend(self, status=None, auth=None):$/;"	m	class:Event
+authenticated	src/auth.py	/^    def authenticated(self):$/;"	m	class:Auth
+basic_data	src/album.py	/^    def basic_data(self, method):$/;"	m	class:Album
+basic_data	src/artist.py	/^    def basic_data(self, method):$/;"	m	class:Artist
+basic_data	src/event.py	/^    def basic_data(self, method):$/;"	m	class:Event
+deps	Makefile	/^deps: requirements.txt$/;"	t
+get_attendees	src/event.py	/^    def get_attendees(self, page=None, limit=None):$/;"	m	class:Event
+get_auth_url	src/auth.py	/^    def get_auth_url(self):$/;"	m	class:Auth
+get_buy_links	src/album.py	/^    def get_buy_links(self, country=None, correct=False):$/;"	m	class:Album
+get_correction	src/artist.py	/^    def get_correction(self):$/;"	m	class:Artist
+get_event	src/event.py	/^    def get_event(self):$/;"	m	class:Event
+get_events	src/artist.py	/^    def get_events(self, limit=None, page=None,$/;"	m	class:Artist
+get_events	src/geo.py	/^    def get_events(self, *args, **kwargs):$/;"	m	class:Geo
+get_hyped_artists	src/chart.py	/^    def get_hyped_artists(self, page=None, limit=None):$/;"	m	class:Chart
+get_hyped_tracks	src/chart.py	/^    def get_hyped_tracks(self, page=None, limit=None):$/;"	m	class:Chart
+get_info	src/album.py	/^    def get_info(self, lang=None, username=None, correct=False):$/;"	m	class:Album
+get_info	src/artist.py	/^    def get_info(self, lang=None, username=None, correct=False):$/;"	m	class:Artist
+get_info	src/event.py	/^    def get_info(self):$/;"	m	class:Event
+get_loved_tracks	src/chart.py	/^    def get_loved_tracks(self, page=None, limit=None):$/;"	m	class:Chart
+get_metro_artist_chart	src/geo.py	/^    def get_metro_artist_chart(self, *args, **kwargs):$/;"	m	class:Geo
+get_name	src/artist.py	/^    def get_name(self):$/;"	m	class:Artist
+get_past_events	src/artist.py	/^    def get_past_events(self, page=None, correct=False, limit=None):$/;"	m	class:Artist
+get_podcast	src/artist.py	/^    def get_podcast(self, correct=False):$/;"	m	class:Artist
+get_session	src/auth.py	/^    def get_session(self):$/;"	m	class:Auth
+get_shouts	src/album.py	/^    def get_shouts(self, limit=None, page=None, correct=False):$/;"	m	class:Album
+get_shouts	src/artist.py	/^    def get_shouts(self, page=None, limit=None, correct=False):$/;"	m	class:Artist
+get_shouts	src/event.py	/^    def get_shouts(self, page=None, limit=None):$/;"	m	class:Event
+get_similar	src/artist.py	/^    def get_similar(self, limit=None):$/;"	m	class:Artist
+get_tags	src/album.py	/^    def get_tags(self, user=None, auth=None, correct=False):$/;"	m	class:Album
+get_tags	src/artist.py	/^    def get_tags(self, user=None, auth=None, correct=False):$/;"	m	class:Artist
+get_token	src/auth.py	/^    def get_token(self):$/;"	m	class:Auth
+get_top_albums	src/artist.py	/^    def get_top_albums(self, limit=None, page=None, correct=False):$/;"	m	class:Artist
+get_top_artists	src/chart.py	/^    def get_top_artists(self, page=None, limit=None):$/;"	m	class:Chart
+get_top_fans	src/artist.py	/^    def get_top_fans(self, correct=False):$/;"	m	class:Artist
+get_top_tags	src/album.py	/^    def get_top_tags(self, correct=False):$/;"	m	class:Album
+get_top_tags	src/artist.py	/^    def get_top_tags(self, correct=False):$/;"	m	class:Artist
+get_top_tags	src/chart.py	/^    def get_top_tags(self, page=None, limit=None):$/;"	m	class:Chart
+get_top_tracks	src/artist.py	/^    def get_top_tracks(self, limit=None, page=None, correct=False):$/;"	m	class:Artist
+get_top_tracks	src/chart.py	/^    def get_top_tracks(self, page=None, limit=None):$/;"	m	class:Chart
+get_top_tracks	tests/chart.py	/^    def get_top_tracks(self):$/;"	m	class:TestChart
+inner	src/geo.py	/^        def inner(self, *args, **kwargs):$/;"	f	member:Geo.parse_args	file:
+json_load	src/request.py	/^from json import loads as json_load$/;"	x
+make_data	src/geo.py	/^    def make_data(self, method):$/;"	m	class:Geo
+nose_options	Makefile	/^nose_options=--verbose --with-color$/;"	m
+parse_args	src/geo.py	/^    def parse_args(func):$/;"	m	class:Geo
+parse_params	src/chart.py	/^    def parse_params(self, page, limit):$/;"	m	class:Chart
+pep8	Makefile	/^pep8:$/;"	t
+pylint	Makefile	/^pylint:$/;"	t
+remove_tag	src/album.py	/^    def remove_tag(self, tag=None, auth=None):$/;"	m	class:Album
+remove_tag	src/artist.py	/^    def remove_tag(self, tag=None, auth=None):$/;"	m	class:Artist
+report	Makefile	/^report:$/;"	t
+search	src/album.py	/^    def search(album=None, limit=None, page=None):$/;"	m	class:Album
+search	src/artist.py	/^    def search(artist=None, limit=None, page=None):$/;"	m	class:Artist
+set_method	src/chart.py	/^    def set_method(self, method):$/;"	m	class:Chart
+setup	tests/album.py	/^    def setup(self):$/;"	m	class:TestAlbum
+setup	tests/artist.py	/^    def setup(self):$/;"	m	class:TestArtist
+setup	tests/auth.py	/^    def setup(self):$/;"	m	class:TestAuth
+setup	tests/chart.py	/^    def setup(self):$/;"	m	class:TestChart
+setup	tests/event.py	/^    def setup(self):$/;"	m	class:TestEvent
+setup	tests/geo.py	/^    def setup(self):$/;"	m	class:TestGeo
+share	src/album.py	/^    def share(self, recipient=None, message=None, public=False, auth=None):$/;"	m	class:Album
+share	src/artist.py	/^    def share(self, recipient=None, message=None, public=False, auth=None):$/;"	m	class:Artist
+share	src/event.py	/^    def share(self, public=False, message=None, recipient=None, auth=None):$/;"	m	class:Event
+shout	src/artist.py	/^    def shout(self, message=None, auth=None):$/;"	m	class:Artist
+shout	src/event.py	/^    def shout(self, message=None, auth=None):$/;"	m	class:Event
+sign	src/auth.py	/^    def sign(self, data):$/;"	m	class:Auth
+test	Makefile	/^test:	$/;"	t
+test_add_tag_with_no_auth	tests/artist.py	/^    def test_add_tag_with_no_auth(self):$/;"	m	class:TestArtist
+test_add_tags	tests/album.py	/^    def test_add_tags(self):$/;"	m	class:TestAlbum
+test_add_tags	tests/artist.py	/^    def test_add_tags(self):$/;"	m	class:TestArtist
+test_add_tags_with_no_auth	tests/album.py	/^    def test_add_tags_with_no_auth(self):$/;"	m	class:TestAlbum
+test_album	Makefile	/^test_album:$/;"	t
+test_album_with_no_album	tests/album.py	/^    def test_album_with_no_album(self):$/;"	m	class:TestAlbum
+test_album_with_no_artist	tests/album.py	/^    def test_album_with_no_artist(self):$/;"	m	class:TestAlbum
+test_artist	Makefile	/^test_artist:$/;"	t
+test_artist_share	tests/artist.py	/^    def test_artist_share(self):$/;"	m	class:TestArtist
+test_attend	tests/event.py	/^    def test_attend(self):$/;"	m	class:TestEvent
+test_attend_with_invalid_status	tests/event.py	/^    def test_attend_with_invalid_status(self):$/;"	m	class:TestEvent
+test_attend_with_no_auth	tests/event.py	/^    def test_attend_with_no_auth(self):$/;"	m	class:TestEvent
+test_attend_with_no_status	tests/event.py	/^    def test_attend_with_no_status(self):$/;"	m	class:TestEvent
+test_auth	Makefile	/^test_auth:$/;"	t
+test_chart	Makefile	/^test_chart:$/;"	t
+test_corrections	tests/artist.py	/^    def test_corrections(self):$/;"	m	class:TestArtist
+test_event	Makefile	/^test_event:$/;"	t
+test_events	tests/artist.py	/^    def test_events(self):$/;"	m	class:TestArtist
+test_events_correction	tests/artist.py	/^    def test_events_correction(self):$/;"	m	class:TestArtist
+test_events_festivalsonly	tests/artist.py	/^    def test_events_festivalsonly(self):$/;"	m	class:TestArtist
+test_events_limit	tests/artist.py	/^    def test_events_limit(self):$/;"	m	class:TestArtist
+test_events_page	tests/artist.py	/^    def test_events_page(self):$/;"	m	class:TestArtist
+test_exception_on_shout	tests/artist.py	/^    def test_exception_on_shout(self):$/;"	m	class:TestArtist
+test_geo	Makefile	/^test_geo:$/;"	t
+test_get_attendees	tests/event.py	/^    def test_get_attendees(self):$/;"	m	class:TestEvent
+test_get_buy_links	tests/album.py	/^    def test_get_buy_links(self):$/;"	m	class:TestAlbum
+test_get_event_with_distance	tests/geo.py	/^    def test_get_event_with_distance(self):$/;"	m	class:TestGeo
+test_get_event_with_festivalsonly	tests/geo.py	/^    def test_get_event_with_festivalsonly(self):$/;"	m	class:TestGeo
+test_get_event_with_lat_and_long	tests/geo.py	/^    def test_get_event_with_lat_and_long(self):$/;"	m	class:TestGeo
+test_get_event_with_limit	tests/geo.py	/^    def test_get_event_with_limit(self):$/;"	m	class:TestGeo
+test_get_event_with_page	tests/geo.py	/^    def test_get_event_with_page(self):$/;"	m	class:TestGeo
+test_get_event_with_tag	tests/geo.py	/^    def test_get_event_with_tag(self):$/;"	m	class:TestGeo
+test_get_events_from_a_city	tests/geo.py	/^    def test_get_events_from_a_city(self):$/;"	m	class:TestGeo
+test_get_hyped_tracks	tests/chart.py	/^    def test_get_hyped_tracks(self):$/;"	m	class:TestChart
+test_get_info	tests/album.py	/^    def test_get_info(self):$/;"	m	class:TestAlbum
+test_get_info	tests/event.py	/^    def test_get_info(self):$/;"	m	class:TestEvent
+test_get_info_with_lang	tests/album.py	/^    def test_get_info_with_lang(self):$/;"	m	class:TestAlbum
+test_get_info_with_username	tests/album.py	/^    def test_get_info_with_username(self):$/;"	m	class:TestAlbum
+test_get_loved_tracks	tests/chart.py	/^    def test_get_loved_tracks(self):$/;"	m	class:TestChart
+test_get_metro_artist_chart	tests/geo.py	/^    def test_get_metro_artist_chart(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_end	tests/geo.py	/^    def test_get_metro_artist_chart_with_end(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_limit	tests/geo.py	/^    def test_get_metro_artist_chart_with_limit(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_no_country	tests/geo.py	/^    def test_get_metro_artist_chart_with_no_country(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_no_metro	tests/geo.py	/^    def test_get_metro_artist_chart_with_no_metro(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_page	tests/geo.py	/^    def test_get_metro_artist_chart_with_page(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_start	tests/geo.py	/^    def test_get_metro_artist_chart_with_start(self):$/;"	m	class:TestGeo
+test_get_metro_artist_chart_with_start_and_end	tests/geo.py	/^    def test_get_metro_artist_chart_with_start_and_end(self):$/;"	m	class:TestGeo
+test_get_request	tests/request.py	/^    def test_get_request(self):$/;"	m	class:TestRequest
+test_get_shouts	tests/album.py	/^    def test_get_shouts(self):$/;"	m	class:TestAlbum
+test_get_shouts	tests/event.py	/^    def test_get_shouts(self):$/;"	m	class:TestEvent
+test_get_shouts_with_limit	tests/album.py	/^    def test_get_shouts_with_limit(self):$/;"	m	class:TestAlbum
+test_get_shouts_with_page	tests/album.py	/^    def test_get_shouts_with_page(self):$/;"	m	class:TestAlbum
+test_get_tags	tests/album.py	/^    def test_get_tags(self):$/;"	m	class:TestAlbum
+test_get_tags_with_user	tests/album.py	/^    def test_get_tags_with_user(self):$/;"	m	class:TestAlbum
+test_get_token	tests/auth.py	/^    def test_get_token(self):$/;"	m	class:TestAuth
+test_get_top_artists	tests/chart.py	/^    def test_get_top_artists(self):$/;"	m	class:TestChart
+test_get_top_tags	tests/album.py	/^    def test_get_top_tags(self):$/;"	m	class:TestAlbum
+test_get_top_tags	tests/chart.py	/^    def test_get_top_tags(self):$/;"	m	class:TestChart
+test_get_user_session	tests/auth.py	/^    def test_get_user_session(self):$/;"	m	class:TestAuth
+test_hyped_artists	tests/chart.py	/^    def test_hyped_artists(self):$/;"	m	class:TestChart
+test_hyped_artists_with_limit	tests/chart.py	/^    def test_hyped_artists_with_limit(self):$/;"	m	class:TestChart
+test_hyped_artists_with_page	tests/chart.py	/^    def test_hyped_artists_with_page(self):$/;"	m	class:TestChart
+test_info	tests/artist.py	/^    def test_info(self):$/;"	m	class:TestArtist
+test_info_autocorrect	tests/artist.py	/^    def test_info_autocorrect(self):$/;"	m	class:TestArtist
+test_info_lang	tests/artist.py	/^    def test_info_lang(self):$/;"	m	class:TestArtist
+test_info_username	tests/artist.py	/^    def test_info_username(self):$/;"	m	class:TestArtist
+test_make_invalid_url	tests/request.py	/^    def test_make_invalid_url(self):$/;"	m	class:TestRequest
+test_object_exception	tests/artist.py	/^    def test_object_exception(self):$/;"	m	class:TestArtist
+test_past_events	tests/artist.py	/^    def test_past_events(self):$/;"	m	class:TestArtist
+test_past_events_correct	tests/artist.py	/^    def test_past_events_correct(self):$/;"	m	class:TestArtist
+test_past_events_limit	tests/artist.py	/^    def test_past_events_limit(self):$/;"	m	class:TestArtist
+test_past_events_page	tests/artist.py	/^    def test_past_events_page(self):$/;"	m	class:TestArtist
+test_podcast	tests/artist.py	/^    def test_podcast(self):$/;"	m	class:TestArtist
+test_podcast_correct	tests/artist.py	/^    def test_podcast_correct(self):$/;"	m	class:TestArtist
+test_post_shout	tests/artist.py	/^    def test_post_shout(self):$/;"	m	class:TestArtist
+test_raise_data_exception	tests/geo.py	/^    def test_raise_data_exception(self):$/;"	m	class:TestGeo
+test_remove_tag	tests/album.py	/^    def test_remove_tag(self):$/;"	m	class:TestAlbum
+test_remove_tags	tests/artist.py	/^    def test_remove_tags(self):$/;"	m	class:TestArtist
+test_request	Makefile	/^test_request:$/;"	t
+test_search	tests/album.py	/^    def test_search(self):$/;"	m	class:TestAlbum
+test_search	tests/artist.py	/^    def test_search(self):$/;"	m	class:TestArtist
+test_search_limit	tests/album.py	/^    def test_search_limit(self):$/;"	m	class:TestAlbum
+test_search_limit	tests/artist.py	/^    def test_search_limit(self):$/;"	m	class:TestArtist
+test_search_page	tests/album.py	/^    def test_search_page(self):$/;"	m	class:TestAlbum
+test_search_page	tests/artist.py	/^    def test_search_page(self):$/;"	m	class:TestArtist
+test_share	tests/album.py	/^    def test_share(self):$/;"	m	class:TestAlbum
+test_share	tests/event.py	/^    def test_share(self):$/;"	m	class:TestEvent
+test_share_with_no_auth	tests/album.py	/^    def test_share_with_no_auth(self):$/;"	m	class:TestAlbum
+test_share_with_no_auth	tests/event.py	/^    def test_share_with_no_auth(self):$/;"	m	class:TestEvent
+test_share_with_no_recipient	tests/album.py	/^    def test_share_with_no_recipient(self):$/;"	m	class:TestAlbum
+test_shout	tests/event.py	/^    def test_shout(self):$/;"	m	class:TestEvent
+test_shout_with_no_auth	tests/event.py	/^    def test_shout_with_no_auth(self):$/;"	m	class:TestEvent
+test_shout_with_no_message	tests/event.py	/^    def test_shout_with_no_message(self):$/;"	m	class:TestEvent
+test_shouts	tests/artist.py	/^    def test_shouts(self):$/;"	m	class:TestArtist
+test_shouts_correct	tests/artist.py	/^    def test_shouts_correct(self):$/;"	m	class:TestArtist
+test_shouts_limit	tests/artist.py	/^    def test_shouts_limit(self):$/;"	m	class:TestArtist
+test_shouts_page	tests/artist.py	/^    def test_shouts_page(self):$/;"	m	class:TestArtist
+test_signature_generation	tests/auth.py	/^    def test_signature_generation(self):$/;"	m	class:TestAuth
+test_similar_artists	tests/artist.py	/^    def test_similar_artists(self):$/;"	m	class:TestArtist
+test_similar_artists_limit	tests/artist.py	/^    def test_similar_artists_limit(self):$/;"	m	class:TestArtist
+test_tag_invalid_request	tests/artist.py	/^    def test_tag_invalid_request(self):$/;"	m	class:TestArtist
+test_tags	tests/artist.py	/^    def test_tags(self):$/;"	m	class:TestArtist
+test_tags_no_user	tests/artist.py	/^    def test_tags_no_user(self):$/;"	m	class:TestArtist
+test_top_albums	tests/artist.py	/^    def test_top_albums(self):$/;"	m	class:TestArtist
+test_top_albums_correction	tests/artist.py	/^    def test_top_albums_correction(self):$/;"	m	class:TestArtist
+test_top_albums_limit	tests/artist.py	/^    def test_top_albums_limit(self):$/;"	m	class:TestArtist
+test_top_albums_page	tests/artist.py	/^    def test_top_albums_page(self):$/;"	m	class:TestArtist
+test_top_fans	tests/artist.py	/^    def test_top_fans(self):$/;"	m	class:TestArtist
+test_top_fans_correction	tests/artist.py	/^    def test_top_fans_correction(self):$/;"	m	class:TestArtist
+test_top_tags	tests/artist.py	/^    def test_top_tags(self):$/;"	m	class:TestArtist
+test_top_tags_correction	tests/artist.py	/^    def test_top_tags_correction(self):$/;"	m	class:TestArtist
+test_top_tracks	tests/artist.py	/^    def test_top_tracks(self):$/;"	m	class:TestArtist
+test_top_tracks_correct	tests/artist.py	/^    def test_top_tracks_correct(self):$/;"	m	class:TestArtist
+test_top_tracks_limit	tests/artist.py	/^    def test_top_tracks_limit(self):$/;"	m	class:TestArtist
+test_top_tracks_page	tests/artist.py	/^    def test_top_tracks_page(self):$/;"	m	class:TestArtist

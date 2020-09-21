@@ -1,0 +1,377 @@
+
+Line 1: type_specifier : VOID
+
+Line 2: factor : ID LPAREN argument_list RPAREN
+
+Error at Line 2 : Undeclared Function bar
+
+Line 2: unary_expression : factor
+
+Line 2: term : unary_expression
+
+Line 2: simple_expression : term
+
+Line 2: rel_expression : simple_expression
+
+Line 2: logic_expression : rel_expression
+
+Line 2: expression : logic_expression
+
+Line 2: expression_statement : expression SEMICOLON
+
+Line 2: statement : expression_statement
+
+Line 2: statements : statement
+
+Line 3: compound_statement : LCURL statements RCURL
+
+ ScopeTable # 2
+
+ ScopeTable # 1
+ 14 --> < foo , ID > 
+
+Line 3: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+foo
+
+Line 3: unit : func_definition
+
+Line 3: program : unit
+
+Line 5: type_specifier : INT
+
+Line 5: type_specifier : INT
+
+Line 5: parameter_list : type_specifier ID
+a
+
+Line 5: type_specifier : INT
+
+Line 5: parameter_list : parameter_list COMMA type_specifier ID
+b
+
+Line 6: factor : CONST_INT
+1
+
+Line 6: unary_expression : factor
+
+Line 6: term : unary_expression
+
+Line 6: simple_expression : term
+
+Line 6: rel_expression : simple_expression
+
+Line 6: logic_expression : rel_expression
+
+Line 6: expression : logic_expression
+
+Line 6: statement : RETURN expression SEMICOLON
+
+Line 6: statements : statement
+
+Line 7: compound_statement : LCURL statements RCURL
+
+ ScopeTable # 3
+ 4 --> < a , ID , -1e+007>
+ 5 --> < b , ID , -1e+007>
+
+ ScopeTable # 1
+ 14 --> < foo , ID > 
+ 30 --> < bar , ID > 
+
+Line 7: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+bar
+
+Line 7: unit : func_definition
+
+Line 7: program : program unit
+
+Line 9: type_specifier : INT
+
+Line 9: type_specifier : INT
+
+Line 9: parameter_list : type_specifier ID
+x
+
+Line 9: func_declaration : type_specifier ID LPAREN parameter_list RPAREN SEMICOLON
+f
+
+Line 9: unit : func_declaration
+
+Line 9: program : program unit
+
+Line 11: type_specifier : INT
+
+Line 11: declaration_list : ID
+a
+
+Line 11: var_declaration : type_specifier declaration_list SEMICOLON
+
+Line 11: unit : var_declaration
+
+Line 11: program : program unit
+
+Line 13: type_specifier : INT
+
+Line 14: variable : ID
+d
+
+Error at Line 14 : Undeclared Variable d
+
+Line 14: factor : CONST_INT
+5
+
+Line 14: unary_expression : factor
+
+Line 14: term : unary_expression
+
+Line 14: simple_expression : term
+
+Line 14: rel_expression : simple_expression
+
+Line 14: logic_expression : rel_expression
+
+Line 14: expression : variable ASSIGNOP logic_expression
+
+
+Line 14: expression_statement : expression SEMICOLON
+
+Line 14: statement : expression_statement
+
+Line 14: statements : statement
+
+Line 15: type_specifier : INT
+
+Line 15: declaration_list : ID LTHIRD CONST_INT RTHIRD
+c
+3
+
+Line 15: var_declaration : type_specifier declaration_list SEMICOLON
+
+Line 15: statement : var_declaration
+
+Line 15: statements : statements statement
+
+Line 16: factor : CONST_FLOAT
+4.3
+
+Line 16: unary_expression : factor
+
+Line 16: term : unary_expression
+
+Line 16: factor : CONST_INT
+2
+
+Line 16: unary_expression : factor
+
+Line 16: term : term MULOP unary_expression
+
+Error at Line 16 : Non-Integer operand on modulus operator
+
+Line 16: simple_expression : term
+
+Line 16: rel_expression : simple_expression
+
+Line 16: logic_expression : rel_expression
+
+Line 16: expression : logic_expression
+
+Line 16: expression_statement : expression SEMICOLON
+
+Line 16: statement : expression_statement
+
+Line 16: statements : statements statement
+
+Line 17: variable : ID
+c
+
+Error at Line 17 : Type Mismatch
+
+Line 17: factor : CONST_FLOAT
+2.3
+
+Line 17: unary_expression : factor
+
+Line 17: term : unary_expression
+
+Line 17: simple_expression : term
+
+Line 17: rel_expression : simple_expression
+
+Line 17: logic_expression : rel_expression
+
+Line 17: expression : variable ASSIGNOP logic_expression
+
+
+Line 17: expression_statement : expression SEMICOLON
+
+Line 17: statement : expression_statement
+
+Line 17: statements : statements statement
+
+Line 18: factor : CONST_INT
+1
+
+Line 18: unary_expression : factor
+
+Line 18: term : unary_expression
+
+Line 18: simple_expression : term
+
+Line 18: rel_expression : simple_expression
+
+Line 18: logic_expression : rel_expression
+
+Line 18: argument_list : logic_expression
+
+Line 18: factor : ID LPAREN argument_list RPAREN
+
+Error at Line 18 : Total Number of Arguments mismatch in funtion bar
+
+Line 18: unary_expression : factor
+
+Line 18: term : unary_expression
+
+Line 18: simple_expression : term
+
+Line 18: rel_expression : simple_expression
+
+Line 18: logic_expression : rel_expression
+
+Line 18: expression : logic_expression
+
+Line 18: expression_statement : expression SEMICOLON
+
+Line 18: statement : expression_statement
+
+Line 18: statements : statements statement
+
+Line 19: factor : CONST_FLOAT
+1.2
+
+Line 19: unary_expression : factor
+
+Line 19: term : unary_expression
+
+Line 19: simple_expression : term
+
+Line 19: rel_expression : simple_expression
+
+Line 19: logic_expression : rel_expression
+
+Line 19: argument_list : logic_expression
+
+Line 19: factor : CONST_INT
+3
+
+Line 19: unary_expression : factor
+
+Line 19: term : unary_expression
+
+Line 19: simple_expression : term
+
+Line 19: rel_expression : simple_expression
+
+Line 19: logic_expression : rel_expression
+
+Line 19: argument_list : argument_list COMMA logic_expression
+
+Line 19: factor : ID LPAREN argument_list RPAREN
+
+Error at Line 19 : 1th argument mismatch in function bar
+
+Line 19: unary_expression : factor
+
+Line 19: term : unary_expression
+
+Line 19: simple_expression : term
+
+Line 19: rel_expression : simple_expression
+
+Line 19: logic_expression : rel_expression
+
+Line 19: expression : logic_expression
+
+Line 19: expression_statement : expression SEMICOLON
+
+Line 19: statement : expression_statement
+
+Line 19: statements : statements statement
+
+Line 20: factor : CONST_INT
+2
+
+Line 20: unary_expression : factor
+
+Line 20: term : unary_expression
+
+Line 20: simple_expression : term
+
+Line 20: rel_expression : simple_expression
+
+Line 20: logic_expression : rel_expression
+
+Line 20: argument_list : logic_expression
+
+Line 20: factor : ID LPAREN argument_list RPAREN
+
+Error at Line 20 : a is not a function
+
+Line 20: unary_expression : factor
+
+Line 20: term : unary_expression
+
+Line 20: simple_expression : term
+
+Line 20: rel_expression : simple_expression
+
+Line 20: logic_expression : rel_expression
+
+Line 20: expression : logic_expression
+
+Line 20: expression_statement : expression SEMICOLON
+
+Line 20: statement : expression_statement
+
+Line 20: statements : statements statement
+
+Line 21: factor : CONST_INT
+0
+
+Line 21: unary_expression : factor
+
+Line 21: term : unary_expression
+
+Line 21: simple_expression : term
+
+Line 21: rel_expression : simple_expression
+
+Line 21: logic_expression : rel_expression
+
+Line 21: expression : logic_expression
+
+Line 21: statement : RETURN expression SEMICOLON
+
+Line 21: statements : statements statement
+
+Line 22: compound_statement : LCURL statements RCURL
+
+ ScopeTable # 4
+ 6 --> < c , ID , { -1, -1, -1 }>
+
+ ScopeTable # 1
+ 4 --> < a , ID , -1e+007>
+ 9 --> < f , ID > 
+ 14 --> < foo , ID > 
+ 18 --> < main , ID > 
+ 30 --> < bar , ID > 
+
+Line 22: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+main
+
+Line 22: unit : func_definition
+
+Line 22: program : program unit
+
+Total Lines: 23
+
+Total Errors: 7

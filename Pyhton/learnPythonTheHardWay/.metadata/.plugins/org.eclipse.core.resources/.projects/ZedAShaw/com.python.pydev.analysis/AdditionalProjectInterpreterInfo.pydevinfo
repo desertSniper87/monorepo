@@ -1,0 +1,34 @@
+-- VERSION_4
+-- START DISKCACHE
+E:\Programming Code\Pyhton\learnPythonTheHardWay\.metadata\.plugins\org.eclipse.core.resources\.projects\ZedAShaw\com.python.pydev.analysis\v2_indexcache
+ex7|1408110837210|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex7.py
+ex15|1408206249316|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex15.py
+ex8|1408121780208|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex8.py
+ex13|1408122039802|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex13.py
+ex11|1408111593461|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex11.py
+ex5|1408110635974|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex5.py
+ex16|1408255596256|E:\Programming Code\Pyhton\learnPythonTheHardWay\ZedAShaw\src\ex16.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+2=ex7
+3=ex15
+1=ex11
+5=ex5
+4=ex16
+-- END DICTIONARY
+-- START TREE 1
+9
+age|1|age!11@
+end|6|end6!19@end2!19@end4!19@end1!19@end5!19@end3!19@
+fil|3|filename!27@file_again!27@filename!35@
+lin|3|line_2!35@line_3!35@line_1!35@
+my_|4|my_eyes!43@my_hair!43@my_name!43@my_height!43@
+nam|1|name!11@
+scr|2|script!27@script!35@
+tar|1|target!35@
+tex|2|text_again!27@text!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

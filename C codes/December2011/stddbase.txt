@@ -1,0 +1,6 @@
+Name		ID		Hometown		Department
+Torsho		1005087		Khulna		CSE
+Pritom		1006062		Pabna		EEE
+Avek		Unknown		Khagrachari		CE
+Gopal		1006015		Khulna		EEE
+Sunny		1005086		Chittagong		CSE

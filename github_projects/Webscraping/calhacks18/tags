@@ -1,0 +1,109 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTH_URL	server/app/spotify.py	/^AUTH_URL = BASE_URL + '\/spotify\/auth'$/;"	v
+BASE_URL	server/app/base.py	/^    BASE_URL = 'http:\/\/127.0.0.1:5000'$/;"	v
+BASE_URL	server/app/base.py	/^    BASE_URL = 'http:\/\/calhacks18.herokuapp.com'$/;"	v
+CALLBACK_URL	server/app/spotify.py	/^CALLBACK_URL = BASE_URL + '\/spotify\/callback'$/;"	v
+CLIENT_BEARER	server/app/spotify.py	/^CLIENT_BEARER = base64.b64encode(("{}:{}".format(CLIENT_ID, CLIENT_SECRET)).encode()).decode()$/;"	v
+CLIENT_ID	server/app/spotify.py	/^CLIENT_ID = os.environ.get('SPOTIFY_CLIENT_ID')$/;"	v
+CLIENT_SECRET	server/app/spotify.py	/^CLIENT_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET')$/;"	v
+MOOD_PICKER	frontend-rn/Main.js	/^    MOOD_PICKER: 'mood-picker',$/;"	p	class:const
+RELEASE_CHANNEL	server/app/base.py	/^RELEASE_CHANNEL = os.environ.get('RELEASE_CHANNEL')$/;"	v
+SCOPE	server/app/spotify.py	/^SCOPE = [$/;"	v
+SENTIMENT	frontend-rn/Main.js	/^    SENTIMENT: 'sentiment',$/;"	p	class:const
+SPOTIFY_AUTH_BASE_URL	server/app/spotify.py	/^SPOTIFY_AUTH_BASE_URL = "https:\/\/accounts.spotify.com"$/;"	v
+SPOTIFY_AUTH_URL	server/app/spotify.py	/^SPOTIFY_AUTH_URL = SPOTIFY_AUTH_BASE_URL + '\/authorize'$/;"	v
+SPOTIFY_TOKEN_URL	server/app/spotify.py	/^SPOTIFY_TOKEN_URL = SPOTIFY_AUTH_BASE_URL + '\/api\/token'$/;"	v
+SPOTIPY_CLIENT_ID	spotify/spotify_methods.py	/^SPOTIPY_CLIENT_ID = "c57ae0a3f9b84353a57b9953201fc9c9"$/;"	v
+SPOTIPY_CLIENT_SECRET	spotify/spotify_methods.py	/^SPOTIPY_CLIENT_SECRET = "94eaa60830c444c9a1b177f99b0fec1e"$/;"	v
+SPOTIPY_REDIRECT_URI	spotify/spotify_methods.py	/^SPOTIPY_REDIRECT_URI = "http:\/\/localhost:8888\/callback"$/;"	v
+TOKEN	algorithm/sentiment/constants.py	/^TOKEN = '_mwSAyfffbBIiNp4KzYe8L_RaAQjZXKhfneheF1fLcWsJr-sfA6RbJSVgpoKw8A5'$/;"	v
+auth_url	server/app/spotify.py	/^def auth_url():$/;"	f
+authorize	server/app/spotify.py	/^def authorize(auth_token):$/;"	f
+bp	server/app/app.py	/^bp = Blueprint('app', __name__)$/;"	v
+build_query_params	server/app/spotify.py	/^def build_query_params(d):$/;"	f
+client	algorithm/sentiment/exampleSentiment.py	/^client = language.LanguageServiceClient()$/;"	v
+client	algorithm/test.py	/^client = language.LanguageServiceClient()$/;"	v
+client	server/app/classifier_util.py	/^client = language.LanguageServiceClient(credentials=credentials)$/;"	v
+content	algorithm/sentiment/exampleSentiment.py	/^    content=text,$/;"	v
+content	algorithm/test.py	/^    content=text,$/;"	v
+create_app	server/app/__init__.py	/^def create_app():$/;"	f
+credentials	server/app/classifier_util.py	/^credentials = service_account.Credentials.from_service_account_info(service_account_info)$/;"	v
+credentials_raw	server/app/classifier_util.py	/^credentials_raw = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')$/;"	v
+data	algorithm/test.py	/^data = pd.read_csv("test_set.csv")$/;"	v
+data	algorithm/test.py	/^data = prep_data(data)$/;"	v
+data	algorithm/test.py	/^data = prep_features(data)$/;"	v
+defaults	algorithm/sentiment/getlyric.py	/^defaults = {$/;"	v
+document	algorithm/sentiment/exampleSentiment.py	/^document = types.Document($/;"	v
+document	algorithm/test.py	/^document = types.Document($/;"	v
+dumps_playlist	server/app/app.py	/^def dumps_playlist(playlist):$/;"	f
+find_predicted_songs	algorithm/test.py	/^def find_predicted_songs(tbl, score, num_songs):$/;"	f
+find_predicted_songs	server/app/classifier_util.py	/^    def find_predicted_songs(tbl, score, num_songs):$/;"	f	function:suggest_playlist_from_mood
+getLy	algorithm/sentiment/getlyric.py	/^def getLy(song_title, artist_name):$/;"	f
+get_Lyrics	algorithm/sentiment/lyric_to_sentiment.py	/^def get_Lyrics(title, artist):$/;"	f
+get_Sentiment	algorithm/sentiment/lyric_to_sentiment.py	/^def get_Sentiment(lyrics):$/;"	f
+get_access_token	server/app/app.py	/^def get_access_token():$/;"	f
+get_all_songs	spotify/spotify_methods.py	/^def get_all_songs(username, maxi=200):$/;"	f
+get_all_tracks	server/app/spotify.py	/^def get_all_tracks(token, num_max_tracks=200):$/;"	f
+get_all_tracks_with_features	server/app/app.py	/^def get_all_tracks_with_features(access_token):$/;"	f
+get_audio_features	server/app/spotify.py	/^def get_audio_features(token, tracks):$/;"	f
+get_audio_features	spotify/spotify_methods.py	/^def get_audio_features(username, tracks):$/;"	f
+get_current_song_info	algorithm/sentiment/getlyric.py	/^def get_current_song_info():$/;"	f
+get_lyrics	algorithm/sentiment/getly.py	/^def get_lyrics(artist,song_title):$/;"	f
+index	server/app/app.py	/^def index():$/;"	f
+items	frontend-rn/Playlist.js	/^            items: [],$/;"	p	class:state
+lm	algorithm/test.py	/^    lm = pickle.load(fi)$/;"	v
+lm	server/app/classifier_util.py	/^    lm = pickle.load(fi)$/;"	v
+logout_url	server/app/spotify.py	/^def logout_url():$/;"	f
+main	algorithm/sentiment/getlyric.py	/^def main():$/;"	f
+main	algorithm/sentiment/pipeline.py	/^def main():$/;"	f
+main	spotify/spotify_methods.py	/^def main():$/;"	f
+make_playlist	server/app/spotify.py	/^def make_playlist(token, tracks, name):$/;"	f
+make_playlist	spotify/spotify_methods.py	/^def make_playlist(username, tracks, name):$/;"	f
+mock_auth_echo_authorization	server/app/app.py	/^def mock_auth_echo_authorization():$/;"	f
+mock_playlist	server/app/app.py	/^def mock_playlist(mood):$/;"	f
+module.exports	frontend-rn/babel.config.js	/^module.exports = function(api) {$/;"	f
+mood	frontend-rn/MoodPickerTab.js	/^            mood: 0,$/;"	p	class:state
+mood_score	algorithm/test.py	/^    mood_score = sentiment.score  * 1.5$/;"	v
+mood_score	algorithm/test.py	/^    mood_score = sentiment.score  * 4$/;"	v
+normalize	algorithm/test.py	/^def normalize(col):$/;"	f
+normalize	server/app/classifier_util.py	/^    def normalize(col):$/;"	f	function:suggest_playlist_from_mood
+onMessage	frontend-rn/Main.js	/^            onMessage: (event) => {$/;"	p	class:renderAuthView
+playlist	algorithm/test.py	/^playlist = find_predicted_songs(predicted, mood_score, 25)$/;"	v
+playlist	frontend-rn/MoodPickerTab.js	/^            playlist: [],$/;"	p	class:state
+playlist	frontend-rn/SentimentTab.js	/^            playlist: [],$/;"	p	class:state
+playlist_create_mood	server/app/app.py	/^def playlist_create_mood():$/;"	f
+playlist_create_text	server/app/app.py	/^def playlist_create_text():$/;"	f
+predict_songs	algorithm/test.py	/^def predict_songs(tbl):$/;"	f
+predict_songs	server/app/classifier_util.py	/^    def predict_songs(tbl):$/;"	f	function:suggest_playlist_from_mood
+predicted	algorithm/test.py	/^predicted = predict_songs(data)$/;"	v
+prep_data	algorithm/test.py	/^def prep_data(frame):$/;"	f
+prep_data	server/app/classifier_util.py	/^    def prep_data(frame):$/;"	f	function:suggest_playlist_from_mood
+prep_features	algorithm/test.py	/^def prep_features(tbl):$/;"	f
+prep_features	server/app/classifier_util.py	/^    def prep_features(tbl):$/;"	f	function:suggest_playlist_from_mood
+read_Data	algorithm/sentiment/lyric_to_sentiment.py	/^def read_Data(df):$/;"	f
+ref	frontend-rn/Main.js	/^            ref: 'webview',$/;"	p	class:renderAuthView
+request_song_info	algorithm/sentiment/getlyric.py	/^def request_song_info(song_title, artist_name):$/;"	f
+sample_analyze_sentiment	algorithm/sentiment/sentiment.py	/^def sample_analyze_sentiment(content):$/;"	f
+scrap_song_url	algorithm/sentiment/getlyric.py	/^def scrap_song_url(url):$/;"	f
+sentiment	algorithm/sentiment/exampleSentiment.py	/^sentiment = client.analyze_sentiment(document=document).document_sentiment$/;"	v
+sentiment	algorithm/test.py	/^sentiment = client.analyze_sentiment(document=document).document_sentiment$/;"	v
+service_account_info	server/app/classifier_util.py	/^service_account_info = json.loads(credentials_raw)$/;"	v
+source	frontend-rn/Main.js	/^            source: {$/;"	p	class:renderInvisibleLogoutView
+spotify_auth	server/app/app.py	/^def spotify_auth():$/;"	f
+spotify_callback	server/app/app.py	/^def spotify_callback():$/;"	f
+spotify_logout	server/app/app.py	/^def spotify_logout():$/;"	f
+suggest_playlist_from_mood	server/app/classifier_util.py	/^def suggest_playlist_from_mood(all_tracks_with_features, mood):$/;"	f
+suggest_playlist_from_text	server/app/classifier_util.py	/^def suggest_playlist_from_text(all_tracks_with_features, text):$/;"	f
+tab	frontend-rn/Main.js	/^            tab: TABS.MOOD_PICKER,$/;"	p	class:state
+text	algorithm/sentiment/exampleSentiment.py	/^text = u'I am hungry and sick'$/;"	v
+text	algorithm/test.py	/^text =  u'I am feeling super duper duper happy!! Lets party'$/;"	v
+text	frontend-rn/SentimentTab.js	/^            text: '',$/;"	p	class:state
+text1	algorithm/test.py	/^text1 = u'I am feeling super duper duper happy!! Lets party'$/;"	v
+type	algorithm/sentiment/exampleSentiment.py	/^    type=enums.Document.Type.PLAIN_TEXT)$/;"	v
+type	algorithm/test.py	/^    type=enums.Document.Type.PLAIN_TEXT)$/;"	v
+write_lyrics_to_file	algorithm/sentiment/getlyric.py	/^def write_lyrics_to_file (lyrics, song, artist):$/;"	f

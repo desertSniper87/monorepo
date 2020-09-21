@@ -1,0 +1,372 @@
+.TH XSOKOBAN 6 "3 January 1994" "MIT Lab for Computer Science"
+.SH NAME
+xsokoban \- Pushing objects around...
+.SH SYNOPSIS
+.B xsokoban 
+.B [{
+.BI \- nn
+.B | \-s[level] |
+.B \-r |
+.B \-u
+<username>
+.B \-c[scorefile-text]}
+.B \-C
+.B \-display
+<disp>
+.B {\-w | \-walls}
+.B {\-rv | \-reverse}
+.B {\-f | \-font}
+<fn>
+.B {\-b | \-bitdir}
+<path>
+.B {\-fg | \-foreground}
+<color>
+.B {\-bg | \-background}
+<color>
+.B {\-bd | \-border}
+<color>
+.B {\-pr | \-pointer}
+<color>
+.B \-xrm
+<arg>
+.B ] 
+.SH DESCRIPTION
+.I xsokoban
+is an implementation of the game
+.IR sokoban,
+written on top of
+.IR X (1).
+
+The goal of 
+.I xsokoban
+is to push all the round objects into the score area of each level
+using the mouse or the arrow keys. The arrow keys move the player in
+the corresponding direction, pushing an object if it is in the way and
+there is a clear space on the other side. The mouse buttons each have a
+distinct function.
+
+If the left mouse button is pressed on a clear square, the player will
+move to that location via the optimal path if such a path exists;
+otherwise, the game will beep.
+
+If the middle button is pressed on an object that is adjacent to the
+player, the object will be pushed one step.  If the middle mouse button
+is pressed on an empty space, the player will move the closest object
+that is on a straight line with the destination, such that the object
+can be pushed in that direction, and the player is not directly between
+the destination and the object.  Before pushing the object, the player
+is moved optimally to start the push.
+
+Either the left or middle mouse buttons may be used to "drag" an object
+from an initial to a final position. If a straightforward way exists
+for the player to push the object without moving any other objects, the
+player will execute appropriate moves and pushes to get the object to
+the desired destination.
+
+The right button mouse undoes the last user action, and may be used any
+number of times.
+
+.PP
+The rest of the functions are bound to the keyboard:
+.TP 8
+.B ?
+Display the help screen.
+.TP 8
+.B q
+Quit the current level.
+.TP 8
+.B h,j,k,l
+Move the man just like the arrow keys, as in
+.IR vi (1).
+.TP 8
+.B s
+Save and quit.
+.TP 8
+.B u
+Undo the last action. Same as right mouse button.
+.TP 8
+.B U
+Restart a level.
+.TP 8
+.B c
+Snapshot the current position
+.TP 8
+.B ^U
+Restore to the last snapshot
+.TP 8
+.B ^R
+Redraw the screen.
+.TP 8
+.B S
+View the score file.
+
+.PP
+The score file can be viewed at any time during the playing of the
+game.  The scores are also displayed whenever a level is completed.
+Scores of the current user are initially highlighted. While viewing
+scores, the following keys may be used to control the listing:
+
+.TP 8
+.B q
+Quit the game
+.TP 8
+.B Return
+Return to the game and continue with the current level; or, if the current
+level is completed, begin the next level.
+.TP 8
+.B <left>
+The left mouse button may be used to select a different user to
+highlight. It also controls the scroll bar at the right side of the
+screen.
+.TP 8
+.B <middle>
+The middle mouse button selects a new level to play if a level is not
+already in progress.
+
+.PP
+Scores are saved in the score file if they are of high
+enough rank. A score is ranked according to how many scores are better
+than it; there are no scores superior to a rank 1 score, only one score
+superior to a rank 2 score, and so on. If two scores are identical, the
+first one entered is ranked higher.
+
+It is possible for other users to have the same username as you, and
+thus collide in the score file. One symptom of this problem is
+that when you first play the game, you are not started at level 1.
+To avoid this problem, set your "xsokoban.username" X resource to
+the desired unique username.
+
+.SH OPTIONS
+.TP 8
+.B \-nn
+Start at level 
+.I nn, 
+provided that levels below it are completed. 
+.TP 8
+.B \-s [level]
+Print the scores on standard output. The optional level will restrict
+the printout to scores on just that level.
+.TP 8
+.B \-r
+Restore a saved game.
+.TP 8
+.B \-u <username>
+Set the name of the user playing the game. By default, the user's login
+name is used.
+.TP 8
+.B \-c [scorefile-text]
+Create a new score file (can be ran only by the owner of the game).
+If the argument "scorefile-text" is supplied, the file of that name
+is assumed to contain the textual output compatible with the
+output of "xsokoban -s -D". The scorefile is initialized
+to contain the scores described in that text file. If no argument is
+supplied, the score file is initialized to be empty.
+.TP 8
+.B \-C
+Create a new X colormap for display purposes. Ordinarily
+.I xsokoban
+creates a new colormap automatically if the default colormap does
+not contain enough free slots to allow it to run properly.
+.TP 8
+.B \-display <display>
+Run the game on the named display.
+.TP 8
+.B {\-w | \-walls}
+Use fancy walls. (This is the default unless an option bitmap set is used)
+.TP 8
+.B {\-rv | \-reverse}
+Use reverse video.
+.TP 8
+.B {\-f | \-font} <fontname>
+Use the named font instead of the default 9x15 font.
+.TP 8
+.B {\-b | \-bitdir} <path>
+Use the bitmaps found in <path> instead of the defaults.
+.TP 8
+.B {\-fg | \-foreground} <color>
+Use the named color as the foreground color. (default is BlackPixel())
+.TP 8
+.B {\-bg | \-background} <color>
+Use the named color as the background color. (default is WhitePixel())
+.TP 8
+.B {\-bd | \-border} <color>
+Use the named color as the border color. (default is foreground color)
+.TP 8
+.B {\-pr | \-pointer} <color>
+Use the named color as the mouse pointer foreground. (default is foreground)
+.TP 8
+.B \-xrm <arg>
+<arg> is an X Resource specification.
+.SH OTHER INFORMATION
+.P
+There is more information about
+.I xsokoban
+in the WWW, at
+.br
+.sp
+http://xsokoban.lcs.mit.edu/xsokoban.html
+.sp
+A global score file is also located there.
+
+.SH AUTHORS
+.P
+Unknown Hacker - Original
+.IR curses (3)
+implementation.
+.P
+Joseph L. Traub - X windows interface.
+.P
+Kevin Solie - simultaneously developed X implementation (merged in).
+.P
+Mark Linderman, Christos Zoulas - Mouse code (added to Solie's version).
+.P
+Andrew Myers(http://www.pmg.lcs.mit.edu/~andru) - Improved mouse UI, score ranking, color and WWW support.
+
+Code has also been donated by many 
+.I xsokoban
+users. Thanks for all your contributions and suggestions!
+.SH RESOURCES
+.I xsokoban
+understands the following resources.
+.TP 8
+.B username : string
+The name you would like to use when playing xsokoban. It defaults
+to your real username. If you are playing in WWW mode, some domain
+information is appended to your real username to disambiguate from
+other users with the same name. This domain information is not
+appended to the username if specified through the resource.
+.TP 8
+.B fancyWalls : boolean
+Use fancy walls.
+.TP 8
+.B fontName : font
+Use named font.
+.TP 8
+.B reverseVideo : boolean
+Reverse foreground and background pixels.
+.TP 8
+.B foreground : color
+Use color as foreground color.
+.TP 8
+.B background : color
+Use color as background color.
+.TP 8
+.B borderColor : color
+Use color as border color.
+.TP 8
+.B pointerColor : color
+Use color as pointer color.
+.TP 8
+.B bitmapDir : string
+Look for bitmaps in path specified by string.
+.TP 8
+.B border.color: color
+Color of borders in the score display
+.TP 8
+.B text.font: font
+Font of text in the score display
+.TP 8
+.B text.color: color
+Color of text in the score display
+.TP 8
+.B text.highlight: color
+Color of highlighted text in the score display
+.TP 8
+.B text.indent: int
+Indenting of text in the score display
+.TP 8
+.B scrollbar.width: int
+Width of the scrollbar in the score display
+.TP 8
+.B scrollbar.background: color
+Color of the scrollbar background
+.TP 8
+.B scrollbar.thumb.height: int, scrollbar.thumb.width: int
+Size of the scrollbar thumb
+.TP 8
+.B scrollbar.thumb.color: color
+Color of the scrollbar thumb
+.TP 8
+.B panel.height: int
+Height of the help panel in the score display
+.TP 8
+.B panel.font: font
+Font of the help panel in the score display
+.TP 8
+.B bevel.width
+Width of the Motif-like bevels
+.TP 8
+.B sep.color: color
+Color of the lines separating different score levels
+
+.SH SPECIAL BITMAPS
+In order to define your own bitmaps for
+.I xsokoban
+you only need to know the names of which files it is looking for.
+The standard bitmap files are:
+.TP 8
+.B man.xbm
+-- The player bitmap.
+.TP 8
+.B goal.xbm
+-- The goal area bitmap.
+.TP 8
+.B wall.xbm
+-- The standard wall bitmap.
+.TP 8
+.B object.xbm
+-- The object that gets pushed.
+.TP 8
+.B treasure.xbm
+-- The bitmap for the object when it is on the goal.
+.TP 8
+.B saveman.xbm
+-- The bitmap for the player when it is on the goal.
+.TP 8
+To use the fancy walls option, you need the following additional files.
+.TP 8
+.B lonewall.xbm
+-- a wall with connections on no sides.
+.TP 8
+.B southwall.xbm
+-- a wall with only northern connections
+.TP 8
+.B northwall.xbm
+-- a wall with only southern connections
+.TP 8
+.B eastwall.xbm
+-- a wall with only western connections
+.TP 8
+.B westwall.xbm
+-- a wall with only eastern connections
+.TP 8
+.B llcornerwall.xbm
+-- a wall with northern and eastern connections
+.TP 8
+.B ulcornerwall.xbm
+-- a wall with southern and eastern connections
+.TP 8
+.B lrcornerwall.xbm
+-- a wall with northern and western connections
+.TP 8
+.B urcornerwall.xbm
+-- a wall with southern and western connections
+.TP 8
+.B north_twall.xbm
+-- a wall with connections on all BUT northern side
+.TP 8
+.B south_twall.xbm
+-- a wall with connections on all BUT southern side
+.TP 8
+.B east_twall.xbm
+-- a wall with connections on all BUT eastern side
+.TP 8
+.B west_twall.xbm
+-- a wall with connections on all BUT western side
+.TP 8
+.B centerwall.xbm
+-- A wall will connections on all four sides.
+.SH BUGS
+Auto bitmap resizing code doesn't take into account font sizes.
+.br
+Feedback on user error is poor (only beeps).

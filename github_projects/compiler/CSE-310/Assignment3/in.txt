@@ -1,0 +1,48 @@
+{This is a 
+
+program}
+program if
+not program program
+if ififif
+var1 h1 1h _bh2 _bjf
+123
+123.55
+123.5
+123E5
+123.5E5
+123E+5
+123.5E+5
+12.45E30.5
+123E-5
+1243.5E-2
+123.4E+10
+123.123E-123.123    
+"This \\
+is a multi-line \"quoted \\
+string."
+
+
+"This is a single-line quoted string" :)
+<
+>
+<=
+>=
+=
+<>
++
+-
+or
+*
+/
+div
+mod
+and
+:= {This is an assignment statement}
+[]
+()
+..
+,
+:
+.
+{ This program calculates the average of first 100 natural numbers
+and prints it to the console.}

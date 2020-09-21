@@ -1,0 +1,3 @@
+language: clojure
+notifications:
+  slack: clj-slack:qY6XqKy0dtSwei2R7d1zJnEm

@@ -1,0 +1,2833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<title>HIIQUOTE</title>
+<link href="../classh/style.css?d=1" rel="stylesheet" type="text/css" />
+<script src="../classh/js/SpryTabbedPanels.js" type="text/javascript"></script>
+		<link href="../classh/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<script src="../classh/jquery/jquery-1.4.1.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="../classh/jquery/jquery.form.js"></script> 
+<script src="../classh/jquery/jquery.blockUI_red.js" language="javascript" type="text/javascript"></script>
+<script type='text/javascript' src='../classh/jquery/jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='../classh/jquery/jquery.dcmegamenu.1.3.3.js'></script>	
+<script type="text/javascript">
+function applyforproduct(plan)
+{
+
+	document.getElementById('lyrwait').style.display = 'none';
+	document.getElementById('lyr_message').style.display = 'none';
+	document.getElementById('lyrmain').style.display = 'block';
+	if(plan)
+		document.getElementById('Plan_ID').value=plan;
+	else
+		document.getElementById('Plan_ID').value='112';
+	
+	$.blockUI({ message: $('#lyrouter'),
+	 css: { 
+			top:  ($(window).height() - 380) /2 + 'px', 
+			left: ($(window).width() - 620) /2 + 'px', 
+
+			width: '620px' 
+            } 
+	}); 
+}
+
+$(document).ready(function() { 
+	 $('#btn_cancel').click(function() { 
+		  $.unblockUI(); 
+            return false;
+		}); 
+
+});
+</script>
+<script type="text/javascript">
+function trimAgentCode(Agent_Code)
+{
+	var flag=0;
+	if (Agent_Code!="")													// check for blank spaces
+	{
+	var strArr = new Array();
+	strArr = Agent_Code.split("");
+	   if(strArr[0]==" ")
+	   {
+		 flag=1;
+	   }
+	}
+	return flag;
+}
+
+// prepare the form when the DOM is ready 
+$(document).ready(function() { 
+    var options = { 
+        target:        '#lyr_message',   // target element(s) to be updated with server response 
+        beforeSubmit:  showRequest,  // pre-submit callback 
+        success:       showResponse,  // post-submit callback 
+ 		clearForm: true        // clear all form fields after successful submit 
+    }; 
+ 
+    // bind to the form's submit event 
+    $('#frmAgentCode').submit(function() { 
+        // inside event callbacks 'this' is the DOM element so we first 
+        // wrap it in a jQuery object and then invoke ajaxSubmit 
+        $(this).ajaxSubmit(options); 
+ 
+        // !!! Important !!! 
+        // always return false to prevent standard browser submit and page navigation 
+        return false; 
+    }); 
+}); 
+// pre-submit callback 
+function showRequest(formData, jqForm, options) 
+{ 
+	var Agent_Code = document.getElementById('Agent_Code').value;
+	var flag = trimAgentCode(Agent_Code);
+	
+	if(Agent_Code == "" || flag == 1)
+	{
+		alert("Please enter the Agent Code given to you.");
+		return false;	
+	}
+	else
+	{
+		var htmlData = '<table width="100%" border="0" cellpadding="1" cellspacing="1" align="center" bgcolor="#FFFFFF"><tr><td height="10"></td></tr><tr><td align="center" class="chery14bold">Please Wait...</td></tr><tr><td height="2"></td></tr><tr><td align="center"><img src="../images/wait2.gif" border="0"></td></tr><tr><td height="5"></td></tr><tr><td class="blue14_bold"></td></tr></table>';
+		document.getElementById('lyrwait').innerHTML = htmlData;
+		document.getElementById('lyr_message').style.display = 'block';
+		document.getElementById('lyrwait').style.display = 'block';
+		document.getElementById('lyrmain').style.display = 'none';
+		return true;
+	}
+}
+// post-submit callback 
+function showResponse(responseText, statusText, xhr, $form)  
+{ 
+	//alert(responseText);
+	// $('#lyr_message').html( responseText );
+	document.getElementById('lyr_message').innerHTML = responseText;
+	
+} 
+function submitrequest(Agent_Code)
+{
+	$('#frmAgentCode').submit();	
+}
+function btn_close()
+{
+	 $.unblockUI(); 
+}
+</script>
+
+<style type="text/css">
+.chery14_message{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	color:#6C0506;
+}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+	   // Change the image of hoverable images
+	   $(".imgHoverable").hover( function() {
+	       var hoverImg = HoverImgOf($(this).attr("src"));
+	       $(this).attr("src", hoverImg);
+	     }, function() {
+	       var normalImg = NormalImgOf($(this).attr("src"));
+	       $(this).attr("src", normalImg);
+	     }
+	   );
+	});
+	
+	function HoverImgOf(filename)
+	{
+	   var re = new RegExp("(.+)\\.(gif|png|jpg)", "g");
+	   return filename.replace(re, "$1_hover.$2");
+	}
+	function NormalImgOf(filename)
+	{
+	   var re = new RegExp("(.+)_hover\\.(gif|png|jpg)", "g");
+	   return filename.replace(re, "$1.$2");
+	}
+	</script>
+        
+<!--<link href="classh/style.css" rel="stylesheet" type="text/css" />-->
+<!--commented above file due to css overwriting in products page. - Manali - 18th Nov 2013.-->
+
+<div id="lyrouter" style="display:none;cursor:default;">
+
+<div id="lyrwait" style="display:none;" class="product_sub_head_stm" align="center">
+</div>
+
+<div id="lyrmain" style="display:none;cursor:default;">
+<form name="frmAgentCode" id="frmAgentCode" method="post" action="../agent_code.php">
+<input type="hidden" name="Plan_ID" id="Plan_ID" value="112" />
+	<input type="hidden" name="agent_link_flag" value="1" />
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="bg_agent_code">
+	<tr>
+		<td valign="top">
+			<table align="right" width="100%" border="0">
+				<tr>
+					<td colspan="2" align="right" height="50px" valign="top">
+						<table width="100%" cellspacing="0" cellpadding="0" border="0">
+							<tr>
+								<td valign="top" width="95%" align="left">
+									<div id="lyr_message" style="display:none; color:#CC0000; padding-left:5px;" class="calibri_18dark"></div>
+								</td>
+								<td valign="top" width="5%" align="right">
+									<img src="https://www.hiiquote.com/imagesh/btn_close.png" onclick="return btn_close();" style="cursor:pointer;"/>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="42%" align="right" border="0" style="margin-top:12px;" cellpadding="2" cellspacing="0">
+							<tr>
+								<td class="calibri_16dark" align="center" style="text-align:center;">Enter the Writing Agent Code #:&nbsp;&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="42%" align="center"> <input type="text" name="Agent_Code" id="Agent_Code" maxlength="12" value=""/></td>
+							</tr>
+							<tr>
+								<td align="center" class="calibri_16dark" style="padding-left:5px; padding-right:5px; font-size:15px;">
+									If you don't know your agent code number or do not have an agent, Call 877-376-5831, option #2 for assistance
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-top:20px;" align="center">
+									<table width="100%" height="30" align="center" border="0" cellpadding="0" cellspacing="0" style="margin-left:5px;">
+										<input type="hidden" name="sFlag" value="s" />
+										<tr>
+											<td align="right"> 
+												<img src="../imagesh/agent_code_submit.png" height="26" width="92" class="imgHoverable" onClick="submitrequest(frmAgentCode.Agent_Code.value);" />
+											</td>
+											<td>&nbsp;&nbsp;&nbsp;</td>
+											<td align="left">
+												<img src="../imagesh/agent_code_cancel.png" height="26" width="92" class="imgHoverable" id="btn_cancel" />
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<script type="text/javascript">
+								function register()
+								{
+									$.unblockUI(); 
+									window.open('agent_registration.php','agentregistration','height=915,width=920,scrollbars=yes');
+								}
+								
+								function quote()
+								{
+									$.unblockUI(); 
+									window.open('request_quote.php','agentregistration','height=765,width=870,scrollbars=yes');							
+								}
+							</script>		
+							<tr>
+								<td class="calibri_18dark" style="padding-top:14px; padding-right:14px;" align="right">
+									Not Registered? <a href="javascript:;" onclick="return register();" class="calibri_18dark" style="text-decoration:none; color:#2e3192;"><strong>Register Today</strong></a>
+								</td>
+							</tr>		
+							<tr>
+								<td class="calibri_18dark" style="padding-top:40px; padding-left:5px; color:#FFFFFF;" align="center">
+									Interested in obtaining a quote?<br /><a href="javascript:;" onclick="return quote();" class="calibri_18dark" style="text-decoration:none; color:#FFFFFF;">Click HERE</a>
+								</td>
+							</tr>	
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</form>
+</div>
+</div>
+</head>
+<body>
+<div id="main_div" >
+    <div id="bg_top">
+  </div>
+    <div id="bg_middle" >
+    <table width="920px" align="center" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+        <td><div id="header_div" align="center">
+        <table width="920px" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			</tr>
+	</table>
+          </div>
+        </td>
+      </tr>
+            <tr>
+      <tr>
+        <td>
+
+						 <div id="content_div" class="bg_products_cat">
+				         	<table width="920px" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#FFFFFF">
+   
+	  <tr>
+		<td height="8px" bgcolor="#ffffff" colspan="4"></td>
+  	 </tr>
+      <tr>
+		<td height="5px" bgcolor="#d51735" colspan="4"></td>
+	  </tr>
+	  <tr>
+		<td rowspan="4" style="padding-top:25px;" align="center" valign="middle" width="54%"></td>
+		<td class="agent_details" style="padding-top:25px;" width="44%">Licensed Agent&acute;s Name: Evan Jaxtheimer </td>
+		<td width="2%" class="2%">&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td class="agent_details">Licensed Agent&acute;s Phone: 855-288-3120 </td>
+		<td class="2%">&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td class="agent_details"> Licensed Agent&acute;s Email: info@atlantichealth.us </td>
+		<td class="2%">&nbsp;</td>
+	  </tr>
+	  	  <tr>
+		<td class="agent_details"> Licensed Agent&acute;s Code: CLH1251100 </td>
+		<td class="2%">&nbsp;</td>
+	  </tr>
+	  	  <tr>
+		<td height="25px" colspan="4">&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td colspan="4" class="about_us_seperator"></td>
+	  </tr>
+	</table>
+	                            <script type="text/javascript">
+				function get_width()
+				{
+					$(document).ready(function() {
+
+						var array = $('li.TabbedPanelsTab1').map(function()
+						{
+							return $(this).width();
+						}).get();
+						//alert(listWidth);
+						//return listWidth;
+
+						//var array = listWidth.split(",");
+						var total_width = 0;
+						var stm_width = 0;
+						var lbp_width = 0;
+						for (i = 0; i < array.length-1; i++)
+						{
+							array[i] = parseInt(array[i]) + parseInt(21);
+							total_width = parseInt(total_width)+parseInt(array[i]);
+							if(i < 6)
+							{
+								stm_width = parseInt(stm_width)+parseInt(array[i]);
+							}
+							else
+							{
+								lbp_width = parseInt(lbp_width)+parseInt(array[i]);
+							}
+							//alert(array[i]);
+						}
+						document.getElementById('main_tbl').style.width = total_width+"px";
+						document.getElementById('stm_tbl').style.width = stm_width+"px";
+						document.getElementById('lbp_tbl').style.width = lbp_width+"px";
+					});
+				}
+
+				window.onload = function()
+				{
+					get_width();
+				}
+				</script>
+            <table width="920px" align="center" cellpadding="0" cellspacing="0" class="calibri_16dark">
+	<table width="920px" align="center" cellpadding="0" cellspacing="0" style="padding-left:15px; padding-right:15px;" class="calibri_16dark">
+	<tr>
+		<td width="75%">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="color:#4d85c5; padding-top:5px;" valign="top">
+										</td>
+				</tr>
+                				<tr>
+					<td style="padding-right:25px;">
+						               
+					</td>
+				</tr>                               
+			</table>
+		</td>
+		<td width="25%" align="center" valign="middle" class="museo_30blue" style="line-height:40px;">
+			LifeShield STM		</td>                              
+	</tr>
+</table>
+
+<table width="920px" align="center" cellpadding="0" cellspacing="0" class="calibri_16dark">
+	<tr>
+    	<td style="padding-top:10px;">
+
+           <table border="0" cellpadding="0" cellspacing="3" id="main_tbl">
+            	<tr>
+                    <td id="stm_tbl" align="center">
+                    	<div style="width:100%; background-color:#00A1E1; color:#FFFFFF; border:solid 1px #4A4A4B; line-height:35px;"><strong>Short Term Medical</strong></div>
+                    </td>
+                    <td id="lbp_tbl" align="center">
+                    	<div style="width:100%; background-color:#00A1E1; color:#FFFFFF; border:solid 1px #4A4A4B; line-height:35px;"><strong>Lifestyle Benefit Package</strong></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+	<tr>
+		<td colspan="2">
+			<div id="TabbedPanels1" class="TabbedPanels">
+				<ul class="TabbedPanelsTabGroup">
+								<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>About the<br/>Association</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>About<br/>Product</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Benefits<br/>Details</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Limitations &<br/>Exclusions</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Definitions</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Multiplan PHCS<br />Network</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Teladoc</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Karis360</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Rx-Card</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Rx Helpline</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Real Value<br>Savings Program</li>
+					<li class="TabbedPanelsTab1" tabindex="1" style='font-size:10px;'>Security &<br/>Privacy</li>
+						</ul>
+		<!-- start added OWK-692502:27Oct2015:Urvil -->
+		<div class="TabbedPanelsContentGroup">
+										<!-- Association Benefits -->
+					<div class="TabbedPanelsContent">
+
+					    <!-- start  ONY-667898:23Oct2015:Urvil -->
+						 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td><table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="75%" align="left" valign="top">
+                            <span  class="product_tab_title">
+		   About the Association
+		  		  </span><br />
+            <br />
+	  
+                        The Med-Sense Guaranteed Association (MSGA) is a Not-For-Profit corporation. Members of the MSGA enjoy discounts on a variety of health and travel services. There are multiple memberships of the association; the following is a brief overview of the benefits offered though not all benefits are included in every membership of the association.
+			 </td>
+            
+            				<td width="25%" align="right" valign="top">
+								<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				</td>        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left">Association members will receive a separate mailing with complete details on how to access membership benefits.
+    </td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left"> To access and enroll in the Med-Sense Guaranteed Association, please visit: <a target="_blank" href="http://www.medsensemembers.com">www.medsensemembers.com</a> </td>
+  </tr>
+       <tr>
+	    <td>
+      (Available in states where the Lifeshield STM product is sold through the Association)
+       <td>
+       </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title"><u>
+    What are the Association Membership Features?</u>
+    </td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">ID Resolution Identity Theft Service</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can speak to fraud specialists who will facilitate the resolution of virtually any identity-related problem. </td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+    <tr>
+    <td align="left" class="sub_title">LensCrafters Vision Club</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can take advantage of special rates on quality eyewear from Lenscrafters.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">24 Hour Nurse Helpline Plan</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can speak to qualified nurses 24/7 via this confidential telephone service at no charge.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Gateway Medicard</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can keep personal medical handy so emergency medical personnel can administer appropriate care.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  
+   <!-- <tr>
+    <td align="left" class="sub_title">Mail Order Hearing Service</td>
+  </tr>
+  <tr>
+    <td align="left"><em>Your source for quality discount hearing aids</em><br />
+      <br />
+      The Hearing Service offers members premium quality hearing aids on a no-risk, 100% satisfaction-guaranteed basis. If you have a prescription for a specific hearing aid, call the Hearing Service toll-free number to receive a price quotation on the specific brand and model number you wish to purchase. Often, you can save yourself as much as 5%-60% off the prices you may have to pay elsewhere.<br />
+      <br />
+      If you have had an "audiogram" done by an audiologist, a doctor, or hearing and speech clinic, send a copy of the audiogram to the Hearing Service at the address listed below. If you have not had a hearing evaluation, write in as much detail as you can about how your loss affects you in specific listening situations. All letters are answered personally and promptly.<br />
+      <br />
+      <em>Note: The mail order hearing aid program is not available in Colorado, Missouri, Florida or Texas. Discounts on professional services are not available in areas where restricted or prohibited by law.</em> </td>
+  </tr>-->
+     <tr>
+    <td align="left" class="sub_title">Discount Hearing Service</td>
+  </tr>
+  <tr>
+  <td align="left">Association members can receive premium hearing aids at huge savings on a no-risk, 100% satisfaction-guaranteed basis.</td>
+  </tr>
+          <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Travel Association Plan</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can use a variety of services when traveling more than one hundred (100) miles.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+    <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Hewlett-Packard Computer and Digital Equipment</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can pay discounted rates on HP notebooks, laptops, desktops, servers, printers, digital cameras, handhelds, point-of-sale (scanners, cash registers, etc.) and more.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Customized Web Services - NAC Web Services</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can take advantage of discounted rates up to 20% on website development and maintenance.</td>
+  </tr>
+   <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">UPS Express Delivery Services</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can ship packages at a discount up to 28%.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+    
+  <tr>
+    <td align="left" class="sub_title">Sprint - Wireless/Cellular and Mobile Broadband (for New Sprint Subscribers only)</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can receive discounted new subscriber rates as well as special corporate pricing.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+      <tr>
+    <td align="left" class="sub_title">Office Depot Office Supplies and Furniture</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can get office supplies and services at discounts up to 80%.</td>
+  </tr>
+       <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">24 Hour Emergency Roadside Assistance</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can gain peace of mind in roadside emergencies 24/7.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Hop The Shops</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can shop with preferred customer access to HopTheShops.com, a premium on-line shopping mall of more than 150 stores.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr><!--ABY-806017 02December2016:Hiral -->
+    <td align="left" class="sub_title">My Association Saving Benefits Perks Program</td>
+  </tr>
+  <tr>
+    <td align="left">My Association Saving Benefits provides members with exclusive perks and over $4,500 in savings on everything from pizza and the zoo, to movie tickets, oil changes, hotels, and car rentals!</td>
+  </tr>
+  <!--//ABY-806017 02December2016:Hiral
+  <tr>
+    <td align="left" class="sub_title">Savers Book &reg; Club</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can get a free copy of the popular Savers Club&reg; Book, containing thousands of discount offers on a variety of travel, recreation, and retail services.</td>
+  </tr>
+  -->
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">1800Flowers.com</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can save up to 15% on orders for flowers and/or gifts from 1800Flowers.com, one of America´s top providers of floral and specialty gifts.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">TrueCar Buying Network</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can benefit from a National Corporate Pricing Program, resulting in a price hundreds of dollars lower than the retail price.</td>
+  </tr>
+    <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Car Rental Discounts</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can save with discounted auto rental rates from Avis&reg;, Budget&reg; and Dollar&reg; Rent A Car.</td>
+      
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">GymAmerica.com</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can access special pricing at GymAmerica.com*, the all-in-one interactive toolkit for the personalized diet and exercise program.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Vitamin Discount</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can enjoy up to a 15% discount from HealthFitLabs on vitamins, supplements, and personal care products.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">ADP Payroll Processing Service</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can get the ADP advantage today with various discounts, including up to 25% off processing costs.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Constant Contact</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can explore the benefits of email marketing with Constant Contact for 60 days at no charge and then receive exclusive discounted pricing.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+ <!-- hardik -->
+  
+  
+     
+  <tr>
+    <td align="left" class="sub_title">Grainger Discount Program Facility, Maintenance, and Operations Product</td>
+  </tr>
+   <tr>
+    <td align="left">Association members can save with discounts ranging up to 30% off catalog pricing on select products such as lighting, motors, and cleaning supplies with free standard shipping.</td>
+  </tr>
+
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  
+  <tr>
+    <td align="left" class="sub_title">Magazine Discounts</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can enjoy popular magazines titles at discounted rates up to 85% off regular subscription rates.</td>
+  </tr>
+    <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  
+  <tr>
+    <td align="left" class="sub_title">Moving Services</td>
+  </tr>
+  
+  <tr>
+    <td align="left">Association members can relocate at affordable rates using Cord North America, an agent for North American Van Lines.</td>
+  </tr>
+  
+   <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">TravelerBonus.com</td>
+  </tr>
+  <tr>
+    <td align="left">Association members can benefit from a travel club offering both the regular savings found using familiar online search engines as well as the added bonus of a rebate once vacations are complete.</td>
+  </tr>
+  
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  
+    <!-- end-->
+  
+   
+  <tr>
+    <td align="left" class="sub_title">Terms and Conditions for Med-Sense Guaranteed Association Membership</td>
+  </tr>
+  <tr>
+    <td align="left">
+	<ol>
+        <li>This program of services is provided through membership in Med-Sense Guaranteed Association (MSGA). Service providers associated with this program are solely responsible for the professional advice and service rendered to members, and MSGA, disclaims liability with respect to such matters.</li>
+        <li>At any time, a participating professional may be eliminated from the program. Providers are subject to change without notice and programs may vary in some states. The discounts are NOT insurance and may be discontinued or modified at any time.</li>
+        <li>Most of the companies providing the services and discounts in this program are not licensed insurers, health maintenance organization, or other underwriters of health care services. (The exceptions are the insurance carriers that provide the Accident Medical, Accidental Death & Dismemberment, Accident Disability Income, Critical Illness, Term Life Insurance, Hospital Indemnity, Limited Medical Benefits, Short-Term Medical, and, if selected, Dental Indemnity benefit and/or Insured Prescription Drug program.) No portion of any provider's fees will be reimbursed or otherwise paid.</li>
+	<li>The discounts contained herein may not be used in conjunction with any other discount plan or program. All listed or quoted prices or discounts are current at time of printing this material, and are subject to change without notice.</li>
+        <li>Savings are based on the provider's usual and customary fees. Actual savings will vary depending on location and specific services or products purchased.</li>
+        <li>Discounts on professional services are not available where prohibited by law. This program does not warrant professional services, nor is it responsible for the quality of service received. This program makes no warranties, express or implied concerning services provided.</li>
+        <li>The member shall receive a full refund, if membership is canceled within the first  10 days of the effective date. Cancellation of association membership will also cancel any separate, additional benefits that may have been purchased. Membership is not available in all states.</li>
+        <li>Membership fees are to be paid when due. If the fees are not received, the member has 31 days from the date due to pay their membership fees; or the membership and any benefits provided will terminate.</li>
+        <li>This plan is not an insurance policy and is not protected by any state Life and Health Guaranty Association.</li>
+        <li>The member is responsible and agrees to pay any taxes that may be required by law as a result of membership.</li>
+        <li>The laws of the State of Delaware shall govern the interpretation, construction and enforcement of this entire plan.</li>
+        <li>Any dispute arising from, out of, or relating to this plan, including but not limited to those disputes regarding or relating to the plan or, Med-Sense Guaranteed Association, shall be resolved by binding, non-appealable arbitration. These provisions shall survive termination of this plan and the member's membership in the plan.</li>
+        <li>Any cause of action the member may have with respect to the plan must be commenced within one (1) year after the claim or cause of action arises.</li>
+        <li>Complaint Procedure: Any complaint regarding the plan or membership should be directed to Member Services at the toll-free number on the ID card or in writing to the address set forth herein.</li>
+        <li>From time to time, certain providers may offer products or services to the general public at prices lower than the discounted prices available through this plan. Discounts on professional services are not available where prohibited by law. Providers are subject to change without notice and services may vary in some states. It is the member's responsibility to verify that the provider is a participant in the plan. No guarantee can be given in regard to the continued participation of any provider. Providers are solely responsible for the professional advices and service rendered to members and liability with respect to such matters is disclaimed.</li>
+        <li>Each member and on behalf of all covered family dependents who are in the plan hereby forever releases, acquits and discharges the plan, Med-Sense Guaranteed Association, and its employees, officers, directors, agents and affiliates from any and all liabilities, claims demands, actions and causes of action that such member or covered family member may have by reason of any damage or personal injury sustained as a result of or during the course of the use of any service under the plan. The sole course available to a member or the member's covered family dependents is cancellation of the membership.</li>
+        <li>The member agrees to defend, indemnify, and hold harmless the plan and from any and all liabilities, cost, and expenses, including without limitation attorneys' fees and costs, related to or arising from any unauthorized use of member's plan; any violation of the plan by the member or those who access member's plan; or the use of the plan by the member or by those who access member's plan in a manner contrary to any law or regulation or harmful in any way to the plan or any of its affiliates.</li>
+        <li>The plan may only be used in the United States of America.</li>
+        <li>Med-Sense Guaranteed Association has the right to refuse membership to any person for any just or legal cause.</li>
+        <li>The member consents to receive electronically all notices, communications and other documents of any kind from Med-Sense Guaranteed Association. You have the right to withdraw consent to such electronic transmittals; however, such withdrawal does not retroactively withdraw consent to actions occurring prior to such withdrawal.</li>
+     
+      </ol>	  
+	  </td>
+  </tr>
+   <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Med-Sense Guaranteed Association</td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">917 Clocktower Drive, Suite 100<br/>Springfield, IL 62704</td>
+  </tr>
+    <tr>
+    <td align="left" class="sub_title">1-800-992-8044</td>
+  </tr>
+    <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+<!--  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Med-Sense Guaranteed Association</td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">2221 South Webster Ave., Suite 109, Green Bay, WI 34301</td>
+  </tr>  
+    <tr>
+    <td align="left" class="sub_title">1-920-347-4400</td>
+  </tr>
+   -->
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+  	 <td align="left" class="calibri_12dark"> 
+    <strong>Disclosures:</strong> This website is a brief description of the Med-Sense Guaranteed Association discount and lifestyle benefits. There are multiple memberships of the association and not all benefits and services are available to all membership levels. The exact provisions are contained in the Fulfillment Materials that will be issued to the Med-Sense Guaranteed Association members upon enrollment.<br />
+      <br />
+      These are not insurance benefits. These are association discount and lifestyle benefits and are not affiliated with any of the insurance companies or Accident Medical, Accidental Death & Dismemberment, Accident Disability Income, Critical Illness, Term Life Insurance, Hospital Indemnity, Limited Medical Benefits, Short-Term Medical, and, if selected, Dental Indemnity benefit and/or Insured Prescription Drug program.</td>
+  </tr>
+</table> 
+
+
+					</div>
+
+					                <!-- About Product -->
+
+								<div class="TabbedPanelsContent">
+							<table cellpadding="0" cellspacing="0" width="100%" >
+							<tr>
+								<td>
+									<table>
+									
+										<tr>
+											<td width="80%">
+												<span  class="calibri_16dark" style="font-size:19px; font-weight:bold; line-height:21px;">LifeShield STM is great for those:</span>
+												
+                                                                                                <ul>
+												<li>Between jobs or have been laid off</li>
+												<li>Waiting for employer benefits</li>
+												<li>Part-time or temporary employee</li>
+												<li>Recently graduated</li>
+                                                                                                <li>Without adequate health insurance</li>
+												
+											</ul>
+											</td>
+											<td valign="top" align="center" width="20%">
+																								<td width="20%" align="right" valign="top">
+																	<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+																</td>
+																							</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							
+							<tr>
+								<td height="10"></td>
+							</tr>
+							
+							<tr>
+								<td class="sub_title" >
+									LifeShield STM features include:
+								</td>
+							</tr>
+							<tr>
+								<td height="10"></td>
+							</tr>
+							<tr>
+								<td >
+									<ul>
+										<li>Doctor/Urgent Care Visit Copay: $30 or $40 depending upon plan selected</li>
+										<li>Wellness Exams - 1 per Coverage Period</li>
+										<!--<li>Choice of Coverage Period Length - 3 months, or up to 90 days</li>-->
+										<!--<li>Prepaid Policies are available. Choose a minimum of 30 days up to a maximum of 90 days</li>-->
+										<li>Deductibles - $1,000, $2,500, $5,000, $7,500, $10,000</li>
+										<li>Choice of Coinsurance Percentage: 50%, 70%, 80%, or 100%</li>
+                                        <li>Choice of Coverage Period Length - Available for up to 36 months of coverage depending upon state regulations</li> <!--Add TWT-401867: 05June2017: Vimal -->
+										<li>Prepaid Policies are available. Choose a minimum of 30 days up to a maximum of 180 days</li>
+										<li>Choose to pay plan costs by MasterCard, Visa, American Express, Discover or Automatic bank draft</li>
+										<li>LifeShield STM pays covered expenses up to $1,000,000 Maximum Limit per Covered Person per Coverage Period (Maximum Limit is based on plan selected)</li>
+<!--                                        <li>Optional Pre-Existing Rider � Pre-existing condition waiver rider availability varies by state.</li>-->
+                                                                                </ul>
+								</td>
+							</tr>
+							
+							<tr>
+								<td height="10"></td>
+							</tr>
+							<tr>
+								<td>
+							<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">     
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+	  <td class="sub_title"><strong>LifeShield STM Underwritten By:</strong></td>
+     </tr>
+     <tr>
+		  <td><img src="https://www.hiiquote.com/imagesh/product_logos/logo_lifeshield.png" width="270" height="50" alt="LifeShield"></td> 
+     </tr>
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+    	  <td class="calibri_12dark"><strong>Disclaimer:</strong>This coverage is not required to comply with certain federal market requirements for health insurance, principally those contained in the Affordable Care Act. Be sure to check the Certificate carefully to make sure You are aware of any exclusions or limitations regarding coverage of Pre-Existing Conditions or health benefits (such as hospitalization, Emergency Services, maternity care, preventive care, Prescription Drugs, and mental health and Substance Use Disorder services). Your coverage also has lifetime and/or annual dollar limits on health benefits. If this coverage expires or You lose eligibility for this coverage, You might have to wait until an open enrollment period to get other health insurance coverage. Also, this coverage is not minimum essential coverage.  If You don't have minimum essential coverage for any month in 2018, You may have to make a payment when You file Your tax return unless You qualify for an exemption from the requirement that You have health coverage for that month. This is a brief summary of LifeShield Short-Term Medical Insurance underwritten by LifeShield National Insurance Co.  provided by Policy Form Series LNG- 3001. Availability and terms may vary by state.
+    		    
+    	  </td>
+    </tr>	
+     <tr>
+	  <td height="5"></td>
+     </tr>
+
+</table>								</td>
+							</tr>
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						</div>
+									<!-- End About Product -->
+
+                <!-- Benefit Details  -->
+                 <!-- Benefit Details -->
+    <div class="TabbedPanelsContent">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="80%" align="left" valign="top">
+                                <span  class="product_tab_title">Benefit Details</span><br /><br />
+                                LifeShield STM membership offers the following health insurance benefits, underwritten by LifeShield National Insurance Co. LifeShield STM plans are not available in all states. State options and benefits may vary.<br /><br />
+                                <span class="sub_title">Why Short-Term Medical (STM)?</span><br />
+                                Short-term medical pays benefits  similar to a major medical insurance plan, but for a predetermined length of time. Members can select from a wide range of deductible and coinsurance options to tailor a plan to fit their lifestyle needs and budget.<br />
+                            </td>
+                                                            <td width="20%" align="right" valign="top">
+                                    				<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				                                </td>
+                                                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">How do members figure out what coverage they need and enroll?</td>
+            </tr>
+            <tr>
+                <td><strong>Consider the benefit period and choose payment method:</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong  style="text-decoration: underline">Single Payment</strong><br>
+                            This option is ideal if it is known exactly how many days the coverage is needed. The minimum number of days that members may apply for coverage is 30 days; the maximum is 180 days. Payment via Visa, MasterCard, or bank draft is accepted.</li>
+                        <li><strong style="text-decoration: underline">Monthly Pay</strong><br>
+                            This plan gives members the flexibility to continue coverage for as long as it is needed and allows them to discontinue the plan once their temporary need ends. Members can select coverage periods of up to 3 months or up to 364 days depending on state residence. Payment via Visa, MasterCard or bank draft is accepted.</li>
+<!--                        <li>In addition to the ability to apply for up to 3 months of coverage, members have the option at the time of enrollment to apply for a second policy for up to 3 months of coverage: Pre-existing condition waiver rider availability varies by state.</li>-->
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Consider lifestyle needs and budget and choose one from each of the following:</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><strong style="text-decoration: underline">Deductible: $1,000, $2,500, $5,000, $7,500, $10,000</strong><br>
+                            The selected deductible must be paid by each Covered Person before Coinsurance benefits are payable. After 3 individuals meet their deductible, the deductible is deemed satisfied for any remaining covered individuals.</li>
+                        <li><strong style="text-decoration: underline">Coinsurance Percentage: 100/0, 80/20, 70/30, 50/50</strong><br>
+                            The selection of a Coinsurance Percentage represents the percent of covered eligible expenses that we pay and that members pay after the deductible has been satisfied up to the Out Of Pocket Maximum.</li>
+                        <li><strong style="text-decoration: underline">Out of Pocket Maximum: $2,000, $3,000, $4,000, $5,000</strong><br>
+                            Once members reach their Out of Pocket Maximum Amount selected, we pay 100%* up to the Coverage Period Maximum Benefit.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    *Subject to Maximum Allowable Expense
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">What medical expenses are covered?</td>
+            </tr>
+            <tr>
+                <td>
+                    The following benefits are for the Insured and each Covered Dependent subject to the plan Deductible, Coinsurance Percentage, Out Of Pocket Maximum, Additional Deductibles, and Coverage Period Maximum Benefit. Benefits are limited to Maximum Allowable Expense for each Covered Eligible Expense, in addition to any specific limits stated in the policy.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Preventive / Wellness Care</li>
+                        <li>Doctor's office consultation/Urgent Care visits </li>
+                        <li>Outpatient and Inpatient Treatment for Mental and Nervous Disorders</li>
+                        <li>Outpatient and Inpatient Treatment for Substance Abuse</li>
+                        <li>Organ and Tissue transplants</li>
+                        <li>Inpatient prescription drugs</li>
+                        <li>Physical, Occupational and Speech Therapy $50 per day and 20 visits combined</li>
+                        <li>Ambulance Transportation maximum benefit $250</li>
+                        <li>Outpatient Hospital or Emergency Room Care</li>
+                        <li>Inpatient Room & Board, including Intensive Care</li>
+                        <li>Outpatient Miscellaneous Medical Services, doctors medical care and treatment performed in a hospital</li>
+                        <li>Home Health Care benefit $50 per visit for a maximum of 1 visit per day and 30 Home Health Care visits.</li>
+                        <li>Extended Care Facility up to $150 per day for a maximum of 30 days</li>
+                        <li>Outpatient Surgical Facility</li>
+                        <li>Surgeon services in the hospital or outpatient surgical facility</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><em>Note: This is a brief description of the plan benefits, which may vary by state.</em></td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellspacing="1" cellpadding="5" border="0" align="left" bgcolor="#4D85C5">
+                        <tr>
+                            <td width="20%" bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong></strong></td>
+                            <td width="20%" bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                          <!--  <td width="20%" bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong>Plan 1 w/ Pre-Ex Rider</strong></td>-->
+                            <td width="20%" bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong>Plan 1</strong></td>
+                            <td width="20%" bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong>Plan 2</strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left" style="font-weight:">Coinsurance</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Choice of:</td>
+                          <!--  <td valign="top" bgcolor="#FFFFFF" align="center">70/30, 80/20, 100/0</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">70/30, 80/20, 100/0</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">50/50, 70/30, 80/20, 100/0</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left" style="font-weight:">Deductible</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Choice of:</td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$1,000, $2,500, $5,000, $7,500</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$1,000, $2,500, $5,000, $7,500</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$1,000, $2,500, $5,000, $7,500. $10,000</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left" style="font-weight:">Out-Of-Pocket Maximum</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Choice of:</td>
+                          <!--  <td valign="top" bgcolor="#FFFFFF" align="center">$2,000, $3,000, $4,000</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$2,000, $3,000, $4,000</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$2,000, $3,000, $4,000, $5,000</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left" style="font-weight:">Coverage Period Maximum </div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Choice of:</td>
+                         <!--<td valign="top" bgcolor="#FFFFFF" align="center">$250,000, $750,000, $1,000,000</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$250,000, $750,000, $1,000,000</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$250,000, $750,000, $1,000,000</td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF" align="center" colspan="5">
+                                Unless specified otherwise, the following benefits are for Insured and each Covered Dependent subject to the plan Deductible, Coinsurance Percentage, Out-Of-Pocket Maximum and Policy Maximum chosen. Benefits are limited to the Maximum Allowable Expense or each Covered Expense, in addition to any specific limits stated in the policy.
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong>Doctor Office Consultation</strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                          <!--  <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>-->
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Copay</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                          <!--  <td valign="top" bgcolor="#FFFFFF" align="center">$30 Copay, maximum 3</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$30 Copay, maximum 3</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$40, unlimited</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Wellness Benefit Copay</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                           <!-- <td valign="top" bgcolor="#FFFFFF" align="center">$50 Copay, maximum 1</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 Copay, maximum 1</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 copay, maximum 1</td>
+                        </tr>
+
+                        <tr>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong>Inpatient Hospital Services</strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <!--<td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>-->
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Average Standard Room Rate</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$1,000 per day</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$1,000 per day</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Average Standard Room Rate</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Hospital ICU</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$1,250 per day</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$1,250 per day</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Average Standard Room Rate</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Doctor Visits</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum $500 </td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum $500 </td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Subject to Coinsurance and Deductible</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong>Outpatient Services</strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                           <!-- <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>-->
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Surgical Facility</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$1,250 per day</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$1,250 per day</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Subject to Coinsurance and Deductible</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Outpatient Surgery Deductible</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">N/A</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">N/A</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$500 Additional deductible applies, maximum 3</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Emergency Room - deductible</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">N/A </td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">N/A </td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$500 Additional deductible applies</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Emergency Room - benefit</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                           <!-- <td valign="top" bgcolor="#FFFFFF" align="center">$250 per visit</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$250 per visit</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Subject to Coinsurance and Deductible</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Advanced Diagnostic Studies Deductible</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">N/A</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">N/A</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$500 per occurrence</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Ambulance </div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">Injury and Sickness:  $250 per transport </td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Injury and Sickness:  $250 per transport </td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">Injury and Sickness:  $250 per transport</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Extended Care Facility</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$150 per day, maximum 30 days</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$150 per day, maximum 30 days</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$150 per day, maximum 30 days</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Home Health Care</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$50 per visit, maximum 30 days</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per visit, maximum 30 days</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per visit, maximum 30 days</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Physical, Occupational and Speech Therapy</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 20 visits </td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 20 visits </td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 20 visits</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong>Mental Disorders</strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <!--<td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>-->
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Inpatient </div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Outpatient</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="left" style="color:#FFFFFF;"><strong>Substance Abuse</strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <!--<td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>-->
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                            <td bgcolor="#4D85C5" class="calibri_16dark" align="center" style="color:#FFFFFF;"><strong></strong></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Inpatient </div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$100 per day, maximum 31 days</td>
+                        </tr>
+                        <tr>
+                            <td valign="top" bgcolor="#FFFFFF"><div align="left">Outpatient</div></td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center"></td>
+                            <!--<td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>-->
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>
+                            <td valign="top" bgcolor="#FFFFFF" align="center">$50 per day, maximum 10 visits</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <!--TWT-401867:29April2017:kajal-->
+<!--                    <tr>
+                        <td class="sub_title">Why should members apply for a second policy at the time of enrollment?</td>
+                    </tr>
+                        <tr>
+                            <td>
+                                By choosing this option, members can apply for a pre-existing conditions waiver. This will waive any conditions that were covered during the prior coverage period (i.e. during the first up to 3 month policy). Pre-existing condition waiver rider availability varies by state.                            </td>
+                    </tr>-->
+<!--                    <tr>
+                        <td height="10"></td>
+                    </tr>
+					 Start: added by KJL on 21Sep2017 for DVJ-157462
+					<tr>
+                        <td>
+                            In the benefit levels and states listed below, you may apply for a second 3-month policy at the time of enrollment; however the pre-existing condition waiver is not available. In addition, all benefits (deductible, coinsurance, office visit benefits, etc.) will reset on your second plan. You will be able to reapply for an additional 3x2, as long as state reapplication rules permit, however, you must qualify with a new application for a new set of policies.</td>
+                    </tr>-->
+<!--                    <tr>
+                        <td height="10"></td>
+                    </tr>
+					<tr>
+                        <td>
+                            Plan 1: CO, MN, NC, ND, OR, SD, TN</td>
+                    </tr>
+					 <tr>
+                        <td height="10"></td>
+                    </tr>
+					<tr>
+                        <td>
+                           Plan 2: CO, DE, LA, MN, NC, ND, NV, OR, SD, TN</td>
+                    </tr>-->
+<!--					 <tr>
+                        <td height="10"></td>
+                    </tr>-->
+                    <!-- end: added by KJL on 21Sep2017 for DVJ-157462 -->
+
+                     <!--TWT-401867:02May2017:UVL-->
+<!--                    <tr>
+                        <td class="sub_title">How does this coverage work?</td>
+                    </tr>-->
+<!--                    <tr>
+                        <td>
+                            When up to 3 months of coverage is selected and members opt to apply for a second policy at the time of enrollment, they will be issued 2 separate policies. Once the first policy expires, they will receive:<br><br>
+
+                            A new member ID number and card<br>
+                            A new policy certificate <br>
+                            A new policy with 100% coinsurance<br>
+                            Deductible will be waived on 2nd coverage period<br>
+                            A new maximum out-of-pocket amount<br>
+                            A new maximum limit
+                        </td>
+                     </tr>-->
+                    <!--TWT-401867:02May2017:UVL-->
+<!--                    <tr>
+                        <td height="10"></td>
+                    </tr>
+                     <tr>
+                            <td class="sub_title">What is the waiver of pre-existing conditions?*</td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    The pre-existing condition limitation will not apply to any conditions that were covered during the prior coverage period. Any other pre-existing conditions will remain subject to the limitation as described in the Certificate of Insurance. Pre-existing condition waiver rider availability varies by state.
+                                </td>
+                            </tr>-->
+<!--                        <tr>
+                            <td height="10"></td>
+                        </tr>-->
+            <tr>
+                <td height="10"></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="sub_title">Does the plan require Pre-Certification?</td>
+            </tr>
+            <tr>
+                <td>
+                    All Inpatient hospitalizations and procedures done at an Outpatient Surgery Facility must be pre-certified.  LifeShield National Insurance Co.'s professional review organization must be contacted as soon as possible before the expense is to be incurred. If the Covered Person does not comply with the Pre-certification requirements as stated in the insurance certificate, the Eligible Medical Expenses will be reduced by 50%.
+                </td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">How does Usual and Customary Fees affect my benefits?</td>
+            </tr>
+            <tr>
+                <td>
+                    The Policy defines Usual and Customary Fees as the usual, fair and reasonable fee for medical treatment provided to a Covered Person (or any other form of medical care, procedure, drug or supply).<br/><br/>
+                    "Usual and Customary Charges" (or "Charges") means the following: (1) a usual fee is defined as the charge made for a given service by a Doctor to the majority of his or her patients; and (2) a customary fee is one that is charged by the majority of Doctors within a community for the same services; and (3) charging protocols and billing practices generally accepted by the medical community or specialty groups, including charging protocols and billing practices related to Medicare. All benefits are limited to Usual and Customary Charges.
+                </td>
+            </tr>
+
+            <tr>
+                <td height="10"></td>
+            </tr>
+
+            <tr>
+                <td><em>All benefits are limited to Usual and Customary Fees.</em></td>
+            </tr>
+            <tr>
+                <td><em>Usual and Customary Fee definition may vary by state.</em></td>
+            </tr>
+
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">What if members change their minds after the purchase of STM coverage?</td>
+            </tr>
+            <tr>
+                <td>If not 100% satisfied with coverage and members have not already used any of the insurance benefits, they may return the certification to us within 10 days of receipt. Coverage will be cancelled as of the effective date and the plan cost will be returned. No questions asked!</td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">What is the Pre-Existing Conditions Limitation?</td>
+            </tr>
+            <tr>
+                <td>Charges resulting directly or indirectly from a condition for which a Covered Person received medical treatment, diagnosis, care or advice within the 60* month period immediately preceding such person's Certificate Effective Date. A Pre-Existing condition includes conditions that produced any symptoms which would have caused a reasonable prudent person to seek diagnosis, care or treatment within the 60* month period.<br/><small>*varies by state</small></td>
+            </tr>
+            <tr>
+                <td height="10"></td>
+            </tr>
+	    <!--QP-515989:02Dec2016:TPT
+            <tr>
+                <td class="sub_title">What is the Waiver of Pre-Existing Conditions?</td>
+            </tr>
+            <tr>
+                <td>
+                    When your coverage period is almost over, we will provide you with a simplified application form to reapply for another 6 months or 364 days coverage term. If you reapply at least 30 days prior to the termination date and we accept your application, a new Coverage Period will be issued and the effective date will be the first date following the termination date of your current Coverage Period. A new certificate will be issued and new deductible, coinsurance, Maximum Out-Of-Pocket, and Maximum Limit will apply.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    The pre-existing conditions limitation will not apply to any conditions that were covered during a prior Coverage Period. Any other pre-existing conditions will remain subject to the limitation as described in the Certificate of Insurance.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Coverage and rates may be different and are subject to state availability. Members must be under 65 years old to reapply for coverage.
+                </td>
+            </tr>-->
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">Who is eligible to apply for this insurance?</td>
+            </tr>
+            <tr>
+                <td>LifeShield STM is available to members and their spouses, who are between 18 and 64 years old and their dependent unmarried children under 26 years old; and can answer "No" to all of the questions in the application for insurance. Child-only coverage is available for ages 2-25.<br/>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td class="sub_title">When does the STM coverage terminate?</td>
+            </tr>
+            <tr>
+                <td>
+                    Coverage under the Policy will cease at 12:01 a.m. for a Covered Person, based on the time zone in the place where the Insured resides, on the earliest of the following:
+                    <ol>
+                        <li>The date premiums are not paid in accordance with the terms of the Policy, subject to the Grace Period;</li>
+                        <li>On the next premium due date after the Company receives a written request from the Insured to terminate coverage, or any later date stated in the request;</li>
+                        <li>The date an Insured performs an act or practice that constitutes fraud, or is found to have made an intentional misrepresentation of material fact, relating in any way to the Policy, including claims for benefits under the Policy;</li>
+                        <li>The date of the Insured's death or the termination date of the Insured's coverage, if the Insured's spouse is not covered under the Policy;</li>
+                        <li>The date the Insured obtains other insurance, excluding Medicare;</li>
+                        <li>The Certificate termination date stated on the Schedule of Benefits.</li>
+                        <li>The date that members enter full-time active duty in the armed forces of any country or international organization other than for reserve duty of 30 days or less;</li>
+                        <li>The date other major medical insurance coverage becomes effective for a Covered Person;</li>
+                        <li>The date that insurance under the Policy is discontinued; or</li>
+                        <li>The first day of any policy month We elect to terminate the Policy by giving the Group Policyholder at least 30 advance written notice.</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="10px"></td>
+            </tr>
+
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">     
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+	  <td class="sub_title"><strong>LifeShield STM Underwritten By:</strong></td>
+     </tr>
+     <tr>
+		  <td><img src="https://www.hiiquote.com/imagesh/product_logos/logo_lifeshield.png" width="270" height="50" alt="LifeShield"></td> 
+     </tr>
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+    	  <td class="calibri_12dark"><strong>Disclaimer:</strong>This coverage is not required to comply with certain federal market requirements for health insurance, principally those contained in the Affordable Care Act. Be sure to check the Certificate carefully to make sure You are aware of any exclusions or limitations regarding coverage of Pre-Existing Conditions or health benefits (such as hospitalization, Emergency Services, maternity care, preventive care, Prescription Drugs, and mental health and Substance Use Disorder services). Your coverage also has lifetime and/or annual dollar limits on health benefits. If this coverage expires or You lose eligibility for this coverage, You might have to wait until an open enrollment period to get other health insurance coverage. Also, this coverage is not minimum essential coverage.  If You don't have minimum essential coverage for any month in 2018, You may have to make a payment when You file Your tax return unless You qualify for an exemption from the requirement that You have health coverage for that month. This is a brief summary of LifeShield Short-Term Medical Insurance underwritten by LifeShield National Insurance Co.  provided by Policy Form Series LNG- 3001. Availability and terms may vary by state.
+    		    
+    	  </td>
+    </tr>	
+     <tr>
+	  <td height="5"></td>
+     </tr>
+
+</table>                </td>
+            </tr>
+        </table>
+    </div>
+    				<!-- End Benefit Details  -->
+          <!-- Limitations & Exclusions -->
+	  	  <div class="TabbedPanelsContent">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+								<tr>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td width="80%" align="left" valign="top">
+												<span  class="product_tab_title">Limitations & Exclusions</span><br /><br />
+												Loss caused by, contributed to or resulting from the following is excluded or otherwise limited as specified:
+												</td>
+
+												 												<td width="20%" align="right" valign="top">
+																	<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+																</td>
+																							</tr>
+
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td align="justify">
+										<ol>
+											<li>Pre-Existing Conditions:
+                                            	<ol type="a">
+                                                	<li>Charges resulting directly or indirectly from a condition for which a Covered Person received medical treatment, diagnosis, care or advice within the 60 month period immediately preceding such person’s Certificate Effective Date are excluded for the first 12 months of coverage hereunder. </li>
+                                                    <li>
+                                                    	Pre-Existing Conditions includes conditions that produced any symptoms which would have caused a reasonable prudent person to seek diagnosis, care or treatment within the 60 month period immediately prior to the Covered Person’s Certificate Effective Date of coverage under the Policy.
+                                                    </li>
+                                                </ol><br/>
+                                                This exclusion does not apply to a newborn child or newborn adopted child who is added to coverage in accordance with <strong>PART II – ELIGIBILITY AND EFFECTIVE DATE OF INSURANCE. </strong>
+
+											<li>Waiting Period:
+                                            	<ol type="a">
+                                                	<li>Covered Persons will only be entitled to receive benefits for Sicknesses that begin, by occurrence of symptoms and/or receipt of treatment, more than 5 days following the Covered Person’s Certificate Effective Date of coverage under the Policy. </li>
+                                                    <li>Covered Persons will only be entitled to receive benefits for Cancer that begins, by occurrence of symptoms or receipt of treatment more than 30 days following the Covered Person’s Certificate Effective Date of coverage under the Policy. </li>
+                                                </ol>
+                                            </li> <br/>
+
+
+
+											<li>Expenses during the first 6 months after the Certificate Effective Date of coverage for a Covered Person for the following: </li>
+											<ol type="a">
+											    <li>Total or partial hysterectomy, unless it is Medically Necessary due to a diagnosis of carcinoma; </li>
+											    <li>Tonsillectomy; </li>
+												<li>Adenoidectomy; </li>
+												<li>Repair of deviated nasal septum or any type of surgery involving the sinus; </li>
+												<li>Myringotomy; </li>
+												<li>Tympanotomy; </li>
+												<li>Herniorraphy; or </li>
+												<li>Cholecystectomy.</li>
+											</ol>	<br/>
+											However, if such condition is a Pre-Existing Condition any benefit consideration will be in accordance with the Pre-Existing Conditions limitation. <br/><br/>
+
+											<li>The benefits payable for the following conditions or procedures are limited to the specified amounts shown in the Schedule of Benefits: </li>
+											<ol type="a">
+											    <li>Kidney Stones </li>
+											    <li>Appendectomy </li>
+												<li>Joint or Tendon Surgery </li>
+												<li>Knee Injury or Disorder</li>
+												<li>Acquired Immune Deficiency Syndrome (AIDS)/ Human Immuno-deficiency Virus (HIV) </li>
+												<li>Gallbladder Surgery </li>
+
+											</ol>	<br/>
+											<li>Mental, emotional or nervous disorders or counseling of any type except as specifically covered as an Eligible Expense.</li>
+											<li>Treatment for Substance Abuse, unless specifically covered under the Policy as an Eligible Expense.</li>
+											<li>Outpatient Prescription Drugs, unless specifically covered under the Policy as an Eligible Expense.</li>
+											<li>Medications, vitamins, and mineral or food supplements including pre-natal vitamins, or any over-the-counter medicines, whether or not ordered by a Doctor. </li>
+											<li>Any drug, treatment or procedure that either promotes or prevents conception including but not limited to: artificial insemination, treatment for infertility or impotency, sterilization or reversal of sterilization.</li>
+											<li>Any drug, treatment or procedure that corrects impotency or non-organic sexual dysfunction. </li>
+											<li>Modifications of the physical body in order to improve the psychological, mental or emotional well-being of the Covered Person, such as sex-change surgery. </li>
+											<li>Surgeries, treatments, services or supplies for cosmetic or aesthetic reasons, except for reconstructive surgery where expressly covered under the Policy.</li>
+											<li>Weight modification or surgical treatment of obesity. </li>
+											<li>Eye surgery, such as LASIX, when the primary purpose is to correct nearsightedness, farsightedness or astigmatism. </li>
+											<li>Dental treatment and dental surgery except as necessary to restore or replace sound and natural teeth lost or damaged as a result of a covered Injury. </li>
+											<li>Expenses incurred in the treatment by any method for jaw joint problems including temporomandibular joint dysfunction (TMJ), TMJ pain syndromes, craniomandibular disorders, myofacial pain dysfunction or other conditions of the joint linking the jaw bone and skull and the complex of muscles, nerves and other tissues related to the joint, unless specifically covered under the Policy as an Eligible Expense.</li>
+											<li>Routine pre-natal care, Pregnancy, child birth, and post natal care. (This exclusion does not apply to "Complications of Pregnancy" as defined.) </li>
+											<li>Charges for a Covered Dependent who is a newborn child not yet discharged from the Hospital, unless the charges are Medically Necessary to treat premature birth, congenital Injury or Sickness, or Sickness or Injury sustained during or after birth.</li>
+											<li>Sclerotherapy for veins of the extremities. </li>
+											<li>Abortions, except in connection with covered Complications of Pregnancy or if the life of the expectant mother would be at risk. </li>
+											<li>Joint replacement or other treatment of joints, spine, bones or connective tissue including tendons, ligaments and cartilage, unless related to a covered Injury. </li>
+											<li>Surgeries, treatments, services or supplies which are deemed to be Experimental Treatment. </li>
+											<li>Chronic fatigue or pain disorders. </li>
+											<li>Kidney or end stage renal disease. </li>
+											<li>Treatment or diagnosis of allergies, except for emergency treatment of allergic reactions. </li>
+											<li>Treatment for cataracts. </li>
+											<li>Treatment of sleep disorders. </li>
+											<li>Treatment required as a result of complications or consequences of a non-covered treatment or condition. </li>
+											<li>Treatment incurred as a result of exposure to non-medical nuclear radiation and/or radioactive material(s). </li>
+											<li>Treatment for acne, moles, skin tags, diseases of sebaceous glands, seborrhea, sebaceous cyst, unspecified disease of sebaceous glands, hypertrophic and atrophic conditions of skin, nevus. </li>
+											<li>Treatment for or related to any Congenital Condition, except as it relates to a newborn child or newborn adopted child added as a Covered Person. </li>
+											<li>Treatment, medication or hormones to stimulate growth, or treatment of learning disorders, disabilities, developmental delays or deficiencies, including therapy. </li>
+											<li>Spinal manipulation or adjustment. </li>
+											<li>Biofeedback, acupuncture, recreational, sleep or mist therapy, holistic care of any nature, massage and kinestherapy, excepted as provided for under Home Health Care. </li>
+											<li>Hypnotherapy when used to treat conditions that are not recognized as Mental Disorders by the American Psychiatric Association, and biofeedback and non-medical self-care or self-help programs. </li>
+											<li>Eyeglasses, contact lenses, hearing aids, hearing implants, eye refraction, visual therapy, orthoptics, visual eye training and any examination or fitting related to these devices, and all vision and hearing tests and examinations. </li>
+											<li>Care, treatment or supplies for the feet, orthopedic shoes, orthopedic prescription devices to be attached to or placed in shoes, treatment of weak, strained, flat, unstable or unbalanced feet, metatarsalgia or bunions and treatment of corns, calluses or toenails. </li>
+											<li>Care and treatment for hair loss including wigs, hair transplants or any drug that promises hair growth, whether or not prescribed by a Doctor. </li>
+											<li>Exercise programs, whether or not prescribed or recommended by a Doctor. </li>
+											<li>Telephone or Internet consultations and/or treatment or failure to keep a scheduled appointment. </li>
+											<li>Charges for travel or accommodations, except as expressly provided for local ambulance. </li>
+											<li>All charges incurred while confined primarily to receive Custodial or Convalescent Care. </li>
+											<li>Services received or supplies purchased outside the United States, its territories or possessions, or Canada, unless specifically covered under the Policy as an Eligible Expense. </li>
+											<li>Any services or supplies in connection with cigarette smoking cessation. </li>
+											<li>Any services performed or supplies provided by a member of the Insured’s Immediate Family. </li>
+											<li>Services received for any condition caused by a Covered Person’s commission of or attempt to commit an assault, battery, or felony or to which a contributing cause was the Covered Person being engaged in an illegal occupation. </li>
+											<li>Services or supplies which are not included as Eligible Expenses as described herein. </li>
+											<li>Participating in hazardous occupations or other activity including participating, instructing, demonstrating, guiding or accompanying others in the following: operation of a flight in an aircraft other than a regularly scheduled flight by an airline, professional or semi-professional sports, extreme sports, parachute jumping, hot-air ballooning, hang-gliding, base jumping, mountain climbing, bungee jumping, scuba diving, sail gliding, parasailing, parakiting, rock or mountain climbing, cave exploration, parkour, racing including stunt show or speed test of any motorized or non-motorized vehicle, rodeo activities, or similar hazardous activities.  Also excluded is Injury received while practicing, exercising, undergoing conditional or physical preparation for such activity. </li>
+											<li>Injuries or Sicknesses resulting from participation in interscholastic, intercollegiate or organized competitive sports. This does not include dependent children participating in local community sports activities.</li>
+											<li>Injury resulting from being under the influence of or due wholly or partly to the effects of alcohol or drugs, other than drugs taken in accordance with treatment prescribed by a Doctor, but not for the treatment of Substance Abuse. </li>
+											<li>Willfully self-inflicted Injury or Sickness. </li>
+											<li>Expenses resulting from a declared or undeclared war, or from voluntary participation in a riot or insurrection.  This Exception does not apply to an act of terrorism. </li>
+											<li>Expenses incurred by a Covered Person while on active duty in the armed forces. Upon written notice to Us of entry into such active duty, the unused premium will be returned to the Covered Person on a pro-rated basis. </li>
+											<li>Costs for Routine Physical Exams or other services not needed for medical treatment, unless specifically covered under the Policy as an Eligible Expense.</li>
+											<li>Amounts in excess of the Usual and Customary charges made for covered services or supplies. </li>
+											<li>Expenses You or Your Covered Dependent are not required to pay, or which would not have been billed, if no insurance existed.  </li>
+											<li>Expenses to the extent that they are paid or payable under other valid or collectible group insurance or medical prepayment plan. </li>
+											<li>Charges that are eligible for payment by Medicare or any other government program except Medicaid.  Costs for care in government institutions unless You or Your Covered Dependent are obligated to pay for such care.  </li>
+											<li>Expenses for which benefits are paid or payable under workers’ compensation or similar laws.  </li>
+											<li>Medical expenses which are payable under any automobile insurance policy without regard to fault (does not apply in any state where prohibited).</li>
+
+									</td>
+								</tr>
+								<tr>
+								    <td>
+								<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">     
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+	  <td class="sub_title"><strong>LifeShield STM Underwritten By:</strong></td>
+     </tr>
+     <tr>
+		  <td><img src="https://www.hiiquote.com/imagesh/product_logos/logo_lifeshield.png" width="270" height="50" alt="LifeShield"></td> 
+     </tr>
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+    	  <td class="calibri_12dark"><strong>Disclaimer:</strong>This coverage is not required to comply with certain federal market requirements for health insurance, principally those contained in the Affordable Care Act. Be sure to check the Certificate carefully to make sure You are aware of any exclusions or limitations regarding coverage of Pre-Existing Conditions or health benefits (such as hospitalization, Emergency Services, maternity care, preventive care, Prescription Drugs, and mental health and Substance Use Disorder services). Your coverage also has lifetime and/or annual dollar limits on health benefits. If this coverage expires or You lose eligibility for this coverage, You might have to wait until an open enrollment period to get other health insurance coverage. Also, this coverage is not minimum essential coverage.  If You don't have minimum essential coverage for any month in 2018, You may have to make a payment when You file Your tax return unless You qualify for an exemption from the requirement that You have health coverage for that month. This is a brief summary of LifeShield Short-Term Medical Insurance underwritten by LifeShield National Insurance Co.  provided by Policy Form Series LNG- 3001. Availability and terms may vary by state.
+    		    
+    	  </td>
+    </tr>	
+     <tr>
+	  <td height="5"></td>
+     </tr>
+
+</table>								    </td>
+								 </tr>
+							</table>
+						</div>
+	  	  <!-- End Limitations & Exclusions -->
+	  		  						<!-- Definitions -->
+						<div class="TabbedPanelsContent">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+								<tr>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr align="justify">
+												<td width="80%" align="left" valign="top">
+												<span  class="product_tab_title">Definitions</span><br /><br />
+												<strong>"Accident"</strong> means an act or event which: (a) is unforeseen, unexpected and unanticipated and is the direct cause of a loss covered under the Policy;  (b) is definite as to time and place; (c) is not a Sickness; and (d) occurs while insurance is in effect for a Covered Person.
+												</td>
+												 												<td width="20%" align="right" valign="top">
+																	<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+																</td>
+																							</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Certificate Effective Date"</strong> is the date coverage begins under the Certificate. Each Covered Person’s Effective Date is shown in the Schedule of Benefits.  It will be different for a Covered Person added to the Certificate after the original date of issue or when a change in coverage for any Covered Person occurs.</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Coinsurance"</strong> means the percentage amount of the Eligible Expenses that the Insured and the Company will share after the Deductible is met.  Coinsurance does not include Deductibles, Copayments, penalty coinsurance for failure to pre-certify required services or any charges in excess of the Usual and Customary Charge.</td><br/>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Complications of Pregnancy"</strong> means either of these two general types of conditions:
+									<ol type="1">
+									    </<ol>
+                                                                                <li><strong>Type I Conditions:</strong> The pregnancy does not end.  The cause of the complication is distinct from the pregnancy.  Examples include acute nephritis, nephrosis and cardiac decompensation. There may be other similar conditions as well. <strong>CONDITIONS NOT INCLUDED ARE</strong> false labor, pre-term or premature labor, occasional spotting, prescribed rest while pregnant, morning sickness, hyperemesis gravidarum and pre-eclampsia.  There may be other similar conditions as well; they may relate to a difficult pregnancy but are conditions the Doctor can manage.  We will not consider such a condition as a Complication of Pregnancy. </li>
+                                                                                <li><strong>Type II Conditions:</strong> The pregnancy ends.  Any of the following may occur: delivery by unplanned Medically Necessary Cesarean section, ending of ectopic pregnancy or spontaneous ending of pregnancy that takes place when a live birth is not possible. </li>
+    									    </ol></td>
+								</tr>
+								<tr>
+									<td><strong>"Congenital Condition"</strong> means a disease or other anomaly existing at or before birth, whether acquired during development or by heredity. </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Copayment"</strong> means a designated amount that may be applied each time medical services including consultations and follow ups, are received. Copayments are also applicable to some pharmacy benefits. Copayments do not apply to the Deductible or to the Out of Pocket Maximum.
+									</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Coverage Period"</strong> means the length of time for which the Insured selected coverage in the Insured’s Enrollment Form and approved by Us not to exceed a  three-hundred-and-sixty-four (364) day period commencing as of the Certificate Effective Date.</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Covered Person"</strong> means You and Your covered Dependents (spouse and/or children), listed as a Covered Person in the Schedule of Benefits and for whom premium has been paid.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Custodial or Convalescent Care"</strong> means any care that is provided to a Covered Person who is disabled and needs help to support the essential activities of daily living when the Covered Person is not under active and specific medical, surgical, or psychiatric treatment that will reduce the disability to the extent necessary for the person to perform the essentials of daily living on his own.
+									</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Dependent"</strong> means Your family as follows:
+
+										<ol>
+											<li>The lawful spouse*, if not legally separated or divorced who is under age 64 and 11 months and is not a full-time active duty member in the armed forces other than for reserve duty of 30 days or less;</li>
+											<li>Children (whether natural, stepchildren, adopted, or children placed for adoption) under the limiting age of 26 and is not a full-time active duty member in the armed forces other than for reserve duty of 30 days or less; or </li>
+											<li>Children for whom You are required to provide insurance under a medical support order or an order enforceable by a court.</li>
+
+										</ol>
+										*The term "spouse" as used throughout this Certificate will also mean Your legal Domestic Partner.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Domestic Partner"</strong> means an opposite or same sex person with whom You maintain a committed relationship and share a familial relationship characterized by mutual caring and the sharing of a mutual residence and who has registered under state law as a domestic partner. Each partner must:
+									    <ol>
+										<li>Be at least 18 years old and competent to contract</li>
+										<li>Be the sole domestic partner of the other person; and</li>
+										<li>Not be married.</li>
+									    </ol>
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Doctor"</strong> means any duly licensed practitioner who is recognized by the law of the state in which treatment is received as qualified to perform the service for which claim is made and who is not a member of your immediate family.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td>
+										<strong>"Eligible Expense"</strong> means the Usual and Customary Charges for Medically Necessary services, supplies, or treatment prescribed or provided by a Doctor for a covered Injury or Sickness while coverage is in force for a Covered Person. The Company reserves the right to interpret and determine coverage for Eligible Expenses. The fact that a Doctor has prescribed, recommended, approved, or provided a treatment, service or supply does not, in itself, make such treatment, service or supply a Medically Necessary covered Eligible Expense.
+
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Enrollment Form"</strong> means the form(s) that You (and Your spouse, if any) signed to apply for coverage under the Policy. It also includes any other document approved by the Company that You use to change coverage under the Policy.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Experimental or Investigational Treatment"</strong> means in Our discretion a treatment, drug, device, procedure, supply or service and related services (or any portion thereof, including the form, administration or dosage) for a particular diagnosis or condition when any one of the following exists:
+									    <ol>
+										<li>The treatment, drug, device, procedure, supply or service is in any clinical trial or a Phase I, II or III trial. </li>
+										<li>The treatment, drug, device, procedure, supply or service is not yet fully approved or recognized (for other than experimental, investigational, research or clinical trial purposes) by the National Cancer Institute (NCI), Food & Drug Administration (FDA), or other pertinent governmental agency or professional organization.</li>
+										<li>The results are not proven through controlled clinical trials with results published in peer-reviewed English language medical journals, to be of greater safety and efficacy than conventional treatment, in both the short and long term.</li>
+										<li>The treatment, drug, device, procedure, supply or service is not generally accepted medical practice in the state where the Covered Person resides or as generally accepted throughout the United States as determined in Our discretion, by reference to any one or more of the following: peer-reviewed English-language medical literature, consultation with physicians, authoritative medical compendia, the American Medical Association, or other pertinent professional organization or governmental agency.</li>
+										<li>The treatment, drug, device, procedure, supply or service is described as investigational, experimental, a study, or for research or the like in any consent, release or authorization which the Covered Person, or someone acting on his or her behalf, may be required to sign.</li>
+									    </ol>
+									    The fact that a procedure, service, supply, treatment, drug, or device may be the only hope for survival will not change the fact that it is otherwise experimental in nature.
+
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Extended Care Facility"</strong> means an institution, other than a Hospital, operated and licensed pursuant to law, that provides:  (a) permanent and full-time facilities for the continuous skilled nursing care of three (3) or more sick or injured persons on an Inpatient basis during the convalescent stage of their Sicknesses or Injuries; (b) full-time supervision of a Doctor; (c) twenty-four (24) hour a day nursing service of one or more nurses; and (d) is not, other than incidentally, a rest home or a home for custodial care or for the aged. Extended Care Facility does not include an institution that primarily engages in the care and treatment of drug addiction or alcoholism.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td>
+										<strong>"Home Health Care Agency"</strong> means an entity licensed by state or local law operated primarily to provide skilled nursing care and therapeutic services in an individual’s home and:
+										<ol>
+											<li>Which maintains clinical records on each patient; </li>
+											<li>Whose services are under the supervision of a Doctor or a licensed graduate registered nurse (RN); and </li>
+											<li>Which maintains operational policies established by a professional group including at least one Doctor and one licensed graduate registered nurse (RN).</li>
+										</ol>
+
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Home Health Care Plan"</strong> means a program for continued care and treatment of an individual established and approved in writing by the individual’s attending Doctor. As part of the plan, an attending Doctor must certify that proper treatment of the Injury or Sickness would require continued confinement in a Hospital in the absence of the services and supplies.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Hospital"</strong> means an institution operated by law for the care and treatment of Injuries or Sicknesses; has organized facilities for diagnosis and surgery or has a contract with another Hospital for these services; and has 24-hour nursing service. Hospital excludes any institution that is primarily a rest home, nursing home, convalescent home, a home for the aged, an alcoholism or drug addiction treatment facility or a facility for treatment of Mental Disorders.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Immediate Family"</strong> means the parents, spouse, children, or siblings of a Covered Person, or any person residing with a Covered Person. </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td>
+										<strong>"Injury"</strong> means Accidental bodily Injury of a Covered Person:
+										<ol>
+											<li>Caused by an Accident; and </li>
+											<li>That results in covered loss directly and independently of all other causes.</li>
+										</ol>
+										All Injuries sustained in one Accident, including all related conditions and recurring symptoms of the Injuries, will be considered one Injury.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Inpatient"</strong> means a Covered Person who incurs medical expenses for at least one day's room and board from a Hospital. </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Insured"</strong> means the Applicant named in the attached Enrollment Form and to whom the Certificate is issued.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Intensive Care or Critical Care Unit"</strong> means that part of a Hospital service specifically designed as an intensive care or critical care unit permanently equipped and staffed to provide the highest level of care for critically ill or Injured patients, including a Coronary Care Unit and Neonatal Intensive Care Unit. Coverage includes close observation by trained and qualified personnel whose duties are primarily confined to the part of the Hospital for which an additional charge is made.</td>
+								</tr>
+
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td>
+										<strong>"Medically Necessary"</strong> means that, based on generally accepted current medical practice, a service or supply is necessary and appropriate for the diagnosis or treatment of Injury or Sickness.  We do not consider a service or supply as Medically Necessary if:
+										<ol>
+											<li>It is provided only as a convenience to the Covered Person or provider; </li>
+											<li>It is not appropriate treatment for the Covered Person’s diagnosis or symptoms; </li>
+											<li>It exceeds (in scope, duration or intensity) that level of care that is needed to provide safe, adequate and appropriate diagnosis or treatment; </li>
+											<li>It is Experimental or Investigational. </li>
+										</ol>
+										The fact that a Doctor may prescribe, order, recommend or approve a service or supply does not, of itself, make the service or supply Medically Necessary.
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Mental Disorder"</strong> means a serious "biologically-based" mental disorder, including Schizophrenia, Schizoaffective disorder, Major depressive disorder, Bipolar disorder, Paranoia and other psychotic disorders, Obsessive-compulsive disorder, Panic disorder, Delirium and dementia, Affective disorders, and any other "biologically-based" mental disorders appearing in the most recent edition of the Diagnostic and Statistical Manual of the American Psychiatric Association (the "DSM"). </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Occupational Therapy"</strong> means constructive therapeutic activity designed and adapted to promote the restoration of useful physical function. Occupational Therapy does not include educational training or services designed and adapted to develop a physical function.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Out Of Pocket Maximum"</strong> means an amount of allowable expenses that is the responsibility of each Covered Person to meet before the Company will begin paying the expenses at 100%. It does not include Deductibles, Copayments, penalty coinsurance for failure to pre-certify required services or charges in excess of the Usual and Customary Charge. Once the Out of Pocket Maximum is met, the Policy will begin paying 100% of allowable Usual and Customary costs for the remainder of the Coverage Period, not to exceed Coverage Period Maximum Benefit and any applicable benefit limits.
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Outpatient"</strong> means a Covered Person who incurs medical expenses at Doctor's offices and freestanding clinics, and at Hospitals when not admitted as an Inpatient. </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Outpatient Surgical Facility"</strong> means a licensed medical facility or a part of a Hospital:
+									    <ol>
+										<li>With an organized staff of Doctors; </li>
+										<li>That is permanently equipped and operated primarily for the purpose of performing surgical procedures; </li>
+										<li>That does not provide accommodations for overnight stays; and </li>
+										<li>That provides continuous Doctor services and nursing services whenever a patient is in the facility.</li>
+									    </ol>
+									    The term "Outpatient Surgical Facility" does not include a:
+									    <ol>
+										<li>Hospital emergency room; </li>
+										<li>Trauma center; or </li>
+										<li>Doctor's office or clinic.</li>
+									    </ol>
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Physical Therapy"</strong> means the treatment of a disease, injury or condition by physical means by a Doctor or a registered professional physical therapist under the supervision of a Doctor and which is designed and adapted to promote the restoration of a useful physical function. Physical Therapy does not include educational training or services designed and adapted to develop a physical function.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Prescription Drug"</strong> means any medication or medicinal substance which has been approved by the U.S. Food and Drug Administration for general use and which can, under federal or state law, be dispensed only pursuant to a Prescription Order (a legend drug). Insulin and the syringes necessary for its injection are considered Prescription Drugs.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Routine Physical Exam"</strong> means examination of the physical body by a Doctor for preventive or informative purposes only, and not for the diagnosis or treatment of any condition.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Sickness"</strong> means a Covered Person's illness, disease Complication of Pregnancy, or condition that:
+									    <ol>
+										<li>Is treated by a Doctor while the person is covered under the Policy; and </li>
+										<li>Results directly and independently of all other causes covered by the Policy. </li>
+									    </ol>
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Specialists"</strong> means doctors who have completed advanced education and clinical training in a specific area of medicine.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Speech Therapy"</strong> means the treatment for the correction of a speech impairment resulting from disease, trauma, congenital anomalies, previous therapeutic processes, psycho-social speech delay, behavioral problems, attention disorder, conceptual handicap or mental retardation and which is designed and adapted to promote the restoration of a useful physical function.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Substance Abuse"</strong> means the uncontrollable or excessive abuse of addictive substances consisting of alcohol and drugs (whether prescribed by a Doctor or not), and the resultant physiological and/or psychological dependency that develops with continued use of such addictive substances requiring medical care as determined by a Doctor. </td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Surgery or Surgical Procedure"</strong> means an invasive diagnostic procedure; or the treatment of Injury or Sickness by manual or instrumental operations performed by a Doctor while the patient is under general or local anesthesia.</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+								<tr>
+									<td><strong>"Usual and Customary Charges" (or "Charges")</strong> means the following: (1) a usual fee is defined as the charge made for a given service by a Doctor to the majority of his or her patients; and (2) a customary fee is one that is charged by the majority of Doctors within a community for the same services; and (3) charging protocols and billing practices generally accepted by the medical community or specialty groups, including charging protocols and billing practices related to Medicare. All benefits are limited to Usual and Customary Charges.
+
+									</td>
+								</tr>
+								<tr>
+								    <td><strong>"You" (</strong>or <strong>"Your" or "Yours")</strong> means the Insured. </td>
+
+								</tr>
+								<tr>
+								    <td>
+								<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">     
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+	  <td class="sub_title"><strong>LifeShield STM Underwritten By:</strong></td>
+     </tr>
+     <tr>
+		  <td><img src="https://www.hiiquote.com/imagesh/product_logos/logo_lifeshield.png" width="270" height="50" alt="LifeShield"></td> 
+     </tr>
+     <tr>
+	  <td height="5"></td>
+     </tr>
+     <tr>
+    	  <td class="calibri_12dark"><strong>Disclaimer:</strong>This coverage is not required to comply with certain federal market requirements for health insurance, principally those contained in the Affordable Care Act. Be sure to check the Certificate carefully to make sure You are aware of any exclusions or limitations regarding coverage of Pre-Existing Conditions or health benefits (such as hospitalization, Emergency Services, maternity care, preventive care, Prescription Drugs, and mental health and Substance Use Disorder services). Your coverage also has lifetime and/or annual dollar limits on health benefits. If this coverage expires or You lose eligibility for this coverage, You might have to wait until an open enrollment period to get other health insurance coverage. Also, this coverage is not minimum essential coverage.  If You don't have minimum essential coverage for any month in 2018, You may have to make a payment when You file Your tax return unless You qualify for an exemption from the requirement that You have health coverage for that month. This is a brief summary of LifeShield Short-Term Medical Insurance underwritten by LifeShield National Insurance Co.  provided by Policy Form Series LNG- 3001. Availability and terms may vary by state.
+    		    
+    	  </td>
+    </tr>	
+     <tr>
+	  <td height="5"></td>
+     </tr>
+
+</table>								    </td>
+								 </tr>
+
+							</table>
+						</div>
+						                       <!-- End Definitions -->
+		                         <div class="TabbedPanelsContent">
+                       <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                              <tr>
+                                <td><table width="100%" cellspacing="0" cellpadding="0">
+                                 <tr>
+                                         <td width="75%" align="left" valign="top">
+                                             <span  class="product_tab_title"><u>Multiplan PHCS</u></span>
+                                        </td>
+                                                                 <td width="25%" align="right" valign="top">				<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				                                              </td>
+                                                                                        </tr>
+                                      </table>
+                                  </td>
+                              </tr>
+                               <tr>
+                                <td>
+                                    <span class="sub_title"> PHCS PPO Network Information:</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Persons insured under this plan may choose to be treated within, or out of, the Multiplan PHCS PPO Network. This membership entitles doctors and hospital facilities who have contracted to provide specific medical care at negotiated prices.
+                                </td>
+                            </tr>
+                              <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="http://www.phcs.com"><b> <u>www.phcs.com</u></b> </a>
+                                </td>
+                            </tr>
+                              <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <span class="sub_title"> About Multiplan PHCS PPO Network:</span>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    PHCS (Private Healthcare Systems) was acquired by Multiplan in October 2006 and the PHCS PPO networks are now part of MultiPlan. Founded in 1980, MultiPlan is the nation's oldest and largest supplier of independent, network-based cost management solutions. MultiPlan has almost 900,000 healthcare providers under contract, an estimated 57 million consumers accessing the network products, and 110 million claims processed through the networks each year, giving them more of the experience and resources healthcare payers and providers need to face today's unprecedented cost and competitive pressures.
+                                </td>
+                            </tr>
+                             <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   In addition to regional PPO networks in Wisconsin and the southwest, MultiPlan is also the only company that can offer access to the leading independent national primary PPO, as well as their complementary network, and negotiation and medical reimbursement services through a single electronic claim submission.
+                                </td>
+                            </tr>
+                             <tr>
+                                <td height="10px" align="left"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   MultiPlan has the know-how and creativity to offer more choices and more value for today's healthcare payers and providers.
+                                </td>
+                            </tr>
+                       </table>
+                   </div>
+                    										<!-- Teladoc -->
+						<div class="TabbedPanelsContent">
+						
+<table width="100%" align="center" cellpadding="0" cellspacing="0" class="calibri_16dark" border="0">
+    <tr><td>
+            <!--Added: HFU-762083: 02June2018: Vimal -->
+            <table width="100%" border="0" >
+  <tr>
+					<td width="65%" style="line-height: 0px;"></td>
+					<td width="35%" align="right"style="line-height: 0px;"></td>
+					<td  width="20%" align="right" valign="top" style="line-height: 0px;">
+										<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				    </td>
+                                </tr>
+                        </table>
+                    </td>
+	</tr>
+          <tr>    <td colspan="3"><table width="100%"  cellpadding="0" cellspacing="0" border="0">
+        
+					     <tr>
+                                                    <td colspan="3" valign="middle"><img src="../imagesh/Teladoc_brochure_147_06022018.png"  border="0" width="100%" /> </td><!--Added: HFU-762083: 08June2018: Vimal -->
+                             </tr>
+                                            <tr><!--comment below line and add new one  YYB-143450 : 12/17/2015 : Trupti-->
+          <!--<td style="padding-top:20px;" class="calibri_12dark">	 &COPY; 2015 Teladoc, Inc. All rights reserved. Teladoc and the Teladoc logo are trademarks of Teladoc, Inc. and may not be used without written permission. Teladoc does not replace the primary care physician. Teladoc does not guarantee that a prescription will be written. Teladoc operates subject to state regulation and may not be available in certain states. Teladoc does not prescribe DEA controlled substances, non therapeutic drugs and certain other drugs which may be harmful because of their potential for abuse. Teladoc physicians reserve the right to deny care for potential misuse of services. Teladoc phone consultations are available 24 hours, 7 days a week while video consultations are available during the hours of 7am to 9pm, 7 days a week. </td>-->
+	      </tr>
+			       </table></td>
+  </tr>
+</table>
+						</div>
+						                      <!-- Kare360-->
+						<div class="TabbedPanelsContent">
+						<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+							<tr>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="80%" align="left" valign="top">
+												<span class="product_tab_title">Karis360</span><br /><br /><!--update kare to karis SPE-699653:Hiral:12Dec2016-->
+											</td>
+																						<td width="20%" align="right" valign="top">
+																<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+															</td>
+                                            										</tr>
+										<tr>
+											<td align="center" colspan="2">
+												<img src="../imagesh/karis_360new1.png" width="800" alt="kare_360" border="0" />
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+                    <!-- End Kare360-->
+					  						<!-- Rx-Card, Vision & Wellness -->
+						<div class="TabbedPanelsContent">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr>
+		<td>
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="80%" align="left" valign="top">
+					<span  class="product_tab_title">Rx-Card  & Vision</span><br /><br /> <!--added Plan Id 103 Ticket Id : IYX-440358:17Sept2015: Urvil  --><!--added Plan Id 127 Ticket Id : NRO-438953:07Sep2016:Urvil--><!--added Plan Id 105 Ticket Id : ONY-667898:23Oct2015:Urvil  --><!--added Plan ID 19 PHN-260299:Tejasvini:10March2016 added Plan ID 104,73 PHN-260299:Tejasvini:11March2016 added Plan ID 97 PHN-260299:Tejasvini:15March2016--><!--added plan-id 115 on  WPP-709637:Tejasvini:13April2016--><!--//added plan-id 23,31 PHN-260299:Tejasvini:18April2016--><!--//added plan-id 56,67,54,70 PHN-260299:Tejasvini:21April2016--> <!--//added plan-id 60,61,91,92 PHN-260299:Tejasvini:29April2016--><!--//added plan-id 48,93 PHN-260299:Tejasvini:02May2016--><!--added Plan Id 126 Ticket Id : ZDO-639178:02Sept2016: Urvil  --><!--added Plan Id 136 Ticket Id : LUZ-776164:30March2017: kajal  --><!--//added plan-id 139 CSI-554899:kajal:17April2017--><!--//added plan-id 152 Ticket Id : LVE-956256:Miral:25Oct2017--><!--//added plan-id 157 Ticket Id : DUC-991904 :Radhika:29Mar2018--><!--//added plan-id 160 Ticket Id : VRT-347468  :Radhika:16Jun2018-->
+                    
+					     				</br>
+					    					 <!-- Add plan ID 24 and 64    Ticket id:- BKV-529458  20 May 2015  Bansal --> <!-- Add plan ID 105   Ticket id:- ONY-667898  23 Oct 2015  Urvil -->
+					Includes the following non-insurance discounts and benefits at no additional cost!<br /> 
+                    					</td>
+                    					 					<td width="20%" align="right" valign="top">
+										<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+									</td>
+									</tr>	
+                               </table>	
+			       
+		</td>
+	</tr>										
+	<tr>
+		<td height="10px" align="left"></td>
+	</tr>
+	<tr>
+	    <td class="sub_title">  ScripPal Discount Prescription Discount Card: *  </td> <!--added Plan Id 103 Ticket Id : IYX-440358:17Sept2015: Urvil //replace ScripPal  ION-695319 : 12/10/2015 : Trupti --><!--//added plan-id 139 CSI-554899:kajal:17April2017-->
+	</tr>
+	<tr><!--105 added  ONY-667898 : 12/08/2015 : trupti-->
+		<td>Medications cost too much. And if you or a family member have asthma, diabetes, heart disease or another illness, costs can quickly skyrocket and make it hard to make ends meet. We believe that peace of mind shouldn't cost an arm and a leg. Save an average of 46%, with potential savings of up to 75%**. This card can be used for your entire family, including pets.<div style="height:5px"></div>Save at more than 60,000 pharmacies nationwide, including Walmart, Target, Walgreens and more. Discounts are at the register. Because this is not insurance, there are no forms to fill and there is no wondering or waiting for reimbursements.</td>
+	</tr>
+   		    <tr>
+    <td><div style="height:10px"></div><strong><u>Please <a target="_blank" href="https://www.yourdiscountrx.com/scrippal/">click here</a> to access information on available drugs and pharmacies</u></strong></td>
+	</tr>
+	<!-- Remove MedCare USA from all Companion STM products  Ticket id:- JZL-941392  14 Aug 2014 Hardik -->
+	<!--<tr>
+		<td valign="top" align="center">
+			<table width="100%" cellspacing="1" cellpadding="1" border="0">
+				<tr>
+					<td width="50%" align="left">&bull;&nbsp;NO claim forms</td>
+					<td width="50%" align="left">&bull;&nbsp;NO reimbursement procedures</td>
+				</tr>
+				<tr>
+					<td width="50%" align="left">&bull;&nbsp;NO pre-existing condition exclusions</td>
+					<td width="50%" align="left">&bull;&nbsp;NO waiting periods</td>
+				</tr>
+				<tr>
+					<td width="50%" align="left">&bull;&nbsp;NO deductibles</td>
+					<td width="50%" align="left">&bull;&nbsp;NO benefit maximums</td>
+				</tr>
+				<tr>
+				<td align="left" colspan="4">&bull;&nbsp;Save an average of 15% off retail price on many brand name prescription drugs</td>
+				</tr>
+				<tr>
+				<td align="left" colspan="4">&bull;&nbsp;Save an average of 54% off retail price on many generic prescription drugs</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr>
+		<td>This card is accepted at over 53,000 pharmacies throughout the United States, including most national chains and independent pharmacies. Simply present your membership card to a participating pharmacy and you'll qualify for savings when you pay at the time of service. </td>
+	</tr>-->
+				<tr>
+			<td height="15"></td>
+		</tr>
+        			
+			<tr>
+ 			              <td align="left" class="calibri_12dark"><strong>*Important Disclaimer: These are not insurance benefits. </strong> These are discount services and are not affiliated with or the LifesShield STM plan or LifeShield National Insurance Co.</td>
+             		</tr>
+		<tr>
+			<td height="10"></td>
+		</tr>
+		<tr>
+                    <td align="left" class="calibri_12dark"><strong>**ScripPal Discount Rx Disclaimer: DISCOUNT ONLY - NOT INSURANCE.</strong>Discounts are available exclusively through participating pharmacies and providers. The range of the discounts will vary depending on the type of provider and services rendered. This program does not make payments directly to providers. Members are required to pay for all health care services. You may cancel your registration at any time or file a complaint by contacting Customer Care. This program is administered by Medical Security Card Company, LLC of Tucson, AZ.  Based on 2013 national program savings data.<!-- added plan-id:115 on  WPP-709637:Tejasvini:13April2016--><!--//added plan-id 139 CSI-554899:kajal:17April2017--><!--Add condition:($Plan_ID == 148 || $Plan_ID == 88 || $Plan_ID == 94 || $Plan_ID == 95 || $Plan_ID == 96 || $Plan_ID == 48 || $Plan_ID == 146 || $Plan_ID == 151) UOA-670684: 08Jan2018: Vimal-->
+			 			 			 <!--added Plan Id 105 Ticket Id :  ONY-667898 :11242015: trupti  replace ScripPal  ION-695319 : 12/10/2015 : Trupti -->
+			</td>
+		</tr>
+                
+		      	
+</table>						</div>
+                        <!-- End Rx-Card, Vision & Wellness -->
+											<!-- -->
+						<div class="TabbedPanelsContent">
+                            <table width="100%" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="80%" valign="top">
+                                    	<span  class="product_tab_title">Rx Helpline</span>
+                                    </td>
+                                    <td  width="20%" align="right" valign="top">
+														<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				                                    </td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2"><hr noshade="noshade" color="#a2a1a1"/></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="2" align="center">
+                                    	 <img src="../imagesh/rx_helpline_website.png" border="0" alt="RX-HelpLine" width="820" align="middle"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="calibri_12dark" colspan="2">
+                                    	<strong>Important Disclaimer:</strong> These are not insurance benefits. These are discount services and are not affiliated with our insurance companies or our insurance products.
+                                    </td>
+                                </tr>
+                            </table>
+						</div>
+                        <!-- End Rx-Card, Vision & Wellness -->
+							       <!--real_value_savings -->
+		       <div class="TabbedPanelsContent">
+		       <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td><table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="75%" align="left" valign="top">
+              <span  class="product_tab_title">Real Value Savings Program</span>
+          <br/><br/>The below benefits are not associated with Lifeshield National Co insurance plan.<br/>If you would like to cancel these optional benefits please contact HII 1-877-376-5831 or contact support@hiiquote.com               <br/><br/><span  class="sub_title"><u>Real Value Savings Program*</u></span>
+	 </td>
+            				<td width="25%" align="right" valign="top">
+								<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+				</td>        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td align="left"><br/>The Real Value Savings Program is a great way for you and your family to save money on out-of-pocket medical expenses. Your savings start from the first dollar, with no limits. Our cost savings program gives members access to pre-negotiated, lowered rates.</td>
+  </tr>
+  <tr>
+    <td align="left"><br/>There are no:</td>
+  </tr>
+  <tr>
+    <td><table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td width="50%" align="left"><ul>
+              <li>Deductibles</li>
+              <li>Pre-existing conditions limitations</li>
+              <li>Medical exams</li>
+              <li>Claims forms</li>
+              <li>Limitation on usage</li>
+              <li>Age restrictions</li>
+            </ul>
+	      
+	     
+	  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+   <tr>
+    <td align="left" class="sub_title">24/7 Nurse Helpline</td>
+  </tr>
+  <tr>
+    <td align="left">Have 24/7 access to a registered nurse (RN) to answer questions on family health issues.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">ID Resolution</td>
+  </tr>
+  <tr>
+    <td align="left">Experienced fraud resolution specialists can resolve financial identity theft, criminal identity theft, and medical identity theft.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Movies</td>
+  </tr>
+  <tr>
+    <td align="left">Save up to 40% on movie tickets nationwide.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Restaurants</td>
+  </tr>
+  <tr>
+    <td align="left">Offers a national directory of over 15,000 restaurants and a number of exclusive online merchants.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Travel</td>
+  </tr>
+  <tr>
+    <td align="left">Save up to 15% off your next hotel stay.  Choose date, save, and travel!</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Vision</td>
+  </tr>
+  <tr>
+    <td align="left">The OUTLOOK Vision network has contracted with over 12,000 eye care locations nationwide.  The OUTLOOK Vision provider panel includes optometrists, independent optical centers and national chain locations.</td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title"><br/>Prescription Discount Benefits</td>
+  </tr>
+  <tr>
+    <td align="left">You can use our discount Rx card and save an average of 15% on brand-name and 55% on generic medications at participating pharmacies.</td>
+  </tr>
+  <tr>
+    <td align="left"><ul>
+        <li>All FDA approved drugs are discounted with the card. Even lifestyle drugs can be obtained at greatly reduced rates.</li>
+        <li>The pharmacy network is national in scope.</li>
+        <li>Cards can be used for all family members. There are no limit on the number of prescriptions filled.</li>
+        <li>No forms to fill out. You do not have to activate the card.</li>
+      </ul>
+      </td>
+  </tr>
+  <tr>
+    <td height="10px" align="left">The card can be used over and over. Simply present your member ID card to the pharmacist, along with your prescription to receive the discounts.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Brand-Name Mail Order</td>
+  </tr>
+  <tr>
+    <td align="left">Save up to 80% on your brand-name medications through our international mail order program. Ordering your discount brand-name medications is convenient, easy, and secure.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Pet Rx</td>
+  </tr>
+  <tr>
+    <td align="left">About 50% of the medications prescribed by your vet are actually the same medications prescribed to people, only in different dosages. You can fill these prescriptions at your neighborhood pharmacy. We have even made arrangements with a US FDA-approved specialty, mail-order pharmacy to fill those special medications and compounds not available at your local pharmacy.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Pet Afford</td>
+  </tr>
+  <tr>
+    <td align="left">PetAfford enables pet owners to keep their furry companions happy and healthy while saving money.  Discount savings programs on pet supplies and prescriptions, BringFido, and Veterinary Discounts.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Alternative Medicine</td>
+  </tr>
+  <tr>
+    <td align="left">Save an average of 25% at over 8,000 trained, qualified, and fully credentialed providers nationwide including acupuncture, massage and other integrated wellness therapies.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <!--<tr>
+    <td align="left" class="sub_title">Chiropractic Care</td>
+  </tr>
+  <tr>
+    <td align="left">Program offers a free initial consultation and up to 50% savings on diagnostic services and x-rays (if necessary), and unlimited treatments at 30% savings from a national network of over 12,000 chiropractors.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>-->
+  <tr>
+    <td align="left" class="sub_title">Hearing Savings Program</td>
+  </tr>
+  <tr>
+    <td align="left">Receive customized care and, if needed, purchase brand-name hearing aids at substantial savings. Save 20% to 50% off Manufacturer's Suggested Retail Pricing.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <!--<tr>
+    <td align="left" class="sub_title">Imaging Savings Program</td>
+  </tr>
+  <tr>
+    <td align="left">Our network providers can save members an average of 60% off of the usual cost for advanced radiology testing, such as Magnetic Resonance Imaging (MRI) and Computerized Tomography (CT) scans.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Laboratory Savings Program</td>
+  </tr>
+  <tr>
+    <td align="left">The Laboratory Savings Program offers services offer an efficient, affordable, and confidential solution to medical laboratory testing. Members are able to browse a wide array of medical laboratory tests, become informed on both the tests and diseases, and have the ability to purchase the medical lab test directly on the website. MyMedLab's online solution is centralized around the PHR (Personal Health Record) system and allows the member to see specific test results and monitor their overall health. Not available in NY, NJ or RI.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>-->
+  <tr>
+    <td align="left" class="sub_title">Medical Bill Negotiations</td>
+  </tr>
+  <tr>
+    <td align="left">Members can save on their existing medical bills. Patient advocates work on your behalf to protect your interests and save you money. No minimum bill requirement.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <tr>
+    <td align="left" class="sub_title">Medical Supplies and Equipment</td>
+  </tr>
+  <tr>
+    <td align="left">Save from 20% to 50% off your medical supply needs. Items include a broad selection of ambulatory aids and bathroom safety items such as wheelchairs, scooters, hospital beds, and much more.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+  <!--<tr>
+    <td align="left" class="sub_title">Physical Therapy</td>
+  </tr>
+  <tr>
+    <td align="left">Save an average of 20% at over 1,200 offices with 4,000 rehabilitation and physical therapy providers in 23 states.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>-->
+  <tr>
+    <td align="left" class="sub_title">Vitamins and Supplements</td>
+  </tr>
+  <tr>
+    <td align="left">Members can save up to 75% off retail pricing on a huge selection of natural products including vitamins, supplements, and more.</td>
+  </tr>
+  <tr>
+    <td height="10px" align="left"></td>
+  </tr>
+   
+  <tr>
+    <td align="left" class="calibri_12dark"><strong>Disclaimer:</strong>
+      <br />
+      *The benefits described on this page, Real Value Savings Program, are NOT INSURANCE. The Real Value Savings Program, does not meet the requirements of the PPACA. You must pay for services at the time they are rendered. If they use a participating dentist, they will receive a discount. Neither Real Value Savings Program,, Aetna, NBBI or the DMPO will pay for any services received.</td>
+  </tr>
+</table>
+		       </div>
+		                             
+                      						<!-- Security & Privacy -->
+						<div class="TabbedPanelsContent">
+						<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+								                                <tr>
+									<td>
+										<table width="100%" cellspacing="0" cellpadding="0">
+											<tr>
+												<td width="80%" align="left" valign="top">
+												<span  class="product_tab_title">Privacy Policy</span><br /><br />
+												At HiiQuote.com (referred to herein as the "Website" or "HiiQuote.com") we are strongly committed to protecting your privacy and have established this Privacy Policy ("Privacy Policy") which details how we use and protect your information. The terms "you" and "your" when used in this Privacy Policy means any visitor to or user of the Website.							
+												</td>
+												 													<td width="20%" align="right" valign="top">
+																	<a href="https://www.hiiquote.com/quote/quote.php?Plan_ID=112&code=A157F6910039407D116147" target="_blank"><img src="../imagesh/btn_quote.png" border="0"/></a>
+																	</td>
+																								</tr>												
+										</table>	
+									</td>
+								</tr>										
+								<tr>
+						<td align="justify"></td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">This Privacy Policy is intended to help you understand the online information security practices of Health Insurance Innovations, Inc. and its subsidiaries (together, "HII").  For additional details about the Website and the information provided on the Website, please review our Terms and Condition of Use <a href="../legal_notice.php">LINK TO TERMS AND CONDITIONS OF USE</a></td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">In viewing and using the Website, you understand that HII, as a developer and administrator of web-based individual and group health insurance plans and ancillary products, obtains certain information about you including non-personally identifiable information that is collected in aggregate (i.e., website use information), certain "personally identifiable information" about you that you provide as described herein ("Personally Identifiable Information"), and "protected health information", which is information about your health, medical history, or claims information that you provide to us ("Protected Health Information").  Personally Identifiable Information and non-personally identifiable information will be referred to as "Information" in this policy. You understand that HII may use Information about you, including your Personally Identifiable Information and Protected Health Information, subject to the terms of this Privacy Policy.  This Information and Protected Health Information that may be collected includes Information and Protected Health Information we may receive from you in connection with on-line forms and applications for, among other things, insurance policies, insurance claims, insurance quotes, or other forms, information about your transactions with us and information we may have received from a consumer reporting agency.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+                    <tr>
+						<td align="justify">All Information and Protected Health Information collected from this Website is subject to applicable privacy laws and regulations and will be handled as described in this Privacy Policy.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+                     <tr>
+						<td class="sub_title"><em><u>Your Consent</u></em></td>
+					</tr>
+                    <tr>
+						<td height="5px"></td>
+					</tr>
+                    <tr>
+						<td align="justify">By using the Website and/or submitting Personally Identifiable Information and/or Protected Health Information through the Website, you consent and agree to (i) the terms of this Privacy Policy, (ii) to the collection and use of Information and Protected Health Information by HII pursuant to the terms of this Privacy Policy, and (iii) the HII Terms and Conditions of Use provided on the Website.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+                     <tr>
+						<td class="sub_title"><em><u>Safeguards Maintained by HII to Protect Your Personally Identifiable and Protected Health Information</u></em></td>
+					</tr>
+                    <tr>
+						<td height="5px"></td>
+					</tr>
+                    <tr>
+						<td align="justify">We make every effort to protect your  Personally Identifiable Information and Protected Health Information.  HII protects your Personally Identifiable Information and your Protected Health Information by maintaining physical, electronic, and procedural safeguards that protect such information, including data encryption, user names and passwords, and other security tools.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+                     <tr>
+						<td class="sub_title"><em><u>Disclosure and Use of Your Protected Health Information and, Personally Identifiable Information</u></em></td>
+					</tr>
+                    <tr>
+						<td height="5px"></td>
+					</tr>
+                    <tr>
+						<td align="justify"><u><em>Protected Health Information.</em></u>  Because we are a business associate of certain health insurers and group health plans, we are subject to many of the privacy and security requirements of the Health Insurance Portability and Accountability Act of 1996 ("HIPAA").  HII protects your Protected Health Information as required by HIPAA and HII will not disclose Protected Health Information that you provide via the Website (e.g. information provided on an application or in connection with a policy or a claim) unless one or more of the following conditions are met:</td>
+					</tr>
+<tr>
+						<td align="justify">
+							<ul>
+								<li>We receive your prior written authorization.  Answers to questions about your medical history and physical condition are required by our insurance carrier partners and will be released to the insurer so that they may underwrite your insurance application.  HII will not give or sell such information about you to any other company, individual, or group without your prior authorization. </li>
+							  <li>We verify that the prospective recipient is you or your authorized representative.</li>
+								<li>We are required by law to disclose the information.</li>
+                                <li>The disclosure is permitted under HIPAA.</li>
+							</ul>						</td>
+					</tr>
+                    <tr>
+						<td align="justify"><u><em>Information and Personally Identifiable Information.</em></u> HII only uses Information, including Personally Identifiable Information, as allowed by law and as described herein. HII protects your Personally Identifiable Information by, for example:</td>
+					</tr>
+                    <tr>
+						<td align="justify">
+							<ul>
+								<li>not disclosing Personally Identifiable Information about you to anyone, except as permitted by law;</li>
+								<li>restricting access to your Personally Identifiable Information to authorized individuals who need to know this information in order to provide services and/or products to you;</li>
+								<li>not allowing employees to share your Personally Identifiable Information outside HII except as authorized by you or for a specific business purpose.</li>
+							</ul>						</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">The law permits us to share certain Information with (i) our affiliates, (ii) non-affiliate insurance companies, group health plans and insurance service providers, and (iii) companies that perform marketing services for us (including, without limitation, licensed insurance agents and/or brokers). We will share such Information only as permitted by law, and this Information may or may not include Personally Identifiable Information and/or Protected Health Information, and may or may not be directly related to our transaction with you.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">HII will use Information about you to help us better serve your insurance needs or to suggest HII services or insurance materials that may be of interest to you.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We may share your Information, which may or may not include Protected Health Information, as permitted by law, among insurance companies, including for routine business administration.  As permitted by law, we may share Information, which may or may not include Protected Health Information, with non-affiliated companies such as firms that perform services on our behalf, including the administration and marketing of our products. We require these companies to meet strict privacy standards.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We may enter into alliances, partnerships or other business arrangements with third parties who may be given access to Personally Identifiable Information including your name, address, telephone number and e-mail for the purpose of providing you information regarding products and services that we think will be of interest to you.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">In connection with alliances, partnerships or arrangements, we may also provide certain information to third parties if we have determined that the information will be used in a responsible manner by a responsible third party. We also use third parties to facilitate our business, including, but not limited to, sending e-mail and processing credit card payments.  In connection with these offerings and business operations, our partners and other third parties may have access to your Personally Identifiable Information for use in connection with such business activities.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">If you choose to send us an e-mail, we will do our best to respond to your request in a timely manner. We may use return e-mail addresses you provide to send e-mails and to answer the e-mail we receive.  We may forward your request on to third parties in situations where we cannot answer your question, and may also respond to your e-mail with offers or correspondence which we believe may be relevant to you.  If you choose to give us Personally Identifiable Information such as your zip code, e-mail, contact information, etc., we may share this information with third parties to help answer your questions or fulfill your request.  We reserve the right to use such data provided to us for any legally permissible purpose.  We may use our e-mail lists for sending newsletters and other HII outbound communications, such as product information. </td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We also reserve the right to use your Personally Identifiable Information to send you e-mails regarding system downtime and/or changes to this Privacy Policy or the Terms and Conditions of Use and you are not permitted to opt out of receiving these e-mail messages.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Our management team uses non-personally identifiable information to improve the user experience for all Website visitors. We may analyze site usage statistics to do things such as update our content, alter our navigation, or otherwise customize our site to better serve our visitors.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Though we will make every effort to preserve user privacy, we may need to disclose Personally Identifiable Information when required by law, or if we have a good-faith belief that the action is necessary to comply with a pending judicial proceeding, a court order or legal process served on HII or to protect our rights or the rights of others, to fight fraud, identity theft, to ensure the integrity and operation of our organization and systems, or to protect the rights, property or safety of HII, its employees, members or others.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">You do not need to call, or do anything as a result of this Privacy Policy.  It is meant to advise how we safeguard your Information,
+including your Personally Identifiable Information and your Protected Health Information.</td>
+					</tr>
+<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">The Personally Identifiable Information and Protected Health Information you submit to us through the Website may be processed by us in the country where it was collected as well as other countries (including the United States) where laws regarding the processing of such information may be less stringent than the laws in your country.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Categories of Information That We Collect</u></em></td>
+				  </tr>
+                  <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Certain of the materials and information provided by HII on the Website is available without HII collecting any Personally Identifiable Information from you.  However, HII does collect Personally Identifiable Information and/or Protected Health Information that you provide voluntarily during the course of using the Website.   </td>
+					</tr>
+                    <tr>
+						<td align="justify">In the normal course of business we may collect the following types of information:</td>
+					</tr> 
+					<tr>
+						<td align="justify">
+							<ul>
+								<li>information you provide on applications and other forms (including your name and address), which may include Personally Identifiable Information and/or Protected Health Information, including Information you might provide in connection with our Insurance Plan Cost Estimator Tool or in requesting a quote;</li>
+								<li>data about your transactions with us (such as types of products you have purchased and your account status); and</li>
+								<li>information gathered on our Website through online forms, site visit data and online information-collecting devices such as "cookies" and as further described herein.</li>
+							</ul>						</td>
+					</tr> 
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">When you choose to request a quote for, or request more information about, health insurance or ancillary products, you may provide Information about yourself, including your name, address, age, birthdate, gender, amount of coverage requested, phone number, e-mail address, and other items. This Information is shared with relevant third-parties necessary to fulfill your request. We may share this Information with insurance agencies, insurance brokers, and insurance companies. We do not share this Information with outside parties except to the extent necessary to complete your request such as submitting your application to insurer(s).  To the extent that Protected Health Information is provided, such information will be used only as permitted by HIPAA.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Insurance institutions and other service providers subscribe to our system and compete for the opportunity to provide insurance products and services that match your inquiry.  When you make an inquiry about an insurance quote and enter your personal information and click the "Submit" or "Get Quotes" button, you are authorizing the sharing of your inquiry and your Personally Identifiable Information entered with other businesses who provide insurance products or services that match your inquiry.  By submitting your Personally Identifiable Information to us, you are also authorizing these businesses to contact you directly by e-mail and telephone with information about insurance products or services they offer that match your inquiry.  You expressly consent to receive phone calls whether or not you are on the Do Not Call list (federal or state).</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">However, you should be aware that we have no control over how other businesses with whom we share your Personally Identifiable Information may use such Information or whether they will sell or share your Information with third parties.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Occasionally, HII may conduct marketing surveys or research to help us evaluate products, services, and the changing needs of our customers. HII will only provide such third parties with non-personally identifiable information in connection with such marketing surveys or marketing research.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Cookies, Web Beacons, Clear Gifs, and IP Addresses</u></em></td>
+					</tr> 
+                    <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">HII may also use a feature of your browser called a "cookie."  Your cookie automatically identifies your computer - but not you - to our servers when you visit the Website and allows us to correlate your computer with certain usage patterns which are stored in our log files.  We may use cookies to gather general, aggregate statistics about the overall popularity and usage of the Website.  HII may also use more temporary cookies, often referred to as session cookies, to keep a user logged into the system and aid in the exchange of information between pages without loss of data.  Such a cookie, however, is only stored for the current browsing session and is deleted once the browser is closed.  Search for Cookies under your Web browser's Help menu for more information on cookie management features available to you.  If your browser is set to reject all cookies, the Website may not function properly.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">HII may also collect information through the use of clear gifs (also called Web Beacons and Web Bugs) in selected e-mail messages we send to you.  These are tiny graphic files, not visible to the human eye, that are included in HTML-based e-mails and used to let us know which e-mails we send are opened.  Clear gifs may also see or read cookies on your computer.  When authorized by HII, third parties specializing in monitoring aggregate statistical use of the Website with whom we contract, may use cookies, our web log files, web beacons, and other monitoring technologies to compile anonymous aggregate data.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Additionally, we may use IP address information to count and track aggregate visits to the Website, to help diagnose problems with our server, and to administer the Website. HII does not link IP addresses to anything personally identifiable, so while a particular user's session can be tracked, the user remains completely anonymous.</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Third-party Access and Use</u></em></td>
+					</tr> 
+                    <tr>              
+                    <td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Occasionally, we hire third-party service providers to help provide or improve the services we offer you.  Sometimes it is necessary for these providers to have access to the Personally Identifiable Information and/or Personal Health Information we collect about you.  In those cases, we take reasonable steps to ensure that these providers do not use or otherwise disclose any Personally Identifiable Information we collect about you except for the purpose of fulfilling their service obligations to us.</td>
+					</tr> 
+                    <tr>              
+                    <td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We may share aggregate information about Website users with certain third parties.  This information shows user activity as a whole rather than on an individual basis; such aggregate information cannot be used to individually identify you.  We may use such aggregated information we collect about Website users to continue to improve our service for you.</td>
+					</tr> 
+                    <tr>              
+                    <td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">As permitted by law, we may disclose Information, which may or may not include Protected Health Information, to a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of HII's assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which such information is among the assets transferred.  The acquiring entity will be subject to this Privacy Policy and to the law in its use of your Information, including any possible use of your Personally Identifiable Information and Protected Health Information, to the extent that any such information is transferred.</td>
+					</tr> 
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Accuracy of Your Information</u></em></td>
+					</tr> 
+                    <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">
+							We strive to maintain the accuracy of Information, including Personal Health Information and Protected Health Information, that is in our possession about you. In order to help us maintain accuracy, you have the right to reasonably access your Information, including Protected Health Information. If you believe any Information in our possession, including any Protected Health Information, is inaccurate, a request can be made to amend or delete such information that you believe to be erroneous. If we concur with the request, we will amend or delete the information in question.						</td>
+					</tr>
+                    <tr>              
+                    <td height="10px"></td>
+					</tr>
+<tr>
+						<td align="justify">Certain users of the Website may review and make changes to some of the Personally Identifiable Information  that we collect and maintain online by simply logging in to the Website by inputting their username and password where indicated and following the instructions provided.</td>
+					</tr>
+                    <tr>              
+                    <td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">You can also correct factual errors in your Personally Identifiable Information by sending us a request that clearly shows the error that is to be corrected.  Please contact us with such requests at: 1-877-376-5831; <a href="mailto:support@hiiquote.com">support@hiiquote.com</a>.  To protect your privacy and security, we will also take reasonable steps to verify your identity before granting access or making corrections.  In addition, you may be prompted at certain times on the Website to update and correct your Personally Identifiable Information with us.  It is your responsibility to keep the information that you provide to us current and accurate.</td>
+					</tr>
+<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Other Websites and Links</u></em></td>
+			    </tr> 
+                <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">The Website contains links to other websites that are not operated by HII.  Please note that when you click on a link to one of these sites, you are exiting the Website to go to another site.  HII is not responsible for the content or privacy practices of these websites. We suggest that you read the privacy policies of these sites, as their practices and policies may differ from ours.</td>
+					</tr> 
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Our Commitment To Data Security</u></em></td>
+			    </tr> 
+                <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">To prevent unauthorized access, maintain data accuracy, and ensure the correct use of Personally Identifiable Information and Protected Health Information, we have put in place reasonable physical, electronic, and managerial procedures to safeguard and secure the Personally Identifiable Information we collect online and we make good faith efforts to store your Personally Identifiable Information in a secure operating environment.  We comply with HIPAA security requirements with respect to safeguarding and securing your Protected Health Information.  Unfortunately, no data transmission over the Internet can be guaranteed to be absolutely secure.  As a result, while we strive to protect your Personally Identifiable Information and Protected Health Information, we cannot ensure or warrant the security of any information you transmit to us, and you do so at your own risk.  If HII provides you with a user name and password to access portions of the Website, HII disclaims any responsibility for a breach of privacy as a result of your willingly or inadvertently disclosing your user name and password to others.  HII further disclaims any responsibility for a breach of privacy as a result of your willingly or inadvertently disclosing your policy number(s) and social security number, which may in some instances be used to access Personally Identifiable Information or Protected Health Information on the Website.  If someone calls you, explains the call is on behalf of HII and asks for your policy number or social security number, you should beware. </td>
+					</tr> 
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>Changes to the Privacy Policy</u></em></td>
+			    </tr>
+                <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">
+							We encourage you to review this Privacy Policy not just the first time you visit the Website but periodically afterwards since we may modify this Privacy Policy from time to time.  The date of the last update of this Privacy Policy will always be posted below:					  </td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title">THIS PRIVACY POLICY WAS LAST REVISED ON MAY 29, 2014.</td>
+					</tr>					
+					<tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">If we make any substantive changes to this Privacy Policy in the future with regard to how we use your Personally Identifiable Information or Protected Health Information, we will incorporate those changes here.  Your continued use of the Website after the changes are posted constitutes your agreement to the changes, both with regard to Information, including Protected Health Information, we have previously collected from you and with regard to Information, including Protected Health Information, we collect from you in the future. If you do not agree to the changes, please discontinue use of the Website.  Lastly, if HII is sold or merged with another company, your Personally Identifiable Information and Protected Health Information will be included as part of the sale but unless you're notified that the Privacy Policy is changed, your Personally Identifiable Information and Protected Health Information will be maintained in the same manner.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+                    <tr>
+						<td class="sub_title"><em><u>Children's Privacy</u></em></td>
+</tr>
+					<tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">The Website is not intended to be used by children and is not directed toward children under the age of 13.  HII does not use the Website to knowingly solicit data from or market to children under the age of 13. The Website does not sell products for purchase by children. No person under 13 years of age should disclose information on the Website. If you are under 18, you may use the Website only with the involvement of a parent or guardian. <br/>Please visit <a target="_blank" href="http://www.consumer.ftc.gov/topics/kids-online-safety">www.consumer.ftc.gov/topics/kids-online-safety</a> to learn more about protecting children's privacy.</td>
+					</tr>
+					<tr>
+						<td height="10px"></td>
+					</tr>
+                    <tr>
+						<td class="sub_title"><em><u>How to Contact Us</u></em></td>
+			    </tr>
+               		 <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">
+							We appreciate your questions or comments about this Privacy Policy, the practices of the  Website, or your dealings with HII.  Please send e-mail to: <a href="mailto:support@hiiquote.com">support@hiiquote.com</a>, or you can send snail mail to: Health Insurance Innovations, Inc., 218 East Bearss Ave., Ste. 325, Tampa, FL 33613; Toll Free Telephone: 1-877-376-5831; Toll Free Fax: 1-877-376-5832						</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We encourage you to send us e-mail but request that you do not send personal information such as account or social security numbers, as we cannot confirm the safety and security of such details when sent via e-mail</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td class="sub_title"><em><u>California Residents Privacy Rights </u></em></td>
+			    </tr>
+	                <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">Companies that collect Personally Identifiable Information from California residents and disclose such information to third parties (including affiliated entities) for marketing purposes must, in response to a request by a consumer, either (1) provide a list detailing the categories of information shared and the entities to which such information was provided, or (2) provide a mechanism by which a consumer may opt-out of having their information shared with Third Parties. We have elected the second option and you may request that your Personally Identifiable Information not be shared with third parties by sending your request, including your full name, e-mail address and postal address to: <a href="mailto:support@hiiinsurancesolutions.com">support@hiiinsurancesolutions.com.</a> In accordance with California Civil Code Sec. 1798.83, California resident users are entitled to know that they may file grievances and complaints with California Department of Consumer Affairs, 400 R Street, Suite 1080, Sacramento, CA 95814; or by phone at 916-445-1254 or 800-952-5210; or by e-mail to dca@dca.ca.gov. </td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+                    <tr>
+						<td class="sub_title"><em><u>How to Contact Us</u></em></td>
+			    </tr>
+               		 <tr>
+						<td height="5px"></td>
+					</tr>
+					<tr>
+						<td align="justify">
+							We appreciate your questions or comments about this Privacy Policy, the practices of the Website, or your dealings with HII. Please send e-mail to: <a href="mailto:support@hiiinsurancesolutions.com">support@hiiinsurancesolutions.com</a>, or you can send snail mail to: HII Insurance Solutions, 218 East Bearss Ave., Ste. 325, Tampa, FL 33613; Toll Free Telephone: 1-855-221-5852; Toll Free Fax: 1-877-376-5832					</td>
+					</tr>
+                    <tr>
+						<td height="10px"></td>
+					</tr>
+					<tr>
+						<td align="justify">We encourage you to send us e-mail but request that you do not send personal information such as account or social security numbers, as we cannot confirm the safety and security of such details when sent via e-mail</td>
+					</tr>
+					<tr>
+                        <td height="10"></td>
+                    </tr>
+                                                                                                       
+                     
+                                                                                                                           
+                                          
+                       
+                      
+                     
+                       
+                      
+                    		           
+                    <!-- Below Part for Footer only-->
+					
+                    
+                   
+                     
+                     
+                     
+                     
+                      
+                      
+                     
+                      
+                      
+                    
+							</table>						</div>
+						                      <!-- End Security & Privacy -->
+		     <!-- End  OWK-692502:27Oct2015:Urvil -->
+				</div>
+			</div>
+			<script type="text/javascript">
+			<!--
+			var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+			//-->
+			</script>
+		</td>
+	</tr>
+</table>          </div>
+        </td>
+      </tr>
+	      </table>
+      </div>
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d14044820d","applicationID":"169696967,169757377","transactionName":"NlxVN0pRXBUFUUcNVg8WYhFRH0MTC0ZWS1APXVIbFkBaFg==","queueTime":0,"applicationTime":647,"atts":"GhtWQQJLTxs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

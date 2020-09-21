@@ -1,0 +1,66 @@
+
+HELP			RTF	sokoban.rtf
+RELEASES        	RTF	releases.rtf  
+
+LICENSE			TXT	license.txt
+README			TXT	readme.txt
+
+ARROW_CURSOR     	CURSOR	arrowcursor.cur
+DRAG_CURSOR     	CURSOR	dragcursor.cur
+HAND_CURSOR     	CURSOR	handcursor.cur
+
+CURSOR_WALL		CURSOR	cursorwall.cur
+CURSOR_BOX		CURSOR	cursorbox.cur
+CURSOR_GOAL		CURSOR	cursorgoal.cur
+CURSOR_PLAYER		CURSOR	cursorplayer.cur
+CURSOR_FLOOR            CURSOR  cursorfloor.cur
+CURSOR_ERASE		CURSOR	cursorerase.cur
+CURSOR_SELECT		CURSOR	cursorselect.cur
+
+CRAZY_MONK		LEVEL	crazy_monk.sok
+DU_PELOUX       	LEVEL	du_peloux.sok
+GRIGORUSHA		LEVEL	grigorusha.sok
+HAYWOOD			LEVEL	haywood.sok
+HOLLAND			LEVEL	holland.sok
+SKINNER         	LEVEL	skinner.sok
+SLADKEY                 LEVEL   sladkey.sok
+YASGEN			LEVEL	yasgen.sok
+YOSHIO			LEVEL	yoshio.sok
+
+MOVE			WAV	move.wav
+PUSH			WAV	push.wav
+GOAL			WAV	goal.wav
+BLOCK			WAV	block.wav
+SOLUTION		WAV	solution.wav
+UNDO			WAV	move.wav
+JUMP			WAV	jump.wav
+RESTART			WAV	restart.wav
+MENU			WAV	menu.wav
+MENUCLICK		WAV	menuclick.wav
+
+BACKGROUND		JPG	sky.jpg
+BOARD_BACKGROUND	JPG	island.jpg
+
+BLUES           	PAL	blues.pal
+CROMATIC        	PAL	cromatic.pal
+FIRE            	PAL	fire.pal
+FIRESTORM       	PAL	firestorm.pal
+GREY            	PAL	grey.pal
+NEON            	PAL	neon.pal
+PASTELS         	PAL	pastels.pal
+PURPLE          	PAL	purple.pal
+SPECTRUM        	PAL	spectrum.pal
+STANDARD        	PAL	standard.pal
+VOLCANO         	PAL	volcano.pal
+
+COMMON_SKINS		TXT	common_skins.sks
+JSOKO			TXT	jsoko.sks
+SOKOBAN_BDE		TXT	sokoban_BDE.sks
+SOKOBAN_FOR_WINDOWS     TXT     sokoban_for_windows.sks
+SOKOBANP		TXT	sokobanp.sks
+SOKOBANPP		TXT	sokobanpp.sks
+SOKOFAN                 TXT     sokofan.sks
+SOKOSTATION4            TXT     sokostation4.sks
+SUPERSOKO               TXT     supersoko.sks
+VISUAL_SOKOBAN		TXT	visual_sokoban.sks
+YASC_SETTINGS		TXT	yasc_settings.sks

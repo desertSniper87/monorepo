@@ -1,0 +1,1236 @@
+[Sokoban YASC Skin Script]
+SkinType=Sokofan (2019)
+FileType=INI
+FileFilter=SSK-files (*.ssk)|*.ssk
+ImageFile=Tiles.TilesFile
+Comment separator=";"
+UseBackground=no
+
+===============
+Sokofan (2019)
+===============
+
+perform Sokofan
+end -- script
+
+======================
+[No_Background_Color]
+======================
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- No_Background_Color
+
+===================
+[Background_Color]
+===================
+
+Mask image using background color=yes
+Background color={BackgroundColor Top Left}
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- Background_Color
+
+==========
+[Sokofan]
+==========
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+
+if {Tiles.TilesFile}
+Rows={Tiles.NumberOfRows}
+Columns={Tiles.TilesPerRow}
+endif
+
+if {IsInteger {Tiles.ManFloor}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.ManFloor}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManFloor}
+
+FileName={Tiles.ManFloor}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentMan}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.TransparentMan}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentMan}
+
+FileName={Tiles.TransparentMan}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManFloorUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.ManFloorUp}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManFloorUp}
+
+FileName={Tiles.ManFloorUp}
+Player-u={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.TransparentManUp}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManUp}
+
+FileName={Tiles.TransparentManUp}
+Player-u={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.TransparentManPushUp}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushUp}
+
+FileName={Tiles.TransparentManPushUp}
+Player-u={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManFloorRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.ManFloorRight}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManFloorRight}
+
+FileName={Tiles.ManFloorRight}
+Player-r={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.TransparentManRight}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManRight}
+
+FileName={Tiles.TransparentManRight}
+Player-r={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.TransparentManPushRight}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushRight}
+
+FileName={Tiles.TransparentManPushRight}
+Player-r={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManFloorDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.ManFloorDown}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManFloorDown}
+
+FileName={Tiles.ManFloorDown}
+Player-d={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.TransparentManDown}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManDown}
+
+FileName={Tiles.TransparentManDown}
+Player-d={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.TransparentManPushDown}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushDown}
+
+FileName={Tiles.TransparentManPushDown}
+Player-d={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManFloorLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.ManFloorLeft}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManFloorLeft}
+
+FileName={Tiles.ManFloorLeft}
+Player-l={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.TransparentManLeft}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManLeft}
+
+FileName={Tiles.TransparentManLeft}
+Player-l={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.TransparentManPushLeft}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushLeft}
+
+FileName={Tiles.TransparentManPushLeft}
+Player-l={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+
+==========================================================
+[Graphics - Board - Figures - Player - Animation - Image]
+==========================================================
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+
+if {IsInteger {Tiles.ManGoal}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.ManGoal}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoal}
+
+FileName={Tiles.ManGoal}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentMan}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.TransparentMan}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentMan}
+
+FileName={Tiles.TransparentMan}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManGoalPushUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.ManGoalPushUp}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalPushUp}
+
+FileName={Tiles.ManGoalPushUp}
+Player-u={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.ManGoalUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.ManGoalUp}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalUp}
+
+FileName={Tiles.ManGoalUp}
+Player-u={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.TransparentManPushUp}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushUp}
+
+FileName={Tiles.TransparentManPushUp}
+Player-u={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManUp}}
+
+FileName={Tiles.TilesFile}
+Player-u={Tile {Tiles.TransparentManUp}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManUp}
+
+FileName={Tiles.TransparentManUp}
+Player-u={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManGoalPushRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.ManGoalPushRight}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalPushRight}
+
+FileName={Tiles.ManGoalPushRight}
+Player-r={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.ManGoalRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.ManGoalRight}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalRight}
+
+FileName={Tiles.ManGoalRight}
+Player-r={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.TransparentManPushRight}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushRight}
+
+FileName={Tiles.TransparentManPushRight}
+Player-r={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManRight}}
+
+FileName={Tiles.TilesFile}
+Player-r={Tile {Tiles.TransparentManRight}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManRight}
+
+FileName={Tiles.TransparentManRight}
+Player-r={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManGoalPushDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.ManGoalPushDown}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalPushDown}
+
+FileName={Tiles.ManGoalPushDown}
+Player-d={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.ManGoalDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.ManGoalDown}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalDown}
+
+FileName={Tiles.ManGoalDown}
+Player-d={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.TransparentManPushDown}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushDown}
+
+FileName={Tiles.TransparentManPushDown}
+Player-d={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManDown}}
+
+FileName={Tiles.TilesFile}
+Player-d={Tile {Tiles.TransparentManDown}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManDown}
+
+FileName={Tiles.TransparentManDown}
+Player-d={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+
+if {IsInteger {Tiles.ManGoalPushLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.ManGoalPushLeft}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalPushLeft}
+
+FileName={Tiles.ManGoalPushLeft}
+Player-l={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.ManGoalLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.ManGoalLeft}}
+perform No_Background_Color
+
+else
+
+if {Tiles.ManGoalLeft}
+
+FileName={Tiles.ManGoalLeft}
+Player-l={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManPushLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.TransparentManPushLeft}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManPushLeft}
+
+FileName={Tiles.TransparentManPushLeft}
+Player-l={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentManLeft}}
+
+FileName={Tiles.TilesFile}
+Player-l={Tile {Tiles.TransparentManLeft}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentManLeft}
+
+FileName={Tiles.TransparentManLeft}
+Player-l={Rect 0,0,0,0}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+
+=========================================================================
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+=========================================================================
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+
+if {IsInteger {Tiles.BoxFloor}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.BoxFloor}}
+perform No_Background_Color
+
+else
+
+if {Tiles.BoxFloor}
+
+FileName={Tiles.BoxFloor}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentBox}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.TransparentBox}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentBox}
+
+FileName={Tiles.TransparentBox}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+
+if {Tiles.BoxFloor_1} = {}
+(no animation frames)
+else
+perform Box_Animation
+endif
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+
+if {IsInteger {Tiles.BoxGoal}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.BoxGoal}}
+perform No_Background_Color
+
+else
+
+if {Tiles.BoxGoal}
+
+FileName={Tiles.BoxGoal}
+perform No_Background_Color
+
+else
+
+if {IsInteger {Tiles.TransparentBox}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.TransparentBox}}
+perform Background_Color
+
+else
+
+if {Tiles.TransparentBox}
+
+FileName={Tiles.TransparentBox}
+perform Background_Color
+
+endif
+endif
+endif
+endif
+
+if {Tiles.BoxGoal_1} = {}
+(no animation frames)
+else
+perform Box_On_Goal_Animation
+endif
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+
+if {IsInteger {Tiles.Goal}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.Goal}}
+perform No_Background_Color
+
+else
+
+if {Tiles.Goal}
+
+FileName={Tiles.Goal}
+perform No_Background_Color
+
+endif
+endif
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+
+if {IsInteger {Tiles.Wall}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.Wall}}
+perform No_Background_Color
+
+else
+
+if {Tiles.Wall}
+
+FileName={Tiles.Wall}
+perform No_Background_Color
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_0}}
+
+FileName={Tiles.TilesFile}
+wall={Tile {Tiles.Wall_0}}
+perform No_Background_Color
+
+else
+
+if {Tiles.Wall_0}
+
+FileName={Tiles.Wall_0}
+wall={Rect 0,0,0,0}
+perform No_Background_Color
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_1}}
+
+FileName={Tiles.TilesFile}
+wall-u={Tile {Tiles.Wall_1}}
+
+else
+
+if {Tiles.Wall_1}
+
+FileName={Tiles.Wall_1}
+wall-u={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_2}}
+
+FileName={Tiles.TilesFile}
+wall-r={Tile {Tiles.Wall_2}}
+
+else
+
+if {Tiles.Wall_2}
+
+FileName={Tiles.Wall_2}
+wall-r={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_3}}
+
+FileName={Tiles.TilesFile}
+wall-u-r={Tile {Tiles.Wall_3}}
+
+else
+
+if {Tiles.Wall_3}
+
+FileName={Tiles.Wall_3}
+wall-u-r={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_4}}
+
+FileName={Tiles.TilesFile}
+wall-d={Tile {Tiles.Wall_4}}
+
+else
+
+if {Tiles.Wall_4}
+
+FileName={Tiles.Wall_4}
+wall-d={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_5}}
+
+FileName={Tiles.TilesFile}
+wall-u-d={Tile {Tiles.Wall_5}}
+
+else
+
+if {Tiles.Wall_5}
+
+FileName={Tiles.Wall_5}
+wall-u-d={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_6}}
+
+FileName={Tiles.TilesFile}
+wall-r-d={Tile {Tiles.Wall_6}}
+
+else
+
+if {Tiles.Wall_6}
+
+FileName={Tiles.Wall_6}
+wall-r-d={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_7}}
+
+FileName={Tiles.TilesFile}
+wall-u-r-d={Tile {Tiles.Wall_7}}
+
+else
+
+if {Tiles.Wall_7}
+
+FileName={Tiles.Wall_7}
+wall-u-r-d={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_8}}
+
+FileName={Tiles.TilesFile}
+wall-l={Tile {Tiles.Wall_8}}
+
+else
+
+if {Tiles.Wall_8}
+
+FileName={Tiles.Wall_8}
+wall-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_9}}
+
+FileName={Tiles.TilesFile}
+wall-u-l={Tile {Tiles.Wall_9}}
+
+else
+
+if {Tiles.Wall_9}
+
+FileName={Tiles.Wall_9}
+wall-u-l={Rect 0,0,0,0}
+
+endif
+endif
+
+
+if {IsInteger {Tiles.Wall_A}}
+
+FileName={Tiles.TilesFile}
+wall-r-l={Tile {Tiles.Wall_A}}
+
+else
+
+if {Tiles.Wall_A}
+
+FileName={Tiles.Wall_A}
+wall-r-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_B}}
+
+FileName={Tiles.TilesFile}
+wall-u-r-l={Tile {Tiles.Wall_B}}
+
+else
+
+if {Tiles.Wall_B}
+
+FileName={Tiles.Wall_B}
+wall-u-r-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_C}}
+
+FileName={Tiles.TilesFile}
+wall-d-l={Tile {Tiles.Wall_C}}
+
+else
+
+if {Tiles.Wall_C}
+
+FileName={Tiles.Wall_C}
+wall-d-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_D}}
+
+FileName={Tiles.TilesFile}
+wall-u-d-l={Tile {Tiles.Wall_D}}
+
+else
+
+if {Tiles.Wall_D}
+
+FileName={Tiles.Wall_D}
+wall-u-d-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_E}}
+
+FileName={Tiles.TilesFile}
+wall-r-d-l={Tile {Tiles.Wall_E}}
+
+else
+
+if {Tiles.Wall_E}
+
+FileName={Tiles.Wall_E}
+wall-r-d-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.Wall_F}}
+
+FileName={Tiles.TilesFile}
+wall-u-r-d-l={Tile {Tiles.Wall_F}}
+
+else
+
+if {Tiles.Wall_F}
+
+FileName={Tiles.Wall_F}
+wall-u-r-d-l={Rect 0,0,0,0}
+
+endif
+endif
+
+if {IsInteger {Tiles.TopWall}}
+
+FileName={Tiles.TilesFile}
+wall-cap={Tile {Tiles.TopWall}}
+
+else
+
+if {Tiles.TopWall}
+
+FileName={Tiles.TopWall}
+wall-cap={Rect 0,0,0,0}
+
+endif
+endif
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left={Tiles.TopWallX}
+Top={Tiles.TopWallY}
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+
+if {IsInteger {Tiles.Floor}}
+
+FileName={Tiles.TilesFile}
+Section={Tile {Tiles.Floor}}
+perform No_Background_Color
+
+else
+
+if {Tiles.Floor}
+
+FileName={Tiles.Floor}
+perform No_Background_Color
+
+endif
+endif
+
+============
+Background
+============
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+
+[Graphics - Background - Image]
+
+if {Tiles.BackgroundFile}
+Filename={Tiles.BackgroundFile}
+View=Tile
+endif
+endif
+
+=======================
+Skin-specific settings
+=======================
+
+perform {Description.Title}
+
+end -- Sokofan
+
+================
+[Box_Animation]
+================
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+Box animation enabled=yes
+
+[Control - Solutions - Animation (appropriate images required)]
+Box animation enabled=yes
+
+[Graphics - Board - Figures - Box - Animation - Image]
+b=Tiles.BoxFloor_
+c=true
+perform BoxAnimation varying i from 1 to 30 until {c} = {}
+end -- Box_Animation
+
+========================
+[Box_On_Goal_Animation]
+========================
+
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+Box animation enabled=yes
+
+[Control - Solutions - Animation (appropriate images required)]
+Box animation enabled=yes
+
+[Graphics - Board - Figures - Box on goal square - Animation - Image]
+b=Tiles.BoxGoal_
+c=true
+perform BoxAnimation varying i from 1 to 30 until {c} = {}
+end -- Box_On_Goal_Animation
+
+===============
+[BoxAnimation]
+===============
+
+c={add {b} {i}}
+
+if {IsInteger {{c}}}
+
+FileName={Tiles.TilesFile}
+{add Box {i}}={Tile {{c}}}
+perform No_Background_Color
+
+else
+
+if {{c}}
+
+FileName={{c}}
+{add Box {i}}={Rect 0,0,0,0}
+perform No_Background_Color
+
+else
+
+c={add "Tiles.TransparentBox_" {i}}
+
+if {IsInteger {{c}}}
+
+FileName={Tiles.TilesFile}
+{add Box {i}}={Tile {{c}}}
+perform Background_Color
+
+else
+
+if {{c}}
+
+FileName={{c}}
+{add Box {i}}={Rect 0,0,0,0}
+perform Background_Color
+
+else
+
+// no more animation frames
+c={}
+
+endif
+endif
+endif
+endif
+end -- BoxAnimation
+
+===========================
+[Björn Källmark's Sokoban]
+===========================
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=10
+Top=10
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=6
+Bottom=6
+end
+
+====================================
+[Bubble Bobble 2 (v1.3) (large)]
+[Bubble Bobble 2 (v1.3) (small)]
+[Bubble Bobble 2 (v1.3) (standard)]
+====================================
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=-1
+Top=-1
+end
+
+=============
+[Chibi Skin]
+=============
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=3
+Top=3
+Right=5
+Bottom=5
+end
+
+=================
+[Green Metallic]
+=================
+[Graphics - Board - Figures - Player - Image]
+Background color tolerance (%)=1
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=1
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=0
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=12
+Top=10
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=3
+Top=3
+Right=5
+Bottom=5
+end
+
+==============================
+[Modern Metal (v1.2) (large)]
+==============================
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=3
+Top=3
+Right=7
+Bottom=7
+end
+
+==============================
+[Modern Metal (v1.2) (small)]
+==============================
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=5
+Bottom=5
+end
+
+================
+[YSokoban skin]
+================
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=3
+Bottom=3
+end
+

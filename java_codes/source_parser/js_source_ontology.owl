@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://semantic-web.netlify.com/js_source_ontology/"
+     xml:base="https://semantic-web.netlify.com/js_source_ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:c_source_ontology="https://semantic-web.netlify.com/c_source_ontology/">
+    <owl:Ontology rdf:about="https://semantic-web.netlify.com/js_source_ontology/">
+        <rdfs:comment xml:lang="en">An ontology that represents structural and imperative programming languages</rdfs:comment>
+        <rdfs:label xml:lang="en">CodeOntology_Modified</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/conditions -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/conditions">
+        <owl:inverseOf rdf:resource="https://semantic-web.netlify.com/js_source_ontology/has_condition"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://semantic-web.netlify.com/js_source_ontology/conditions"/>
+                <owl:someValuesFrom rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://semantic-web.netlify.com/js_source_ontology/conditions"/>
+                <owl:someValuesFrom rdf:resource="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/has_condition -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/has_condition"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/has_type -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/has_type">
+        <owl:inverseOf rdf:resource="https://semantic-web.netlify.com/js_source_ontology/is_type_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/is_array_of -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/is_array_of">
+        <rdfs:domain rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+        <rdfs:range rdf:resource="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/is_else_branch_of -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/is_else_branch_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:comment>I have confusion about the Characteristics of the function.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/is_included_in -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/is_included_in"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/is_type_of -->
+
+    <owl:ObjectProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/is_type_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/dimension -->
+
+    <owl:DatatypeProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/dimension">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/name -->
+
+    <owl:DatatypeProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/name">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/Constants"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/source_code -->
+
+    <owl:DatatypeProperty rdf:about="https://semantic-web.netlify.com/js_source_ontology/source_code">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/Constants"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/Operator"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/ProgrammingStructure"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+                    <rdf:Description rdf:about="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">source code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Array -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/Array">
+        <rdfs:subClassOf rdf:resource="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Comment -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/Comment"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure">
+        <rdfs:subClassOf rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ProgrammingStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Constants -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/Constants"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/DataType -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Operator -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/Operator"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/ProgrammingStructure -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/ProgrammingStructure"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure">
+        <rdfs:subClassOf rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ProgrammingStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/SystemFunction -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Variable -->
+
+    <owl:Class rdf:about="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/For -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/For">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/if"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">for (i=0; i&lt;3; i++) {
+        document.write(&quot;\nnumbers[%i]=&quot;,i+1);scanf(&quot;%i&quot;,&amp;numbers[i]);
+}</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/For2 -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/For2">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/else_if"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">for (i=0; i&lt;3; i++) {
+     if(numbers[i] &gt; max) {
+             max = numbers[i];
+     }
+}</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/Void -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/Void">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">void</name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">void</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/While -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/While">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/RepetitiveStructure"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">while</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">while (option!=3){
+    document.write(&quot;Please choose an option and press enter:\n&quot;);
+    document.write(&quot;1. Read 3 numbers\n 2. Print the max\n 3.Exit\n&quot;);
+    option = prompt(&quot;Option&quot;);
+    if (option == 1) {
+        for (i=0; i&lt;3; i++) {
+            numbers[i] = prompt(&quot;numbers[&quot; + (i+1) + &quot;]&quot;);
+        }
+    } else if (option == 2) {
+        var max = 0;
+        for (i=0; i&lt;3; i++) {
+            if(numbers[i] &gt; max) {
+                max = numbers[i];
+            }
+        }
+        document.write(&quot;\nMax=&quot; + max + &quot;\n&quot;);
+    }
+}</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/array -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/array">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Array"/>
+        <dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</dimension>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">array</name>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integer array</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/else_if -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/else_if">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure"/>
+        <is_else_branch_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/if"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">else if (option==2) {
+        var max = 0;
+        for (i=0; i&lt;3; i++) {
+            if(numbers[i] &gt; max) {
+                max = numbers[i];
+            }
+        }
+        document.write(&quot;\nMax=%i&quot;,max);
+    }</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/i -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/i">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/var"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int i</source_code>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/if -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/if">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure"/>
+        <is_else_branch_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/else_if"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if (option==1) {
+        for (i=0; i&lt;3; i++) {
+            document.write(&quot;\nnumbers[%i]=&quot;,i+1);scanf(&quot;%i&quot;,&amp;numbers[i]);
+        }
+    }</source_code>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/if2 -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/if2">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/ConditionalStructure"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/For2"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if(numbers[i] &gt; max) {
+    max = numbers[i];
+}</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/max -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/max">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/else_if"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">var max = 0</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/numbers -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/numbers">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+        <has_type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/array"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numbers</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int numbers[3]</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/option -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/option">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Variable"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/var"/>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">var option = 0;</source_code>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">option</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/prompt -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/prompt">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Void"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanf</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">option = prompt(&quot;Option&quot;)</source_code>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prompt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/var -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/var">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/DataType"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">var</name>
+        <rdfs:comment xml:lang="en">Javascript dynamic datatype</rdfs:comment>
+        <rdfs:label xml:lang="en">var</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/write -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/write">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Void"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write(&quot;Please choose an option and press enter:\n&quot;);</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/write2 -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/write2">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/While"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Void"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write(&quot;1. Read 3 numbers\n 2. Print the max\n 3.Exit\n&quot;);</source_code>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://semantic-web.netlify.com/js_source_ontology/write3 -->
+
+    <owl:NamedIndividual rdf:about="https://semantic-web.netlify.com/js_source_ontology/write3">
+        <rdf:type rdf:resource="https://semantic-web.netlify.com/js_source_ontology/SystemFunction"/>
+        <is_included_in rdf:resource="https://semantic-web.netlify.com/js_source_ontology/else_if"/>
+        <is_type_of rdf:resource="https://semantic-web.netlify.com/js_source_ontology/Void"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write</name>
+        <source_code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">document.write(&quot;\nMax= &quot; + max + &quot;\n&quot;);</source_code>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

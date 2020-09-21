@@ -1,0 +1,30 @@
+coding:
+  - block_type:
+      - whitelist
+  - addresses:
+    - github.com/coleifer/peewee
+    - stackoverflow.com
+    - unix.stackexchange.com
+    - aws.amazon.com
+    - upwork.com
+    - doc.peewee-orm.com
+    - pandas.pydata.org
+    - python.org
+    - amazonaws.com
+    - amazon.com/ap/signin
+    - cloudfront.net
+email:
+  - block_type:
+      - whitelist
+  - addresses:
+      - mail.google.com
+allon:
+  - block_type:
+      - blacklist
+  - addresses:
+      - abcxyz.com
+alloff:
+  - block_type:
+      - whitelist 
+  - addresses:
+      - abcdxyz.com

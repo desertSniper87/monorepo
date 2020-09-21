@@ -1,0 +1,91 @@
+
+Line no 1: Token <KEYWORD> lexeme <int> found
+1 --> <int KEYWORD>  
+
+
+Line no 2: Token <KEYWORD> lexeme <int> found
+1 --> <int KEYWORD>  
+
+
+Line no 3: Token <RELOP> lexeme <=> found
+
+Line no 3: Token <ADDOP> lexeme <+> found
+
+Line no 3: Token <CONST_INT> lexeme <1> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>  
+
+
+Line no 4: Token <KEYWORD> lexeme <char> found
+
+Line no 4: Token <RELOP> lexeme <=> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>  
+
+
+Line no 5: Token <RELOP> lexeme <=> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>  
+
+
+Line no 6: Token <KEYWORD> lexeme <char> found
+
+Line no 6: Token <RELOP> lexeme <=> found
+
+Line no 6:Token <STRING> lexeme <"ab\td"> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>  
+4 --> <"ab\td" STR>  
+
+
+Line no 7: Token <KEYWORD> lexeme <printf> found
+
+Line no 7:Token <STRING> lexeme <"abc\
+def\
+ghi"> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>   <printf KEYWORD>  
+4 --> <"ab\td" STR>  
+5 --> <"abc\
+def\
+ghi" STR>  
+
+
+Line no 8: SINGLELINECOMMENT <// a comment> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>   <printf KEYWORD>  
+4 --> <"ab\td" STR>  
+5 --> <"abc\
+def\
+ghi" STR>  
+
+
+Line no 9: MULTILINECOMMENT </** another
+*** comment ***/> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>   <printf KEYWORD>  
+4 --> <"ab\td" STR>  
+5 --> <"abc\
+def\
+ghi" STR>  
+
+
+Line no 10: Token <CONST_INT> lexeme <0> found
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>   <printf KEYWORD>  
+4 --> <"ab\td" STR>  
+5 --> <"abc\
+def\
+ghi" STR>  
+6 --> <0 CONST_INT>  
+
+
+The final table: 
+0 --> <1 CONST_INT>  
+1 --> <int KEYWORD>   <char KEYWORD>   <printf KEYWORD>  
+4 --> <"ab\td" STR>  
+5 --> <"abc\
+def\
+ghi" STR>  
+6 --> <0 CONST_INT>  
+

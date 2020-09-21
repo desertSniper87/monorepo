@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java" line="916" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d75f90a9-b8ad-40a8-87a5-4501d1e200f7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/dna_films-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/elephants dream_00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata10/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_h264_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_h264_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/serenity - hd dvd trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/the bourne ultimatum - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata20/the simpsons movie - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_h264_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_h264_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_h264_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_h264_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/dna_films-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/elephants dream_08.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/europacorp-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/fantastic four - rise of the silver surfer - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/jellyfish-10-mbps_mpeg4_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata30/jellyfish-10-mbps_mpeg4_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/big_buck_bunny_720p_h264_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/elephants dream_08.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/europacorp-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/fantastic four - rise of the silver surfer - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/jellyfish-10-mbps01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/jellyfish-10-mbps02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/jellyfish-10-mbps_mpeg4_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/jellyfish-10-mbps_mpeg4_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/lionsgate-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/orion_sm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/peekskillatnight_mpeg4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/peekskillatnight_vp8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/serenity - hd dvd trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/serenity - hd dvd trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/serenity - hd dvd trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/serenity - hd dvd trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the bourne ultimatum - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the bourne ultimatum - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/the simpsons movie - trailer06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/towersofpfeiffer_mpeg4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdata40/towersofpfeiffer_vp8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/dna_films-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/elephants dream_00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile10/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_h264_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_h264_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/serenity - hd dvd trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/the bourne ultimatum - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile20/the simpsons movie - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_h264_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_h264_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_h264_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_h264_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_stereo01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_stereo02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_stereo03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/big_buck_bunny_720p_vp8_vorbis_25fps_3900k.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/digital_factory-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/dna_films-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_00.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/elephants dream_08.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/europacorp-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/fantastic four - rise of the silver surfer - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/jellyfish-10-mbps_mpeg4_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile30/jellyfish-10-mbps_mpeg4_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/20th_century_fox-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/anonymous_content-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/beamextract_final_revb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/big_buck_bunny_480p_30mb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/big_buck_bunny_720p_h264_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/big_buck_bunny_720p_h264_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_07.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/elephants dream_08.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/europacorp-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/fantastic four - rise of the silver surfer - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/fantastic four - rise of the silver surfer - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/fantastic four - rise of the silver surfer - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/fantastic four - rise of the silver surfer - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/jellyfish-10-mbps01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/jellyfish-10-mbps02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/jellyfish-10-mbps_mpeg4_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/jellyfish-10-mbps_mpeg4_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/lionsgate-dweu.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/orion_sm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/peekskillatnight_mpeg4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/peekskillatnight_vp8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/serenity - hd dvd trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/serenity - hd dvd trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/serenity - hd dvd trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/serenity - hd dvd trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the bourne ultimatum - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the bourne ultimatum - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer04.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer05.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/the simpsons movie - trailer06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/towersofpfeiffer_mpeg4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inputdatafile40/towersofpfeiffer_vp8.txt" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/documentation/src/main/resources/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/modules/cloudsim-examples/target/" />
+    <ignored path="$PROJECT_DIR$/modules/cloudsim/target/" />
+    <ignored path="$PROJECT_DIR$/modules/target/" />
+    <ignored path="$PROJECT_DIR$/documentation/target/" />
+    <ignored path="$PROJECT_DIR$/distribution/target/" />
+    <ignored path="$PROJECT_DIR$/modules/cloudTranscodingApp/target/" />
+    <ignored path="$PROJECT_DIR$/modules/cloudsim-impl/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cloudsim-projects-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="TranscodingBroker.java" pinned="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBroker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6607">
+              <caret line="1478" column="25" lean-forward="false" selection-start-line="1478" selection-start-column="25" selection-end-line="1478" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoSegment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoSegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1755#1756#0" expanded="false" />
+                <element signature="e#1778#1779#0" expanded="false" />
+                <element signature="e#1811#1812#0" expanded="false" />
+                <element signature="e#1828#1829#0" expanded="false" />
+                <element signature="e#1865#1866#0" expanded="false" />
+                <element signature="e#1890#1891#0" expanded="false" />
+                <element signature="e#1931#1932#0" expanded="false" />
+                <element signature="e#1961#1962#0" expanded="false" />
+                <element signature="e#2022#2023#0" expanded="false" />
+                <element signature="e#2069#2070#0" expanded="false" />
+                <element signature="e#2118#2119#0" expanded="false" />
+                <element signature="e#2157#2158#0" expanded="false" />
+                <element signature="e#2338#2339#0" expanded="false" />
+                <element signature="e#2359#2360#0" expanded="false" />
+                <element signature="e#2396#2397#0" expanded="false" />
+                <element signature="e#2423#2424#0" expanded="false" />
+                <marker date="1486652177000" expanded="false" signature="43:121" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/core/SimEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5760">
+              <caret line="424" column="7" lean-forward="false" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#21456#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1988#1989#0" expanded="false" />
+                <element signature="e#2006#2007#0" expanded="false" />
+                <element signature="e#2124#2125#0" expanded="false" />
+                <element signature="e#2140#2141#0" expanded="false" />
+                <element signature="e#3146#3147#0" expanded="false" />
+                <element signature="e#3185#3186#0" expanded="false" />
+                <element signature="e#4175#4176#0" expanded="false" />
+                <element signature="e#4214#4215#0" expanded="false" />
+                <element signature="e#4588#4589#0" expanded="false" />
+                <element signature="e#4623#4624#0" expanded="false" />
+                <element signature="e#4945#4946#0" expanded="false" />
+                <element signature="e#4980#4981#0" expanded="false" />
+                <element signature="e#5377#5378#0" expanded="false" />
+                <element signature="e#5434#5435#0" expanded="false" />
+                <element signature="e#5776#5777#0" expanded="false" />
+                <element signature="e#5811#5812#0" expanded="false" />
+                <element signature="e#6830#6831#0" expanded="false" />
+                <element signature="e#6874#6875#0" expanded="false" />
+                <element signature="e#7905#7906#0" expanded="false" />
+                <element signature="e#7949#7950#0" expanded="false" />
+                <element signature="e#8341#8342#0" expanded="false" />
+                <element signature="e#8381#8382#0" expanded="false" />
+                <element signature="e#8721#8722#0" expanded="false" />
+                <element signature="e#8761#8762#0" expanded="false" />
+                <element signature="e#9598#9599#0" expanded="false" />
+                <element signature="e#9638#9639#0" expanded="false" />
+                <element signature="e#10214#10215#0" expanded="false" />
+                <element signature="e#10251#10252#0" expanded="false" />
+                <element signature="e#10402#10403#0" expanded="false" />
+                <element signature="e#10454#10455#0" expanded="false" />
+                <element signature="e#11980#11981#0" expanded="false" />
+                <element signature="e#12024#12025#0" expanded="false" />
+                <element signature="e#13755#13756#0" expanded="false" />
+                <element signature="e#13777#13778#0" expanded="false" />
+                <element signature="e#13925#13926#0" expanded="false" />
+                <element signature="e#13944#13945#0" expanded="false" />
+                <element signature="e#14055#14056#0" expanded="false" />
+                <element signature="e#14074#14075#0" expanded="false" />
+                <element signature="e#14481#14482#0" expanded="false" />
+                <element signature="e#14506#14507#0" expanded="false" />
+                <element signature="e#14596#14597#0" expanded="false" />
+                <element signature="e#14615#14616#0" expanded="false" />
+                <element signature="e#14737#14738#0" expanded="false" />
+                <element signature="e#14753#14754#0" expanded="false" />
+                <element signature="e#16720#16721#0" expanded="false" />
+                <element signature="e#16767#16768#0" expanded="false" />
+                <element signature="e#18161#18162#0" expanded="false" />
+                <element signature="e#18210#18211#0" expanded="false" />
+                <element signature="e#18901#18902#0" expanded="false" />
+                <element signature="e#18944#18945#0" expanded="false" />
+                <element signature="e#19538#19539#0" expanded="false" />
+                <element signature="e#19581#19582#0" expanded="false" />
+                <element signature="e#20949#20950#0" expanded="false" />
+                <element signature="e#20994#20995#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloudSim.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/core/CloudSim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7470">
+              <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25719#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#8823#8824#0" expanded="false" />
+                <element signature="e#8860#8861#0" expanded="false" />
+                <element signature="e#9582#9583#0" expanded="false" />
+                <element signature="e#9601#9602#0" expanded="false" />
+                <element signature="e#11725#11726#0" expanded="false" />
+                <element signature="e#11744#11745#0" expanded="false" />
+                <element signature="e#11891#11892#0" expanded="false" />
+                <element signature="e#11920#11921#0" expanded="false" />
+                <element signature="e#12113#12114#0" expanded="false" />
+                <element signature="e#12143#12144#0" expanded="false" />
+                <element signature="e#12304#12305#0" expanded="false" />
+                <element signature="e#12342#12343#0" expanded="false" />
+                <element signature="e#13712#13723#0" expanded="false" />
+                <element signature="e#15372#15382#0" expanded="false" />
+                <element signature="e#16188#16189#0" expanded="false" />
+                <element signature="e#16232#16233#0" expanded="false" />
+                <element signature="e#22746#22747#0" expanded="false" />
+                <element signature="e#22767#22768#0" expanded="false" />
+                <element signature="e#25370#25371#0" expanded="false" />
+                <element signature="e#25399#25400#0" expanded="false" />
+                <element signature="e#25557#25558#0" expanded="false" />
+                <element signature="e#25586#25587#0" expanded="false" />
+                <element signature="e#25694#25695#0" expanded="false" />
+                <element signature="e#25714#25715#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Datacenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/Datacenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6840">
+              <caret line="470" column="0" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32137#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#28673#28674#0" expanded="false" />
+                <element signature="e#28734#28735#0" expanded="false" />
+                <element signature="e#29514#29515#0" expanded="false" />
+                <element signature="e#29572#29573#0" expanded="false" />
+                <element signature="e#29710#29711#0" expanded="false" />
+                <element signature="e#29739#29740#0" expanded="false" />
+                <element signature="e#30084#30085#0" expanded="false" />
+                <element signature="e#30113#30114#0" expanded="false" />
+                <element signature="e#30275#30276#0" expanded="false" />
+                <element signature="e#30320#30321#0" expanded="false" />
+                <element signature="e#30461#30462#0" expanded="false" />
+                <element signature="e#30493#30494#0" expanded="false" />
+                <element signature="e#30856#30857#0" expanded="false" />
+                <element signature="e#30885#30886#0" expanded="false" />
+                <element signature="e#31047#31048#0" expanded="false" />
+                <element signature="e#31092#31093#0" expanded="false" />
+                <element signature="e#31208#31209#0" expanded="false" />
+                <element signature="e#31233#31234#0" expanded="false" />
+                <element signature="e#31380#31381#0" expanded="false" />
+                <element signature="e#31417#31418#0" expanded="false" />
+                <element signature="e#31556#31557#0" expanded="false" />
+                <element signature="e#31586#31587#0" expanded="false" />
+                <element signature="e#31717#31718#0" expanded="false" />
+                <element signature="e#31744#31745#0" expanded="false" />
+                <element signature="e#31874#31875#0" expanded="false" />
+                <element signature="e#31906#31907#0" expanded="false" />
+                <element signature="e#32081#32082#0" expanded="false" />
+                <element signature="e#32132#32133#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranscodingProvisioner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingProvisioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2670">
+              <caret line="193" column="66" lean-forward="false" selection-start-line="193" selection-start-column="66" selection-end-line="193" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1093#1107#0" expanded="false" />
+                <element signature="e#1190#1204#0" expanded="false" />
+                <element signature="e#1282#1296#0" expanded="false" />
+                <element signature="e#1380#1394#0" expanded="false" />
+                <element signature="e#1462#1472#0" expanded="false" />
+                <element signature="e#2934#2951#0" expanded="false" />
+                <element signature="e#3075#3092#0" expanded="false" />
+                <element signature="e#8766#8783#0" expanded="false" />
+                <element signature="e#20411#20420#0" expanded="false" />
+                <element signature="e#21318#21319#0" expanded="false" />
+                <element signature="e#21347#21348#0" expanded="false" />
+                <marker date="1486732729000" expanded="false" signature="42:82" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputdata/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9210">
+              <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/properties/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranscodingMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#14643#14658#0" expanded="false" />
+                <element signature="e#17804#17810#0" expanded="false" />
+                <element signature="e#25447#25456#0" expanded="false" />
+                <element signature="e#27678#27696#0" expanded="false" />
+                <element signature="e#27761#27778#0" expanded="false" />
+                <element signature="e#41401#41409#0" expanded="false" />
+                <element signature="e#41552#41570#0" expanded="false" />
+                <element signature="e#43453#43462#0" expanded="false" />
+                <element signature="e#58724#58725#0" expanded="false" />
+                <element signature="e#58746#58747#0" expanded="false" />
+                <element signature="e#58804#58805#0" expanded="false" />
+                <element signature="e#58833#58834#0" expanded="false" />
+                <element signature="e#58882#58883#0" expanded="false" />
+                <element signature="e#58910#58911#0" expanded="false" />
+                <element signature="e#58979#58980#0" expanded="false" />
+                <element signature="e#59020#59021#0" expanded="false" />
+                <element signature="e#59062#59063#0" expanded="false" />
+                <element signature="e#59084#59085#0" expanded="false" />
+                <element signature="e#59137#59138#0" expanded="false" />
+                <element signature="e#59166#59167#0" expanded="false" />
+                <element signature="e#59198#59199#0" expanded="false" />
+                <element signature="e#59222#59223#0" expanded="false" />
+                <element signature="e#59257#59258#0" expanded="false" />
+                <element signature="e#59281#59282#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>executiontime</find>
+      <find>cloudletleng</find>
+      <find>executionTime</find>
+      <find>sjf</find>
+      <find>cloudletNewList</find>
+      <find>runnable</find>
+      <find>runclo</find>
+      <find>vmlist</find>
+      <find>submitcloudlets</find>
+      <find>TranscodingBro</find>
+      <find>DatacenterBroker</find>
+      <find>transcodingbroker</find>
+      <find>submitCloudlets</find>
+      <find>Datacenterb</find>
+      <find>submitcloud</find>
+      <find>console</find>
+      <find>get</find>
+      <find>submit</find>
+      <find>bins</find>
+      <find>Video Numbers</find>
+      <find>100</find>
+      <find>videoID++</find>
+      <find>pw.println(&quot;\n&quot;);</find>
+      <find>cost</find>
+      <find>vm</find>
+      <find>lstCloudlets</find>
+      <find>ExecutionTIme</find>
+      <find>bin_counter</find>
+      <find>cloudletListS</find>
+      <find>totalLength</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+      <replace>DatacenterBrokerMod</replace>
+      <replace>lstCloudlet</replace>
+      <replace>CloudletDeadline</replace>
+      <replace>totalDeadline</replace>
+      <replace>totalDeadline +=</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoStreams.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/printOutputFile.java" />
+        <option value="$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/printOutputFile.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TestCmdLine.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/WaitingListComparator.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/ExecutionTimeComparator.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/core/CloudSim.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoSegment.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBrokerMod.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/DatacenterBroker.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/DatacenterBrokerMod.java" />
+        <option value="$PROJECT_DIR$/consoleLogcloudTranscoding.txt" />
+        <option value="$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingProvisionerMod.java" />
+        <option value="$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMainMod.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/CloudletDeadlineComparator.java" />
+        <option value="$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBroker.java" />
+        <option value="$PROJECT_DIR$/properties/config.properties" />
+        <option value="$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java" />
+        <option value="$PROJECT_DIR$/outputdata/test.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="doclint-java8-disable" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="modules" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="modules" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudTranscodingApp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudTranscodingApp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudsim-examples" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudsim-examples" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudsim" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudsim" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="junit:junit:4.10" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cloudsim" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="width" value="1370" />
+    <option name="height" value="749" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33793104" />
+    <property name="SearchEverywhereHistoryKey" value="Tran&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java&#10;test.&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/outputdata/test.txt&#10;console&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/consoleLogcloudTranscoding.txt&#10;test&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/outputdata/test.txt&#10;TranscodingBro&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBrokerMod.java&#10;tran main&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMainMod.java&#10;Transcodingmain&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java&#10;transcodingpro&#9;PSI&#9;JAVA://cloudproject.transcoding.TranscodingProvisioner&#10;transcodingmod&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMainMod.java&#10;variables&#9;PSI&#9;JAVA://org.apache.commons.math3.optim.linear.SimplexTableau#getNumDecisionVariables&#10;cut&#9;ACTION&#9;EditorCutLineBackward&#10;runclock&#9;PSI&#9;JAVA://org.cloudbus.cloudsim.core.CloudSim#runClockTick&#10;sjf&#9;PSI&#9;JAVA://cloudproject.transcoding.TranscodingBroker#sortedBySJF&#10;SJF&#9;PSI&#9;JAVA://cloudproject.transcoding.TranscodingBroker#sortedBySJF&#10;binpack&#9;PSI&#9;JAVA://cloudproject.transcoding.TranscodingBroker#sortedByBinPackA2&#10;config&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/properties/config.properties&#10;proper&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/properties/config.properties&#10;pom&#9;FILE&#9;file://C:/Users/Torsho/Dropbox/Programming Code/Github projects/Simulation/cloudsim-projects-master/pom.xml" />
+    <property name="last.edited.regexp" value="Sample Text" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cloudproject.transcoding" />
+      <recent name="org.cloudbus.cloudsim" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cloudproject.transcoding" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TranscodingMain">
+    <configuration default="false" name="CloudSimExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.cloudbus.cloudsim.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.cloudbus.cloudsim.examples.CloudSimExample3" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudsim-examples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCmdLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cloudproject.transcoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cloudproject.transcoding.TestCmdLine" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudsim-impl" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TranscodingMainMod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cloudproject.transcoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cloudproject.transcoding.TranscodingMainMod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudTranscodingApp" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CabalRunConfiguration" factoryName="Haskell">
+      <module name="" />
+      <setting name="executableName" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <environmetVariables />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudsim-toolkit (1)" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="TranscodingMain" type="Application" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TranscodingMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cloudproject.transcoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cloudproject.transcoding.TranscodingMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudTranscodingApp" />
+      <envs />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="4413616272940" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <toRun type="Application" name="TranscodingMain" />
+      <method />
+    </configuration>
+    <configuration default="false" name="goal" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.TranscodingMain" />
+      <item index="1" class="java.lang.String" itemvalue="Compound.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.goal" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CloudSimExample3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestCmdLine" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TranscodingMainMod" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.CloudSimExample3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TranscodingMainMod" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestCmdLine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d75f90a9-b8ad-40a8-87a5-4501d1e200f7" name="Default" comment="" />
+      <created>1486476653225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486476653225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1370" height="749" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751982" sideWeight="0.50214595" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21857305" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5183299" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751982" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.49785408" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15463917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27605957" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21970555" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5183299" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15463917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java</url>
+          <line>290</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TestCmdLine.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBroker.java</url>
+          <line>545</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="195" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((TranscodingBroker)this).vmList" custom="cloudproject.transcoding.TranscodingBroker" />
+        <watch expression="lstcloudlet" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/ParseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/printOutputFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/CloudSimExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoSchedulerSpaceShared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3534">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/EventData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/ParseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/ParseCmdLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/network/datacenter/NetworkHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/net/URLClassLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/FutureTask.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2611#2612#0" expanded="false" />
+            <element signature="e#2651#2652#0" expanded="false" />
+            <element signature="e#8639#8640#0" expanded="false" />
+            <element signature="e#8673#8674#0" expanded="false" />
+            <element signature="e#8722#8723#0" expanded="false" />
+            <element signature="e#8753#8754#0" expanded="false" />
+            <element signature="e#8827#8828#0" expanded="false" />
+            <element signature="e#8880#8881#0" expanded="false" />
+            <element signature="e#8933#8934#0" expanded="false" />
+            <element signature="e#8972#8973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/FileOutputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/printOutputFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputdatafile/the simpsons movie - trailer04.txt" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/printOutputFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TestCmdLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/lists/VmList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/PropertiesFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="117" lean-forward="true" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/Cloudlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1125" column="7" lean-forward="true" selection-start-line="1125" selection-start-column="7" selection-end-line="1125" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Map.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/WaitingListComparator.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/DatacenterBrokerMod.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.3/commons-math3-3.3-sources.jar!/org/apache/commons/math3/optim/linear/SimplexTableau.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingProvisionerMod.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/PropertiesFileMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/DatacenterBroker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="339" column="19" lean-forward="false" selection-start-line="339" selection-start-column="19" selection-end-line="339" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/CloudSimExample7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1293">
+          <caret line="162" column="51" lean-forward="false" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Properties.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBrokerMod.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMainMod.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingDatacenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/ExecutionTimeComparator.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/VmAllocationPolicySimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consoleLogcloudTranscoding.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/CloudletDeadlineComparator.java" />
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/TranscodingBroker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6607">
+          <caret line="1478" column="25" lean-forward="false" selection-start-line="1478" selection-start-column="25" selection-end-line="1478" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim-impl/src/main/java/cloudproject/transcoding/VideoSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1755#1756#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1811#1812#0" expanded="false" />
+            <element signature="e#1828#1829#0" expanded="false" />
+            <element signature="e#1865#1866#0" expanded="false" />
+            <element signature="e#1890#1891#0" expanded="false" />
+            <element signature="e#1931#1932#0" expanded="false" />
+            <element signature="e#1961#1962#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
+            <element signature="e#2069#2070#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2157#2158#0" expanded="false" />
+            <element signature="e#2338#2339#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="false" />
+            <element signature="e#2396#2397#0" expanded="false" />
+            <element signature="e#2423#2424#0" expanded="false" />
+            <marker date="1486652177000" expanded="false" signature="43:121" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/core/SimEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5760">
+          <caret line="424" column="7" lean-forward="false" selection-start-line="424" selection-start-column="7" selection-end-line="424" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21456#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1988#1989#0" expanded="false" />
+            <element signature="e#2006#2007#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="false" />
+            <element signature="e#2140#2141#0" expanded="false" />
+            <element signature="e#3146#3147#0" expanded="false" />
+            <element signature="e#3185#3186#0" expanded="false" />
+            <element signature="e#4175#4176#0" expanded="false" />
+            <element signature="e#4214#4215#0" expanded="false" />
+            <element signature="e#4588#4589#0" expanded="false" />
+            <element signature="e#4623#4624#0" expanded="false" />
+            <element signature="e#4945#4946#0" expanded="false" />
+            <element signature="e#4980#4981#0" expanded="false" />
+            <element signature="e#5377#5378#0" expanded="false" />
+            <element signature="e#5434#5435#0" expanded="false" />
+            <element signature="e#5776#5777#0" expanded="false" />
+            <element signature="e#5811#5812#0" expanded="false" />
+            <element signature="e#6830#6831#0" expanded="false" />
+            <element signature="e#6874#6875#0" expanded="false" />
+            <element signature="e#7905#7906#0" expanded="false" />
+            <element signature="e#7949#7950#0" expanded="false" />
+            <element signature="e#8341#8342#0" expanded="false" />
+            <element signature="e#8381#8382#0" expanded="false" />
+            <element signature="e#8721#8722#0" expanded="false" />
+            <element signature="e#8761#8762#0" expanded="false" />
+            <element signature="e#9598#9599#0" expanded="false" />
+            <element signature="e#9638#9639#0" expanded="false" />
+            <element signature="e#10214#10215#0" expanded="false" />
+            <element signature="e#10251#10252#0" expanded="false" />
+            <element signature="e#10402#10403#0" expanded="false" />
+            <element signature="e#10454#10455#0" expanded="false" />
+            <element signature="e#11980#11981#0" expanded="false" />
+            <element signature="e#12024#12025#0" expanded="false" />
+            <element signature="e#13755#13756#0" expanded="false" />
+            <element signature="e#13777#13778#0" expanded="false" />
+            <element signature="e#13925#13926#0" expanded="false" />
+            <element signature="e#13944#13945#0" expanded="false" />
+            <element signature="e#14055#14056#0" expanded="false" />
+            <element signature="e#14074#14075#0" expanded="false" />
+            <element signature="e#14481#14482#0" expanded="false" />
+            <element signature="e#14506#14507#0" expanded="false" />
+            <element signature="e#14596#14597#0" expanded="false" />
+            <element signature="e#14615#14616#0" expanded="false" />
+            <element signature="e#14737#14738#0" expanded="false" />
+            <element signature="e#14753#14754#0" expanded="false" />
+            <element signature="e#16720#16721#0" expanded="false" />
+            <element signature="e#16767#16768#0" expanded="false" />
+            <element signature="e#18161#18162#0" expanded="false" />
+            <element signature="e#18210#18211#0" expanded="false" />
+            <element signature="e#18901#18902#0" expanded="false" />
+            <element signature="e#18944#18945#0" expanded="false" />
+            <element signature="e#19538#19539#0" expanded="false" />
+            <element signature="e#19581#19582#0" expanded="false" />
+            <element signature="e#20949#20950#0" expanded="false" />
+            <element signature="e#20994#20995#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/core/CloudSim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7470">
+          <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25719#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8823#8824#0" expanded="false" />
+            <element signature="e#8860#8861#0" expanded="false" />
+            <element signature="e#9582#9583#0" expanded="false" />
+            <element signature="e#9601#9602#0" expanded="false" />
+            <element signature="e#11725#11726#0" expanded="false" />
+            <element signature="e#11744#11745#0" expanded="false" />
+            <element signature="e#11891#11892#0" expanded="false" />
+            <element signature="e#11920#11921#0" expanded="false" />
+            <element signature="e#12113#12114#0" expanded="false" />
+            <element signature="e#12143#12144#0" expanded="false" />
+            <element signature="e#12304#12305#0" expanded="false" />
+            <element signature="e#12342#12343#0" expanded="false" />
+            <element signature="e#13712#13723#0" expanded="false" />
+            <element signature="e#15372#15382#0" expanded="false" />
+            <element signature="e#16188#16189#0" expanded="false" />
+            <element signature="e#16232#16233#0" expanded="false" />
+            <element signature="e#22746#22747#0" expanded="false" />
+            <element signature="e#22767#22768#0" expanded="false" />
+            <element signature="e#25370#25371#0" expanded="false" />
+            <element signature="e#25399#25400#0" expanded="false" />
+            <element signature="e#25557#25558#0" expanded="false" />
+            <element signature="e#25586#25587#0" expanded="false" />
+            <element signature="e#25694#25695#0" expanded="false" />
+            <element signature="e#25714#25715#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudsim/src/main/java/org/cloudbus/cloudsim/Datacenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="470" column="0" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32137#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#28673#28674#0" expanded="false" />
+            <element signature="e#28734#28735#0" expanded="false" />
+            <element signature="e#29514#29515#0" expanded="false" />
+            <element signature="e#29572#29573#0" expanded="false" />
+            <element signature="e#29710#29711#0" expanded="false" />
+            <element signature="e#29739#29740#0" expanded="false" />
+            <element signature="e#30084#30085#0" expanded="false" />
+            <element signature="e#30113#30114#0" expanded="false" />
+            <element signature="e#30275#30276#0" expanded="false" />
+            <element signature="e#30320#30321#0" expanded="false" />
+            <element signature="e#30461#30462#0" expanded="false" />
+            <element signature="e#30493#30494#0" expanded="false" />
+            <element signature="e#30856#30857#0" expanded="false" />
+            <element signature="e#30885#30886#0" expanded="false" />
+            <element signature="e#31047#31048#0" expanded="false" />
+            <element signature="e#31092#31093#0" expanded="false" />
+            <element signature="e#31208#31209#0" expanded="false" />
+            <element signature="e#31233#31234#0" expanded="false" />
+            <element signature="e#31380#31381#0" expanded="false" />
+            <element signature="e#31417#31418#0" expanded="false" />
+            <element signature="e#31556#31557#0" expanded="false" />
+            <element signature="e#31586#31587#0" expanded="false" />
+            <element signature="e#31717#31718#0" expanded="false" />
+            <element signature="e#31744#31745#0" expanded="false" />
+            <element signature="e#31874#31875#0" expanded="false" />
+            <element signature="e#31906#31907#0" expanded="false" />
+            <element signature="e#32081#32082#0" expanded="false" />
+            <element signature="e#32132#32133#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingProvisioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="193" column="66" lean-forward="false" selection-start-line="193" selection-start-column="66" selection-end-line="193" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1093#1107#0" expanded="false" />
+            <element signature="e#1190#1204#0" expanded="false" />
+            <element signature="e#1282#1296#0" expanded="false" />
+            <element signature="e#1380#1394#0" expanded="false" />
+            <element signature="e#1462#1472#0" expanded="false" />
+            <element signature="e#2934#2951#0" expanded="false" />
+            <element signature="e#3075#3092#0" expanded="false" />
+            <element signature="e#8766#8783#0" expanded="false" />
+            <element signature="e#20411#20420#0" expanded="false" />
+            <element signature="e#21318#21319#0" expanded="false" />
+            <element signature="e#21347#21348#0" expanded="false" />
+            <marker date="1486732729000" expanded="false" signature="42:82" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputdata/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9210">
+          <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/properties/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/cloudTranscodingApp/src/main/java/cloudproject/transcoding/TranscodingMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#14643#14658#0" expanded="false" />
+            <element signature="e#17804#17810#0" expanded="false" />
+            <element signature="e#25447#25456#0" expanded="false" />
+            <element signature="e#27678#27696#0" expanded="false" />
+            <element signature="e#27761#27778#0" expanded="false" />
+            <element signature="e#41401#41409#0" expanded="false" />
+            <element signature="e#41552#41570#0" expanded="false" />
+            <element signature="e#43453#43462#0" expanded="false" />
+            <element signature="e#58724#58725#0" expanded="false" />
+            <element signature="e#58746#58747#0" expanded="false" />
+            <element signature="e#58804#58805#0" expanded="false" />
+            <element signature="e#58833#58834#0" expanded="false" />
+            <element signature="e#58882#58883#0" expanded="false" />
+            <element signature="e#58910#58911#0" expanded="false" />
+            <element signature="e#58979#58980#0" expanded="false" />
+            <element signature="e#59020#59021#0" expanded="false" />
+            <element signature="e#59062#59063#0" expanded="false" />
+            <element signature="e#59084#59085#0" expanded="false" />
+            <element signature="e#59137#59138#0" expanded="false" />
+            <element signature="e#59166#59167#0" expanded="false" />
+            <element signature="e#59198#59199#0" expanded="false" />
+            <element signature="e#59222#59223#0" expanded="false" />
+            <element signature="e#59257#59258#0" expanded="false" />
+            <element signature="e#59281#59282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloudsim-toolkit (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: args4j:args4j:2.32</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33793104" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

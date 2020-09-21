@@ -1,0 +1,532 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	bakerydemo/settings/base.py	/^ALLOWED_HOSTS = []$/;"	v
+ALLOWED_HOSTS	bakerydemo/settings/production.py	/^ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '*').split(';')$/;"	v
+AUTH_PASSWORD_VALIDATORS	bakerydemo/settings/base.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AWS_ACCESS_KEY_ID	bakerydemo/settings/production.py	/^AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID', '')$/;"	v
+AWS_AUTO_CREATE_BUCKET	bakerydemo/settings/production.py	/^    AWS_AUTO_CREATE_BUCKET = True$/;"	v
+AWS_REGION	bakerydemo/settings/production.py	/^AWS_REGION = os.getenv('AWS_REGION', '')$/;"	v
+AWS_S3_CUSTOM_DOMAIN	bakerydemo/settings/production.py	/^    AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME$/;"	v
+AWS_SECRET_ACCESS_KEY	bakerydemo/settings/production.py	/^AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY', '')$/;"	v
+AWS_STORAGE_BUCKET_NAME	bakerydemo/settings/production.py	/^    AWS_STORAGE_BUCKET_NAME = os.getenv('AWS_STORAGE_BUCKET_NAME')$/;"	v
+BASE_DIR	bakerydemo/settings/base.py	/^BASE_DIR = os.path.dirname(PROJECT_DIR)$/;"	v
+BASE_URL	bakerydemo/settings/dev.py	/^BASE_URL = 'http:\/\/localhost:8000'$/;"	v
+BASE_URL	bakerydemo/settings/production.py	/^BASE_URL = 'http:\/\/localhost:8000'$/;"	v
+BakeryModelAdminGroup	bakerydemo/base/wagtail_hooks.py	/^class BakeryModelAdminGroup(ModelAdminGroup):$/;"	c
+BaseStreamBlock	bakerydemo/base/blocks.py	/^class BaseStreamBlock(StreamBlock):$/;"	c
+BlockQuote	bakerydemo/base/blocks.py	/^class BlockQuote(StructBlock):$/;"	c
+BlogIndexPage	bakerydemo/blog/models.py	/^class BlogIndexPage(RoutablePageMixin, Page):$/;"	c
+BlogPage	bakerydemo/blog/models.py	/^class BlogPage(Page):$/;"	c
+BlogPageTag	bakerydemo/blog/models.py	/^class BlogPageTag(TaggedItemBase):$/;"	c
+BlogPeopleRelationship	bakerydemo/blog/models.py	/^class BlogPeopleRelationship(Orderable, models.Model):$/;"	c
+BreadCountryAdmin	bakerydemo/base/wagtail_hooks.py	/^class BreadCountryAdmin(ModelAdmin):$/;"	c
+BreadIngredient	bakerydemo/breads/models.py	/^class BreadIngredient(models.Model):$/;"	c
+BreadIngredientAdmin	bakerydemo/base/wagtail_hooks.py	/^class BreadIngredientAdmin(ModelAdmin):$/;"	c
+BreadModelAdminGroup	bakerydemo/base/wagtail_hooks.py	/^class BreadModelAdminGroup(ModelAdminGroup):$/;"	c
+BreadPage	bakerydemo/breads/models.py	/^class BreadPage(Page):$/;"	c
+BreadType	bakerydemo/breads/models.py	/^class BreadType(models.Model):$/;"	c
+BreadTypeAdmin	bakerydemo/base/wagtail_hooks.py	/^class BreadTypeAdmin(ModelAdmin):$/;"	c
+BreadsIndexPage	bakerydemo/breads/models.py	/^class BreadsIndexPage(Page):$/;"	c
+CACHES	bakerydemo/settings/production.py	/^CACHES = {'default': django_cache_url.config()}$/;"	v
+Command	bakerydemo/base/management/commands/load_initial_data.py	/^class Command(BaseCommand):$/;"	c
+Country	bakerydemo/breads/models.py	/^class Country(models.Model):$/;"	c
+DATABASES	bakerydemo/settings/base.py	/^DATABASES = {$/;"	v
+DAY_CHOICES	bakerydemo/locations/choices.py	/^DAY_CHOICES = ($/;"	v
+DEBUG	bakerydemo/settings/base.py	/^DEBUG = True$/;"	v
+DEBUG	bakerydemo/settings/dev.py	/^DEBUG = True$/;"	v
+DEBUG	bakerydemo/settings/production.py	/^DEBUG = os.getenv('DJANGO_DEBUG', 'off') == 'on'$/;"	v
+DEFAULT_FILE_STORAGE	bakerydemo/settings/production.py	/^    DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'$/;"	v
+ELASTICSEARCH_ENDPOINT	bakerydemo/settings/production.py	/^ELASTICSEARCH_ENDPOINT = os.getenv('ELASTICSEARCH_ENDPOINT', '')$/;"	v
+EMAIL_BACKEND	bakerydemo/settings/dev.py	/^EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'$/;"	v
+EMAIL_BACKEND	bakerydemo/settings/production.py	/^EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'$/;"	v
+FooterText	bakerydemo/base/models.py	/^class FooterText(models.Model):$/;"	c
+FooterTextAdmin	bakerydemo/base/wagtail_hooks.py	/^class FooterTextAdmin(ModelAdmin):$/;"	c
+FormField	bakerydemo/base/models.py	/^class FormField(AbstractFormField):$/;"	c
+FormPage	bakerydemo/base/models.py	/^class FormPage(AbstractEmailForm):$/;"	c
+GOOGLE_MAP_API_KEY	bakerydemo/settings/base.py	/^GOOGLE_MAP_API_KEY = 'AIzaSyD31CT9P9KxvNUJOwDq2kcFEIG8ADgaFgw'$/;"	v
+GalleryPage	bakerydemo/base/models.py	/^class GalleryPage(Page):$/;"	c
+HeadingBlock	bakerydemo/base/blocks.py	/^class HeadingBlock(StructBlock):$/;"	c
+HomePage	bakerydemo/base/models.py	/^class HomePage(Page):$/;"	c
+INSTALLED_APPS	bakerydemo/settings/base.py	/^INSTALLED_APPS = [$/;"	v
+ImageBlock	bakerydemo/base/blocks.py	/^class ImageBlock(StructBlock):$/;"	c
+LANGUAGE_CODE	bakerydemo/settings/base.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGGING	bakerydemo/settings/production.py	/^LOGGING = {$/;"	v
+LocationOperatingHours	bakerydemo/locations/models.py	/^class LocationOperatingHours(Orderable, OperatingHours):$/;"	c
+LocationPage	bakerydemo/locations/models.py	/^class LocationPage(Page):$/;"	c
+LocationsIndexPage	bakerydemo/locations/models.py	/^class LocationsIndexPage(Page):$/;"	c
+MEDIA_ROOT	bakerydemo/settings/base.py	/^MEDIA_ROOT = os.path.join(PROJECT_DIR, 'media')$/;"	v
+MEDIA_URL	bakerydemo/settings/base.py	/^MEDIA_URL = '\/media\/'$/;"	v
+MEDIA_URL	bakerydemo/settings/production.py	/^    MEDIA_URL = "https:\/\/%s\/" % AWS_S3_CUSTOM_DOMAIN$/;"	v
+MIDDLEWARE	bakerydemo/settings/base.py	/^MIDDLEWARE = [$/;"	v
+Meta	bakerydemo/base/blocks.py	/^    class Meta:$/;"	c	class:BlockQuote
+Meta	bakerydemo/base/blocks.py	/^    class Meta:$/;"	c	class:HeadingBlock
+Meta	bakerydemo/base/blocks.py	/^    class Meta:$/;"	c	class:ImageBlock
+Meta	bakerydemo/base/models.py	/^    class Meta:$/;"	c	class:FooterText
+Meta	bakerydemo/base/models.py	/^    class Meta:$/;"	c	class:People
+Meta	bakerydemo/breads/models.py	/^    class Meta:$/;"	c	class:BreadIngredient
+Meta	bakerydemo/breads/models.py	/^    class Meta:$/;"	c	class:BreadType
+Meta	bakerydemo/breads/models.py	/^    class Meta:$/;"	c	class:Country
+Meta	bakerydemo/locations/models.py	/^    class Meta:$/;"	c	class:OperatingHours
+Migration	bakerydemo/base/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/blog/migrations/0002_remove_blogindexpage_body.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/breads/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/breads/migrations/0002_remove_breadsindexpage_body.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/locations/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/locations/migrations/0002_remove_locationsindexpage_body.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^class Migration(migrations.Migration):$/;"	c
+OperatingHours	bakerydemo/locations/models.py	/^class OperatingHours(models.Model):$/;"	c
+PROJECT_DIR	bakerydemo/settings/base.py	/^PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+People	bakerydemo/base/models.py	/^class People(index.Indexed, ClusterableModel):$/;"	c
+PeopleModelAdmin	bakerydemo/base/wagtail_hooks.py	/^class PeopleModelAdmin(ModelAdmin):$/;"	c
+ROOT_URLCONF	bakerydemo/settings/base.py	/^ROOT_URLCONF = 'bakerydemo.urls'$/;"	v
+SECRET_KEY	bakerydemo/settings/base.py	/^SECRET_KEY = 'c6u0-9c!7nilj_ysatsda0(f@e_2mws2f!6m0n^o*4#*q#kzp)'$/;"	v
+SECRET_KEY	bakerydemo/settings/production.py	/^    SECRET_KEY = ''.join([random.SystemRandom().choice(string.printable) for i in range(50)])$/;"	v
+SECRET_KEY	bakerydemo/settings/production.py	/^    SECRET_KEY = os.environ['DJANGO_SECRET_KEY']$/;"	v
+SECURE_PROXY_SSL_HEADER	bakerydemo/settings/production.py	/^SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')$/;"	v
+SECURE_SSL_REDIRECT	bakerydemo/settings/production.py	/^SECURE_SSL_REDIRECT = os.getenv('DJANGO_SECURE_SSL_REDIRECT', 'off') == 'on'$/;"	v
+STATICFILES_DIRS	bakerydemo/settings/base.py	/^STATICFILES_DIRS = [$/;"	v
+STATICFILES_FINDERS	bakerydemo/settings/base.py	/^STATICFILES_FINDERS = [$/;"	v
+STATICFILES_STORAGE	bakerydemo/settings/production.py	/^STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'$/;"	v
+STATIC_ROOT	bakerydemo/settings/base.py	/^STATIC_ROOT = os.path.join(PROJECT_DIR, 'collect_static')$/;"	v
+STATIC_URL	bakerydemo/settings/base.py	/^STATIC_URL = '\/static\/'$/;"	v
+StandardPage	bakerydemo/base/models.py	/^class StandardPage(Page):$/;"	c
+TEMPLATES	bakerydemo/settings/base.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	bakerydemo/settings/base.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	bakerydemo/settings/base.py	/^USE_I18N = True$/;"	v
+USE_L10N	bakerydemo/settings/base.py	/^USE_L10N = True$/;"	v
+USE_TZ	bakerydemo/settings/base.py	/^USE_TZ = True$/;"	v
+WAGTAILSEARCH_BACKENDS	bakerydemo/settings/base.py	/^WAGTAILSEARCH_BACKENDS = {$/;"	v
+WAGTAILSEARCH_BACKENDS	bakerydemo/settings/production.py	/^    WAGTAILSEARCH_BACKENDS = {$/;"	v
+WAGTAIL_SITE_NAME	bakerydemo/settings/base.py	/^WAGTAIL_SITE_NAME = "bakerydemo"$/;"	v
+WSGI_APPLICATION	bakerydemo/settings/base.py	/^WSGI_APPLICATION = 'bakerydemo.wsgi.application'$/;"	v
+__str__	bakerydemo/base/models.py	/^    def __str__(self):$/;"	m	class:FooterText	file:
+__str__	bakerydemo/base/models.py	/^    def __str__(self):$/;"	m	class:HomePage	file:
+__str__	bakerydemo/base/models.py	/^    def __str__(self):$/;"	m	class:People	file:
+__str__	bakerydemo/breads/models.py	/^    def __str__(self):$/;"	m	class:BreadIngredient	file:
+__str__	bakerydemo/breads/models.py	/^    def __str__(self):$/;"	m	class:BreadType	file:
+__str__	bakerydemo/breads/models.py	/^    def __str__(self):$/;"	m	class:Country	file:
+__str__	bakerydemo/locations/models.py	/^    def __str__(self):$/;"	m	class:LocationPage	file:
+__str__	bakerydemo/locations/models.py	/^    def __str__(self):$/;"	m	class:OperatingHours	file:
+abstract	bakerydemo/locations/models.py	/^        abstract = True$/;"	v	class:OperatingHours.Meta
+address	bakerydemo/locations/models.py	/^    address = models.TextField()$/;"	v	class:LocationPage
+api_router	bakerydemo/api.py	/^api_router = WagtailAPIRouter('wagtailapi')$/;"	v
+application	bakerydemo/wsgi.py	/^application = get_wsgi_application()$/;"	v
+application	bakerydemo/wsgi_production.py	/^application = DjangoWhiteNoise(application)$/;"	v
+application	bakerydemo/wsgi_production.py	/^application = get_wsgi_application()$/;"	v
+attribute_name	bakerydemo/base/blocks.py	/^    attribute_name = CharBlock($/;"	v	class:BlockQuote
+attribution	bakerydemo/base/blocks.py	/^    attribution = CharBlock(required=False)$/;"	v	class:ImageBlock
+authors	bakerydemo/blog/models.py	/^    def authors(self):$/;"	m	class:BlogPage
+aws_access_key	bakerydemo/settings/production.py	/^            aws_access_key=AWS_ACCESS_KEY_ID,$/;"	v
+aws_host	bakerydemo/settings/production.py	/^            aws_host=ELASTICSEARCH_ENDPOINT,$/;"	v
+aws_region	bakerydemo/settings/production.py	/^            aws_region=AWS_REGION,$/;"	v
+aws_secret_access_key	bakerydemo/settings/production.py	/^            aws_secret_access_key=AWS_SECRET_ACCESS_KEY,$/;"	v
+aws_service	bakerydemo/settings/production.py	/^            aws_service='es',$/;"	v
+aws_token	bakerydemo/settings/production.py	/^            aws_token=os.getenv('AWS_SESSION_TOKEN', ''),$/;"	v
+bases	bakerydemo/base/migrations/0001_initial.py	/^            bases=('wagtailcore.page', models.Model),$/;"	v	class:Migration
+bases	bakerydemo/base/migrations/0001_initial.py	/^            bases=('wagtailcore.page',),$/;"	v	class:Migration
+bases	bakerydemo/blog/migrations/0001_initial.py	/^            bases=('wagtailcore.page', models.Model),$/;"	v	class:Migration
+bases	bakerydemo/blog/migrations/0001_initial.py	/^            bases=(wagtail.contrib.routable_page.models.RoutablePageMixin, 'wagtailcore.page', models.Model),$/;"	v	class:Migration
+bases	bakerydemo/breads/migrations/0001_initial.py	/^            bases=('wagtailcore.page', models.Model),$/;"	v	class:Migration
+bases	bakerydemo/locations/migrations/0001_initial.py	/^            bases=('wagtailcore.page', models.Model),$/;"	v	class:Migration
+blank	bakerydemo/base/models.py	/^        blank=True)$/;"	v	class:GalleryPage
+blank	bakerydemo/base/models.py	/^        blank=True)$/;"	v	class:StandardPage
+blank	bakerydemo/base/models.py	/^        blank=True,$/;"	v	class:FormPage
+blank	bakerydemo/base/models.py	/^        blank=True,$/;"	v	class:GalleryPage
+blank	bakerydemo/base/models.py	/^        blank=True,$/;"	v	class:HomePage
+blank	bakerydemo/base/models.py	/^        blank=True,$/;"	v	class:People
+blank	bakerydemo/base/models.py	/^        blank=True,$/;"	v	class:StandardPage
+blank	bakerydemo/blog/models.py	/^        blank=True)$/;"	v	class:BlogIndexPage
+blank	bakerydemo/blog/models.py	/^        blank=True)$/;"	v	class:BlogPage
+blank	bakerydemo/blog/models.py	/^        blank=True,$/;"	v	class:BlogIndexPage
+blank	bakerydemo/blog/models.py	/^        blank=True,$/;"	v	class:BlogPage
+blank	bakerydemo/breads/models.py	/^        blank=True)$/;"	v	class:BreadPage
+blank	bakerydemo/breads/models.py	/^        blank=True)$/;"	v	class:BreadsIndexPage
+blank	bakerydemo/breads/models.py	/^        blank=True,$/;"	v	class:BreadPage
+blank	bakerydemo/breads/models.py	/^        blank=True,$/;"	v	class:BreadsIndexPage
+blank	bakerydemo/locations/models.py	/^        blank=True)$/;"	v	class:LocationPage
+blank	bakerydemo/locations/models.py	/^        blank=True)$/;"	v	class:LocationsIndexPage
+blank	bakerydemo/locations/models.py	/^        blank=True,$/;"	v	class:LocationPage
+blank	bakerydemo/locations/models.py	/^        blank=True,$/;"	v	class:LocationsIndexPage
+blank	bakerydemo/locations/models.py	/^        blank=True,$/;"	v	class:OperatingHours
+block_quote	bakerydemo/base/blocks.py	/^    block_quote = BlockQuote()$/;"	v	class:BaseStreamBlock
+body	bakerydemo/base/models.py	/^    body = RichTextField()$/;"	v	class:FooterText
+body	bakerydemo/base/models.py	/^    body = StreamField($/;"	v	class:GalleryPage
+body	bakerydemo/base/models.py	/^    body = StreamField($/;"	v	class:HomePage
+body	bakerydemo/base/models.py	/^    body = StreamField($/;"	v	class:StandardPage
+body	bakerydemo/base/models.py	/^    body = StreamField(BaseStreamBlock())$/;"	v	class:FormPage
+body	bakerydemo/blog/models.py	/^    body = StreamField($/;"	v	class:BlogPage
+body	bakerydemo/breads/models.py	/^    body = StreamField($/;"	v	class:BreadPage
+body	bakerydemo/locations/models.py	/^    body = StreamField($/;"	v	class:LocationPage
+bread_type	bakerydemo/breads/models.py	/^    bread_type = models.ForeignKey($/;"	v	class:BreadPage
+breadcrumbs	bakerydemo/base/templatetags/navigation_tags.py	/^def breadcrumbs(context):$/;"	f
+caption	bakerydemo/base/blocks.py	/^    caption = CharBlock(required=False)$/;"	v	class:ImageBlock
+children	bakerydemo/blog/models.py	/^    def children(self):$/;"	m	class:BlogIndexPage
+children	bakerydemo/breads/models.py	/^    def children(self):$/;"	m	class:BreadsIndexPage
+children	bakerydemo/locations/models.py	/^    def children(self):$/;"	m	class:LocationsIndexPage
+choices	bakerydemo/locations/models.py	/^        choices=DAY_CHOICES,$/;"	v	class:OperatingHours
+classname	bakerydemo/breads/models.py	/^            classname="collapsible collapsed"$/;"	v	class:BreadPage
+closed	bakerydemo/locations/models.py	/^    closed = models.BooleanField($/;"	v	class:OperatingHours
+closing_time	bakerydemo/locations/models.py	/^    closing_time = models.TimeField($/;"	v	class:OperatingHours
+code	bakerydemo/locations/models.py	/^                code='invalid_lat_long'$/;"	v	class:LocationPage
+collection	bakerydemo/base/models.py	/^    collection = models.ForeignKey($/;"	v	class:GalleryPage
+content_object	bakerydemo/blog/models.py	/^    content_object = ParentalKey('BlogPage', related_name='tagged_items', on_delete=models.CASCADE)$/;"	v	class:BlogPageTag
+content_panels	bakerydemo/base/models.py	/^    content_panels = AbstractEmailForm.content_panels + [$/;"	v	class:FormPage
+content_panels	bakerydemo/base/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:GalleryPage
+content_panels	bakerydemo/base/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:HomePage
+content_panels	bakerydemo/base/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:StandardPage
+content_panels	bakerydemo/blog/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:BlogIndexPage
+content_panels	bakerydemo/blog/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:BlogPage
+content_panels	bakerydemo/breads/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:BreadPage
+content_panels	bakerydemo/breads/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:BreadsIndexPage
+content_panels	bakerydemo/locations/models.py	/^    content_panels = Page.content_panels + [$/;"	v	class:LocationsIndexPage
+content_panels	bakerydemo/locations/models.py	/^    content_panels = [$/;"	v	class:LocationPage
+date_published	bakerydemo/blog/models.py	/^    date_published = models.DateField($/;"	v	class:BlogPage
+day	bakerydemo/locations/models.py	/^    day = models.CharField($/;"	v	class:OperatingHours
+db_from_env	bakerydemo/settings/production.py	/^db_from_env = dj_database_url.config(conn_max_age=500)$/;"	v
+default	bakerydemo/locations/models.py	/^        default='MON'$/;"	v	class:OperatingHours
+dependencies	bakerydemo/base/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/blog/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/blog/migrations/0002_remove_blogindexpage_body.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/breads/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/breads/migrations/0002_remove_breadsindexpage_body.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/locations/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/locations/migrations/0002_remove_locationsindexpage_body.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^    dependencies = [$/;"	v	class:Migration
+embed_block	bakerydemo/base/blocks.py	/^    embed_block = EmbedBlock($/;"	v	class:BaseStreamBlock
+featured_section_1	bakerydemo/base/models.py	/^    featured_section_1 = models.ForeignKey($/;"	v	class:HomePage
+featured_section_1_title	bakerydemo/base/models.py	/^    featured_section_1_title = models.CharField($/;"	v	class:HomePage
+featured_section_2	bakerydemo/base/models.py	/^    featured_section_2 = models.ForeignKey($/;"	v	class:HomePage
+featured_section_2_title	bakerydemo/base/models.py	/^    featured_section_2_title = models.CharField($/;"	v	class:HomePage
+featured_section_3	bakerydemo/base/models.py	/^    featured_section_3 = models.ForeignKey($/;"	v	class:HomePage
+featured_section_3_title	bakerydemo/base/models.py	/^    featured_section_3_title = models.CharField($/;"	v	class:HomePage
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='form_fields', to='base.FormPage'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Choose a page to link to for the Call to Action', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailcore.Page', verbose_name='Hero CTA link'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='First featured section for the homepage. Will display up to three child items.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailcore.Page', verbose_name='Featured section 1'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Homepage image', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.Image'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Promo image', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.Image'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Second featured section for the homepage. Will display up to three child items.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailcore.Page', verbose_name='Featured section 2'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Third featured section for the homepage. Will display up to six child items.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailcore.Page', verbose_name='Featured section 3'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html')))),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html'))), blank=True, verbose_name='Home content block'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html'))), blank=True, verbose_name='Page body'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^            field=models.CharField(choices=[('singleline', 'Single line text'), ('multiline', 'Multi-line text'), ('email', 'Email'), ('number', 'Number'), ('url', 'URL'), ('checkbox', 'Checkbox'), ('checkboxes', 'Checkboxes'), ('dropdown', 'Drop down'), ('multiselect', 'Multiple select'), ('radio', 'Radio buttons'), ('date', 'Date'), ('datetime', 'Date\/time')], max_length=16, verbose_name='field type'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            field=models.CharField(choices=[('singleline', 'Single line text'), ('multiline', 'Multi-line text'), ('email', 'Email'), ('number', 'Number'), ('url', 'URL'), ('checkbox', 'Checkbox'), ('checkboxes', 'Checkboxes'), ('dropdown', 'Drop down'), ('multiselect', 'Multiple select'), ('radio', 'Radio buttons'), ('date', 'Date'), ('datetime', 'Date\/time'), ('hidden', 'Hidden field')], max_length=16, verbose_name='field type'),$/;"	v	class:Migration
+field	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            field=models.ForeignKey(blank=True, help_text='Select the image collection for this gallery.', limit_choices_to=models.Q(_negated=True, name__in=['Root']), null=True, on_delete=django.db.models.deletion.SET_NULL, to='wagtailcore.Collection'),$/;"	v	class:Migration
+field	bakerydemo/blog/migrations/0001_initial.py	/^            field=modelcluster.contrib.taggit.ClusterTaggableManager(blank=True, help_text='A comma-separated list of tags.', through='blog.BlogPageTag', to='taggit.Tag', verbose_name='Tags'),$/;"	v	class:Migration
+field	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html'))), blank=True, verbose_name='Page body'),$/;"	v	class:Migration
+field	bakerydemo/breads/migrations/0001_initial.py	/^            field=modelcluster.fields.ParentalManyToManyField(blank=True, to='breads.BreadIngredient'),$/;"	v	class:Migration
+field	bakerydemo/breads/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, help_text='Landscape mode only; horizontal width between 1000px and 3000px.', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='wagtailimages.Image'),$/;"	v	class:Migration
+field	bakerydemo/breads/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='+', to='breads.BreadType'),$/;"	v	class:Migration
+field	bakerydemo/breads/migrations/0001_initial.py	/^            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='breads.Country'),$/;"	v	class:Migration
+field	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html'))), blank=True, verbose_name='Page body'),$/;"	v	class:Migration
+field	bakerydemo/locations/migrations/0001_initial.py	/^            field=modelcluster.fields.ParentalKey(on_delete=django.db.models.deletion.CASCADE, related_name='hours_of_operation', to='locations.LocationPage'),$/;"	v	class:Migration
+field	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^            field=wagtail.core.fields.StreamField((('heading_block', wagtail.core.blocks.StructBlock((('heading_text', wagtail.core.blocks.CharBlock(classname='title', required=True)), ('size', wagtail.core.blocks.ChoiceBlock(blank=True, choices=[('', 'Select a header size'), ('h2', 'H2'), ('h3', 'H3'), ('h4', 'H4')], required=False))))), ('paragraph_block', wagtail.core.blocks.RichTextBlock(icon='fa-paragraph', template='blocks\/paragraph_block.html')), ('image_block', wagtail.core.blocks.StructBlock((('image', wagtail.images.blocks.ImageChooserBlock(required=True)), ('caption', wagtail.core.blocks.CharBlock(required=False)), ('attribution', wagtail.core.blocks.CharBlock(required=False))))), ('block_quote', wagtail.core.blocks.StructBlock((('text', wagtail.core.blocks.TextBlock()), ('attribute_name', wagtail.core.blocks.CharBlock(blank=True, label='e.g. Mary Berry', required=False))))), ('embed_block', wagtail.embeds.blocks.EmbedBlock(help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks', icon='fa-s15', template='blocks\/embed_block.html'))), blank=True, verbose_name='Page body'),$/;"	v	class:Migration
+fields	bakerydemo/base/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	bakerydemo/blog/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	bakerydemo/breads/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	bakerydemo/locations/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+first_name	bakerydemo/base/models.py	/^    first_name = models.CharField("First name", max_length=254)$/;"	v	class:People
+gallery	bakerydemo/base/templatetags/gallery_tags.py	/^def gallery(context, gallery):$/;"	f
+get_breads	bakerydemo/breads/models.py	/^    def get_breads(self):$/;"	m	class:BreadsIndexPage
+get_child_tags	bakerydemo/blog/models.py	/^    def get_child_tags(self):$/;"	m	class:BlogIndexPage
+get_context	bakerydemo/blog/models.py	/^    def get_context(self, request):$/;"	m	class:BlogIndexPage
+get_context	bakerydemo/breads/models.py	/^    def get_context(self, request):$/;"	m	class:BreadsIndexPage
+get_context	bakerydemo/locations/models.py	/^    def get_context(self, request):$/;"	m	class:LocationPage
+get_context	bakerydemo/locations/models.py	/^    def get_context(self, request):$/;"	m	class:LocationsIndexPage
+get_footer_text	bakerydemo/base/templatetags/navigation_tags.py	/^def get_footer_text(context):$/;"	f
+get_posts	bakerydemo/blog/models.py	/^    def get_posts(self, tag=None):$/;"	m	class:BlogIndexPage
+get_site_root	bakerydemo/base/templatetags/navigation_tags.py	/^def get_site_root(context):$/;"	f
+get_tags	bakerydemo/blog/models.py	/^    def get_tags(self):$/;"	m	class:BlogPage
+handle	bakerydemo/base/management/commands/load_initial_data.py	/^    def handle(self, **options):$/;"	m	class:Command
+has_children	bakerydemo/base/templatetags/navigation_tags.py	/^def has_children(page):$/;"	f
+has_menu_children	bakerydemo/base/templatetags/navigation_tags.py	/^def has_menu_children(page):$/;"	f
+heading	bakerydemo/breads/models.py	/^            heading="Additional Metadata",$/;"	v	class:BreadPage
+heading_block	bakerydemo/base/blocks.py	/^    heading_block = HeadingBlock()$/;"	v	class:BaseStreamBlock
+heading_text	bakerydemo/base/blocks.py	/^    heading_text = CharBlock(classname="title", required=True)$/;"	v	class:HeadingBlock
+help_text	bakerydemo/base/blocks.py	/^        help_text='Insert an embed URL e.g https:\/\/www.youtube.com\/embed\/SGJFWirQ3ks',$/;"	v	class:BaseStreamBlock
+help_text	bakerydemo/base/models.py	/^        help_text='Choose a page to link to for the Call to Action'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='First featured section for the homepage. Will display up to '$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Homepage image'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and '$/;"	v	class:GalleryPage
+help_text	bakerydemo/base/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:StandardPage
+help_text	bakerydemo/base/models.py	/^        help_text='Promo image'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Second featured section for the homepage. Will display up to '$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Select the image collection for this gallery.'$/;"	v	class:GalleryPage
+help_text	bakerydemo/base/models.py	/^        help_text='Text to describe the page',$/;"	v	class:GalleryPage
+help_text	bakerydemo/base/models.py	/^        help_text='Text to describe the page',$/;"	v	class:StandardPage
+help_text	bakerydemo/base/models.py	/^        help_text='Text to display on Call to Action'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Third featured section for the homepage. Will display up to '$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Title to display above the promo copy'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Write an introduction for the bakery'$/;"	v	class:HomePage
+help_text	bakerydemo/base/models.py	/^        help_text='Write some promotional copy'$/;"	v	class:HomePage
+help_text	bakerydemo/blog/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:BlogIndexPage
+help_text	bakerydemo/blog/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:BlogPage
+help_text	bakerydemo/blog/models.py	/^        help_text='Text to describe the page',$/;"	v	class:BlogIndexPage
+help_text	bakerydemo/blog/models.py	/^        help_text='Text to describe the page',$/;"	v	class:BlogPage
+help_text	bakerydemo/breads/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and '$/;"	v	class:BreadsIndexPage
+help_text	bakerydemo/breads/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:BreadPage
+help_text	bakerydemo/breads/models.py	/^        help_text='Text to describe the page',$/;"	v	class:BreadPage
+help_text	bakerydemo/breads/models.py	/^        help_text='Text to describe the page',$/;"	v	class:BreadsIndexPage
+help_text	bakerydemo/locations/models.py	/^                   Right click Google Maps and select 'What\\'s Here'",$/;"	v	class:LocationPage
+help_text	bakerydemo/locations/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:LocationPage
+help_text	bakerydemo/locations/models.py	/^        help_text='Landscape mode only; horizontal width between 1000px and 3000px.'$/;"	v	class:LocationsIndexPage
+help_text	bakerydemo/locations/models.py	/^        help_text='Text to describe the page',$/;"	v	class:LocationPage
+help_text	bakerydemo/locations/models.py	/^        help_text='Text to describe the page',$/;"	v	class:LocationsIndexPage
+help_text	bakerydemo/locations/models.py	/^        help_text='Tick if location is closed on this day'$/;"	v	class:OperatingHours
+hero_cta	bakerydemo/base/models.py	/^    hero_cta = models.CharField($/;"	v	class:HomePage
+hero_cta_link	bakerydemo/base/models.py	/^    hero_cta_link = models.ForeignKey($/;"	v	class:HomePage
+hero_text	bakerydemo/base/models.py	/^    hero_text = models.CharField($/;"	v	class:HomePage
+icon	bakerydemo/base/blocks.py	/^        icon = "fa-quote-left"$/;"	v	class:BlockQuote.Meta
+icon	bakerydemo/base/blocks.py	/^        icon = "title"$/;"	v	class:HeadingBlock.Meta
+icon	bakerydemo/base/blocks.py	/^        icon = 'image'$/;"	v	class:ImageBlock.Meta
+icon	bakerydemo/base/blocks.py	/^        icon="fa-paragraph",$/;"	v	class:BaseStreamBlock
+icon	bakerydemo/base/blocks.py	/^        icon="fa-s15",$/;"	v	class:BaseStreamBlock
+image	bakerydemo/base/blocks.py	/^    image = ImageChooserBlock(required=True)$/;"	v	class:ImageBlock
+image	bakerydemo/base/models.py	/^    image = models.ForeignKey($/;"	v	class:FormPage
+image	bakerydemo/base/models.py	/^    image = models.ForeignKey($/;"	v	class:GalleryPage
+image	bakerydemo/base/models.py	/^    image = models.ForeignKey($/;"	v	class:HomePage
+image	bakerydemo/base/models.py	/^    image = models.ForeignKey($/;"	v	class:People
+image	bakerydemo/base/models.py	/^    image = models.ForeignKey($/;"	v	class:StandardPage
+image	bakerydemo/blog/models.py	/^    image = models.ForeignKey($/;"	v	class:BlogIndexPage
+image	bakerydemo/blog/models.py	/^    image = models.ForeignKey($/;"	v	class:BlogPage
+image	bakerydemo/breads/models.py	/^    image = models.ForeignKey($/;"	v	class:BreadPage
+image	bakerydemo/breads/models.py	/^    image = models.ForeignKey($/;"	v	class:BreadsIndexPage
+image	bakerydemo/locations/models.py	/^    image = models.ForeignKey($/;"	v	class:LocationPage
+image	bakerydemo/locations/models.py	/^    image = models.ForeignKey($/;"	v	class:LocationsIndexPage
+image_block	bakerydemo/base/blocks.py	/^    image_block = ImageBlock()$/;"	v	class:BaseStreamBlock
+ingredients	bakerydemo/breads/models.py	/^    ingredients = ParentalManyToManyField('BreadIngredient', blank=True)$/;"	v	class:BreadPage
+initMap	bakerydemo/templates/locations/location_page.html	/^        function initMap() {$/;"	f
+initial	bakerydemo/base/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	bakerydemo/blog/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	bakerydemo/breads/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	bakerydemo/locations/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+introduction	bakerydemo/base/models.py	/^    introduction = models.TextField($/;"	v	class:GalleryPage
+introduction	bakerydemo/base/models.py	/^    introduction = models.TextField($/;"	v	class:StandardPage
+introduction	bakerydemo/blog/models.py	/^    introduction = models.TextField($/;"	v	class:BlogIndexPage
+introduction	bakerydemo/blog/models.py	/^    introduction = models.TextField($/;"	v	class:BlogPage
+introduction	bakerydemo/breads/models.py	/^    introduction = models.TextField($/;"	v	class:BreadPage
+introduction	bakerydemo/breads/models.py	/^    introduction = models.TextField($/;"	v	class:BreadsIndexPage
+introduction	bakerydemo/locations/models.py	/^    introduction = models.TextField($/;"	v	class:LocationPage
+introduction	bakerydemo/locations/models.py	/^    introduction = models.TextField($/;"	v	class:LocationsIndexPage
+is_active	bakerydemo/base/templatetags/navigation_tags.py	/^def is_active(page, current_page):$/;"	f
+is_open	bakerydemo/locations/models.py	/^    def is_open(self):$/;"	m	class:LocationPage
+items	bakerydemo/base/wagtail_hooks.py	/^    items = (BreadIngredientAdmin, BreadTypeAdmin, BreadCountryAdmin)$/;"	v	class:BreadModelAdminGroup
+items	bakerydemo/base/wagtail_hooks.py	/^    items = (PeopleModelAdmin, FooterTextAdmin)$/;"	v	class:BakeryModelAdminGroup
+job_title	bakerydemo/base/models.py	/^    job_title = models.CharField("Job title", max_length=254)$/;"	v	class:People
+last_name	bakerydemo/base/models.py	/^    last_name = models.CharField("Last name", max_length=254)$/;"	v	class:People
+lat_long	bakerydemo/locations/models.py	/^    lat_long = models.CharField($/;"	v	class:LocationPage
+limit_choices_to	bakerydemo/base/models.py	/^        limit_choices_to=~models.Q(name__in=['Root']),$/;"	v	class:GalleryPage
+list_display	bakerydemo/base/wagtail_hooks.py	/^    list_display = ('first_name', 'last_name', 'job_title', 'thumb_image')$/;"	v	class:PeopleModelAdmin
+location	bakerydemo/locations/models.py	/^    location = ParentalKey($/;"	v	class:LocationOperatingHours
+max_length	bakerydemo/base/models.py	/^        max_length=255,$/;"	v	class:HomePage
+max_length	bakerydemo/locations/models.py	/^        max_length=36,$/;"	v	class:LocationPage
+max_length	bakerydemo/locations/models.py	/^        max_length=4,$/;"	v	class:OperatingHours
+menu_icon	bakerydemo/base/wagtail_hooks.py	/^    menu_icon = 'fa-cutlery'  # change as required$/;"	v	class:BakeryModelAdminGroup
+menu_icon	bakerydemo/base/wagtail_hooks.py	/^    menu_icon = 'fa-suitcase'  # change as required$/;"	v	class:BreadModelAdminGroup
+menu_icon	bakerydemo/base/wagtail_hooks.py	/^    menu_icon = 'fa-users'  # change as required$/;"	v	class:PeopleModelAdmin
+menu_label	bakerydemo/base/wagtail_hooks.py	/^    menu_label = 'Bakery Misc'$/;"	v	class:BakeryModelAdminGroup
+menu_label	bakerydemo/base/wagtail_hooks.py	/^    menu_label = 'Bread Categories'$/;"	v	class:BreadModelAdminGroup
+menu_label	bakerydemo/base/wagtail_hooks.py	/^    menu_label = 'People'  # ditch this to use verbose_name_plural from model$/;"	v	class:PeopleModelAdmin
+menu_order	bakerydemo/base/wagtail_hooks.py	/^    menu_order = 200  # will put in 3rd place (000 being 1st, 100 2nd)$/;"	v	class:BreadModelAdminGroup
+menu_order	bakerydemo/base/wagtail_hooks.py	/^    menu_order = 300  # will put in 4th place (000 being 1st, 100 2nd)$/;"	v	class:BakeryModelAdminGroup
+message	bakerydemo/locations/models.py	/^                message='Lat Long must be a comma-separated numeric lat and long',$/;"	v	class:LocationPage
+model	bakerydemo/base/wagtail_hooks.py	/^    model = BreadIngredient$/;"	v	class:BreadIngredientAdmin
+model	bakerydemo/base/wagtail_hooks.py	/^    model = BreadType$/;"	v	class:BreadTypeAdmin
+model	bakerydemo/base/wagtail_hooks.py	/^    model = Country$/;"	v	class:BreadCountryAdmin
+model	bakerydemo/base/wagtail_hooks.py	/^    model = FooterText$/;"	v	class:FooterTextAdmin
+model	bakerydemo/base/wagtail_hooks.py	/^    model = People$/;"	v	class:PeopleModelAdmin
+model_name	bakerydemo/base/migrations/0001_initial.py	/^            model_name='formfield',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0001_initial.py	/^            model_name='homepage',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            model_name='formpage',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            model_name='gallerypage',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            model_name='homepage',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            model_name='standardpage',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^            model_name='formfield',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            model_name='formfield',$/;"	v	class:Migration
+model_name	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            model_name='gallerypage',$/;"	v	class:Migration
+model_name	bakerydemo/blog/migrations/0001_initial.py	/^            model_name='blogpage',$/;"	v	class:Migration
+model_name	bakerydemo/blog/migrations/0002_remove_blogindexpage_body.py	/^            model_name='blogindexpage',$/;"	v	class:Migration
+model_name	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^            model_name='blogpage',$/;"	v	class:Migration
+model_name	bakerydemo/breads/migrations/0001_initial.py	/^            model_name='breadpage',$/;"	v	class:Migration
+model_name	bakerydemo/breads/migrations/0002_remove_breadsindexpage_body.py	/^            model_name='breadsindexpage',$/;"	v	class:Migration
+model_name	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^            model_name='breadpage',$/;"	v	class:Migration
+model_name	bakerydemo/locations/migrations/0001_initial.py	/^            model_name='locationoperatinghours',$/;"	v	class:Migration
+model_name	bakerydemo/locations/migrations/0002_remove_locationsindexpage_body.py	/^            model_name='locationsindexpage',$/;"	v	class:Migration
+model_name	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^            model_name='locationpage',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='FooterText',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='FormField',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='FormPage',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='GalleryPage',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='HomePage',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='People',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='StandardPage',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='featured_section_1',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='featured_section_2',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='featured_section_3',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='hero_cta_link',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='image',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='page',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0001_initial.py	/^            name='promo_image',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^            name='field_type',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            name='collection',$/;"	v	class:Migration
+name	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^            name='field_type',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0001_initial.py	/^            name='BlogIndexPage',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0001_initial.py	/^            name='BlogPage',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0001_initial.py	/^            name='BlogPageTag',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0001_initial.py	/^            name='BlogPeopleRelationship',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0001_initial.py	/^            name='tags',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0002_remove_blogindexpage_body.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='BreadIngredient',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='BreadPage',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='BreadType',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='BreadsIndexPage',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='Country',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='bread_type',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='image',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='ingredients',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0001_initial.py	/^            name='origin',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0002_remove_breadsindexpage_body.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/breads/models.py	/^    name = models.CharField(max_length=255)$/;"	v	class:BreadIngredient
+name	bakerydemo/locations/migrations/0001_initial.py	/^            name='LocationOperatingHours',$/;"	v	class:Migration
+name	bakerydemo/locations/migrations/0001_initial.py	/^            name='LocationPage',$/;"	v	class:Migration
+name	bakerydemo/locations/migrations/0001_initial.py	/^            name='LocationsIndexPage',$/;"	v	class:Migration
+name	bakerydemo/locations/migrations/0001_initial.py	/^            name='location',$/;"	v	class:Migration
+name	bakerydemo/locations/migrations/0002_remove_locationsindexpage_body.py	/^            name='body',$/;"	v	class:Migration
+name	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^            name='body',$/;"	v	class:Migration
+null	bakerydemo/base/models.py	/^        null=True,$/;"	v	class:FormPage
+null	bakerydemo/base/models.py	/^        null=True,$/;"	v	class:GalleryPage
+null	bakerydemo/base/models.py	/^        null=True,$/;"	v	class:HomePage
+null	bakerydemo/base/models.py	/^        null=True,$/;"	v	class:People
+null	bakerydemo/base/models.py	/^        null=True,$/;"	v	class:StandardPage
+null	bakerydemo/blog/models.py	/^        null=True,$/;"	v	class:BlogIndexPage
+null	bakerydemo/blog/models.py	/^        null=True,$/;"	v	class:BlogPage
+null	bakerydemo/breads/models.py	/^        null=True,$/;"	v	class:BreadPage
+null	bakerydemo/breads/models.py	/^        null=True,$/;"	v	class:BreadsIndexPage
+null	bakerydemo/locations/models.py	/^        null=True$/;"	v	class:OperatingHours
+null	bakerydemo/locations/models.py	/^        null=True,$/;"	v	class:LocationPage
+null	bakerydemo/locations/models.py	/^        null=True,$/;"	v	class:LocationsIndexPage
+on_delete	bakerydemo/base/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:FormPage
+on_delete	bakerydemo/base/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:GalleryPage
+on_delete	bakerydemo/base/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:HomePage
+on_delete	bakerydemo/base/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:People
+on_delete	bakerydemo/base/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:StandardPage
+on_delete	bakerydemo/blog/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:BlogIndexPage
+on_delete	bakerydemo/blog/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:BlogPage
+on_delete	bakerydemo/breads/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:BreadPage
+on_delete	bakerydemo/breads/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:BreadsIndexPage
+on_delete	bakerydemo/locations/models.py	/^        on_delete=models.CASCADE$/;"	v	class:LocationOperatingHours
+on_delete	bakerydemo/locations/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:LocationPage
+on_delete	bakerydemo/locations/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:LocationsIndexPage
+opening_time	bakerydemo/locations/models.py	/^    opening_time = models.TimeField($/;"	v	class:OperatingHours
+operating_hours	bakerydemo/locations/models.py	/^    def operating_hours(self):$/;"	m	class:LocationPage
+operations	bakerydemo/base/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/base/migrations/0002_auto_20170329_0055.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/base/migrations/0003_auto_20170823_1127.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/base/migrations/0004_auto_20180522_1856.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/blog/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/blog/migrations/0002_remove_blogindexpage_body.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/blog/migrations/0003_auto_20170329_0055.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/breads/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/breads/migrations/0002_remove_breadsindexpage_body.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/breads/migrations/0003_auto_20170329_0055.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/locations/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/locations/migrations/0002_remove_locationsindexpage_body.py	/^    operations = [$/;"	v	class:Migration
+operations	bakerydemo/locations/migrations/0003_auto_20170329_0055.py	/^    operations = [$/;"	v	class:Migration
+options	bakerydemo/base/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+options	bakerydemo/blog/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+options	bakerydemo/breads/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+options	bakerydemo/locations/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+origin	bakerydemo/breads/models.py	/^    origin = models.ForeignKey($/;"	v	class:BreadPage
+page	bakerydemo/base/models.py	/^    page = ParentalKey('FormPage', related_name='form_fields', on_delete=models.CASCADE)$/;"	v	class:FormField
+page	bakerydemo/blog/models.py	/^    page = ParentalKey($/;"	v	class:BlogPeopleRelationship
+paginate	bakerydemo/breads/models.py	/^    def paginate(self, request, *args):$/;"	m	class:BreadsIndexPage
+panels	bakerydemo/base/models.py	/^    panels = [$/;"	v	class:FooterText
+panels	bakerydemo/base/models.py	/^    panels = [$/;"	v	class:People
+panels	bakerydemo/blog/models.py	/^    panels = [$/;"	v	class:BlogPeopleRelationship
+panels	bakerydemo/breads/models.py	/^    panels = [$/;"	v	class:BreadIngredient
+panels	bakerydemo/breads/models.py	/^    panels = [$/;"	v	class:BreadType
+panels	bakerydemo/locations/models.py	/^    panels = [$/;"	v	class:OperatingHours
+paragraph_block	bakerydemo/base/blocks.py	/^    paragraph_block = RichTextBlock($/;"	v	class:BaseStreamBlock
+parent_page_types	bakerydemo/blog/models.py	/^    parent_page_types = ['BlogIndexPage']$/;"	v	class:BlogPage
+parent_page_types	bakerydemo/breads/models.py	/^    parent_page_types = ['BreadsIndexPage']$/;"	v	class:BreadPage
+parent_page_types	bakerydemo/locations/models.py	/^    parent_page_types = ['LocationsIndexPage']$/;"	v	class:LocationPage
+people	bakerydemo/blog/models.py	/^    people = models.ForeignKey($/;"	v	class:BlogPeopleRelationship
+promo_image	bakerydemo/base/models.py	/^    promo_image = models.ForeignKey($/;"	v	class:HomePage
+promo_text	bakerydemo/base/models.py	/^    promo_text = RichTextField($/;"	v	class:HomePage
+promo_title	bakerydemo/base/models.py	/^    promo_title = models.CharField($/;"	v	class:HomePage
+regex	bakerydemo/locations/models.py	/^                regex='^(\\-?\\d+(\\.\\d+)?),\\s*(\\-?\\d+(\\.\\d+)?)$',$/;"	v	class:LocationPage
+register	bakerydemo/base/templatetags/gallery_tags.py	/^register = template.Library()$/;"	v
+register	bakerydemo/base/templatetags/navigation_tags.py	/^register = template.Library()$/;"	v
+related_name	bakerydemo/base/models.py	/^        related_name='+'$/;"	v	class:FormPage
+related_name	bakerydemo/base/models.py	/^        related_name='+'$/;"	v	class:People
+related_name	bakerydemo/base/models.py	/^        related_name='+',$/;"	v	class:GalleryPage
+related_name	bakerydemo/base/models.py	/^        related_name='+',$/;"	v	class:HomePage
+related_name	bakerydemo/base/models.py	/^        related_name='+',$/;"	v	class:StandardPage
+related_name	bakerydemo/blog/models.py	/^        related_name='+',$/;"	v	class:BlogIndexPage
+related_name	bakerydemo/blog/models.py	/^        related_name='+',$/;"	v	class:BlogPage
+related_name	bakerydemo/breads/models.py	/^        related_name='+'$/;"	v	class:BreadPage
+related_name	bakerydemo/breads/models.py	/^        related_name='+',$/;"	v	class:BreadPage
+related_name	bakerydemo/breads/models.py	/^        related_name='+',$/;"	v	class:BreadsIndexPage
+related_name	bakerydemo/locations/models.py	/^        related_name='+',$/;"	v	class:LocationPage
+related_name	bakerydemo/locations/models.py	/^        related_name='+',$/;"	v	class:LocationsIndexPage
+related_name	bakerydemo/locations/models.py	/^        related_name='hours_of_operation',$/;"	v	class:LocationOperatingHours
+search	bakerydemo/search/views.py	/^def search(request):$/;"	f
+search_fields	bakerydemo/base/models.py	/^    search_fields = [$/;"	v	class:People
+search_fields	bakerydemo/blog/models.py	/^    search_fields = Page.search_fields + [$/;"	v	class:BlogPage
+search_fields	bakerydemo/breads/models.py	/^    search_fields = Page.search_fields + [$/;"	v	class:BreadPage
+search_fields	bakerydemo/locations/models.py	/^    search_fields = Page.search_fields + [$/;"	v	class:LocationPage
+serve_preview	bakerydemo/blog/models.py	/^    def serve_preview(self, request, mode_name):$/;"	m	class:BlogIndexPage
+size	bakerydemo/base/blocks.py	/^    size = ChoiceBlock(choices=[$/;"	v	class:HeadingBlock
+subpage_types	bakerydemo/base/models.py	/^    subpage_types = []$/;"	v	class:GalleryPage
+subpage_types	bakerydemo/blog/models.py	/^    subpage_types = ['BlogPage']$/;"	v	class:BlogIndexPage
+subpage_types	bakerydemo/blog/models.py	/^    subpage_types = []$/;"	v	class:BlogPage
+subpage_types	bakerydemo/breads/models.py	/^    subpage_types = ['BreadPage']$/;"	v	class:BreadsIndexPage
+subpage_types	bakerydemo/locations/models.py	/^    subpage_types = ['LocationPage']$/;"	v	class:LocationsIndexPage
+subtitle	bakerydemo/blog/models.py	/^    subtitle = models.CharField(blank=True, max_length=255)$/;"	v	class:BlogPage
+tag_archive	bakerydemo/blog/models.py	/^    def tag_archive(self, request, tag=None):$/;"	m	class:BlogIndexPage
+tags	bakerydemo/blog/models.py	/^    tags = ClusterTaggableManager(through=BlogPageTag, blank=True)$/;"	v	class:BlogPage
+template	bakerydemo/base/blocks.py	/^        template = "blocks\/blockquote.html"$/;"	v	class:BlockQuote.Meta
+template	bakerydemo/base/blocks.py	/^        template = "blocks\/heading_block.html"$/;"	v	class:HeadingBlock.Meta
+template	bakerydemo/base/blocks.py	/^        template = "blocks\/image_block.html"$/;"	v	class:ImageBlock.Meta
+template	bakerydemo/base/blocks.py	/^        template="blocks\/embed_block.html")$/;"	v	class:BaseStreamBlock
+template	bakerydemo/base/blocks.py	/^        template="blocks\/paragraph_block.html"$/;"	v	class:BaseStreamBlock
+text	bakerydemo/base/blocks.py	/^    text = TextBlock()$/;"	v	class:BlockQuote
+thank_you_text	bakerydemo/base/models.py	/^    thank_you_text = RichTextField(blank=True)$/;"	v	class:FormPage
+thumb_image	bakerydemo/base/models.py	/^    def thumb_image(self):$/;"	m	class:People
+title	bakerydemo/breads/models.py	/^    title = models.CharField(max_length=100)$/;"	v	class:Country
+title	bakerydemo/breads/models.py	/^    title = models.CharField(max_length=255)$/;"	v	class:BreadType
+top_menu	bakerydemo/base/templatetags/navigation_tags.py	/^def top_menu(context, parent, calling_page=None):$/;"	f
+top_menu_children	bakerydemo/base/templatetags/navigation_tags.py	/^def top_menu_children(context, parent, calling_page=None):$/;"	f
+url	bakerydemo/urls.py	/^                url=settings.STATIC_URL + 'img\/bread-favicon.ico'$/;"	v
+urlpatterns	bakerydemo/urls.py	/^urlpatterns = [$/;"	v
+validators	bakerydemo/locations/models.py	/^        validators=[$/;"	v	class:LocationPage
+verbose_name	bakerydemo/base/models.py	/^        verbose_name = 'Person'$/;"	v	class:People.Meta
+verbose_name	bakerydemo/base/models.py	/^        verbose_name='Featured section 1'$/;"	v	class:HomePage
+verbose_name	bakerydemo/base/models.py	/^        verbose_name='Featured section 2'$/;"	v	class:HomePage
+verbose_name	bakerydemo/base/models.py	/^        verbose_name='Featured section 3'$/;"	v	class:HomePage
+verbose_name	bakerydemo/base/models.py	/^        verbose_name='Hero CTA link',$/;"	v	class:HomePage
+verbose_name	bakerydemo/base/models.py	/^        verbose_name='Hero CTA',$/;"	v	class:HomePage
+verbose_name_plural	bakerydemo/base/models.py	/^        verbose_name_plural = 'Footer Text'$/;"	v	class:FooterText.Meta
+verbose_name_plural	bakerydemo/base/models.py	/^        verbose_name_plural = 'People'$/;"	v	class:People.Meta
+verbose_name_plural	bakerydemo/breads/models.py	/^        verbose_name_plural = "Bread types"$/;"	v	class:BreadType.Meta
+verbose_name_plural	bakerydemo/breads/models.py	/^        verbose_name_plural = "Countries of Origin"$/;"	v	class:Country.Meta
+verbose_name_plural	bakerydemo/breads/models.py	/^        verbose_name_plural = 'Bread ingredients'$/;"	v	class:BreadIngredient.Meta
+widget	bakerydemo/breads/models.py	/^                    widget=forms.CheckboxSelectMultiple,$/;"	v	class:BreadPage

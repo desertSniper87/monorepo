@@ -1,0 +1,8 @@
+#cryptography
+django~=2.1
+djangorestframework
+djangorestframework-jwt
+psycopg2
+pillow
+django-cors-headers~=3.0.2
+django_rest_passwordreset

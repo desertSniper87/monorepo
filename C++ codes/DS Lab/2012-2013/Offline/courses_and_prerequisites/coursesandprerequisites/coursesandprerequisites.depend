@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1014823031 source:c:\users\contest\desktop\h\src\courses_and_prerequisites\coursesandprerequisites\main.cpp
+	<iostream>
+	<cstdio>
+

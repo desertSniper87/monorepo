@@ -1,0 +1,55 @@
+{#{% url 'home' as home_url %}#}
+{#{% url 'contact' as contact_url %}#}
+{#{% url 'products:list' as products_list_url %}#}
+{#{% url 'login' as login_url %}#}
+{#{% url 'register' as register_url %}#}
+{#{% url 'carts:home' as cart_url %}#}
+
+<header>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3" id="navbar">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="{{ home_url }}">
+      <img src="https://www.shareicon.net/data/32x32/2016/06/27/787455_sun_512x512.png" alt="" id="logo"/>
+      {%if brand_name %}
+          {{brand_name}}
+      {%else%}
+          Navbar
+      {%endif%}
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if request.path == home_url %} active {%endif%}">
+          <a class="nav-link" href="{{ home_url }}">নীড়পাতা<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item {% if request.path == products_list_url %} active {%endif%}">
+          <a class="nav-link" href="{{ products_list_url }}">মাল</a>
+      </li>
+      {% if request.user.is_authenticated %}
+      <!--
+         -Need to implement Logout
+         -->
+          <li class="nav-item {% if request.path == login_url%} active {%endif%}">
+              <a class="nav-link" href="{{login_url}}">লগ আঊট</a>
+          </li>
+      {% else %}
+          <li class="nav-item {% if request.path == login_url%} active {%endif%}">
+              <a class="nav-link" href="{{login_url}}">লগইন</a>
+          </li>
+          <li class="nav-item {% if request.path == register_url %} active {%endif%}">
+              <a class="nav-link" href="{{ register_url}}#">রেজিস্টার</a>
+          </li>
+      {% endif %}
+      <li class="nav-item {% if request.path == contact_url %} active {%endif%}">
+          <a class="nav-link" href="{{ contact_url}}#">যোগাযোগ</a>
+      </li>
+      <li class="nav-item {% if request.path == cart_url %} active {%endif%}">
+          <a class="nav-link" href="{{ cart_url}}#"><i class="fas fa-shopping-cart"></i>  {{request.session.cart_items}}</a>
+      </li>
+    </ul>
+    {#{% include "search/snippets/search-form.html" %}#}
+  </div>
+</nav>
+</header>

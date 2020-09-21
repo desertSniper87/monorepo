@@ -1,0 +1,53 @@
+﻿  Building Custom Rule C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/libIME/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Torsho\Dropbox\Programming Code\C# Codes\libIME\CMakeFiles\generate.stamp is up-to-date.
+  ImeModule.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeModule.cpp(161): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\ImeModule.cpp(276): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  libIME.cpp
+  TextService.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\TextService.cpp(665): warning C4800: 'DWORD': forcing value to bool 'true' or 'false' (performance warning)
+  KeyEvent.cpp
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\KeyEvent.cpp(27): warning C4244: 'initializing': conversion from 'WPARAM' to 'UINT', possible loss of data
+  EditSession.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  DisplayAttributeInfo.cpp
+  DisplayAttributeInfoEnum.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+  DisplayAttributeProvider.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+  LangBarButton.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\LangBarButton.cpp(119): warning C4312: 'type cast': conversion from 'UINT' to 'LPCTSTR' of greater size
+  Utils.cpp
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Utils.cpp(47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\Utils.cpp(50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  DrawUtils.cpp
+  Window.cpp
+  ImeWindow.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  MessageWindow.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\MessageWindow.cpp(41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\MessageWindow.cpp(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CandidateWindow.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(147): warning C4267: 'argument': conversion from 'size_t' to 'const UINT', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(255): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(285): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(298): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(309): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(310): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(318): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME\CandidateWindow.cpp(412): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  Generating Code...
+  libIME_static.vcxproj -> C:\Users\Torsho\Dropbox\Programming Code\C# Codes\libIME\Release\libIME_static.lib

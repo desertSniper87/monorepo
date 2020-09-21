@@ -1,0 +1,165 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+CLF_PICKLE_FILENAME	final_project/tester.py	/^CLF_PICKLE_FILENAME = "my_classifier.pkl"$/;"	v
+DATASET_PICKLE_FILENAME	final_project/tester.py	/^DATASET_PICKLE_FILENAME = "my_dataset.pkl"$/;"	v
+Draw	k_means/k_means_cluster.py	/^def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature 1", f2_name="fe/;"	f
+FEATURE_LIST_FILENAME	final_project/tester.py	/^FEATURE_LIST_FILENAME = "my_feature_list.pkl"$/;"	v
+PERF_FORMAT_STRING	final_project/tester.py	/^PERF_FORMAT_STRING = "\\$/;"	v
+RESULTS_FORMAT_STRING	final_project/tester.py	/^RESULTS_FORMAT_STRING = "\\tTotal predictions: {:4d}\\tTrue positives: {:4d}\\tFalse positives: /;"	v
+X	pca/eigenfaces.py	/^X = lfw_people.data$/;"	v
+X_test	pca/eigenfaces.py	/^X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)$/;"	v
+X_test_pca	pca/eigenfaces.py	/^X_test_pca = pca.transform(X_test)$/;"	v
+X_train	pca/eigenfaces.py	/^X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)$/;"	v
+X_train_pca	pca/eigenfaces.py	/^X_train_pca = pca.transform(X_train)$/;"	v
+ages	outliers/outlier_removal_regression.py	/^    ages       = numpy.reshape( numpy.array(ages), (len(ages), 1))$/;"	v
+ages	outliers/outlier_removal_regression.py	/^    ages, net_worths, errors = zip(*cleaned_data)$/;"	v
+ages	outliers/outlier_removal_regression.py	/^ages       = numpy.reshape( numpy.array(ages), (len(ages), 1))$/;"	v
+ages	outliers/outlier_removal_regression.py	/^ages = pickle.load( open("practice_outliers_ages.pkl", "r") )$/;"	v
+ages_test	outliers/outlier_removal_regression.py	/^ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, te/;"	v
+ages_train	outliers/outlier_removal_regression.py	/^ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, te/;"	v
+authors	feature_selection/find_signature.py	/^authors = pickle.load( open(authors_file, "r") )$/;"	v
+authors_file	feature_selection/find_signature.py	/^authors_file = "..\/text_learning\/your_email_authors.pkl"$/;"	v
+bumpy_fast	choose_your_own/your_algorithm.py	/^bumpy_fast = [features_train[ii][1] for ii in range(0, len(features_train)) if labels_train[ii]=/;"	v
+bumpy_slow	choose_your_own/your_algorithm.py	/^bumpy_slow = [features_train[ii][1] for ii in range(0, len(features_train)) if labels_train[ii]=/;"	v
+cleaned_data	outliers/outlier_removal_regression.py	/^    cleaned_data = outlierCleaner( predictions, ages_train, net_worths_train )$/;"	v
+cleaned_data	outliers/outlier_removal_regression.py	/^cleaned_data = []$/;"	v
+clf	final_project/poi_id.py	/^clf = GaussianNB()$/;"	v
+clf	pca/eigenfaces.py	/^clf = GridSearchCV(SVC(kernel='rbf', class_weight='balanced'), param_grid)$/;"	v
+clf	pca/eigenfaces.py	/^clf = clf.fit(X_train_pca, y_train)$/;"	v
+data	evaluation/evaluate_poi_identifier.py	/^data = featureFormat(data_dict, features_list)$/;"	v
+data	final_project/poi_id.py	/^data = featureFormat(my_dataset, features_list, sort_keys = True)$/;"	v
+data	k_means/k_means_cluster.py	/^data = featureFormat(data_dict, features_list )$/;"	v
+data	outliers/enron_outliers.py	/^data = featureFormat(data_dict, features)$/;"	v
+data	regression/finance_regression.py	/^data = featureFormat( dictionary, features_list, remove_any_zeroes=True)$/;"	v
+data	validation/validate_poi.py	/^data = featureFormat(data_dict, features_list)$/;"	v
+data_dict	evaluation/evaluate_poi_identifier.py	/^data_dict = pickle.load(open("..\/final_project\/final_project_dataset.pkl", "r") )$/;"	v
+data_dict	final_project/poi_id.py	/^    data_dict = pickle.load(data_file)$/;"	v
+data_dict	k_means/k_means_cluster.py	/^data_dict = pickle.load( open("..\/final_project\/final_project_dataset.pkl", "r") )$/;"	v
+data_dict	outliers/enron_outliers.py	/^data_dict = pickle.load( open("..\/final_project\/final_project_dataset.pkl", "r") )$/;"	v
+data_dict	validation/validate_poi.py	/^data_dict = pickle.load(open("..\/final_project\/final_project_dataset.pkl", "r") )$/;"	v
+dictionary	regression/finance_regression.py	/^dictionary = pickle.load( open("..\/final_project\/final_project_dataset_modified.pkl", "r") )$/;"	v
+dump_classifier_and_data	final_project/tester.py	/^def dump_classifier_and_data(clf, dataset, feature_list):$/;"	f
+eigenface_titles	pca/eigenfaces.py	/^eigenface_titles = ["eigenface %d" % i for i in range(eigenfaces.shape[0])]$/;"	v
+eigenfaces	pca/eigenfaces.py	/^eigenfaces = pca.components_.reshape((n_components, h, w))$/;"	v
+email	text_learning/vectorize_text.py	/^            email = open(path, "r")$/;"	v
+enron_data	datasets_questions/explore_enron_data.py	/^enron_data = pickle.load(open("..\/final_project\/final_project_dataset.pkl", "r"))$/;"	v
+errors	outliers/outlier_removal_regression.py	/^    ages, net_worths, errors = zip(*cleaned_data)$/;"	v
+featureFormat	tools/feature_format.py	/^def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True, remove_any_zer/;"	f
+feature_1	k_means/k_means_cluster.py	/^feature_1 = "salary"$/;"	v
+feature_2	k_means/k_means_cluster.py	/^feature_2 = "exercised_stock_options"$/;"	v
+feature_test	regression/finance_regression.py	/^feature_train, feature_test, target_train, target_test = train_test_split(features, target, test/;"	v
+feature_train	regression/finance_regression.py	/^feature_train, feature_test, target_train, target_test = train_test_split(features, target, test/;"	v
+features	evaluation/evaluate_poi_identifier.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+features	final_project/poi_id.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+features	outliers/enron_outliers.py	/^features = ["salary", "bonus"]$/;"	v
+features	regression/finance_regression.py	/^target, features = targetFeatureSplit( data )$/;"	v
+features	validation/validate_poi.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+features_list	evaluation/evaluate_poi_identifier.py	/^features_list = ["poi", "salary"]$/;"	v
+features_list	final_project/poi_id.py	/^features_list = ['poi','salary'] # You will need to use more features$/;"	v
+features_list	k_means/k_means_cluster.py	/^features_list = [poi, feature_1, feature_2]$/;"	v
+features_list	regression/finance_regression.py	/^features_list = ["bonus", "salary"]$/;"	v
+features_list	validation/validate_poi.py	/^features_list = ["poi", "salary"]$/;"	v
+features_test	choose_your_own/your_algorithm.py	/^features_train, labels_train, features_test, labels_test = makeTerrainData()$/;"	v
+features_test	decision_tree/dt_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+features_test	feature_selection/find_signature.py	/^features_test  = vectorizer.transform(features_test).toarray()$/;"	v
+features_test	feature_selection/find_signature.py	/^features_train, features_test, labels_train, labels_test = cross_validation.train_test_split(wor/;"	v
+features_test	final_project/poi_id.py	/^features_train, features_test, labels_train, labels_test = \\$/;"	v
+features_test	naive_bayes/nb_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+features_test	svm/svm_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+features_train	choose_your_own/your_algorithm.py	/^features_train, labels_train, features_test, labels_test = makeTerrainData()$/;"	v
+features_train	decision_tree/dt_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+features_train	feature_selection/find_signature.py	/^features_train = features_train[:150].toarray()$/;"	v
+features_train	feature_selection/find_signature.py	/^features_train = vectorizer.fit_transform(features_train)$/;"	v
+features_train	feature_selection/find_signature.py	/^features_train, features_test, labels_train, labels_test = cross_validation.train_test_split(wor/;"	v
+features_train	final_project/poi_id.py	/^features_train, features_test, labels_train, labels_test = \\$/;"	v
+features_train	naive_bayes/nb_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+features_train	svm/svm_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+finance_features	k_means/k_means_cluster.py	/^poi, finance_features = targetFeatureSplit( data )$/;"	v
+from_chris	text_learning/vectorize_text.py	/^from_chris = open("from_chris.txt", "r")$/;"	v
+from_data	text_learning/vectorize_text.py	/^from_data = []$/;"	v
+from_sara	text_learning/vectorize_text.py	/^from_sara  = open("from_sara.txt", "r")$/;"	v
+grade_fast	choose_your_own/your_algorithm.py	/^grade_fast = [features_train[ii][0] for ii in range(0, len(features_train)) if labels_train[ii]=/;"	v
+grade_slow	choose_your_own/your_algorithm.py	/^grade_slow = [features_train[ii][0] for ii in range(0, len(features_train)) if labels_train[ii]=/;"	v
+h	pca/eigenfaces.py	/^n_samples, h, w = lfw_people.images.shape$/;"	v
+labels	evaluation/evaluate_poi_identifier.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+labels	final_project/poi_id.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+labels	validation/validate_poi.py	/^labels, features = targetFeatureSplit(data)$/;"	v
+labels_test	choose_your_own/your_algorithm.py	/^features_train, labels_train, features_test, labels_test = makeTerrainData()$/;"	v
+labels_test	decision_tree/dt_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+labels_test	feature_selection/find_signature.py	/^features_train, features_test, labels_train, labels_test = cross_validation.train_test_split(wor/;"	v
+labels_test	final_project/poi_id.py	/^features_train, features_test, labels_train, labels_test = \\$/;"	v
+labels_test	naive_bayes/nb_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+labels_test	svm/svm_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+labels_train	choose_your_own/your_algorithm.py	/^features_train, labels_train, features_test, labels_test = makeTerrainData()$/;"	v
+labels_train	decision_tree/dt_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+labels_train	feature_selection/find_signature.py	/^features_train, features_test, labels_train, labels_test = cross_validation.train_test_split(wor/;"	v
+labels_train	feature_selection/find_signature.py	/^labels_train   = labels_train[:150]$/;"	v
+labels_train	final_project/poi_id.py	/^features_train, features_test, labels_train, labels_test = \\$/;"	v
+labels_train	naive_bayes/nb_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+labels_train	svm/svm_author_id.py	/^features_train, features_test, labels_train, labels_test = preprocess()$/;"	v
+lfw_people	pca/eigenfaces.py	/^lfw_people = fetch_lfw_people(min_faces_per_person=70, resize=0.4)$/;"	v
+load_classifier_and_data	final_project/tester.py	/^def load_classifier_and_data():$/;"	f
+main	final_project/tester.py	/^def main():$/;"	f
+main	tools/parse_out_email_text.py	/^def main():$/;"	f
+makeTerrainData	choose_your_own/prep_terrain_data.py	/^def makeTerrainData(n_points=1000):$/;"	f
+my_dataset	final_project/poi_id.py	/^my_dataset = data_dict$/;"	v
+n_classes	pca/eigenfaces.py	/^n_classes = target_names.shape[0]$/;"	v
+n_components	pca/eigenfaces.py	/^n_components = 150$/;"	v
+n_features	pca/eigenfaces.py	/^n_features = X.shape[1]$/;"	v
+n_samples	pca/eigenfaces.py	/^n_samples, h, w = lfw_people.images.shape$/;"	v
+net_worths	outliers/outlier_removal_regression.py	/^    ages, net_worths, errors = zip(*cleaned_data)$/;"	v
+net_worths	outliers/outlier_removal_regression.py	/^    net_worths = numpy.reshape( numpy.array(net_worths), (len(net_worths), 1))$/;"	v
+net_worths	outliers/outlier_removal_regression.py	/^net_worths = numpy.reshape( numpy.array(net_worths), (len(net_worths), 1))$/;"	v
+net_worths	outliers/outlier_removal_regression.py	/^net_worths = pickle.load( open("practice_outliers_net_worths.pkl", "r") )$/;"	v
+net_worths_test	outliers/outlier_removal_regression.py	/^ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, te/;"	v
+net_worths_train	outliers/outlier_removal_regression.py	/^ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, te/;"	v
+np	choose_your_own/class_vis.py	/^import numpy as np$/;"	I
+np	pca/eigenfaces.py	/^import numpy as np$/;"	I
+np	tools/feature_format.py	/^import numpy as np$/;"	I
+outlierCleaner	outliers/outlier_cleaner.py	/^def outlierCleaner(predictions, ages, net_worths):$/;"	f
+output_image	choose_your_own/class_vis.py	/^def output_image(name, format, bytes):$/;"	f
+param_grid	pca/eigenfaces.py	/^param_grid = {$/;"	v
+parseOutText	tools/parse_out_email_text.py	/^def parseOutText(f):$/;"	f
+path	text_learning/vectorize_text.py	/^            path = os.path.join('..', path[:-1])$/;"	v
+pca	pca/eigenfaces.py	/^pca = RandomizedPCA(n_components=n_components, whiten=True).fit(X_train)$/;"	v
+pl	choose_your_own/class_vis.py	/^import pylab as pl$/;"	I
+pl	pca/eigenfaces.py	/^import pylab as pl$/;"	I
+plot_gallery	pca/eigenfaces.py	/^def plot_gallery(images, titles, h, w, n_row=3, n_col=4):$/;"	f
+plt	choose_your_own/class_vis.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	choose_your_own/your_algorithm.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	k_means/k_means_cluster.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	outliers/outlier_removal_regression.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	regression/finance_regression.py	/^import matplotlib.pyplot as plt$/;"	I
+poi	k_means/k_means_cluster.py	/^poi  = "poi"$/;"	v
+poi	k_means/k_means_cluster.py	/^poi, finance_features = targetFeatureSplit( data )$/;"	v
+poiEmails	final_project/poi_email_addresses.py	/^def poiEmails():$/;"	f
+prediction_titles	pca/eigenfaces.py	/^prediction_titles = [title(y_pred, y_test, target_names, i)$/;"	v
+preprocess	tools/email_preprocess.py	/^def preprocess(words_file = "..\/tools\/word_data.pkl", authors_file="..\/tools\/email_authors.p/;"	f
+prettyPicture	choose_your_own/class_vis.py	/^def prettyPicture(clf, X_test, y_test):$/;"	f
+t0	pca/eigenfaces.py	/^t0 = time()$/;"	v
+target	regression/finance_regression.py	/^target, features = targetFeatureSplit( data )$/;"	v
+targetFeatureSplit	tools/feature_format.py	/^def targetFeatureSplit( data ):$/;"	f
+target_names	pca/eigenfaces.py	/^target_names = lfw_people.target_names$/;"	v
+target_test	regression/finance_regression.py	/^feature_train, feature_test, target_train, target_test = train_test_split(features, target, test/;"	v
+target_train	regression/finance_regression.py	/^feature_train, feature_test, target_train, target_test = train_test_split(features, target, test/;"	v
+temp_counter	text_learning/vectorize_text.py	/^temp_counter = 0$/;"	v
+test_classifier	final_project/tester.py	/^def test_classifier(clf, dataset, feature_list, folds = 1000):$/;"	f
+test_color	regression/finance_regression.py	/^test_color = "b"$/;"	v
+tfile	tools/startup.py	/^tfile = tarfile.open("enron_mail_20150507.tar.gz", "r:gz")$/;"	v
+title	pca/eigenfaces.py	/^def title(y_pred, y_test, target_names, i):$/;"	f
+train_color	regression/finance_regression.py	/^train_color = "b"$/;"	v
+url	tools/startup.py	/^url = "https:\/\/www.cs.cmu.edu\/~.\/enron\/enron_mail_20150507.tar.gz"$/;"	v
+vectorizer	feature_selection/find_signature.py	/^vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5,$/;"	v
+w	pca/eigenfaces.py	/^n_samples, h, w = lfw_people.images.shape$/;"	v
+word_data	feature_selection/find_signature.py	/^word_data = pickle.load( open(words_file, "r"))$/;"	v
+word_data	text_learning/vectorize_text.py	/^word_data = []$/;"	v
+words_file	feature_selection/find_signature.py	/^words_file = "..\/text_learning\/your_word_data.pkl" $/;"	v
+y	pca/eigenfaces.py	/^y = lfw_people.target$/;"	v
+y_pred	pca/eigenfaces.py	/^y_pred = clf.predict(X_test_pca)$/;"	v
+y_test	pca/eigenfaces.py	/^X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)$/;"	v
+y_train	pca/eigenfaces.py	/^X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)$/;"	v

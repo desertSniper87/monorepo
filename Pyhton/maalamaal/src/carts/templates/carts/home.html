@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Cart</h1>
+    
+{% if cart.products.exists %}
+    
+<table class="table cart-table">
+
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Product Price</th>
+    </tr>
+  </thead>
+
+  <tbody class='cart-table-body'>
+      
+
+    {% for product in cart.products.all %}
+
+    <tr class="cart-product">
+      <th scope="row">{{forloop.counter}}</th>
+      <td>
+          <a href={{product.get_absolute_url}}>
+              {{product.title}}
+          </a>
+          <small>
+
+            {%include 'products/snippets/update-cart.html' with product=product cart=cart in_cart=True%}
+
+          </small>
+      </td>
+      <td>{{product.price}}</td>
+    </tr>
+
+    {%endfor%}
+
+
+    <tr>
+      <th scope="row"></th>
+      <td><b>Total Price</b></td>
+        <td class="cart-total"><b>{{cart.total}}</b></td>
+    </tr>
+
+    <tr>
+      <th scope="row"></th>
+      <td><b>Total w/ tax</b></td>
+        <td class="cart-tax-total"><b>{{cart.tax_total}}</b></td>
+    </tr>
+
+    <tr>
+      <td colspan="2"></td>
+      <td><a href='{%url "carts:checkout"%}' class="btn btn-success">Checkout</a></td>
+    </tr>
+
+  </tbody>
+
+</table>    
+
+{% else %}
+
+<p class="lead">Cart is empty.</p>
+
+{% endif %}
+{% endblock content %}

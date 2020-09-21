@@ -1,0 +1,43 @@
+﻿  Building Custom Rule C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/PIME/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\CMakeFiles\generate.stamp is up-to-date.
+  PIMEImeModule.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\LibIME/TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): warning C4005: 'NDEBUG': macro redefinition
+  c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): note: command-line arguments:  see previous definition of 'NDEBUG'
+  PIMETextService.cpp
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\LibIME/TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): warning C4005: 'NDEBUG': macro redefinition
+  c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): note: command-line arguments:  see previous definition of 'NDEBUG'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMETextService.cpp(393): warning C4244: '=': conversion from 'UINT_PTR' to 'UINT', possible loss of data
+  PIMEClient.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): warning C4005: 'NDEBUG': macro redefinition
+  c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): note: command-line arguments:  see previous definition of 'NDEBUG'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\libIME/TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(111): warning C4996: 'Json::ValueIteratorBase::memberName': Use `key = name();` instead.
+  c:\users\torsho\dropbox\programming code\c# codes\pime\jsoncpp\include\json\value.h(720): note: see declaration of 'Json::ValueIteratorBase::memberName'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(182): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(204): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(481): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(523): warning C4244: '=': conversion from 'UINT_PTR' to 'UINT', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(649): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\PIMEClient.cpp(725): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  PIMELangBarButton.CPP
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\LibIME/TextService.h(284): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): warning C4005: 'NDEBUG': macro redefinition
+  c:\users\torsho\dropbox\programming code\c# codes\pime\pime\PIMEClient.h(22): note: command-line arguments:  see previous definition of 'NDEBUG'
+  DllEntry.cpp
+c:\users\torsho\dropbox\programming code\c# codes\pime\libime\WindowsVersion.h(15): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\um\sysinfoapi.h(183): note: see declaration of 'GetVersion'
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\DllEntry.cpp(60): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\PIME\DllEntry.cpp(139): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+     Creating library C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/Release/PIMETextService.lib and object C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/Release/PIMETextService.exp
+  PIMETextService.vcxproj -> C:\Users\Torsho\Dropbox\Programming Code\C# Codes\PIME\Release\PIMETextService.dll

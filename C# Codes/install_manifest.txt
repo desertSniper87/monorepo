@@ -1,0 +1,13 @@
+C:/Program Files/PIME/lib/pkgconfig/jsoncpp.pc
+C:/Program Files/PIME/lib/jsoncpp.lib
+C:/Program Files/PIME/include/json/allocator.h
+C:/Program Files/PIME/include/json/assertions.h
+C:/Program Files/PIME/include/json/autolink.h
+C:/Program Files/PIME/include/json/config.h
+C:/Program Files/PIME/include/json/features.h
+C:/Program Files/PIME/include/json/forwards.h
+C:/Program Files/PIME/include/json/json.h
+C:/Program Files/PIME/include/json/reader.h
+C:/Program Files/PIME/include/json/value.h
+C:/Program Files/PIME/include/json/version.h
+C:/Program Files/PIME/include/json/writer.h

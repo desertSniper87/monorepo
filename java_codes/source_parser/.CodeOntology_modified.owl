@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://rdf.webofcode.org/woc/"
+     xml:base="http://rdf.webofcode.org/woc/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://rdf.webofcode.org/woc/">
+        <rdfs:comment xml:lang="en">An ontology that represents structural and imperative programming languages</rdfs:comment>
+        <rdfs:label xml:lang="en">CodeOntology_Modified</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/conditions -->
+
+    <owl:ObjectProperty rdf:about="http://rdf.webofcode.org/woc/conditions">
+        <owl:inverseOf rdf:resource="http://rdf.webofcode.org/woc/has_condition"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://rdf.webofcode.org/woc/conditions"/>
+                <owl:someValuesFrom rdf:resource="http://rdf.webofcode.org/woc/ConditionalStructure"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://rdf.webofcode.org/woc/conditions"/>
+                <owl:someValuesFrom rdf:resource="http://rdf.webofcode.org/woc/RepetitiveStructure"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/has_condition -->
+
+    <owl:ObjectProperty rdf:about="http://rdf.webofcode.org/woc/has_condition"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/is_included_in -->
+
+    <owl:ObjectProperty rdf:about="http://rdf.webofcode.org/woc/is_included_in"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/is_type_of -->
+
+    <owl:ObjectProperty rdf:about="http://rdf.webofcode.org/woc/is_type_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Comment -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/Comment"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/ConditionalStructure -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/ConditionalStructure">
+        <rdfs:subClassOf rdf:resource="http://rdf.webofcode.org/woc/ProgrammingStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Constants -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/Constants"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/DataType -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/DataType"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Operator -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/Operator"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/ProgrammingStructure -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/ProgrammingStructure"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/RepetitiveStructure -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/RepetitiveStructure">
+        <rdfs:subClassOf rdf:resource="http://rdf.webofcode.org/woc/ProgrammingStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/SystemFunction -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/SystemFunction"/>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Variable -->
+
+    <owl:Class rdf:about="http://rdf.webofcode.org/woc/Variable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Boolean -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Boolean">
+        <rdfs:comment xml:lang="en">The boolean type</rdfs:comment>
+        <rdfs:label xml:lang="en">Boolean</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Byte -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Byte">
+        <rdfs:comment xml:lang="en">The byte type</rdfs:comment>
+        <rdfs:label xml:lang="en">Byte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Char -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Char">
+        <rdfs:comment xml:lang="en">The char type</rdfs:comment>
+        <rdfs:label xml:lang="en">Char</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Default -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Default">
+        <rdfs:comment xml:lang="en">The default modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Default</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Double -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Double">
+        <rdfs:comment xml:lang="en">The double type</rdfs:comment>
+        <rdfs:label xml:lang="en">Double</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Final -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Final">
+        <rdfs:comment xml:lang="en">The final modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Final</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Float -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Float">
+        <rdfs:comment xml:lang="en">The float type</rdfs:comment>
+        <rdfs:label xml:lang="en">Float</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/For -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/For">
+        <rdf:type rdf:resource="http://rdf.webofcode.org/woc/RepetitiveStructure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Int -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Int">
+        <rdfs:comment xml:lang="en">The int type</rdfs:comment>
+        <rdfs:label xml:lang="en">Int</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Long -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Long">
+        <rdfs:comment xml:lang="en">The long type</rdfs:comment>
+        <rdfs:label xml:lang="en">Long</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Private -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Private">
+        <rdfs:comment xml:lang="en">The private modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Private</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Protected -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Protected">
+        <rdfs:comment xml:lang="en">The protected modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Protected</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Public -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Public">
+        <rdfs:comment xml:lang="en">The public modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Public</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Short -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Short">
+        <rdfs:comment xml:lang="en">The short type</rdfs:comment>
+        <rdfs:label xml:lang="en">Short</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Static -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Static">
+        <rdfs:comment xml:lang="en">The static modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Static</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Synchronized -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Synchronized">
+        <rdfs:comment xml:lang="en">The synchronized modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Synchronized</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/Volatile -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/Volatile">
+        <rdfs:comment xml:lang="en">The volatile modifier</rdfs:comment>
+        <rdfs:label xml:lang="en">Volatile</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.webofcode.org/woc/While -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.webofcode.org/woc/While">
+        <rdf:type rdf:resource="http://rdf.webofcode.org/woc/RepetitiveStructure"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

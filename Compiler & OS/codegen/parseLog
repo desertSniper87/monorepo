@@ -1,0 +1,1 @@
+PROGRAM ID '(' identifier_list ')' SEMICOLON declarations subprogram_declarations compound_statement

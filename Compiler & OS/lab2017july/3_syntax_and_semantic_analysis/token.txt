@@ -1,0 +1,46 @@
+<ID, main>
+<ID, a>
+<ID, b>
+<ID, c>
+<UNSIGNED, 3>
+<ID, a>
+
+<ASSIGNOP, =>
+<UNSIGNED, 1>
+
+<MULOP, *>
+<UNSIGNED, 2>
+
+<ADDOP, +>
+<UNSIGNED, 3>
+
+<MULOP, %>
+<UNSIGNED, 3>
+<ID, b>
+
+<ASSIGNOP, =>
+<UNSIGNED, 1>
+
+<RELOP, <>
+<UNSIGNED, 5>
+<ID, c>
+<UNSIGNED, 0>
+
+<ASSIGNOP, =>
+<UNSIGNED, 2>
+<ID, a>
+
+<LOGICOP, &&>
+<ID, b>
+<ID, c>
+<UNSIGNED, 0>
+<ID, c>
+<UNSIGNED, 1>
+
+<ASSIGNOP, =>
+<ID, c>
+<UNSIGNED, 0>
+<ID, printlb>
+<ID, a>
+<ID, printlb>
+<ID, b>

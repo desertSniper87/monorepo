@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/jsoncpp/src/lib_json/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\lib_json\CMakeFiles\generate.stamp is up-to-date.
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+  Generating Code...
+  jsoncpp_lib_static.vcxproj -> C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\lib_json\Release\jsoncpp.lib

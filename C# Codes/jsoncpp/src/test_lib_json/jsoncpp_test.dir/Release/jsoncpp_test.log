@@ -1,0 +1,64 @@
+﻿  Building Custom Rule C:/Users/Torsho/Dropbox/Programming Code/C# Codes/PIME/jsoncpp/src/test_lib_json/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\test_lib_json\CMakeFiles\generate.stamp is up-to-date.
+  jsontest.cpp
+  main.cpp
+  Generating Code...
+  jsoncpp_test.vcxproj -> C:\Users\Torsho\Dropbox\Programming Code\C# Codes\jsoncpp\src\test_lib_json\Release\jsoncpp_test.exe
+  Testing ValueTest/checkNormalizeFloatingPointStr: OK
+  Testing ValueTest/memberCount: OK
+  Testing ValueTest/objects: OK
+  Testing ValueTest/arrays: OK
+  Testing ValueTest/arrayIssue252: OK
+  Testing ValueTest/null: OK
+  Testing ValueTest/strings: OK
+  Testing ValueTest/bools: OK
+  Testing ValueTest/integers: OK
+  Testing ValueTest/nonIntegers: OK
+  Testing ValueTest/compareNull: OK
+  Testing ValueTest/compareInt: OK
+  Testing ValueTest/compareUInt: OK
+  Testing ValueTest/compareDouble: OK
+  Testing ValueTest/compareString: OK
+  Testing ValueTest/compareBoolean: OK
+  Testing ValueTest/compareArray: OK
+  Testing ValueTest/compareObject: OK
+  Testing ValueTest/compareType: OK
+  Testing ValueTest/offsetAccessors: OK
+  Testing ValueTest/typeChecksThrowExceptions: OK
+  Testing ValueTest/StaticString: OK
+  Testing ValueTest/CommentBefore: OK
+  Testing ValueTest/zeroes: OK
+  Testing ValueTest/zeroesInKeys: OK
+  Testing ValueTest/specialFloats: OK
+  Testing ValueTest/precision: OK
+  Testing WriterTest/dropNullPlaceholders: OK
+  Testing StreamWriterTest/dropNullPlaceholders: OK
+  Testing StreamWriterTest/writeZeroes: OK
+  Testing ReaderTest/parseWithNoErrors: OK
+  Testing ReaderTest/parseWithNoErrorsTestingOffsets: OK
+  Testing ReaderTest/parseWithOneError: OK
+  Testing ReaderTest/parseChineseWithOneError: OK
+  Testing ReaderTest/parseWithDetailError: OK
+  Testing CharReaderTest/parseWithNoErrors: OK
+  Testing CharReaderTest/parseWithNoErrorsTestingOffsets: OK
+  Testing CharReaderTest/parseWithOneError: OK
+  Testing CharReaderTest/parseChineseWithOneError: OK
+  Testing CharReaderTest/parseWithDetailError: OK
+  Testing CharReaderTest/parseWithStackLimit: OK
+  Testing CharReaderStrictModeTest/dupKeys: OK
+  Testing CharReaderFailIfExtraTest/issue164: OK
+  Testing CharReaderFailIfExtraTest/issue107: OK
+  Testing CharReaderFailIfExtraTest/commentAfterObject: OK
+  Testing CharReaderFailIfExtraTest/commentAfterArray: OK
+  Testing CharReaderFailIfExtraTest/commentAfterBool: OK
+  Testing CharReaderAllowDropNullTest/issue178: OK
+  Testing CharReaderAllowSingleQuotesTest/issue182: OK
+  Testing CharReaderAllowZeroesTest/issue176: OK
+  Testing CharReaderAllowSpecialFloatsTest/issue209: OK
+  Testing BuilderTest/settings: OK
+  Testing IteratorTest/distance: OK
+  Testing IteratorTest/names: OK
+  Testing IteratorTest/indexes: OK
+  Testing IteratorTest/const: OK
+  Testing RValueTest/moveConstruction: OK
+  All 57 tests passed

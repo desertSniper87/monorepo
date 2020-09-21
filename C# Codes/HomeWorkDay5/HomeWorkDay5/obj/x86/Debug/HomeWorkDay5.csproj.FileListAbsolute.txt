@@ -1,0 +1,5 @@
+E:\Programming Code\C# Codes\HomeWorkDay5\HomeWorkDay5\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programming Code\C# Codes\HomeWorkDay5\HomeWorkDay5\bin\Debug\HomeWorkDay5.exe
+E:\Programming Code\C# Codes\HomeWorkDay5\HomeWorkDay5\bin\Debug\HomeWorkDay5.pdb
+E:\Programming Code\C# Codes\HomeWorkDay5\HomeWorkDay5\obj\x86\Debug\HomeWorkDay5.exe
+E:\Programming Code\C# Codes\HomeWorkDay5\HomeWorkDay5\obj\x86\Debug\HomeWorkDay5.pdb

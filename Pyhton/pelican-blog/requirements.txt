@@ -1,0 +1,13 @@
+Jinja2
+Markdown
+MarkupSafe
+Pygments
+Unidecode
+blinker
+docutils
+feedgenerator
+ghp-import
+pelican
+python-dateutil
+pytz
+six

@@ -1,0 +1,20 @@
+function Average (Row : array of integer) : real;
+	var 	I : integer;
+		Temp : real;
+	begin
+		Temp := Row[0];
+		I := 1; 
+		while I <= High(Row) do
+			Temp := Temp + Row[I];
+			I := I+1;
+		Average := Temp / (High(Row)+1);
+	end;
+
+{ This program calculates the average of first 100 natural numbers
+and prints it to the console.}
+
+program Test;
+	var	A : array[1..100];
+	begin
+		write("Average of 100 numbers: ",Average(A));
+	end. 

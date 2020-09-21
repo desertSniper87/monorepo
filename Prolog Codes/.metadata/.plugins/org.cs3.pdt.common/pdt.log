@@ -1,0 +1,485 @@
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:12:57 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:12:57 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 21/03 22:15:42 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:42 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 21/03 22:15:42 - Worker-4: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getAsyncSession(AbstractPrologProcess.java:543)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.enableSubject(PrologEventDispatcher.java:246)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.addPrologEventListener(PrologEventDispatcher.java:202)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.addProcessListener(CurrentProcessListener.java:69)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.activePrologProcessChanged(CurrentProcessListener.java:105)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:42 - Worker-0: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:362)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.ensureConnection(PrologConsoleView.java:1256)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.connect(PrologConsoleView.java:1238)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.setPrologProcess(PrologConsoleView.java:1185)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.setPrologProcess(PrologConsoleView.java:1171)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView$13.run(PrologConsoleView.java:1016)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:44 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:44 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 21/03 22:15:44 - Worker-4: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.restart(AbstractPrologProcess.java:440)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:355)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:652)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:624)
+	at org.cs3.pdt.common.PDTCommonUtil.updateEntryPointsInProcess(PDTCommonUtil.java:471)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.updateEntryPoints(CurrentProcessListener.java:89)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.activePrologProcessChanged(CurrentProcessListener.java:107)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:45 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:45 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 21/03 22:15:45 - Worker-4: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.restart(AbstractPrologProcess.java:440)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:355)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryAll(AbstractPrologProcess.java:612)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryAll(AbstractPrologProcess.java:585)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.loadBreakpointsFromProcess(PDTBreakpointHandler.java:339)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.activePrologProcessChanged(PDTBreakpointHandler.java:496)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:15:45 - Worker-4: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getAsyncSession(AbstractPrologProcess.java:539)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.enableSubject(PrologEventDispatcher.java:246)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.addPrologEventListener(PrologEventDispatcher.java:202)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.addProcessListener(PDTBreakpointHandler.java:369)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.activePrologProcessChanged(PDTBreakpointHandler.java:498)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:15 - Framework stop: problems during shutdown of process Default Process
+pdt: WARNING - 21/03 22:21:15 - Framework stop: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.stop(AbstractPrologProcess.java:494)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.stop(SocketPrologProcess.java:266)
+	at org.cs3.pdt.connector.PDTConnectorPlugin.stop(PDTConnectorPlugin.java:234)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:21:31 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:21:31 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 21/03 22:21:34 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:35 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 21/03 22:21:35 - Worker-3: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:362)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.ensureConnection(PrologConsoleView.java:1256)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.connect(PrologConsoleView.java:1238)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.setPrologProcess(PrologConsoleView.java:1185)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView.setPrologProcess(PrologConsoleView.java:1171)
+	at org.cs3.pdt.console.internal.views.PrologConsoleView$13.run(PrologConsoleView.java:1016)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:35 - Worker-6: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getAsyncSession(AbstractPrologProcess.java:543)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.enableSubject(PrologEventDispatcher.java:246)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.addPrologEventListener(PrologEventDispatcher.java:202)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.addProcessListener(CurrentProcessListener.java:69)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.activePrologProcessChanged(CurrentProcessListener.java:105)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:36 - Worker-6: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: Failed to obtain session
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:371)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:652)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:624)
+	at org.cs3.pdt.common.PDTCommonUtil.updateEntryPointsInProcess(PDTCommonUtil.java:471)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.updateEntryPoints(CurrentProcessListener.java:89)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.activePrologProcessChanged(CurrentProcessListener.java:107)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.net.ConnectException: Connection refused: connect
+	at org.cs3.prolog.connector.internal.lifecycle.AbstractState.error(AbstractState.java:117)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$3.run(LifeCycle.java:226)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.cs3.prolog.connector.internal.process.socket.ReusableSocket.<init>(ReusableSocket.java:31)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.getSession_impl(SocketPrologProcess.java:156)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession_internal(AbstractPrologProcess.java:379)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:369)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:652)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryOnce(AbstractPrologProcess.java:624)
+	at org.cs3.pdt.common.PDTCommonUtil.updateEntryPointsInProcess(PDTCommonUtil.java:471)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.updateEntryPoints(CurrentProcessListener.java:89)
+	at org.cs3.pdt.editor.internal.editors.CurrentProcessListener.activePrologProcessChanged(CurrentProcessListener.java:107)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+pdt: WARNING - 21/03 22:21:38 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:38 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 21/03 22:21:38 - Worker-6: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilUp(LifeCycle.java:131)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.start(AbstractPrologProcess.java:480)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.start(SocketPrologProcess.java:297)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.restart(AbstractPrologProcess.java:440)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getSession(AbstractPrologProcess.java:355)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryAll(AbstractPrologProcess.java:612)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.queryAll(AbstractPrologProcess.java:585)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.loadBreakpointsFromProcess(PDTBreakpointHandler.java:339)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.activePrologProcessChanged(PDTBreakpointHandler.java:496)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:21:38 - Worker-6: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.getAsyncSession(AbstractPrologProcess.java:539)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.enableSubject(PrologEventDispatcher.java:246)
+	at org.cs3.prolog.connector.process.PrologEventDispatcher.addPrologEventListener(PrologEventDispatcher.java:202)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.addProcessListener(PDTBreakpointHandler.java:369)
+	at org.cs3.pdt.editor.internal.editors.breakpoints.PDTBreakpointHandler.activePrologProcessChanged(PDTBreakpointHandler.java:498)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$3.run(PrologProcessService.java:112)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: WARNING - 21/03 22:25:29 - Framework stop: problems during shutdown of process Default Process
+pdt: WARNING - 21/03 22:25:29 - Framework stop: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.stop(AbstractPrologProcess.java:494)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.stop(SocketPrologProcess.java:266)
+	at org.cs3.pdt.connector.PDTConnectorPlugin.stop(PDTConnectorPlugin.java:234)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:950)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:324)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:145)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:40)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.lang.RuntimeException: Failed to start server. Process exited with err code 1
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.waitForProcessToGetRunning(SocketServerStartAndStopStrategy.java:197)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startSocketServer(SocketServerStartAndStopStrategy.java:113)
+	at org.cs3.prolog.connector.internal.process.socket.SocketServerStartAndStopStrategy.startServer(SocketServerStartAndStopStrategy.java:100)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.startServer(AbstractPrologProcess.java:229)
+	at org.cs3.prolog.connector.internal.lifecycle.InitState$1.run(InitState.java:38)
+	... 1 more
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:50:43 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Sat Mar 21 22:50:43 BDT 2015
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 21/03 22:57:39 - main: pdt: The following Exception was caught:
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3278)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:164)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalCollectExpandedItems(AbstractTreeViewer.java:1598)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getExpandedElements(AbstractTreeViewer.java:1193)
+	at org.cs3.pdt.editor.internal.views.lightweightOutline.NonNaturePrologOutline.setInput(NonNaturePrologOutline.java:207)
+	at org.cs3.pdt.editor.internal.views.lightweightOutline.NonNaturePrologOutline$3.run(NonNaturePrologOutline.java:315)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:221)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+pdt: WARNING - 21/03 23:08:46 - main: pdt: The following Exception was caught:
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3278)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:164)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalCollectExpandedItems(AbstractTreeViewer.java:1598)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getExpandedElements(AbstractTreeViewer.java:1193)
+	at org.cs3.pdt.editor.internal.views.lightweightOutline.NonNaturePrologOutline.setInput(NonNaturePrologOutline.java:207)
+	at org.cs3.pdt.editor.internal.views.lightweightOutline.NonNaturePrologOutline$3.run(NonNaturePrologOutline.java:315)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:221)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)

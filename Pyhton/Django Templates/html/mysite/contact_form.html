@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href ="{% static 'css/mysite.css' %}">
+</head>
+<body>
+<h3> Contact US! </h3>
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error {{ form.errors | pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+{#        <table>#}
+{#            {{ form.as_table }}#}
+{#        </table>#}
+
+        <div class="field">
+            {{ form.subject_errors }}
+            <label for="id_subject">
+                Subject:
+            </label>
+            {{ form.subject }}
+        </div>
+
+        <div class="field">
+            {{ form.email_errors }}
+            <label for="id_email">
+                E-mail:
+            </label>
+            {{ form.email }}
+        </div>
+
+        <div class="field">
+            {{ form.message_errors }}
+            <label for="message">
+                Message:
+            </label>
+            {{ form.message }}
+        </div>
+
+        {% csrf_token %}
+        <input type="submit" value = "Submit">
+    </form>
+
+</body>
+</html>

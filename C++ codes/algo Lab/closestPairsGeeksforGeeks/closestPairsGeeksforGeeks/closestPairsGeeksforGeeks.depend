@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1476623149 source:c:\users\torsho\dropbox\programming code\c++ codes\algo lab\closestpairsgeeksforgeeks\closestpairsgeeksforgeeks\main.cpp
+	<iostream>
+	<float.h>
+	<stdlib.h>
+	<math.h>
+

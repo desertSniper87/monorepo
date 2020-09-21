@@ -1,0 +1,38 @@
+language: android
+
+jdk:
+  - oraclejdk8
+
+android:
+  components:
+    - tools
+    - build-tools-27.0.2
+    - android-27
+    - extra-android-m2repository
+    - sys-img-armeabi-v7a-android-23
+
+script:
+  - ./gradlew clean ":$MODULE:build"
+
+after_success:
+  - .buildscript/deploy_snapshot.sh
+
+env:
+   matrix:
+     - MODULE=lib
+     - MODULE=mslider-espresso
+     - MODULE=mslider-uiautomator
+     - MODULE=holo-style
+
+notifications:
+  email: true
+
+before_install:
+  - chmod +x gradlew
+  - yes | sdkmanager "platforms;android-27"
+
+sudo: false
+
+cache:
+   directories:
+        - $HOME/.gradle

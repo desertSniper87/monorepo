@@ -1,0 +1,1633 @@
+﻿Unnamed: 0,title,artist,top genre,year,bpm,nrgy,dnce,dB,live,val,dur,acous,spch,pop,Magnitude,Sentiment
+0,This Is Me,Keala Settle,broadway,2017,192,70,28,-7,4,10,235,1,19,83,6.099999905,-0.100000001
+1,Rewrite The Stars,Zac Efron,hollywood,2017,125,62,68,-7,12,28,217,7,4,82,5.400000095,-0.200000003
+2,Never Enough,Loren Allred,deep talent show,2017,87,39,28,-9,10,23,208,42,3,81,3.700000048,-0.200000003
+3,A Million Dreams,Ziv Zaifman,hollywood,2017,55,31,27,-12,9,10,269,24,6,81,4.400000095,0.100000001
+4,The Greatest Show,Hugh Jackman,hollywood,2017,158,82,42,-7,7,40,302,0,11,81,13.30000019,0.400000006
+5,The Other Side,Hugh Jackman,hollywood,2017,154,80,64,-8,15,31,214,0,30,79,6.800000191,0
+6,From Now On,Hugh Jackman,hollywood,2017,108,52,52,-10,59,8,350,0,4,78,10.39999962,0.200000003
+7,Come Alive,Hugh Jackman,hollywood,2017,118,77,70,-9,21,24,226,1,13,78,12.39999962,0.200000003
+8,A Million Dreams (Reprise),Austyn Johnson,hollywood,2017,74,14,25,-17,27,10,60,73,4,75,0.600000024,0.300000012
+9,Never Enough (Reprise),Loren Allred,deep talent show,2017,82,5,38,-19,8,13,80,89,3,74,0.100000001,-0.100000001
+10,Mamma Mia,Lily James,hollywood,2018,138,70,69,-7,2,57,160,47,4,74,3.200000048,0.200000003
+11,Why Did It Have To Be Me?,Josh Dylan,hollywood,2018,118,78,55,-6,13,79,198,13,4,74,0,0
+12,When I Kissed The Teacher,Lily James,hollywood,2018,155,85,54,-5,5,79,182,33,6,74,3.200000048,0.200000003
+13,Angel Eyes,Christine Baranski,hollywood,2018,133,84,71,-7,9,93,251,20,3,73,0,0
+14,"Andante, Andante",Lily James,hollywood,2018,102,39,64,-9,7,46,240,61,2,73,0,0
+15,One Of Us,Amanda Seyfried,hollywood,2018,82,54,60,-8,32,82,225,45,3,73,9.300000191,0.200000003
+16,Super Trouper,Cher,dance pop,2018,125,66,68,-9,7,90,231,4,3,72,0,0
+17,Waterloo,Hugh Skinner,hollywood,2018,147,86,65,-6,11,65,169,9,4,72,0,0
+18,Dancing Queen,Colin Firth,hollywood,2018,100,86,62,-7,31,92,221,4,3,71,0,0
+19,Let It Go,Idina Menzel,broadway,2013,137,49,54,-7,12,37,224,56,3,71,5.699999809,-0.100000001
+20,Fernando,Cher,dance pop,2018,112,57,41,-8,27,58,239,46,3,70,5,0.5
+21,I've Been Waiting For You,Amanda Seyfried,hollywood,2018,78,37,49,-12,10,27,197,72,3,70,0,0
+22,"Knowing Me, Knowing You",Jeremy Irvine,hollywood,2018,108,66,68,-8,6,68,225,8,3,70,0,0
+23,The Name Of The Game,Lily James,hollywood,2018,78,62,65,-8,8,73,286,13,3,70,0,0
+24,I Have A Dream,Lily James,hollywood,2018,104,32,53,-13,25,51,264,74,2,70,0,0
+25,My Shot,Lin-Manuel Miranda,hollywood,2015,91,65,83,-7,9,57,333,15,32,70,24.39999962,0
+26,Where You Are,Christopher Jackson,hollywood,2016,118,65,63,-9,17,72,210,71,19,70,0,0
+27,Waving Through A Window,Ben Platt,hollywood,2017,146,71,55,-6,12,52,236,32,6,69,0,0
+28,"My Love, My Life",Amanda Seyfried,hollywood,2018,75,13,40,-14,12,28,229,98,3,69,9.300000191,0.200000003
+29,We Know The Way,Opetaia Foa'i,movie tunes,2016,98,57,70,-9,11,39,141,37,4,68,2.299999952,0.400000006
+30,I See the Light,Mandy Moore,dance pop,2010,93,14,28,-14,7,17,224,83,3,68,0,0
+31,I Wonder (Departure),Lily James,hollywood,2018,109,19,38,-11,11,15,269,90,3,67,0,0
+32,A Whole New World,Lea Salonga,hollywood,2004,125,24,28,-16,10,16,161,83,4,67,17.20000076,0.300000012
+33,Can You Feel The Love Tonight,Joseph Williams,disney,1994,167,13,30,-19,54,48,178,81,7,67,0,0
+34,When Will My Life Begin?,Mandy Moore,dance pop,2010,108,42,67,-8,9,39,152,11,3,67,0,0
+35,You Will Be Found,Ben Platt,hollywood,2017,87,62,29,-7,9,21,361,9,6,66,3.799999952,-0.300000012
+36,"Sincerely, Me",Mike Faist,hollywood,2017,98,73,68,-6,10,60,223,17,12,66,0,0
+37,If I Could Tell Her,Ben Platt,hollywood,2017,96,31,58,-8,15,46,249,65,4,65,0,0
+38,For Forever,Ben Platt,hollywood,2017,96,46,37,-8,9,17,301,22,4,65,3.799999952,-0.300000012
+39,Colors of the Wind,Judy Kuhn,hollywood,1995,63,17,25,-17,10,22,214,93,6,65,4.800000191,0
+40,Seasons Of Love,Rosario Dawson,hollywood,2005,178,58,48,-4,8,47,183,61,3,64,0,0
+41,Hakuna Matata,Nathan Lane,broadway,1994,165,31,42,-18,12,73,214,59,12,64,0,0
+42,Bring It All Back,S Club 7,australian pop,1999,108,90,68,-5,37,87,214,33,5,64,4.400000095,-0.200000003
+43,CAN'T STOP THE FEELING!,Justin Timberlake,dance pop,2016,113,82,66,-6,8,70,237,1,7,64,6.599999905,0.200000003
+44,True Colors,Anna Kendrick,hollywood,2016,71,18,38,-13,12,37,181,81,4,64,0,0
+45,Get Back Up Again,Anna Kendrick,hollywood,2016,99,71,70,-3,24,59,166,1,7,64,7,0.100000001
+46,Move Your Feet / D.A.N.C.E. / It's A Sunshine Day,Anna Kendrick,hollywood,2016,119,82,71,-4,5,60,156,1,6,64,7.900000095,0.600000024
+47,The Day Before You Came,Meryl Streep,hollywood,2018,99,11,36,-16,8,22,329,93,4,64,0,0
+48,I Won't Say (I'm In Love),Susan Egan,broadway,2001,121,47,68,-9,14,45,140,21,4,64,5.5,0.100000001
+49,Almost There,Anika Noni Rose,hollywood,2009,79,50,51,-6,28,51,144,81,5,64,3.799999952,0.300000012
+50,For the First Time in Forever,Kristen Bell,disney,2013,91,41,35,-6,11,43,225,82,3,63,8.800000191,0
+51,September,Justin Timberlake,dance pop,2016,127,85,77,-3,3,96,235,2,3,63,6.199999809,0.200000003
+52,Anybody Have a Map?,Rachel Bay Jones,broadway,2017,108,60,63,-6,54,74,147,23,26,63,0,0
+53,Beauty and the Beast,Angela Lansbury,hollywood,1991,172,16,24,-14,15,18,166,78,4,63,4.400000095,0
+54,Go the Distance,Roger Bart,disney,1997,87,12,22,-17,8,17,194,88,3,63,0,0
+55,I've Got a Dream,Mandy Moore,dance pop,2010,134,54,60,-7,17,89,191,64,9,63,6.699999809,0.200000003
+56,A Dream Is a Wish Your Heart Makes,Lily James,hollywood,2015,138,7,28,-18,8,19,121,95,4,63,2.900000095,0.699999988
+57,Gaston,Josh Gad,broadway,2017,106,59,50,-7,24,58,266,49,7,62,12,0.100000001
+58,Only Us,Laura Dreyfuss,hollywood,2017,69,35,47,-7,10,24,227,71,3,62,0,0
+59,Be Our Guest,Angela Lansbury,hollywood,1991,121,42,52,-13,8,58,225,81,17,62,17.5,0.300000012
+60,Bibbidi,Helena Bonham Carter,hollywood,2015,109,40,74,-14,19,80,82,94,11,62,5.099999905,-0.100000001
+61,You're The One That I Want,John Travolta,hollywood,2005,107,77,74,-6,16,83,168,26,9,62,5.5,0.600000024
+62,Zero To Hero,Chorus - Hercules,disney,1997,165,83,47,-8,8,67,141,46,27,61,0,0
+64,Words Fail,Ben Platt,hollywood,2017,96,24,37,-9,12,33,352,79,4,61,0,0
+65,Good For You,Rachel Bay Jones,broadway,2017,108,71,63,-5,24,79,185,18,7,61,0,0
+66,Disappear,Mike Faist,hollywood,2017,137,63,45,-7,23,30,276,38,12,61,0,0
+67,A Girl Worth Fighting For,Lea Salonga,hollywood,1998,176,35,37,-17,24,79,146,58,8,61,8.899999619,0.5
+68,Just Around the Riverbend,Judy Kuhn,hollywood,1995,65,18,41,-17,20,22,148,92,5,61,0,0
+69,Something There,Robby Benson,disney,1991,126,33,59,-11,13,57,139,84,4,61,0,0
+70,In Summer,Josh Gad,broadway,2013,77,34,50,-10,59,68,111,54,18,60,0,0
+71,I'm Coming Out / Mo' Money Mo' Problems,Zooey Deschanel,hollywood,2016,113,91,88,-5,47,65,62,0,28,60,0.899999976,0.300000012
+72,The Sound Of Silence,Anna Kendrick,hollywood,2016,210,22,40,-10,8,57,48,87,4,60,0.200000003,0.200000003
+74,Reflection,Lea Salonga,hollywood,2001,92,29,32,-14,36,8,147,80,3,60,1.399999976,0
+75,When We're Human,Leon-Wooley,movie tunes,2009,107,78,69,-4,38,50,142,32,13,60,4.900000095,0.300000012
+76,What's This?,Danny Elfman,hollywood,2006,81,48,53,-11,51,47,186,84,6,59,6.5,-0.100000001
+77,Hello!,Andrew Rannells,broadway,2011,130,51,66,-10,5,65,172,74,25,59,22.89999962,0.200000003
+78,Take Me or Leave Me,Idina Menzel,broadway,2005,175,76,46,-3,3,87,231,32,26,59,4.300000191,0.100000001
+79,So Big / So Small,Rachel Bay Jones,broadway,2017,88,20,45,-10,11,28,252,81,4,58,0,0
+81,The Gospel Truth I / Main Titles,Cheryl Freeman,disney,1997,158,58,47,-10,21,52,146,34,15,58,0,0
+82,Supercalifragilisticexpialidocious,Julie Andrews,broadway,2009,160,79,51,-8,20,90,121,60,35,58,0,0
+83,Belle,Richard White,movie tunes,1991,129,38,55,-14,14,42,309,83,11,57,1.799999952,-0.100000001
+84,Breaking Free,Troy,hollywood,2006,108,63,58,-6,14,26,207,7,4,57,0,0
+85,Finale,Ben Platt,hollywood,2017,113,9,42,-10,9,41,96,84,4,57,0,0
+86,To Break In a Glove,Michael Park,broadway,2017,108,42,65,-9,11,43,231,20,45,57,0,0
+87,For Good,Kristin Chenoweth,broadway,2013,85,14,28,-14,11,24,307,95,4,57,3.5,0
+88,Honor To Us All,Lea Salonga,hollywood,2013,168,40,46,-12,39,73,181,45,6,57,3.700000048,0.100000001
+89,What Is This Feeling?,Kristin Chenoweth,broadway,2013,152,42,62,-9,14,55,212,74,9,55,4.5,0.699999988
+90,My Favorite Things,Julie Andrews,broadway,1965,115,25,62,-12,16,63,138,87,8,55,3.700000048,0.400000006
+91,You and Me (But Mostly Me),Josh Gad,broadway,2011,75,51,48,-8,4,51,163,60,5,55,0,0
+92,You Can't Stop The Beat,Elijah Kelley,hollywood,2007,170,94,53,-5,9,70,325,4,18,54,0,0
+93,Popular,Kristin Chenoweth,broadway,2013,89,23,72,-13,15,54,224,78,17,54,12.30000019,0.200000003
+94,Memory,Andrew Lloyd Webber,broadway,1981,103,1,29,-28,9,17,84,95,4,53,4.300000191,0
+95,Chim Chim Cher,Dick Van Dyke,hollywood,2009,106,35,46,-11,11,44,166,85,6,53,0,0
+96,Jingle Bell Rock (Glee Cast Version),Glee Cast,hollywood,2012,152,74,62,-6,15,87,153,18,3,53,0,0
+98,Naughty,Matilda the Musical Original Cast,broadway,2011,140,32,82,-9,5,77,243,61,7,52,0,0
+99,When I Grow Up,Matilda the Musical Original Cast,broadway,2011,71,28,43,-10,7,40,217,77,6,52,0,0
+100,Without Love,Elijah Kelley,hollywood,2007,98,88,54,-5,20,44,220,37,15,52,0.899999976,-0.100000001
+102,Friend Like Me,James Monroe Iglehart,broadway,2014,92,56,69,-5,3,62,452,36,13,51,2.900000095,0.100000001
+103,I Can Hear The Bells,Nikki Blonsky,hollywood,2007,112,57,62,-6,10,34,254,76,3,51,2.599999905,0.100000001
+104,Dancing Through Life,Norbert Leo Butz,broadway,2013,117,45,46,-9,19,34,457,62,5,51,0,0
+105,I See Stars,Erika Henningsen,broadway,2018,146,76,36,-4,12,24,229,13,7,51,0,0
+106,The History of Wrong Guys,Annaleigh Ashford,broadway,2013,130,57,81,-6,8,53,228,30,14,50,0,0
+107,I'll Cover You,Wilson Jermaine Heredia,broadway,2005,112,88,62,-3,8,78,150,24,4,50,7.5,0.200000003
+108,Good Morning Baltimore,Nikki Blonsky,hollywood,2007,133,84,63,-4,15,73,234,21,6,50,6.599999905,0.400000006
+109,"Baby, It's Cold Outside (Glee Cast Version)",Glee Cast,hollywood,2010,111,27,52,-10,11,51,167,62,3,50,0,0
+111,Land of Lola,Billy Porter,broadway,2013,118,81,73,-7,11,87,187,5,8,49,0,0
+112,Prelude / The Sound of Music,Julie Andrews,broadway,1965,79,21,18,-16,37,14,164,86,4,49,0.100000001,-0.100000001
+113,Anything Goes,Sutton Foster,broadway,2011,99,44,62,-9,28,73,348,68,17,48,0,0
+114,Run And Tell That,Elijah Kelley,hollywood,2007,150,87,59,-5,48,76,231,8,23,48,8.399999619,0.200000003
+115,Ladies‚Äô Choice,Zac Efron,hollywood,2007,117,95,69,-5,23,75,148,4,7,48,1.799999952,-0.100000001
+117,Proud of Your Boy,Adam Jacobs,broadway,2014,172,33,34,-9,22,33,141,90,5,47,2.900000095,0.100000001
+118,The Nicest Kids In Town,James Marsden,hollywood,2007,170,89,55,-5,15,77,162,6,18,47,8.5,0.100000001
+119,Moving Too Fast,Jeremy Jordan,broadway,2015,106,66,56,-8,29,62,245,8,3,47,11.80000019,0
+120,Feed The Birds (Tuppence A Bag),Julie Andrews,broadway,1997,88,7,28,-23,8,15,231,80,4,47,0,0
+121,A Spoonful of Sugar,Julie Andrews,broadway,1997,111,39,48,-14,14,64,249,74,15,47,6.199999809,0.5
+123,One Jump Ahead,Adam Jacobs,broadway,2014,121,58,77,-6,6,87,129,37,32,46,0,0
+124,Sex Is in the Heel,Billy Porter,broadway,2013,127,69,81,-7,18,86,275,2,7,46,0,0
+125,Welcome To The 60's,Nikki Blonsky,hollywood,2007,79,81,56,-5,64,70,313,51,17,46,0,0
+126,When I Was Your Man (Live),Aaron Tveit,broadway,2013,132,52,49,-8,32,32,238,54,14,46,0,0
+127,Over The Rainbow,Andrew Lloyd Webber,broadway,2011,85,17,29,-15,11,16,184,85,4,46,2.700000048,-0.100000001
+128,A Million Miles Away,Adam Jacobs,broadway,2014,76,44,44,-9,22,26,201,71,5,45,0,0
+129,Arabian Nights,James Monroe Iglehart,broadway,2014,121,36,50,-9,56,50,377,42,6,45,0,0
+130,If You Were Gay,John Tartaglia,broadway,2003,96,34,77,-11,30,60,151,82,54,45,0,0
+131,Everyone's a Little Bit Racist,John Tartaglia,broadway,2003,180,34,61,-9,27,59,328,79,44,45,0,0
+132,Not My Father's Son,Billy Porter,broadway,2013,141,13,45,-14,8,23,357,80,3,45,0,0
+133,The New Girl In Town,Brittany Snow,hollywood,2007,130,76,76,-6,32,95,136,23,11,45,5.300000191,0.200000003
+134,It Takes Two,Zac Efron,hollywood,2007,103,65,60,-6,28,63,184,41,3,45,3.099999905,0
+135,Prince Ali,Brian Gonzales,broadway,2014,182,60,43,-6,9,59,355,30,15,44,0,0
+136,Stronger,Matthew Morrison,broadway,2015,112,70,45,-7,36,29,203,15,8,44,7.900000095,0.300000012
+137,Run Away With Me (Live),Aaron Tveit,broadway,2013,87,47,39,-11,70,33,209,69,19,44,0,0
+138,Let's Go Fly a Kite,David Tomlinson,disney,1997,146,14,44,-18,13,55,114,83,4,44,0,0
+139,"Babkak, Omar, Aladdin, Kassim",Adam Jacobs,broadway,2014,200,51,49,-6,67,49,229,30,20,43,0,0
+140,Singin' In The Rain,Gene Kelly,adult standards,2008,136,31,41,-9,13,36,175,99,3,43,0.699999988,0.699999988
+141,Miracle,Matilda the Musical Original Cast,broadway,2011,77,32,68,-11,9,50,617,65,31,43,0,0
+142,Hold Me in Your Heart,Billy Porter,broadway,2013,162,31,29,-9,15,34,184,64,4,43,0,0
+143,Everybody Say Yeah,Billy Porter,broadway,2013,134,80,63,-6,25,49,260,13,12,43,0,0
+144,(The Legend Of) Miss Baltimore Crabs,Michelle Pfeiffer,hollywood,2007,134,57,62,-7,31,78,248,75,16,43,19.39999962,0
+145,Leavin' On a Jet Plane,Liz Callaway,hollywood,2015,97,35,36,-12,8,17,292,73,4,43,0,0
+146,You Can't Stop the Beat,Laura Bell Bundy,broadway,2002,170,96,65,-5,22,27,349,45,30,43,0,0
+147,Magic To Do,Patina Miller,broadway,2013,125,62,35,-7,8,25,275,11,4,43,0,0
+148,I'll Be Home For Christmas,Leslie Odom Jr.,broadway,2017,177,16,26,-13,9,23,223,93,4,43,2.5,0.600000024
+150,I Know Where I‚Äôve Been,Queen Latifah,conscious hip hop,2007,174,49,28,-7,15,25,253,66,3,42,4.199999809,0.400000006
+151,"Big, Blonde and Beautiful",Queen Latifah,conscious hip hop,2007,102,83,65,-5,38,74,155,11,4,42,4.900000095,0
+152,She‚Äôs Always a Woman / A Case of You (Live),Aaron Tveit,broadway,2013,173,42,36,-12,17,25,562,50,9,42,0,0
+153,Step In Time,Dick Van Dyke,hollywood,1997,78,64,37,-12,39,40,523,72,5,42,0,0
+154,What a Woman Wants,Billy Porter,broadway,2013,120,57,66,-7,9,73,235,20,17,41,0,0
+155,La Vie Boheme,Anthony Rapp,broadway,1996,139,50,59,-9,16,46,480,47,8,41,0,0
+156,"Mama, I'm A Big Girl Now",Nikki Blonsky,hollywood,2007,141,70,66,-5,64,54,199,67,17,41,4.800000191,0
+157,Come So Far (Got So Far To Go),Elijah Kelley,hollywood,2007,165,92,56,-5,67,69,257,15,12,41,0,0
+158,(It's) Hairspray,James Marsden,hollywood,2007,68,79,50,-5,43,57,140,76,11,41,11.89999962,0
+159,Music Of The Night,Michael Ball,hollywood,2016,72,30,17,-13,19,14,298,89,5,41,3.200000048,0.200000003
+160,We Are Never Ever Getting Back Together (Live),Aaron Tveit,broadway,2013,141,63,39,-8,67,40,291,20,13,41,0,0
+162,Beautiful,Jessie Mueller,broadway,2014,81,48,56,-6,17,43,162,67,3,40,0,0
+163,Will You Love Me Tomorrow,Jessie Mueller,broadway,2014,206,35,30,-8,12,23,187,79,3,40,0,0
+164,Wishing You Were Somehow Here Again,Andrew Lloyd Webber,broadway,1987,127,13,30,-15,8,4,210,92,5,40,4.300000191,0
+165,Act One Finale,James Monroe Iglehart,broadway,2014,169,54,44,-6,25,47,129,57,16,39,2.900000095,0.100000001
+166,Diamond in the Rough,Adam Jacobs,broadway,2014,133,43,53,-8,22,43,259,45,21,39,0,0
+167,One Jump Ahead (Reprise),Adam Jacobs,broadway,2014,84,14,29,-14,39,37,36,95,4,39,0,0
+168,Overture,Alan Menken,broadway,2014,94,41,64,-7,7,67,77,8,10,39,0.100000001,0.100000001
+170,In This Corner,Billy Porter,broadway,2013,97,73,69,-7,43,73,297,28,5,39,0,0
+171,Take Me Or Leave Me,Idina Menzel,broadway,1996,116,58,75,-8,4,81,223,47,10,39,4.300000191,0.100000001
+172,Somewhere,Michael Ball,hollywood,2016,82,27,25,-13,12,11,195,91,4,39,2.799999952,0.300000012
+173,(You Make Me Feel Like) A Natural Woman,Jessie Mueller,broadway,2014,102,48,39,-5,18,51,131,65,3,39,0,0
+174,Wouldn't It Be Nice?,Liz Callaway,hollywood,2001,126,59,64,-7,8,70,170,63,6,39,0,0
+175,I Could Have Danced All Night,Julie Andrews,broadway,1956,143,31,34,-12,12,40,209,82,4,39,3.400000095,-0.100000001
+177,Somebody's Got Your Back,James Monroe Iglehart,broadway,2014,148,43,60,-7,18,57,204,34,20,38,0,0
+178,(You're) Timeless To Me,Christopher Walken,hollywood,2007,117,42,57,-8,12,51,287,80,9,38,12,0.200000003
+179,With a Song in My Heart,Billy Porter,broadway,2017,116,75,57,-6,41,33,211,14,5,38,0,0
+180,Seven Wonders,Aaron Tveit,broadway,2011,74,40,52,-9,13,37,200,83,4,38,0,0
+181,Willkommen,Alan Cumming,broadway,1998,92,48,52,-10,96,56,451,68,37,37,32.59999847,0.200000003
+182,"Big, Blond and Beautiful (Reprise)",Michelle Pfeiffer,hollywood,2007,104,61,61,-6,58,77,66,72,12,37,0,0
+183,Les Miserables Suite: Bring Him Home / Empty Chairs At Empty Tables / I Dreamed A Dream,Michael Ball,hollywood,2016,82,22,20,-13,10,7,373,93,4,37,7.699999809,0
+184,Random Black Girl,Patina Miller,broadway,2011,111,67,67,-5,11,56,235,33,10,37,0,0
+185,One Fine Day,Rashidra Scott,broadway,2014,176,64,30,-4,8,63,170,61,4,37,0,0
+186,Some Kind Of Wonderful,Jessie Mueller,broadway,2014,120,44,50,-6,16,34,182,77,4,37,0,0
+187,So Far Away,Jessie Mueller,broadway,2014,137,31,55,-7,9,55,103,79,3,37,0,0
+188,Genie Medley,Alan Menken,broadway,2014,80,31,52,-12,40,62,244,81,31,36,0,0
+189,Proud of Your Boy (Reprise),Adam Jacobs,broadway,2014,130,18,43,-12,11,31,65,97,4,36,0,0
+190,Bring Him Home,Colm Wilkinson,hollywood,2010,146,18,29,-14,9,15,200,99,4,36,2,0
+191,"Oh, What a Beautiful Morning",Billy Porter,broadway,2017,92,52,43,-7,32,39,190,16,6,36,0.800000012,0.400000006
+192,I Feel The Earth Move,Jessie Mueller,broadway,2014,120,75,76,-4,23,81,123,64,4,36,0,0
+193,It Might As Well Rain Until September,Jessie Mueller,broadway,2014,164,56,55,-5,26,80,107,52,7,36,0,0
+194,Mister Snow,Lindsay Mendez,broadway,2018,85,25,52,-11,8,43,302,96,10,36,0,0
+195,The Most Wonderful Day of the Year (Glee Cast Version),Glee Cast,hollywood,2010,202,37,34,-8,14,72,121,60,3,36,0,0
+197,"Cabaret (from ""Cabaret"")",Natasha Richardson,broadway,1947,113,20,62,-11,10,43,252,83,7,35,0,0
+198,You've Got A Friend,Jessie Mueller,broadway,2014,103,19,56,-9,11,48,158,94,4,35,0,0
+199,It's Too Late,Jessie Mueller,broadway,2014,103,51,75,-7,6,73,167,70,3,35,0,0
+202,Take Good Care Of My Baby,Jake Epstein,broadway,2014,96,63,78,-6,21,72,98,73,4,34,0,0
+203,I'll Never Fall In Love Again,Kristin Chenoweth,broadway,2010,117,9,61,-16,13,26,197,84,4,34,0,0
+204,Skimbleshanks The Railway Cat,Andrew Lloyd Webber,broadway,1981,147,56,58,-11,29,76,286,51,15,33,0,0
+205,Macavity The Mystery Cat,Andrew Lloyd Webber,broadway,1981,84,21,48,-14,17,7,418,67,22,33,0,0
+206,The Oldest Established,Nathan Lane,broadway,1992,141,28,58,-18,25,72,155,89,14,33,0,0
+207,My Funny Valentine,Billy Porter,broadway,2017,70,60,50,-8,36,17,272,42,3,33,0,0
+208,Chains,Jessie Mueller,broadway,2014,130,40,69,-5,7,89,105,66,3,33,0,0
+209,Buenos Aires (Glee Cast Version),Glee Cast,hollywood,2011,123,94,70,-5,11,69,198,3,6,33,0,0
+210,One Day More,Les Mis√©rables Cast,hollywood,2012,170,28,24,-12,7,28,220,85,4,33,12.69999981,-0.200000003
+211,Light My Candle,Daphne Rubin-Vega,broadway,1999,132,42,85,-10,8,71,245,55,5,32,0,0
+212,Rent,Anthony Rapp,broadway,1999,177,74,44,-7,71,48,265,3,15,32,14.19999981,-0.100000001
+213,Sue Me,Faith Prince,broadway,1992,116,13,61,-19,14,42,170,91,33,32,4.5,-0.100000001
+214,I Have Dreamed,Billy Porter,broadway,2017,136,52,60,-8,12,23,316,65,4,32,2.299999952,0.300000012
+215,Stick It To The Man,Andrew Lloyd Webber,broadway,2018,115,83,64,-4,7,61,192,0,5,32,8.399999619,-0.200000003
+216,Out Tonight,Daphne Rubin-Vega,broadway,1999,137,78,72,-6,9,78,229,2,5,31,0,0
+217,One Song Glory,Adam Pascal,broadway,1999,142,29,74,-11,48,66,162,55,11,31,5.800000191,0.5
+218,If I Loved You,Billy Porter,broadway,2017,89,61,47,-7,17,32,286,54,4,31,0,0
+219,My Romance,Billy Porter,broadway,2017,93,58,69,-6,10,52,231,39,3,31,0,0
+220,One Song Glory (Live),Aaron Tveit,broadway,2013,138,51,57,-9,67,48,184,59,31,31,0,0
+221,A House Is Not a Home,Kristin Chenoweth,broadway,2010,73,18,33,-12,18,18,192,82,4,31,3.099999905,0
+223,Another Day,Daphne Rubin-Vega,broadway,1999,142,63,60,-9,16,54,284,37,4,30,4.599999905,0.400000006
+224,A Thousand Years,Michael Ball,hollywood,2016,141,30,31,-14,33,20,253,85,4,30,5.900000095,0.400000006
+225,I Could Be in Love With Someone Like You (Live),Aaron Tveit,broadway,2013,89,65,42,-9,76,39,235,15,19,30,0,0
+226,Queenie Was a Blonde,The Wild Party Ensemble,show tunes,1999,127,60,51,-7,27,32,359,82,23,30,20.79999924,0.200000003
+227,For Once In My Life,Michael Ball,hollywood,2016,83,31,30,-10,21,8,207,84,3,29,5.400000095,0.300000012
+228,Tell Me It's Not True,Michael Ball,hollywood,2016,80,33,14,-11,7,14,270,79,4,29,2.799999952,-0.300000012
+229,Lady is a Tramp,Billy Porter,broadway,2017,94,80,67,-6,41,48,229,24,9,29,0,0
+230,If I Loved You / To Make You Feel My Love (Live),Aaron Tveit,broadway,2013,81,32,30,-12,73,16,290,79,5,29,0,0
+231,Something‚Äôs Coming (Live),Aaron Tveit,broadway,2013,179,54,36,-9,76,54,163,48,22,29,0,0
+232,I'm Gonna Wash That Man Right Outta My Hair,Billy Porter,broadway,2017,90,77,61,-7,50,71,253,38,7,28,0,0
+233,I‚Äôm Alive (Live),Aaron Tveit,broadway,2013,157,78,31,-7,92,62,224,20,17,28,5.900000095,0.100000001
+234,Love Changes Everything,Andrew Lloyd Webber,broadway,2018,89,59,43,-6,12,28,207,84,4,28,2.400000095,0.800000012
+235,Man Of La Mancha,Colm Wilkinson,hollywood,2016,137,56,39,-6,13,54,224,82,5,28,0,0
+236,If I'd Been a Man,Christine Ebersole,broadway,2017,84,24,19,-10,14,7,317,94,3,28,0,0
+237,I'll Cover You (Reprise),Jesse L. Martin,broadway,1999,120,34,40,-11,9,16,171,80,5,27,0,0
+238,Will I?,Gilles Chiasson,broadway,1999,147,35,21,-11,10,30,150,70,3,27,0,0
+239,Tango: Maureen,"Original Broadway Cast ""Rent""",hollywood,1999,132,45,71,-10,16,67,190,28,24,27,0,0
+240,Wonderful World / Over The Rainbow,Michael Ball,hollywood,2016,82,19,18,-18,14,16,241,81,4,27,7.800000191,0.200000003
+241,This Nearly was Mine,Billy Porter,broadway,2017,140,39,43,-9,8,16,254,55,3,27,0,0
+242,If Only You Would Listen,Andrew Lloyd Webber,broadway,2018,130,43,52,-7,15,51,192,50,3,27,0.5,0.200000003
+243,Never,Kristin Chenoweth,broadway,2015,87,39,42,-9,54,47,173,81,11,27,3.099999905,-0.300000012
+244,What You Own,Anthony Rapp,broadway,1999,133,80,56,-7,34,79,236,26,4,26,1.600000024,0
+245,Without You,Daphne Rubin-Vega,broadway,1999,119,38,57,-11,12,22,261,81,3,26,3.799999952,0.400000006
+247,Life Support,Wilson Jermaine Heredia,broadway,1999,143,18,51,-17,42,45,119,77,8,26,0,0
+248,This Can't Be Love,Judy Kuhn,hollywood,2015,130,20,68,-15,8,54,100,53,14,26,0,0
+249,You'll Never Walk Alone,Michael Ball,hollywood,2016,89,55,17,-9,9,20,256,55,4,26,3.099999905,0.600000024
+250,"Let It Sing (From ""Violet"")",Billy Porter,broadway,2005,114,58,45,-8,95,39,236,64,11,26,0,0
+251,Think Of Me,Andrew Lloyd Webber,broadway,2018,98,22,30,-13,10,33,219,95,4,26,10.60000038,0
+252,The Phantom Of The Opera,Andrew Lloyd Webber,broadway,2018,120,65,58,-8,39,53,258,10,3,26,7.900000095,0.300000012
+253,La Vie Boheme B,Anthony Rapp,broadway,1999,146,82,63,-5,38,68,113,33,6,25,0,0
+254,I Should Tell You,Adam Pascal,broadway,1999,94,19,36,-13,29,9,181,82,3,25,0,0
+255,Santa Fe,Wilson Jermaine Heredia,broadway,1999,155,35,62,-14,11,69,193,63,16,25,0,0
+256,Growltiger's Last Stand / The Ballad Of Billy McCaw,Andrew Lloyd Webber,broadway,1981,79,24,46,-13,12,35,580,87,8,25,0,0
+257,Funny Girl / Don't Rain On My Parade,Idina Menzel,broadway,2012,107,49,37,-8,92,34,398,83,9,25,3.200000048,0.400000006
+258,Stairway To Paradise,Michael Ball,hollywood,2016,79,39,34,-9,31,26,204,61,5,25,7.199999809,0.5
+259,Anthem,Michael Ball,hollywood,2016,81,29,24,-11,9,13,206,93,4,25,1.799999952,0
+260,My Romance / I Remember You (Live),Aaron Tveit,broadway,2013,85,27,39,-13,82,25,309,86,3,25,0,0
+261,Goodbye (Live),Aaron Tveit,broadway,2013,145,69,38,-8,19,33,250,31,5,25,7,0
+262,What You‚Äôd Call a Dream (Live),Aaron Tveit,broadway,2013,134,7,40,-18,87,25,233,87,5,25,0,0
+263,Phantom Phantasy,Andrew Lloyd Webber,broadway,2018,97,47,13,-8,40,8,294,7,3,25,5.400000095,0.600000024
+264,When You Wish Upon A Star,Michael Ball,hollywood,2016,83,23,27,-16,26,5,226,93,4,24,4.300000191,0.300000012
+265,Incurably Romantic,Michael Ball,hollywood,2016,81,24,30,-15,9,12,259,84,4,24,5.099999905,0
+266,Speak Softly Love,Michael Ball,hollywood,2016,63,19,25,-14,20,8,239,88,3,24,10.19999981,0.699999988
+267,There‚Äôs a World / Hero and Leander (Live),Aaron Tveit,broadway,2013,77,31,37,-12,71,19,294,84,5,24,0,0
+268,The Music Of The Night,Andrew Lloyd Webber,broadway,2018,168,27,16,-10,13,14,312,66,3,24,3.900000095,0.300000012
+269,"Another Op'nin', Another Show",Soundtrack/Cast Album,broadway,2000,149,39,43,-10,6,34,376,77,6,23,0,0
+270,Cabaret: Willkommen,John Kander,broadway,1966,91,48,53,-11,87,52,309,74,14,23,25.10000038,0.200000003
+271,As If We Never Said Goodbye,Andrew Lloyd Webber,broadway,2018,93,22,24,-11,17,17,277,87,3,23,4.800000191,0
+272,Any Dream Will Do,Andrew Lloyd Webber,broadway,2018,127,47,77,-9,7,66,232,26,3,23,5.900000095,0.200000003
+273,Oh What A Circus,Andrew Lloyd Webber,broadway,2018,131,62,37,-6,30,28,345,79,4,23,9,0
+276,Cold,Andrew Lloyd Webber,broadway,2018,123,77,75,-7,10,75,211,31,3,22,4.300000191,0
+277,Take That Look Off Your Face,Andrew Lloyd Webber,broadway,2018,106,65,55,-5,12,33,179,72,4,22,6.599999905,0
+278,Today 4 U,"Original Broadway Cast ""Rent""",hollywood,1999,132,92,84,-8,10,65,140,1,6,21,0,0
+279,Country Roads,Colm Wilkinson,hollywood,2010,92,28,57,-13,28,35,210,88,7,21,2.900000095,0.300000012
+280,Cabaret: Cabaret,John Kander,broadway,1966,95,24,52,-11,58,45,269,75,4,21,4.099999905,0.100000001
+281,"Intro: Thanks, Guys! (Live)",Aaron Tveit,broadway,2013,138,43,62,-16,32,43,80,51,84,21,0,0
+282,Intro: Not Your Average Lullaby (Live),Aaron Tveit,broadway,2013,66,32,68,-18,31,79,80,59,94,21,0,0
+283,Intro: Little Bit Country (Live),Aaron Tveit,broadway,2013,138,30,65,-18,16,68,85,62,91,21,0,0
+284,Intro: On a Friday Night (Live),Aaron Tveit,broadway,2013,137,24,66,-20,48,56,106,61,93,21,0,0
+285,Masquerade,Andrew Lloyd Webber,broadway,2018,78,54,25,-10,27,40,290,55,4,21,26,0.100000001
+286,All I Ask Of You,Andrew Lloyd Webber,broadway,2018,81,38,14,-10,11,20,248,87,4,21,7.900000095,0.5
+288,Intro: The (Not) Last Song (Live),Aaron Tveit,broadway,2013,90,46,65,-18,46,68,98,69,94,20,7,0
+289,"Intro: Welcome, Freshmen (Live)",Aaron Tveit,broadway,2013,99,26,73,-18,45,73,60,57,93,20,0,0
+290,Seeing Is Believing,Andrew Lloyd Webber,broadway,2018,83,50,18,-8,49,20,270,93,4,20,3.900000095,0.400000006
+291,Sunset Boulevard,Andrew Lloyd Webber,broadway,2018,135,48,38,-8,12,47,182,97,11,20,4.900000095,0.200000003
+292,Jellicle Ball,Andrew Lloyd Webber,broadway,2018,161,73,41,-7,16,34,266,26,4,20,0,0
+293,I Believe My Heart,Andrew Lloyd Webber,broadway,2018,100,34,50,-9,8,12,235,74,3,20,2.599999905,0
+294,Learn To Be Lonely,Andrew Lloyd Webber,broadway,2018,87,37,26,-9,38,18,203,60,4,20,4.5,0.600000024
+295,Mr. Mistoffelees,Andrew Lloyd Webber,broadway,2018,176,78,47,-7,92,82,218,35,26,20,0,0
+296,The Vaults Of Heaven,Andrew Lloyd Webber,broadway,2018,172,71,41,-5,20,36,220,38,7,20,0,0
+297,Unexpected Song,Andrew Lloyd Webber,broadway,2018,81,33,26,-9,11,37,175,95,4,20,2.299999952,-0.300000012
+298,Carefully Taught,Billy Porter,broadway,2017,168,51,58,-8,12,43,276,22,5,19,0,0
+299,Intro: Where Am I? (Live),Aaron Tveit,broadway,2013,89,31,69,-19,94,85,47,72,90,19,0,0
+300,Close Every Door,Andrew Lloyd Webber,broadway,2018,94,22,18,-12,12,22,228,87,3,19,3,0
+301,Jacob & Sons/Coat Of Many Colours,Andrew Lloyd Webber,broadway,2018,142,76,47,-8,10,56,342,42,13,19,9.800000191,0.100000001
+302,Theme And Variations 1,Andrew Lloyd Webber,broadway,2018,109,67,62,-8,42,83,178,42,3,19,0,0
+303,I'm Hopeless When It Comes To You,Andrew Lloyd Webber,broadway,2018,137,22,38,-13,10,20,225,90,4,19,24.79999924,0
+304,Bring Him Home (From Les Miserables),Colm Wilkinson,hollywood,1989,84,10,29,-21,10,7,208,98,5,18,0,0
+305,The Music of the Night,Colm Wilkinson,hollywood,2010,139,27,34,-12,8,7,320,83,5,18,2.700000048,0
+306,Intro: No Judgement (Live),Aaron Tveit,broadway,2013,79,27,72,-18,24,70,33,54,95,18,0,0
+307,Intro: The Future Is Closer Than You Think (Live),Aaron Tveit,broadway,2013,109,28,72,-18,48,80,54,66,92,18,0,0
+308,Macavity: The Mystery Cat,Andrew Lloyd Webber,broadway,2018,86,28,50,-9,68,17,237,71,14,18,0,0
+309,The Merry Old Land Of Oz,Andrew Lloyd Webber,broadway,2011,113,62,61,-6,12,75,143,72,7,18,6.800000191,0.400000006
+310,The Phantom Of The Opera (From The Phantom Of The Opera),Colm Wilkinson,hollywood,1989,79,19,16,-18,8,16,193,86,4,17,1,0.100000001
+311,Hallelujah,Colm Wilkinson,hollywood,2010,180,24,28,-12,9,11,272,98,4,17,5.400000095,0.5
+312,‚ÄòTil I Hear You Sing,Andrew Lloyd Webber,broadway,2018,136,33,28,-11,8,9,259,79,4,17,6.5,-0.200000003
+313,Empty Chairs At Empty Tables (From Les miserables),Colm Wilkinson,hollywood,1989,91,9,32,-21,9,7,167,92,4,16,0,0
+314,Man Of La Mancha (From Man Of La Mancha),Colm Wilkinson,hollywood,1989,134,26,40,-18,50,52,230,83,5,16,0,0
+315,The Beauty Underneath,Andrew Lloyd Webber,broadway,2018,117,74,66,-7,67,33,294,21,8,16,20.60000038,0.400000006
+316,Love Never Dies,Andrew Lloyd Webber,broadway,2018,145,24,21,-12,11,5,369,94,4,16,9.100000381,0.600000024
+317,Love Never Dies Orchestral Suite,Andrew Lloyd Webber,broadway,2018,96,40,14,-10,10,10,384,87,3,16,0,0
+318,I'd Be Surprisingly Good For You,Andrew Lloyd Webber,broadway,2018,109,34,47,-10,14,38,187,93,4,16,11.39999962,0.200000003
+319,King Herod's Song,Andrew Lloyd Webber,broadway,2018,105,79,71,-9,19,67,181,78,8,16,8.399999619,0
+848,Prince Ali (Sultan Reprise),Clifton Davis,broadway,2014,187,51,42,-6,7,35,73,39,7,35,0,0
+851,I'm Here,The Original Broadway Cast Of 'The Color Purple',broadway,2005,89,24,31,-10,17,22,266,82,3,35,0,0
+867,Sing!,Chryssie Whitehead,broadway,2006,101,33,62,-10,30,47,130,83,20,33,0,0
+870,Wig In A Box,Hedwig And The Angry Inch - Original Broadway Cast,broadway,2014,130,52,47,-8,6,35,307,49,5,32,0,0
+1000,Easy,Commodores,adult standards,1977,132,35,60,-15,6,34,256,15,3,74,4.900000095,0
+1001,(Your Love Keeps Lifting Me) Higher & Higher,Jackie Wilson,adult standards,2006,95,69,63,-7,12,94,181,18,5,72,5.699999809,0.400000006
+1002,"Oh, Pretty Woman",Roy Orbison,adult standards,1962,127,60,62,-9,7,96,179,72,3,70,4.300000191,0
+1003,Sweet Caroline,Neil Diamond,adult standards,1987,63,13,54,-16,24,53,204,59,3,70,3.299999952,0.400000006
+1004,(What A) Wonderful World,Sam Cooke,adult standards,2000,129,51,69,-10,46,89,125,63,3,70,5.699999809,0.200000003
+1005,In A Sentimental Mood,Duke Ellington,adult standards,1963,108,31,46,-12,21,28,255,94,3,69,0.100000001,0.100000001
+1006,This Will Be (An Everlasting Love),Natalie Cole,adult standards,1975,127,62,69,-11,3,90,172,23,4,69,9.199999809,0.699999988
+1007,Rockin' Around The Christmas Tree,Brenda Lee,adult standards,1991,140,40,69,-12,46,84,126,70,6,67,4.699999809,0.899999976
+1008,I Believe in You,Michael Bubl√©,adult standards,2016,113,74,61,-6,10,53,202,13,3,66,5.900000095,0.300000012
+1009,I Got It Bad And That Ain't Good,Oscar Peterson Trio,adult standards,1997,51,6,52,-27,9,18,306,97,5,66,0.400000006,-0.400000006
+1010,It's Beginning To Look A Lot Like Christmas,Michael Bubl√©,adult standards,2012,93,23,35,-11,29,38,206,91,3,66,4.300000191,0.600000024
+1012,What A Wonderful World,Louis Armstrong,adult standards,1968,77,17,27,-21,12,20,139,73,4,65,2.5,0.5
+1013,It's the Most Wonderful Time of the Year,Andy Williams,adult standards,1963,202,60,24,-8,12,78,152,77,4,65,4.5,0.699999988
+1014,Let It Snow! Let It Snow! Let It Snow! (with The B. Swanson Quartet),Frank Sinatra,adult standards,1948,143,32,60,-11,34,84,156,88,6,65,0,0
+1015,Dream A Little Dream Of Me,Ella Fitzgerald,adult standards,1995,95,15,49,-14,16,36,188,92,8,65,3,0.400000006
+1016,My Little Brown Book,Duke Ellington,adult standards,1963,70,19,37,-13,16,22,320,94,3,64,0.100000001,0.100000001
+1017,You Make Me Feel So Young,Frank Sinatra,adult standards,1956,125,31,58,-12,18,57,177,38,4,64,5.400000095,0.5
+1018,I'm Coming Out,Diana Ross,adult standards,1980,110,83,73,-9,8,76,323,18,5,63,5,0.300000012
+1019,Summertime,Louis Armstrong,adult standards,1958,66,9,15,-21,11,12,298,91,3,62,1.700000048,0.300000012
+1020,Winter Wonderland,Bing Crosby,adult standards,2006,127,23,59,-14,12,54,144,83,5,62,6.5,0.600000024
+1021,The Girl From Ipanema,Stan Getz,adult standards,1964,129,14,66,-17,11,40,318,87,4,62,17.29999924,0.100000001
+1023,Stockholm Sweetnin',Scott Hamilton,adult standards,2013,120,30,61,-12,11,31,476,84,4,61,0.100000001,0.100000001
+1024,A Sunday Kind Of Love,Etta James,adult standards,1960,81,28,39,-10,27,47,199,87,3,61,6.599999905,0.400000006
+1025,The Masquerade Is Over,Nancy Wilson,adult standards,1962,174,4,34,-18,16,13,258,91,3,60,1.200000048,0.200000003
+1026,Jump in the Line,Harry Belafonte,adult standards,1961,116,89,59,-8,12,80,222,77,25,60,12.30000019,0.400000006
+1028,Let's Fall In Love,Diana Krall,adult standards,1999,124,16,62,-17,14,47,259,84,5,60,4.300000191,0.200000003
+1029,That's Amore,Dean Martin,adult standards,1996,79,16,51,-13,10,46,188,66,3,60,5.099999905,0.5
+1030,Lullaby Of The Leaves,Gerry Mulligan,adult standards,1998,125,8,44,-17,9,49,195,97,4,59,0,0
+1032,All I Want For Christmas Is You,Michael Bubl√©,adult standards,2012,142,47,50,-8,10,14,172,42,3,59,3.400000095,0.100000001
+1034,Hit The Road Jack,Ray Charles,adult standards,2009,173,59,59,-13,82,96,118,70,32,58,5.199999809,-0.400000006
+1035,Bitter With The Sweet,Carole King,adult standards,1968,99,43,69,-13,12,69,148,81,6,58,2.400000095,0.600000024
+1036,Christmas (Baby Please Come Home),Michael Bubl√©,adult standards,2012,126,79,50,-6,8,67,188,0,3,58,3.400000095,0.300000012
+1037,A Holly Jolly Christmas,Burl Ives,adult standards,2007,140,36,67,-13,15,82,133,64,3,58,0.600000024,0.600000024
+1038,Cheek To Cheek,Ella Fitzgerald,adult standards,1956,122,31,65,-13,13,68,353,60,11,57,3.700000048,0.400000006
+1040,Dear Old Stockholm,Scott Hamilton,adult standards,2013,134,21,58,-15,20,29,597,91,4,55,0,0
+1041,"Baby, It's Cold Outside",Dean Martin,adult standards,1959,130,20,47,-16,5,54,144,88,6,55,14.80000019,0.200000003
+1042,What The World Needs Now,Dionne Warwick,adult standards,1967,112,29,59,-13,21,35,191,69,4,55,4.699999809,0.699999988
+1043,I Get Along Without You Very Well (Except Sometimes),Chet Baker,adult standards,1956,103,3,44,-23,15,21,180,92,4,55,0,0
+1044,Let's Call The Whole Thing Off,Ella Fitzgerald,adult standards,1957,123,31,65,-13,9,58,256,82,20,54,6.599999905,0.100000001
+1047,Everyday,Buddy Holly,adult standards,1995,135,26,74,-11,8,51,128,50,3,53,6.400000095,0.899999976
+1048,They Can't Take That Away From Me,Ella Fitzgerald,adult standards,1956,100,19,54,-15,11,39,280,64,8,53,1.700000048,0.200000003
+1049,"Bewitched, Bothered, And Bewildered",Ella Fitzgerald,adult standards,1956,63,11,35,-16,10,30,423,97,4,52,6,0.100000001
+1050,Into Each Life Some Rain Must Fall,Ella Fitzgerald,adult standards,1996,132,12,53,-15,12,45,190,96,5,52,3.099999905,0.300000012
+1051,Shake It but Don't Break It,Scott Hamilton,adult standards,2016,138,33,59,-11,11,37,420,73,4,52,0,0
+1052,Santa Baby (with Henri Ren√© & His Orchestra),Eartha Kitt,adult standards,2002,84,14,70,-12,19,49,206,90,6,52,0,0
+1053,La Vie En Rose,Louis Armstrong,adult standards,1994,71,12,57,-11,8,33,206,83,7,52,3.400000095,0.5
+1055,All I Want For Christmas (Is My Two Front Teeth),Nat King Cole Trio,adult standards,2004,130,16,77,-10,14,50,151,90,6,51,3.099999905,-0.300000012
+1056,Linus And Lucy,Vince Guaraldi Trio,adult standards,1965,82,39,50,-14,17,69,185,79,4,50,0,0
+1057,Moonlight In Vermont,Stan Getz,adult standards,1992,126,38,34,-11,24,38,148,92,3,50,0,0
+1058,If You Could See Me Now,Chet Baker,adult standards,2012,113,3,51,-20,14,18,318,94,4,49,0.100000001,0.100000001
+1059,It's Only A Paper Moon,Ella Fitzgerald,adult standards,1996,118,14,73,-14,11,63,157,96,4,49,3.599999905,0
+1060,White Christmas (Duet With Shania Twain),Michael Bubl√©,adult standards,2011,63,48,63,-8,13,64,217,47,3,49,0,0
+1061,Show Me The Magic,Jamie Cullum,adult standards,2016,124,49,60,-5,25,58,150,26,4,49,0,0
+1062,Manhattan,Ella Fitzgerald,adult standards,1956,69,28,48,-11,9,43,172,86,3,49,6.800000191,0.5
+1063,Undecided,Ella Fitzgerald,adult standards,1998,207,30,61,-10,10,97,201,88,37,48,0.899999976,-0.300000012
+1064,Charlie Brown Theme,Vince Guaraldi Trio,adult standards,1989,63,15,64,-19,14,8,260,17,4,48,0,0
+1065,"Hello, Dolly!",Louis Armstrong,adult standards,1964,155,41,58,-10,20,62,147,84,5,48,1.5,0.699999988
+1066,Jingle Bells (feat. The Puppini Sisters),Michael Bubl√©,adult standards,2011,123,59,70,-6,20,85,160,63,6,47,1.799999952,0.899999976
+1067,Cold December Night,Michael Bubl√©,adult standards,2011,84,70,52,-7,9,41,198,1,2,47,4.800000191,0.300000012
+1068,White Christmas,Bing Crosby,adult standards,2010,96,25,23,-16,40,19,184,91,3,47,3,0.699999988
+1069,Jingle Bells,Frank Sinatra,adult standards,1957,175,34,51,-13,10,95,121,73,5,47,9.699999809,0.600000024
+1070,Skating,Vince Guaraldi Trio,adult standards,1965,65,30,49,-17,13,55,146,75,3,46,0,0
+1071,I'll See You In My Dreams,Diana Krall,adult standards,2017,95,31,69,-12,9,51,234,76,5,46,2.099999905,0.5
+1072,Frosty The Snowman,Ella Fitzgerald,adult standards,1960,77,50,57,-7,28,85,132,77,5,46,4.699999809,0.100000001
+1073,Someone To Watch Over Me,Ella Fitzgerald,adult standards,1950,113,10,39,-14,12,21,197,99,4,45,0.300000012,-0.100000001
+1075,Mistletoe And Holly,Frank Sinatra,adult standards,1957,110,10,61,-14,8,34,136,80,4,45,5.199999809,0.600000024
+1076,Christmas Time Is Here (with Tony Bennett),Josh Groban,adult standards,2017,136,24,38,-13,13,7,211,90,3,45,0,0
+1077,Splanky,Count Basie,adult standards,1994,122,42,61,-8,6,60,216,71,4,45,0,0
+1078,Beautifull,Carole King,adult standards,1968,77,34,65,-11,9,56,186,81,3,44,3,0.200000003
+1081,Silver Bells,Tony Bennett,adult standards,2011,132,30,71,-13,14,53,195,83,3,43,3.900000095,0.600000024
+1082,Samba De Uma Nota So,Stan Getz,adult standards,1962,77,14,69,-23,11,71,373,69,10,43,13.69999981,0
+1084,It's Not Christmas 'Til You Come Home,Norah Jones,adult standards,2017,96,7,49,-20,11,23,192,90,4,40,3.799999952,-0.699999988
+1089,(There's No Place Like) Home for the Holidays,Perry Como,adult standards,2001,144,40,53,-11,22,45,178,87,5,39,0.699999988,0.699999988
+1090,What a Night!,"Harry Connick, Jr.",adult standards,2008,130,33,61,-11,8,50,204,22,5,39,6.099999905,0.300000012
+1091,Have a Holly Jolly Christmas,"Harry Connick, Jr.",adult standards,2008,141,26,56,-13,11,47,244,65,4,39,3.900000095,0.400000006
+1093,Up On The Roof,Carole King,adult standards,1968,180,31,36,-13,9,66,216,98,3,38,2,0.200000003
+1094,L,Nat King Cole,adult standards,2000,78,19,57,-15,8,73,153,69,7,38,3.700000048,0.899999976
+1096,Four Brothers,The Manhattan Transfer,a cappella,1994,207,51,41,-12,31,78,232,59,8,38,11.69999981,0.600000024
+1098,I Really Don't Want Much for Christmas (feat. Eric Ben√©t),Chris Botti,adult standards,2002,68,33,26,-11,39,19,259,78,4,38,0,0
+1099,Locomotion,Carole King,adult standards,1980,131,78,68,-7,3,90,151,3,3,37,3.799999952,0.400000006
+1101,The Pink Panther Theme,Henry Mancini,adult standards,2000,117,22,56,-13,30,23,156,47,4,36,0,0
+1102,Oh No Not My Baby,Carole King,adult standards,1980,172,44,44,-8,7,53,181,57,3,36,3.900000095,-0.100000001
+1103,Dancin' with Tears in My Eyes,Carole King,adult standards,1980,125,65,72,-7,9,77,211,23,3,36,2.299999952,-0.200000003
+1106,Cool Yule,Kurt Elling,adult standards,2010,146,37,60,-10,8,56,211,43,16,36,0,0
+1107,I've Got My Love To Keep Me Warm,Steve Tyrell,adult standards,1999,129,31,60,-10,13,25,214,61,3,36,5.099999905,0.400000006
+1108,Here Comes Santa Claus (Right Down Santa Claus Lane),Bing Crosby,adult standards,2000,152,30,67,-9,16,75,183,84,4,35,3.5,0.300000012
+1113,Little Jack Frost Get Lost,Seth MacFarlane,adult standards,2014,127,38,67,-7,11,63,154,73,4,34,3,-0.200000003
+1114,Breakfast At Tiffany's,Henry Mancini,adult standards,1961,118,14,35,-21,12,16,168,98,3,34,0.100000001,0.100000001
+1115,Baby It's Cold Outside,Ella Fitzgerald,adult standards,1996,113,8,77,-14,13,61,164,93,6,34,10.80000019,0.100000001
+1117,So Long Dearie,Bette Midler,adult standards,2017,124,46,55,-9,12,70,163,75,6,33,0,0
+1118,"Love Theme from ""Romeo and Juliet""",Henry Mancini,adult standards,2000,75,19,36,-12,14,16,152,95,3,32,0.100000001,0.100000001
+1119,What Are You Doing New Year's Eve?,Diana Krall,adult standards,2005,69,12,37,-14,11,11,250,94,4,32,2.200000048,0.100000001
+1120,Schroeder,Vince Guaraldi Trio,adult standards,1989,79,14,43,-18,16,65,112,97,5,31,0,0
+1121,Hey Girl,Carole King,adult standards,1980,168,41,55,-7,14,43,222,28,3,31,1.600000024,-0.300000012
+1122,Love For Sale,Lionel Hampton,bebop,1996,115,24,72,-18,8,53,209,85,4,31,0,0
+1123,The Christmas Song (Chestnuts Roasting On An Open Fire),James Taylor,adult standards,2006,122,34,39,-10,24,21,232,40,3,31,2.900000095,0.400000006
+1124,It‚Äôs The Holiday Season,Count Basie Orchestra,big band,2015,120,47,68,-6,15,54,241,25,3,30,0,0
+1125,Wasn't Born To Follow,Carole King,adult standards,1968,78,41,47,-12,7,42,224,67,2,30,0.899999976,-0.100000001
+1126,You‚Äôll Be In My Heart,George Benson,adult standards,2017,98,40,72,-10,12,29,247,71,3,30,8.300000191,-0.5
+1127,Christmas In New Orleans,Louis Armstrong,adult standards,1997,103,33,64,-12,15,50,174,65,16,30,2.5,0.5
+1129,Moten Swing,Oscar Peterson Trio,adult standards,2010,136,22,76,-16,11,45,173,91,4,29,0,0
+1130,Dear Heart,Henry Mancini,adult standards,2000,85,19,28,-13,18,24,161,97,3,28,1.799999952,0.300000012
+1131,Moon River Cha Cha,Henry Mancini,adult standards,1961,127,26,73,-20,8,68,159,93,4,28,0.100000001,0.100000001
+1132,The Golden Touch,Madeleine Peyroux,adult standards,2017,137,39,57,-6,22,38,186,74,6,28,0,0
+1134,A Shot In The Dark,Henry Mancini,adult standards,2000,119,42,48,-12,20,44,153,7,4,26,0,0
+1135,Lush Life,John Coltrane,bebop,1975,91,9,40,-20,16,12,329,98,4,26,4.800000191,0.300000012
+1136,The Bare Necessities,Melody Gardot,adult standards,2016,91,40,65,-11,12,64,210,77,10,26,6.099999905,0.400000006
+1137,With One Look,Barbra Streisand,adult standards,1993,87,32,28,-13,10,28,214,95,4,26,3.099999905,0.100000001
+1140,Peter Gunn,Henry Mancini,adult standards,2000,119,47,57,-14,31,63,125,70,6,24,0.5,0.200000003
+1141,Jingle Bell Rock,Brenda Lee,adult standards,1993,123,35,73,-12,50,87,131,72,4,24,3.599999905,0.699999988
+1142,Charade,Henry Mancini,adult standards,2000,86,26,29,-14,22,8,155,78,3,23,2.599999905,0
+1143,Mr. Lucky,Henry Mancini,adult standards,2000,121,24,42,-18,14,26,133,6,3,23,1.200000048,0
+1144,Days Of Wine And Roses,Henry Mancini,adult standards,2000,81,17,25,-14,20,21,127,85,3,22,2.099999905,0.699999988
+1146,Sweet Georgia Brown,Johnny Mercer,adult standards,1980,176,28,55,-11,62,91,155,89,7,22,3.599999905,0
+1147,You've Got a Friend (Live),Carole King,adult standards,1971,177,67,31,-10,94,64,385,90,21,21,0,0
+1149,Ev'rybody Wants To Be A Cat,Jamie Cullum,adult standards,2016,117,40,56,-8,32,49,177,34,4,21,2.799999952,0
+1151,Will You Love Me Tomorrow?,Carole King,adult standards,1968,161,29,40,-15,9,24,251,80,3,20,4.099999905,0.5
+1153,He's A Tramp,Melody Gardot,adult standards,2016,105,32,60,-11,11,44,223,83,4,20,3.200000048,0.800000012
+1156,You've Got a Friend,Carole King,adult standards,1968,169,25,47,-12,12,45,309,88,3,19,2.900000095,0.100000001
+1157,I Feel the Earth Move,Carole King,adult standards,1968,120,58,71,-10,5,67,179,70,3,19,4,0
+1158,The Sweetheart Tree,Henry Mancini,adult standards,2000,120,40,31,-14,55,44,115,86,3,18,0.899999976,0.400000006
+1159,Experiment in Terror,Henry Mancini,adult standards,2000,111,30,33,-15,16,34,137,56,3,18,2.099999905,0.699999988
+1160,I Feel The Earth Move (Live),Carole King,adult standards,1971,126,87,48,-9,97,65,216,92,38,18,4,0.100000001
+1162,How Soon,Henry Mancini,adult standards,2000,98,18,21,-13,9,15,166,95,3,17,0,0
+1163,Baby Elephant Walk,Henry Mancini,adult standards,2000,121,31,78,-14,12,79,162,33,4,17,2.099999905,0.5
+1165,Moon River,Henry Mancini,adult standards,2000,92,18,25,-16,20,11,162,95,3,17,0.699999988,0.699999988
+1166,So Far Away (Live),Carole King,adult standards,1971,138,37,46,-10,76,43,253,95,4,17,0.5,-0.5
+1167,Child Of Mine,Carole King,adult standards,1968,118,17,50,-14,9,33,242,99,4,17,4,0.5
+1168,Snow Queen,Carole King,adult standards,1980,149,47,41,-10,8,31,267,23,3,16,2.099999905,-0.100000001
+1170,It's Too Late (Live),Carole King,adult standards,1971,206,58,41,-8,94,48,262,85,10,16,0,0
+1171,Tapestry,Carole King,adult standards,1968,131,19,46,-12,31,29,194,93,4,16,1.5,0
+1172,Where You Lead,Carole King,adult standards,1968,107,43,78,-11,8,95,198,79,3,16,3.200000048,0.300000012
+1173,Way Over Yonder,Carole King,adult standards,1968,89,23,56,-13,25,17,285,76,3,16,3.900000095,0.400000006
+1174,Home Again,Carole King,adult standards,1968,140,22,51,-13,8,62,149,85,4,16,2.5,-0.100000001
+1175,Hi,Carole King,adult standards,1968,77,53,31,-10,10,58,204,10,6,16,1.700000048,0
+1177,Home Again (Live),Carole King,adult standards,1971,145,30,45,-13,93,53,166,98,6,15,2.099999905,0
+1178,Jazzman,Carole King,adult standards,1968,118,69,57,-9,18,84,226,52,3,15,1.899999976,0.300000012
+1179,Been To Canaan,Carole King,adult standards,1968,128,48,54,-12,9,51,218,90,3,15,1.600000024,0
+1180,Whistling Away The Dark,Henry Mancini,adult standards,2000,108,19,23,-15,33,7,225,97,4,14,0.400000006,0
+1181,"Theme From ""Hatari""",Henry Mancini,adult standards,2000,119,25,43,-19,10,56,175,57,3,14,0,0
+1182,Snowfall,Henry Mancini,adult standards,2000,134,11,29,-20,11,29,217,92,3,14,2.400000095,-0.100000001
+1183,Beautiful (Live),Carole King,adult standards,1971,82,50,50,-8,77,43,159,92,6,14,3.599999905,0.300000012
+1184,After All This Time,Carole King,adult standards,1971,102,56,56,-10,93,73,200,96,14,14,3.5,0.800000012
+1185,You've Got A Friend (Live At Carnegie Hall),Carole King,adult standards,1968,176,40,33,-16,97,62,383,87,13,14,0,0
+1186,Only Love Is Real,Carole King,adult standards,1968,112,44,66,-14,13,88,211,68,3,14,1.899999976,0.600000024
+1187,At This Time In My Life,Carole King,adult standards,1968,128,9,46,-17,14,22,170,97,3,14,0.600000024,-0.100000001
+1188,It's Going To Take Sometime,Carole King,adult standards,1968,112,15,65,-15,9,30,215,95,4,14,2.599999905,0
+1189,Sweet Seasons,Carole King,adult standards,1968,116,55,68,-12,12,87,195,35,3,14,3.400000095,0.400000006
+1190,Smackwater Jack,Carole King,adult standards,1968,126,50,66,-11,7,77,222,44,3,14,3.5,0
+1192,What's Happening!!,Henry Mancini,adult standards,2000,158,51,51,-8,11,95,128,49,3,13,0,0
+1193,Two for the Road,Henry Mancini,adult standards,2000,87,24,37,-16,14,15,161,95,3,13,3.200000048,0.800000012
+1194,A Profound Gass,Henry Mancini,adult standards,2000,122,20,66,-20,8,56,199,92,4,13,0,0
+1195,Goin' Back,Carole King,adult standards,1980,123,56,56,-9,5,48,231,28,3,13,3.400000095,0.400000006
+1196,Way Over Yonder (Live),Carole King,adult standards,1971,93,31,34,-9,73,33,254,97,3,13,3.400000095,0.200000003
+1197,Eventually,Carole King,adult standards,1971,118,21,37,-13,73,28,278,95,4,13,1.399999976,-0.300000012
+1198,Smackwater Jack (Live),Carole King,adult standards,1971,134,52,54,-10,98,57,229,78,9,13,2.799999952,-0.100000001
+1199,Song Of Long Ago,Carole King,adult standards,1971,112,54,52,-10,90,39,205,87,10,13,4.5,0.5
+1200,No Easy Way Down,Carole King,adult standards,1971,91,33,41,-12,76,48,333,98,5,13,1.700000048,0.100000001
+1201,Carry Your Load,Carole King,adult standards,1971,122,41,47,-10,68,53,180,96,5,13,2,0.100000001
+1202,Where You Lead I Will Follow,Carole King,adult standards,2005,108,45,66,-8,91,61,204,94,3,13,2.200000048,0.200000003
+1203,Nightingale,Carole King,adult standards,1968,126,59,63,-10,27,87,218,27,3,13,1.799999952,-0.400000006
+1204,Ties That Bind,Carole King,adult standards,1968,136,49,53,-12,10,72,130,82,4,13,2.5,0.400000006
+1205,Goodbey Don't Mean I'm Gone,Carole King,adult standards,1968,129,44,64,-16,8,80,215,65,3,13,2.099999905,0
+1206,Pocket Money,Carole King,adult standards,1968,130,29,47,-16,11,59,164,89,3,13,2.200000048,-0.200000003
+1207,"Brother, Brother",Carole King,adult standards,1968,171,43,50,-12,14,68,180,76,6,13,2.5,0.600000024
+1208,Music,Carole King,adult standards,1968,82,53,42,-11,18,72,231,42,3,13,1.5,0.200000003
+1209,"Theme From ""The Great Impostor""",Henry Mancini,adult standards,2000,87,37,54,-15,36,42,164,38,3,12,0,0
+1210,Just For Tonight,Henry Mancini,adult standards,2000,139,27,49,-17,13,75,123,20,3,12,2.700000048,0
+1211,Wasn't Born to Follow,Carole King,adult standards,1980,190,68,42,-9,31,75,197,27,4,12,0.899999976,-0.100000001
+1212,Hi De Ho,Carole King,adult standards,1980,113,54,62,-7,11,67,216,46,4,12,1.700000048,0
+1214,Now And Forever,Carole King,adult standards,2005,80,49,45,-9,71,37,198,95,7,12,2.799999952,0.300000012
+1215,"Believe In Humanity (Live In Central Park, NYC)",Carole King,adult standards,1968,99,58,47,-9,99,64,275,70,3,12,0,0
+1216,Corazon,Carole King,adult standards,1968,127,54,75,-13,5,92,237,7,4,12,1.600000024,0.800000012
+1217,Walkin' Bass,Henry Mancini,adult standards,1959,114,17,73,-16,11,25,264,65,4,11,0,0
+1218,The Man With The Bag,Jane Monheit,adult standards,2006,91,46,64,-9,24,82,122,77,10,11,4.5,0.100000001
+1219,There's A Space Between Us,Carole King,adult standards,1968,83,39,50,-12,5,61,203,70,3,11,2.200000048,0.200000003
+1220,Wrap Around Joy,Carole King,adult standards,1968,200,67,43,-10,42,97,179,20,3,11,3.200000048,0.5
+1221,Brick House,Commodores,adult standards,2013,108,75,85,-8,7,60,210,2,7,11,2.700000048,0
+1223,Loving You Forever,Carole King,adult standards,2005,84,27,44,-8,70,21,212,77,3,10,3.799999952,0.600000024
+1225,Alligators All Around,Carole King,adult standards,1968,79,37,59,-11,34,52,115,18,3,10,1.399999976,0
+1226,Really Rosie,Carole King,adult standards,1968,119,31,63,-13,9,58,111,9,3,10,4.5,0.100000001
+1227,Ain't No Mountain High Enough,Diana Ross,adult standards,2013,97,74,32,-7,27,54,380,43,4,10,5.300000191,0.100000001
+1229,(You Make Me Feel Like A) Natural Woman,Carole King,adult standards,2005,81,30,51,-7,44,27,239,94,3,9,4.199999809,0.400000006
+1232,Medley,Carole King,adult standards,2005,76,37,39,-7,95,31,520,91,3,9,7.300000191,0.300000012
+1234,Love Makes The World,Carole King,adult standards,2005,178,38,39,-9,69,56,263,95,5,9,5.300000191,0.5
+1235,Welcome To My Living Room,Carole King,adult standards,2005,84,53,35,-10,98,56,118,92,29,9,2.400000095,0.300000012
+1236,Reach Out And Touch (Somebody's Hand),Diana Ross,adult standards,2013,134,69,53,-6,14,61,185,61,3,9,1.899999976,0.100000001
+1237,Pleasant Valley Sunday,Carole King,adult standards,2005,84,69,45,-5,99,26,225,70,4,8,3.900000095,0.5
+1240,Wishful Thinking,Carole King,adult standards,2005,98,20,39,-11,70,18,252,97,3,8,1.600000024,-0.400000006
+1241,Lay Down My Life,Carole King,adult standards,2005,169,37,45,-9,70,38,260,96,11,8,0.699999988,0
+1242,Peace In The Valley,Carole King,adult standards,2005,110,34,55,-9,71,72,222,97,5,8,3.900000095,0.200000003
+1243,Bugle Call Rag,Benny Goodman,adult standards,2011,119,66,74,-10,8,91,200,68,9,8,0.899999976,0.400000006
+1244,Sweet Little You,Benny Goodman,adult standards,2011,177,41,61,-11,8,89,152,68,7,8,2.099999905,0.100000001
+1246,Being At War With Each Other,Carole King,adult standards,2005,77,31,44,-8,97,20,245,93,3,7,1.600000024,-0.200000003
+1247,All Night Long (All Night),Lionel Richie,adult standards,2013,109,62,72,-12,4,76,385,11,4,6,8.5,0.300000012
+1248,Remember Me,Diana Ross,adult standards,2013,113,58,70,-5,9,40,222,14,3,5,8.199999809,0.200000003
+1249,"December, 1963 (Oh What a Night!)",Frankie Valli & The Four Seasons,adult standards,2018,104,59,73,-10,4,96,201,6,3,0,0,0
+1250,Beautiful (feat. Camila Cabello),Bazzi,dance pop,2018,100,72,64,-5,11,25,180,35,3,92,4.900000095,0.300000012
+1251,This Feeling,The Chainsmokers,edm,2018,105,57,57,-8,9,45,198,6,4,91,4.900000095,-0.100000001
+1252,Woman Like Me (feat. Nicki Minaj),Little Mix,dance pop,2018,150,85,76,-3,9,83,228,17,5,89,3.400000095,0
+1253,The Middle,Zedd,complextro,2018,107,66,75,-3,11,44,185,17,4,89,7.199999809,-0.200000003
+1254,Happy Now,Zedd,complextro,2018,88,74,50,-5,7,46,207,58,5,89,3.700000048,0
+1255,IDGAF,Dua Lipa,dance pop,2017,97,54,84,-6,8,51,218,4,9,87,6.400000095,-0.300000012
+1256,Meant to Be (feat. Florida Georgia Line),Bebe Rexha,dance pop,2017,154,78,64,-6,8,58,164,5,9,86,4.599999905,0
+1257,Lost In Japan,Shawn Mendes,canadian pop,2018,107,85,69,-5,33,38,201,9,26,85,2.700000048,0
+1258,Starboy,The Weeknd,canadian pop,2016,186,59,68,-7,14,49,230,14,28,85,1.299999952,0
+1259,Thinking Out Loud,Ed Sheeran,pop,2014,79,45,78,-6,18,59,282,47,3,85,5.300000191,0.5
+1260,I'm Yours,Jason Mraz,acoustic pop,2008,151,46,69,-8,11,72,242,60,5,85,2.700000048,0.200000003
+1261,New Light,John Mayer,neo mellow,2018,124,69,83,-8,8,85,216,33,3,84,6.199999809,0.400000006
+1262,Polaroid,Jonas Blue,dance pop,2018,114,90,65,-4,7,48,193,29,4,84,5.699999809,-0.400000006
+1263,2002,Anne-Marie,dance pop,2018,96,68,70,-3,14,60,187,4,12,84,4.599999905,0.300000012
+1264,Something Just Like This,The Chainsmokers,edm,2017,103,64,62,-7,16,45,247,5,3,83,6.699999809,0.100000001
+1265,Playinwitme (feat. Kehlani),KYLE,hip hop,2018,157,58,69,-6,30,68,192,34,12,83,7.5,-0.100000001
+1266,I'm Not The Only One,Sam Smith,pop,2014,82,49,68,-6,8,49,239,53,4,83,3.400000095,-0.300000012
+1267,Stay With Me,Sam Smith,pop,2014,84,42,42,-6,11,18,173,59,4,83,4.400000095,0
+1268,ocean eyes,Billie Eilish,dance pop,2017,145,36,51,-8,8,17,200,82,4,83,1.299999952,-0.200000003
+1269,Castle on the Hill,Ed Sheeran,pop,2017,135,83,46,-5,14,47,261,2,10,82,2.700000048,0
+1270,Just Got Paid,Sigala,dance pop,2018,120,92,73,-2,15,59,218,3,10,82,3.299999952,0
+1271,1950,King Princess,dance pop,2018,72,54,60,-7,16,27,225,65,11,82,6.900000095,0
+1273,Work from Home,Fifth Harmony,dance pop,2016,105,59,80,-6,6,59,214,10,4,81,3.099999905,0
+1274,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,dance pop,1987,119,82,71,-9,9,87,291,21,5,81,6.400000095,0.300000012
+1275,Close To Me (with Diplo) (feat. Swae Lee),Ellie Goulding,dance pop,2018,144,76,57,-5,40,49,183,10,6,81,3,0
+1277,FourFiveSeconds,Rihanna,dance pop,2015,206,27,58,-6,12,33,188,88,4,81,3.599999905,-0.200000003
+1278,Capital Letters,Hailee Steinfeld,dance pop,2018,100,81,66,-6,5,46,219,3,8,80,6.5,-0.100000001
+1279,If I Ain't Got You,Alicia Keys,hip pop,2003,118,45,61,-9,10,17,229,60,11,80,2.700000048,-0.400000006
+1280,Shout Out to My Ex,Little Mix,dance pop,2017,126,75,77,-4,11,80,246,2,9,80,4.5,0.400000006
+1281,Shape of You,Ed Sheeran,pop,2017,96,65,83,-3,9,93,234,58,8,80,2.400000095,0.100000001
+1282,No Scrubs,TLC,dance pop,1999,93,68,74,-4,7,59,214,3,10,80,5.800000191,-0.5
+1284,If You're Over Me,Years & Years,dance pop,2018,104,85,65,-5,6,62,189,6,9,79,4.5,-0.300000012
+1285,Sugar,Maroon 5,pop,2015,120,79,75,-7,9,88,235,6,3,79,5.800000191,0
+1286,Royals,Lorde,art pop,2013,85,43,62,-10,13,30,190,11,13,79,5.300000191,0.200000003
+1287,"Hey, Soul Sister",Train,neo mellow,2010,97,89,67,-4,8,80,217,19,4,79,3.799999952,0.400000006
+1288,Lay Me Down,Sam Smith,pop,2015,125,19,47,-11,11,33,220,92,4,78,1.5,-0.100000001
+1290,My Way,Calvin Harris,edm,2016,120,91,82,-3,16,54,219,9,4,78,1.899999976,0.200000003
+1291,Drops of Jupiter,Train,neo mellow,2001,79,64,47,-6,15,50,260,15,3,78,7.5,-0.100000001
+1292,No One Compares To You,Jack & Jack,dance pop,2018,112,75,70,-6,6,63,184,12,4,77,3.5,0.100000001
+1293,Good Old Days (feat. Kesha),Macklemore,pop rap,2017,123,51,71,-8,11,27,241,45,6,77,6.300000191,0.5
+1294,Hooked,Why Don't We,boy band,2018,180,62,62,-5,12,35,205,9,6,77,7.599999905,0.200000003
+1295,The A Team,Ed Sheeran,pop,2011,85,29,64,-10,18,41,258,67,4,77,6.400000095,-0.699999988
+1296,Your Body Is a Wonderland,John Mayer,neo mellow,2001,94,73,65,-6,13,69,250,2,2,77,5.099999905,0.5
+1297,We Can't Stop,Miley Cyrus,dance pop,2013,80,62,61,-6,37,48,231,1,3,77,11.80000019,0.100000001
+1298,Love Song,Sara Bareilles,acoustic pop,2007,123,79,58,-3,19,57,259,2,3,76,3.099999905,-0.200000003
+1299,September Song,JP Cooper,dance pop,2017,96,62,61,-7,9,37,220,5,4,76,4.5,0
+1300,NO EXCUSES,Meghan Trainor,dance pop,2018,115,66,83,-4,4,52,153,2,5,76,5.300000191,0
+1301,Quarter Past Midnight,Bastille,metropopolis,2018,155,82,50,-3,4,46,202,28,6,76,3.099999905,0
+1302,It's Not Living (If It's Not With You),The 1975,modern alternative rock,2018,121,82,62,-5,6,56,248,0,3,76,3.400000095,-0.300000012
+1303,Best Day Of My Life,American Authors,brooklyn indie,2014,100,90,67,-2,6,52,194,6,3,76,6.199999809,0
+1304,Earned It (Fifty Shades Of Grey),The Weeknd,canadian pop,2014,120,38,66,-6,10,44,252,39,3,76,0,0
+1305,Black Magic,Little Mix,dance pop,2015,112,90,78,-4,32,83,212,3,6,76,5.599999905,0.400000006
+1306,Love On Top,Beyonc√©,dance pop,2011,94,75,65,-5,60,65,267,8,9,76,12.60000038,0.600000024
+1307,Want to Want Me,Jason Derulo,dance pop,2015,114,68,78,-6,11,66,208,1,6,76,3.900000095,-0.200000003
+1308,Treasure,Bruno Mars,pop,2012,116,69,87,-5,32,94,179,4,4,76,6,0.600000024
+1309,Get Lucky (feat. Pharrell Williams & Nile Rodgers),Daft Punk,electro,2013,116,81,79,-9,10,86,248,4,4,76,5.199999809,0.100000001
+1310,Roar,Katy Perry,dance pop,2013,180,77,55,-5,35,46,224,0,4,76,3.299999952,0
+1311,All I Want for Christmas Is You,Mariah Carey,dance pop,1994,150,63,34,-7,7,35,241,16,4,75,4.900000095,0.200000003
+1312,"CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's ""TROLLS"")",Justin Timberlake,dance pop,2016,113,83,67,-6,10,70,238,1,7,75,0,0
+1313,Feel So Close,Calvin Harris,edm,2012,128,92,71,-3,20,92,206,0,3,74,2.200000048,0.400000006
+1314,Classic,MKTO,australian pop,2012,102,79,72,-5,16,76,175,4,12,74,5.900000095,0.400000006
+1315,Happy,Pharrell Williams,dance pop,2013,160,76,65,-7,9,96,233,29,15,74,6.800000191,0
+1316,Love Never Felt so Good,Michael Jackson,pop,2014,118,72,78,-6,7,71,246,13,4,73,3.799999952,0.300000012
+1317,Rather Be (feat. Jess Glynne),Clean Bandit,dance pop,2014,121,59,80,-7,19,55,228,16,4,73,2.799999952,-0.100000001
+1318,Me Too,Meghan Trainor,dance pop,2017,124,69,93,-6,48,84,181,10,10,73,2.700000048,0.100000001
+1319,Still New York,MAX,dance pop,2018,99,68,66,-6,37,35,225,23,4,72,2.5,0.100000001
+1320,A Good Night,John Legend,neo soul,2018,110,71,53,-6,11,70,203,10,20,72,5.099999905,0.100000001
+1321,TOOTIMETOOTIMETOOTIME,The 1975,modern alternative rock,2018,115,83,66,-6,9,48,209,17,6,72,3.5,0
+1322,Partition,Beyonc√©,dance pop,2014,186,44,41,-12,31,17,319,3,29,72,10.10000038,0
+1323,Stitches,Shawn Mendes,canadian pop,2015,150,75,75,-7,5,76,207,2,7,72,5.099999905,-0.100000001
+1324,Get Lucky,Daft Punk,electro,2013,116,79,81,-9,7,86,370,4,4,72,5.5,0.300000012
+1325,"Just Like Fire (From the Original Motion Picture ""Alice Through The Looking Glass"")",P!nk,dance pop,2016,163,70,63,-6,11,50,215,1,15,71,0,0
+1327,Feels,Calvin Harris,edm,2017,101,75,89,-3,9,87,223,6,6,71,6.599999905,0.200000003
+1328,Killer Queen,5 Seconds of Summer,boy band,2018,171,79,26,-5,33,49,199,0,12,71,6.5,0.400000006
+1329,How Far I'll Go,Alessia Cara,dance pop,2016,181,56,32,-10,7,13,176,12,40,71,2.599999905,0
+1330,Mess Is Mine,Vance Joy,indie folk,2014,108,72,60,-8,10,27,224,5,3,71,4,-0.100000001
+1331,Shake It Off,Taylor Swift,dance pop,2014,160,79,65,-5,15,94,219,6,17,71,4.900000095,0
+1332,Single Ladies (Put a Ring on It),Beyonc√©,dance pop,2008,193,58,43,-5,19,27,193,4,30,71,3.099999905,0
+1333,123,Jess Glynne,dance pop,2018,95,67,71,-6,12,93,190,9,18,70,10.19999981,0.100000001
+1334,Sunday Morning,Maroon 5,pop,2002,88,76,61,-5,6,81,245,7,5,70,2,0.200000003
+1336,The Lazy Song,Bruno Mars,pop,2010,175,80,74,-4,28,95,190,33,6,70,6.5,-0.200000003
+1337,Black or White,Michael Jackson,pop,2005,115,89,74,-4,9,96,203,8,5,70,10.5,0
+1338,Play That Song,Train,neo mellow,2017,99,83,39,-2,10,48,243,2,5,69,7,0.300000012
+1339,Drive By,Train,neo mellow,2012,122,84,77,-3,8,72,196,0,3,69,5.800000191,0
+1340,Michael Jackson x Mark Ronson: Diamonds are Invincible,Michael Jackson,pop,2018,117,83,67,-2,24,55,300,34,34,69,0,0
+1341,Middle Finger,Phoebe Ryan,dance pop,2018,100,66,70,-3,11,53,242,14,5,69,6.5,-0.100000001
+1342,Try Everything,Shakira,colombian pop,2016,115,61,71,-5,8,48,197,3,3,69,5.400000095,-0.200000003
+1343,"Honey, I'm Good.",Andy Grammer,dance pop,2014,122,78,75,-7,35,60,199,3,5,69,3.400000095,-0.200000003
+1344,No Control,One Direction,boy band,2014,143,92,56,-3,3,85,200,3,8,67,3.599999905,-0.5
+1345,Once In a While,Timeflies,dance pop,2016,105,69,79,-6,62,35,215,1,14,67,6,0.100000001
+1346,Hold My Hand,Jess Glynne,dance pop,2015,123,82,64,-6,8,43,227,0,3,67,6.199999809,-0.300000012
+1347,Remember Me (D√∫o),Miguel,dance pop,2017,85,55,61,-7,50,62,164,43,4,67,3.900000095,0.400000006
+1348,The Greatest,Sia,australian dance,2016,192,79,64,-6,5,69,211,2,17,67,8.199999809,0.200000003
+1349,Obsession (feat. Jon Bellion),Vice,chicano rap,2017,102,56,74,-8,21,47,222,1,3,67,4,0.100000001
+1350,Shivers,Rachel Platten,dance pop,2017,113,72,84,-3,5,39,175,9,8,66,3.599999905,0.5
+1351,Overwhelming,Jon Bellion,pop,2016,92,63,73,-5,12,68,173,27,29,66,4.099999905,0.400000006
+1352,Inside Out,Camila Cabello,dance pop,2018,94,70,74,-5,8,66,183,43,9,65,5.099999905,0.5
+1353,If I Ain‚Äôt Got You,James Bay,neo mellow,2015,87,18,56,-10,71,31,261,75,17,65,5.199999809,-0.100000001
+1354,They Don't Know,Ariana Grande,dance pop,2016,98,71,67,-7,14,71,197,0,28,65,2.299999952,0.100000001
+1355,"Baby, You Make Me Crazy",Sam Smith,pop,2017,170,65,52,-8,17,54,208,1,9,65,5.300000191,0
+1356,Free Free Free,Pitbull,dance pop,2018,123,95,71,-5,11,53,234,0,13,64,4.900000095,0.300000012
+1357,Don't Kill My Vibe,Sigrid,dance pop,2017,150,76,54,-5,35,30,184,26,12,64,8.800000191,-0.400000006
+1358,Freedom,Pharrell Williams,dance pop,2015,86,56,43,-6,14,61,162,40,7,64,5.5,0.100000001
+1359,Broken,Beyonc√©,dance pop,2008,82,42,34,-7,27,16,278,50,4,64,0,0
+1363,Hair Up,Justin Timberlake,dance pop,2016,150,58,69,-8,9,34,178,1,5,64,2.5,0.100000001
+1364,Fun (feat. Chris Brown),Pitbull,dance pop,2014,114,77,79,-4,19,55,202,16,5,63,7.400000095,0
+1365,Cheap Thrills,Sia,australian dance,2016,90,79,59,-5,13,76,224,6,20,63,5.400000095,0.400000006
+1367,So Good (feat. Ty Dolla $ign),Zara Larsson,dance pop,2017,82,58,73,-7,5,78,167,9,15,62,4.300000191,0.100000001
+1368,ID,Kygo,edm,2015,105,68,69,-8,10,34,290,62,4,62,0.100000001,0.100000001
+1369,TREAT MYSELF,Meghan Trainor,dance pop,2018,108,68,69,-5,76,69,174,0,5,61,7.5,0.400000006
+1370,One Chance To Dance,Naughty Boy,dance pop,2017,104,79,60,-3,9,37,204,10,3,61,1.700000048,0
+1372,Have Yourself A Merry Little Christmas,Sam Smith,pop,2014,146,18,40,-9,32,32,171,95,4,61,0.400000006,0.400000006
+1373,Mercy,Duffy,dance pop,2008,130,85,79,-4,13,97,220,29,3,61,10.60000038,0
+1374,What U Workin' With?,Gwen Stefani,dance pop,2016,104,63,75,-8,13,71,192,1,14,60,10.69999981,0
+1376,You've Got a Friend in Me,Jordan Fisher,post-teen pop,2018,114,26,76,-10,26,56,129,74,4,60,2.599999905,0.400000006
+1377,You Gotta Not,Little Mix,dance pop,2017,90,81,61,-5,4,39,191,1,4,60,11.10000038,0
+1378,Fresh Eyes,Andy Grammer,dance pop,2016,122,54,82,-7,14,86,198,56,3,59,5.900000095,0.5
+1379,Broken Glass,Rachel Platten,dance pop,2017,92,75,68,-4,46,34,180,16,8,58,4.699999809,0
+1380,Cheerleader,OMI,dance pop,2015,118,66,78,-6,17,61,182,15,3,58,4.5,0.100000001
+1381,Rainbow Connection,Sleeping At Last,acoustic pop,2016,107,18,51,-10,33,27,193,97,4,58,5,0.200000003
+1382,Valerie,Mark Ronson,dance pop,2007,106,84,70,-5,12,89,219,0,5,57,6.900000095,-0.200000003
+1383,She Sets The City On Fire,Gavin DeGraw,acoustic pop,2016,126,62,62,-7,9,56,219,1,6,57,1.600000024,-0.100000001
+1384,Just Dance,Lady Gaga,dance pop,2009,119,73,82,-4,19,68,242,3,3,57,9.199999809,0
+1386,Red Dress,MAGIC!,pop,2016,136,79,65,-4,25,79,201,9,3,56,5.300000191,0.600000024
+1387,The Way You Make Me Feel,Michael Jackson,pop,2005,172,81,74,-6,10,50,266,5,18,56,6.800000191,0.100000001
+1388,Kid In Love,Shawn Mendes,canadian pop,2015,85,60,63,-7,15,37,226,3,3,55,2.200000048,0.100000001
+1390,Love Someone,Jason Mraz,acoustic pop,2014,98,36,58,-14,11,8,257,31,3,55,3.900000095,0.300000012
+1391,Mirrors,Justin Timberlake,dance pop,2013,76,51,34,-7,8,53,485,24,7,55,3.900000095,0.100000001
+1392,Wrapped Up,Olly Murs,dance pop,2014,122,85,79,-5,10,93,186,9,5,54,4.699999809,0.300000012
+1393,Dancing On My Own,Robyn,dance pop,2010,117,87,68,-5,10,26,286,7,3,54,4,0
+1394,Rockin' Robin,Michael Jackson,pop,1972,173,71,63,-8,28,97,155,25,14,54,4.400000095,0.300000012
+1396,Raise Your Glass,P!nk,dance pop,2010,122,70,70,-5,3,63,203,1,9,52,8.199999809,-0.400000006
+1397,Applause,Lady Gaga,dance pop,2013,140,79,66,-4,10,70,212,3,5,52,8.699999809,0.400000006
+1398,"Baby, It's Cold Outside (feat. Meghan Trainor)",Brett Eldredge,canadian contemporary country,2016,114,57,58,-5,27,68,174,74,4,51,3,0
+1399,Exhale,Whitney Houston,dance pop,2000,138,43,66,-8,16,9,202,43,3,51,2.200000048,0.100000001
+1401,Have Yourself a Merry Little Christmas,Christina Aguilera,dance pop,2000,69,27,24,-10,9,16,243,87,4,49,2.700000048,0.400000006
+1402,You Must Love Me,Lana Del Rey,pop,2018,144,18,32,-13,11,9,163,94,4,49,3.900000095,0
+1404,I See Fire,Ed Sheeran,pop,2014,167,33,38,-6,72,48,286,74,4,48,4.099999905,0.200000003
+1406,A Song For You,Whitney Houston,dance pop,2009,120,67,54,-6,27,11,251,17,5,46,3.299999952,0.200000003
+1409,Anything,Frank Pole,deep tropical house,2016,122,87,48,-5,11,33,222,3,27,41,6.800000191,-0.300000012
+1410,Best Song Ever,One Direction,boy band,2013,118,88,65,-3,7,56,202,3,5,41,6,0.200000003
+1413,New York State of Mind,MAX,dance pop,2014,85,48,60,-10,14,18,161,38,6,36,0,0
+1415,Little of Your Love,HAIM,dance pop,2018,113,71,61,-9,71,68,213,12,5,34,6.199999809,0.400000006
+1419,Another Suitcase In Another Hall,Madonna,dance pop,2018,127,30,40,-11,12,22,213,85,3,15,0,0
+1420,Africa,Toto,album rock,1982,93,37,67,-18,5,73,296,26,3,85,2.400000095,0.400000006
+1422,Mr. Blue Sky,Electric Light Orchestra,album rock,1977,178,34,39,-10,25,48,303,65,3,80,5.900000095,0
+1423,"Take Me Home, Country Roads",John Denver,folk,1997,164,43,26,-13,19,55,198,55,3,79,3.299999952,0.400000006
+1424,Dreams,Fleetwood Mac,album rock,1977,120,49,83,-10,13,79,258,6,3,79,3.599999905,0.300000012
+1425,Brown Eyed Girl,Van Morrison,classic rock,1967,151,58,49,-11,41,91,183,18,4,79,3.799999952,0.300000012
+1426,You Make My Dreams,Daryl Hall & John Oates,album rock,1980,167,50,75,-12,5,90,191,23,6,78,0,0
+1427,"Rocket Man (I Think It's Going To Be A Long, Long Time)",Elton John,glam rock,1972,137,52,60,-9,9,36,282,39,3,78,5.900000095,-0.100000001
+1428,Stayin' Alive,Bee Gees,disco,1990,104,57,71,-16,15,96,282,7,4,77,3.599999905,0.100000001
+1429,Uptown Girl,Billy Joel,album rock,1983,129,94,70,-3,60,79,198,7,5,77,4.900000095,0.400000006
+1430,Imagine,John Lennon,album rock,1971,76,26,55,-12,9,17,188,91,3,76,1.299999952,-0.100000001
+1431,Landslide,Fleetwood Mac,album rock,1975,159,16,41,-22,12,42,199,88,3,76,3.5,0.400000006
+1432,You Can't Hurry Love,Phil Collins,mellow gold,1982,98,94,62,-5,7,76,176,3,3,76,2.700000048,0.200000003
+1433,Tiny Dancer,Elton John,glam rock,1971,145,43,41,-11,15,28,377,38,3,76,3.299999952,0.100000001
+1435,You Can Call Me Al,Paul Simon,folk,1986,128,76,78,-8,8,82,280,18,5,74,3.799999952,-0.200000003
+1436,Footloose,Kenny Loggins,album rock,1984,174,91,58,-6,6,65,227,10,7,72,1.5,-0.100000001
+1437,I'm a Believer,The Monkees,brill building pop,1967,80,78,53,-6,22,96,167,71,4,72,5.5,0.100000001
+1438,Don't Stop Believin',Journey,album rock,2010,119,78,50,-8,40,47,248,25,4,71,1.600000024,0.100000001
+1439,You'll Be In My Heart,Phil Collins,mellow gold,1999,97,75,57,-7,10,63,258,5,3,71,8.899999619,0.100000001
+1440,Rich Girl,Daryl Hall & John Oates,album rock,2005,168,64,60,-6,4,82,144,50,13,71,0,0
+1443,Me and Julio Down by the Schoolyard,Paul Simon,folk,1972,105,82,63,-11,10,80,165,24,13,70,1.5,-0.100000001
+1444,Piano Man,Billy Joel,album rock,1973,179,48,33,-9,31,41,336,62,3,70,7.300000191,0.200000003
+1448,Night Moves,Bob Seger,album rock,1976,119,74,71,-7,10,37,324,43,4,69,4,0
+1449,Jessie's Girl,Rick Springfield,album rock,1999,132,71,69,-8,9,84,193,8,4,69,3.299999952,0.100000001
+1450,What I Like About You,The Romantics,album rock,1990,160,92,54,-10,17,92,175,32,5,69,4.599999905,0.100000001
+1451,Girls Just Want to Have Fun,Cyndi Lauper,dance pop,2014,120,79,71,-5,31,75,238,21,3,68,16,0
+1452,Don't Go Breaking My Heart,Elton John,glam rock,2017,131,93,72,-5,9,80,266,16,4,67,3.599999905,-0.400000006
+1453,Strangers Like Me,Phil Collins,mellow gold,1999,120,80,67,-7,12,56,181,12,4,67,5,0.200000003
+1456,Dirty Work,Steely Dan,album rock,1972,73,35,63,-11,9,52,189,80,3,65,4.099999905,-0.200000003
+1457,Bennie And The Jets,Elton John,glam rock,1973,133,67,67,-8,50,78,323,26,5,64,3,0.200000003
+1459,"I Can't Help Myself (Sugar Pie, Honey Bunch)",Four Tops,brill building pop,2008,127,71,69,-5,6,96,164,20,3,63,1.100000024,-0.300000012
+1461,Happy Xmas (War Is Over),John Lennon,album rock,2010,147,61,33,-11,77,40,214,32,3,63,4.699999809,0.5
+1463,Cecilia,Simon & Garfunkel,folk,1972,105,85,68,-10,9,97,170,41,4,62,1.600000024,0.200000003
+1464,The Best,Tina Turner,disco,2004,104,87,65,-5,10,73,330,10,3,61,8.699999809,0.300000012
+1467,Higher Love,Steve Winwood,album rock,2006,99,91,71,-6,50,94,256,7,4,60,6.699999809,0
+1469,"If You Want To Sing Out, Sing Out",Yusuf / Cat Stevens,british folk,2003,133,29,64,-13,11,89,167,55,4,57,0,0
+1472,You've Got A Friend In Me,Lyle Lovett,alternative country,2003,107,38,69,-11,15,34,159,64,3,50,6.5,0
+1474,How Deep Is Your Love,Bee Gees,disco,2017,105,36,62,-10,16,68,245,21,3,48,6,0.5
+1495,I'm So Excited,The Pointer Sisters,dance rock,2014,182,72,59,-9,11,92,233,11,4,30,0,0
+1551,Baby I Need Your Loving,Four Tops,brill building pop,2013,121,69,65,-5,17,75,167,47,3,12,7.400000095,0.200000003
+1580,Feeling Good,Nina Simone,jazz blues,1965,79,33,32,-9,19,54,174,85,5,73,6.699999809,0.699999988
+1584,Blue in Green,Miles Davis,bebop,1959,111,2,42,-25,10,16,338,81,4,68,0.100000001,0.100000001
+1586,My Baby Just Cares for Me,Nina Simone,jazz blues,1958,119,24,75,-15,9,43,216,83,12,65,0.699999988,-0.100000001
+1591,I Guess I'll Hang My Tears Out To Dry,Dexter Gordon,bebop,1962,121,22,52,-9,5,33,322,91,3,62,0.100000001,0.100000001
+1592,Gary's Theme,Bill Evans,bebop,1977,122,8,42,-22,14,5,258,91,4,62,0.100000001,0.100000001
+1596,Peace Piece,Bill Evans,bebop,1959,133,3,46,-20,8,7,404,99,5,61,0,0
+1599,So What,Miles Davis,bebop,1959,136,15,52,-17,12,21,563,71,4,60,0.100000001,0.100000001
+1600,God Bless the Child,Sonny Rollins,bebop,2005,103,7,48,-17,8,14,445,92,3,60,1.799999952,0.400000006
+1604,Skating In Central Park,Bill Evans,bebop,1962,124,3,48,-25,11,15,324,99,5,59,0,0
+1607,'Round Midnight,Thelonious Monk,bebop,1951,117,32,54,-10,6,21,194,91,4,58,0.100000001,0.100000001
+1608,You Go To My Head,Art Pepper,bebop,1988,65,9,57,-16,11,30,258,98,9,58,3.599999905,0.400000006
+1609,Moanin',Art Blakey & The Jazz Messengers,avant-garde jazz,1989,126,23,61,-19,13,45,576,83,6,58,0.100000001,0.100000001
+1612,I Hear A Rhapsody,Bill Evans,bebop,1962,173,4,38,-26,13,12,280,100,4,57,0.300000012,0.300000012
+1614,Pretty Ballad,Keith Jarrett,bebop,1994,107,6,40,-26,70,17,210,86,4,56,0,0
+1616,Infant Eyes,Wayne Shorter,avant-garde jazz,1999,139,8,34,-12,9,12,414,99,4,56,0.100000001,0.100000001
+1618,Emily,Paul Desmond,bebop,1968,62,2,38,-27,11,15,287,99,4,55,2.5,0.800000012
+1619,Lucky To Be Me,Bill Evans,bebop,1959,101,2,48,-23,9,12,221,99,6,55,4.199999809,0.5
+1620,Interlude No. 3,Keith Jarrett,bebop,1971,108,0,51,-25,11,26,78,99,20,55,0,0
+1622,Freddie Freeloader,Miles Davis,bebop,1959,128,19,64,-16,12,50,586,70,3,55,0.100000001,0.100000001
+1624,My Foolish Heart,Bill Evans Trio,bebop,2005,115,13,39,-23,62,13,298,92,3,54,0,0
+1626,Virgo,Wayne Shorter,avant-garde jazz,2005,107,13,45,-14,11,18,427,97,4,53,0.100000001,0.100000001
+1627,Our Song,Art Pepper,bebop,1991,115,29,35,-12,19,17,332,76,4,53,0,0
+1636,Almost Like Being In Love,Red Garland,bebop,1957,94,35,57,-13,10,69,290,87,4,51,1.399999976,0.200000003
+1638,Stella By Starlight,Miles Davis,bebop,1959,86,14,49,-13,10,25,285,91,4,51,1.299999952,0.400000006
+1644,Bossa Antigua,Paul Desmond,bebop,1997,97,29,51,-18,8,57,283,93,6,48,0,0
+1651,Watermelon Man,Herbie Hancock,bebop,1962,129,53,61,-9,18,60,429,73,3,45,0.100000001,0.100000001
+1653,Dolphin Dance,Herbie Hancock,bebop,1965,120,37,46,-11,13,30,556,83,3,45,0.100000001,0.100000001
+1657,Diamonds Are a Girl's Best Friend,Marilyn Monroe,cabaret,2012,93,32,68,-10,12,65,211,93,9,44,8.399999619,0.100000001
+1662,Light At The End Of The Tunnel,Gregory Porter,vocal jazz,2018,123,86,53,-5,60,69,211,4,17,41,0,0
+1672,This Time Of Year,Dianne Reeves,vocal jazz,2004,181,15,41,-14,13,20,294,88,3,37,3.5,0.5
+1682,A Child Is Born,Nils Landgren,swedish jazz,2008,83,7,48,-16,14,21,229,92,3,35,0,0
+1683,„Éñ„É´„Éº„Éª„ÇØ„É™„Çπ„Éû„Çπ,Nicki Parrott,vocal jazz,2014,115,47,66,-7,9,52,231,86,3,35,0,0
+1684,C Jam Blues,Lincoln Center Jazz Orchestra,big band,1999,141,51,59,-10,33,73,214,62,22,35,0,0
+1688,I Can't Give You Anything But Love,Red Garland,bebop,1957,93,17,56,-20,9,42,302,89,6,34,10.39999962,0.400000006
+1700,'zat You Santa Claus,Holly Cole,vocal jazz,2007,88,35,54,-7,13,24,205,72,4,27,0,0
+1706,Sandu,Clifford Brown,bebop,1989,138,34,64,-12,8,52,297,73,5,25,0.100000001,0.100000001
+1712,Un jour mon prince viendra,Nikki Yanofsky,vocal jazz,2016,171,22,21,-14,35,12,200,93,4,21,0.5,-0.5
+1733,Mean to Me,Lester Young,bebop,2014,172,34,49,-12,26,58,418,53,5,9,1.5,0
+1734,In a Mellow Tone,Coleman Hawkins,bebop,2014,112,33,62,-13,9,59,289,67,5,9,0,0
+1737,Con Alma,Dizzy Gillespie,bebop,2016,114,33,72,-13,16,71,305,83,3,5,0,0
+1743,You're Welcome,Dwayne Johnson,movie tunes,2016,135,75,78,-7,4,69,164,28,28,75,0,0
+1748,I Just Can't Wait to Be King,Jason Weaver,movie tunes,1994,99,52,63,-14,10,90,171,29,6,69,0,0
+1749,Under the Sea,Samuel E. Wright,disney,1997,100,45,55,-15,9,87,195,71,17,69,0,0
+1751,I'll Make a Man Out of You,Donny Osmond,bubblegum pop,1998,114,33,66,-18,7,52,202,13,4,68,1.799999952,0
+1753,Part of Your World,Jodi Benson,disney,1997,89,14,37,-15,28,34,195,92,4,68,9.699999809,0.100000001
+1758,You've Got a Friend In Me,Randy Newman,disney,1995,116,34,68,-12,28,53,124,79,3,66,2.400000095,0.300000012
+1759,Do You Want to Build a Snowman?,Kristen Bell,disney,2013,174,12,31,-16,26,17,207,85,6,66,2.700000048,-0.200000003
+1761,Circle Of Life,Carmen Twillie,disney,1994,83,39,32,-16,29,59,239,7,4,65,0,0
+1770,Hawaiian Roller Coaster Ride,Mark Keali'i Ho'omalu,movie tunes,2002,115,62,70,-10,7,95,208,31,3,63,1.799999952,0
+1774,Kiss the Girl,Samuel E. Wright,disney,2001,135,23,67,-17,9,74,164,68,5,61,0,0
+2186,Twist And Shout,The Beatles,british invasion,1963,125,85,48,-9,4,94,155,64,5,75,2.900000095,0.300000012
+2187,Don't Stop Me Now,Queen,glam rock,1978,156,86,56,-5,68,61,209,5,19,74,6.599999905,0.300000012
+2189,You Shook Me All Night Long,AC/DC,album rock,1986,127,77,53,-6,30,77,211,0,6,73,2.400000095,0.300000012
+2190,I Want To Hold Your Hand,The Beatles,british invasion,2000,131,72,49,-6,31,87,146,39,5,73,2.099999905,0.100000001
+2196,Blank Space/Stand By Me,Imagine Dragons,modern rock,2015,102,57,76,-7,75,50,303,41,10,70,5.800000191,0.100000001
+2205,A Hard Day's Night,The Beatles,british invasion,1964,139,81,59,-6,10,80,154,14,4,68,1.899999976,0.200000003
+2209,Everyday People,Sly & The Family Stone,classic rock,1999,115,62,81,-8,11,77,140,25,3,66,0,0
+2213,Burning Down The House (45 Version),Talking Heads,alternative rock,1983,103,87,78,-13,4,56,242,1,6,63,0,0
+2218,You Are Here,Yo La Tengo,alternative rock,2018,115,58,56,-12,10,11,344,77,3,58,0.100000001,0.100000001
+2220,Run Rudolph Run,Chuck Berry,classic rock,1986,152,71,69,-10,7,94,166,79,8,58,3.900000095,0.400000006
+2222,You're My Best Friend,Queen,glam rock,2011,119,76,52,-7,7,58,171,16,5,56,4.900000095,0.400000006
+2223,Our Way to Fall,Yo La Tengo,alternative rock,2000,78,24,56,-15,10,55,258,72,3,53,3.900000095,0.400000006
+2338,I Want It That Way,Backstreet Boys,boy band,2001,99,70,69,-6,16,48,214,22,3,79,4.900000095,-0.200000003
+2381,That Don't Impress Me Much,Shania Twain,canadian country,1997,125,87,75,-5,14,96,239,15,6,68,6.900000095,-0.200000003
+2385,A Thousand Miles,Vanessa Carlton,dance pop,2011,95,83,56,-4,23,34,237,31,4,67,5,0
+2386,I Don't Feel Like Dancin',Scissor Sisters,dance pop,2006,108,92,71,-3,11,91,249,2,3,67,7,-0.200000003
+2412,Dancing,Kylie Minogue,australian dance,2018,110,71,50,-5,33,53,179,1,4,60,4.599999905,0
+2419,Just Friends (Sunny),Musiq Soulchild,dance pop,2000,95,38,78,-8,35,54,251,46,13,58,3.299999952,0.200000003
+2427,80s Baby,New Kids On The Block,boy band,2018,104,89,76,-4,11,75,217,12,14,54,0,0
+2431,What Christmas Means To Me,98¬∫,boy band,2017,81,87,54,-5,5,78,184,16,4,51,0,0
+2438,That Love,Shaggy,dance pop,2016,100,69,83,-7,8,68,240,12,9,46,9.800000191,0.600000024
+2439,Santa Baby,Kylie Minogue,australian dance,2015,87,38,68,-7,17,42,202,75,4,46,2.900000095,0.200000003
+2441,Prism,SHINee,dance pop,2016,138,89,65,-3,18,89,192,28,7,45,3,0
+2448,Creep City,Jake Shears,dance pop,2018,92,83,57,-4,7,79,205,18,3,36,5.300000191,-0.200000003
+2453,No Matter What,Boyzone,australian pop,2018,184,44,55,-8,21,48,275,2,3,22,4.699999809,-0.100000001
+2494,Down in New Orleans,Dr. John,blues,2009,121,68,70,-5,26,71,145,75,4,54,2.299999952,0
+2597,My Girl,The Temptations,classic soul,1965,105,42,58,-11,10,67,165,63,3,78,3.299999952,0.100000001
+2599,Put Your Records On,Corinne Bailey Rae,folk-pop,2006,96,51,74,-8,13,54,215,17,4,77,4.300000191,0.200000003
+2600,I Say a Little Prayer,Aretha Franklin,classic soul,1968,133,36,59,-14,6,50,217,48,4,74,5.599999905,0.600000024
+2601,Let's Stay Together,Al Green,classic soul,1972,102,40,76,-11,5,51,199,57,5,74,5.5,0.400000006
+2606,I Try,Macy Gray,neo soul,1999,76,64,59,-7,8,74,239,31,3,73,5.699999809,0
+2608,I Just Called To Say I Love You,Stevie Wonder,boston hardcore,1999,114,55,75,-9,9,65,262,24,2,71,2.299999952,0.200000003
+2610,Lovely Day,Bill Withers,funk,1977,98,65,69,-8,11,71,255,29,3,70,5.400000095,0.400000006
+2611,I Got You (I Feel Good),James Brown & The Famous Flames,funk,1966,71,47,61,-9,37,68,166,45,9,70,5.900000095,0.800000012
+2612,Stand By Me,Otis Redding,classic soul,1964,112,46,88,-11,7,93,172,28,6,70,1.799999952,0
+2614,Sir Duke,Stevie Wonder,boston hardcore,1976,107,58,58,-10,8,95,234,16,8,70,3.700000048,0.400000006
+2615,Respect,Aretha Franklin,classic soul,2007,115,61,74,-6,7,96,142,7,3,70,3.400000095,0.300000012
+2617,Blame It on the Boogie,The Jacksons,disco,1978,113,64,77,-10,9,88,214,8,8,69,14.5,0.600000024
+2618,Lean on Me,Bill Withers,funk,1972,75,22,62,-14,12,42,259,78,7,68,3.5,0
+2621,Think,Aretha Franklin,classic soul,1968,110,63,69,-11,22,93,140,25,4,67,5.400000095,0
+2623,Superstition,Stevie Wonder,boston hardcore,2002,100,63,64,-12,4,89,245,4,7,66,3.900000095,-0.600000024
+2624,Love Train,The O'Jays,classic soul,1972,123,57,74,-10,16,69,178,19,5,66,3.900000095,0.5
+2626,I'll Take You There,The Staple Singers,chicago soul,2007,102,60,84,-9,8,80,197,10,5,66,5.900000095,0.100000001
+2630,Get Ready,The Temptations,classic soul,1966,133,74,59,-6,11,88,164,40,4,65,4.800000191,0.300000012
+2632,The Way You Do The Things You Do,The Temptations,classic soul,1964,124,69,62,-5,41,75,166,19,3,64,3.200000048,0.100000001
+2633,Knock On Wood,Eddie Floyd,classic soul,1967,105,35,86,-13,5,96,190,28,4,64,5.099999905,0.699999988
+2635,"Signed, Sealed, Delivered (I'm Yours)",Stevie Wonder,boston hardcore,2007,109,78,65,-6,6,82,158,0,3,63,3.799999952,0
+2636,(Sittin' On) The Dock Of The Bay,Otis Redding,classic soul,2007,206,31,49,-14,6,60,167,73,5,63,3.200000048,0.100000001
+2642,Mr. Big Stuff,Jean Knight,classic soul,1971,93,49,88,-13,23,97,165,28,19,63,2.400000095,0.200000003
+2644,Celebration,Kool & The Gang,disco,1980,122,64,89,-12,8,90,299,13,6,61,11.80000019,0.699999988
+2649,Uptight (Everything's Alright),Stevie Wonder,boston hardcore,1966,133,65,60,-10,14,93,174,18,3,58,1.700000048,-0.200000003
+2657,Let The Good Times Roll,Quincy Jones,disco,1995,107,71,58,-6,39,75,176,35,15,46,4.5,0
+2658,Trouble,Jos√© James,indie jazz,2013,89,43,86,-9,11,52,209,43,4,46,1.100000024,0
+2660,"Shout, Pt. 1",The Isley Brothers,classic soul,1959,138,95,41,-7,62,60,137,75,8,36,0,0
+2673,I Heard It Through The Grapevine,Marvin Gaye,classic soul,2013,117,41,73,-9,12,66,195,19,3,12,2.799999952,0
+2676,You're All I Need To Get By,Marvin Gaye,classic soul,2013,98,51,50,-8,8,25,171,22,3,11,3.700000048,0.200000003
+2679,Mercy Mercy Me (The Ecology),Marvin Gaye,classic soul,2013,93,68,51,-9,9,56,196,26,5,10,3.200000048,-0.600000024
+2682,What's Going On,Marvin Gaye,classic soul,2013,205,78,26,-8,45,83,235,41,11,10,3.099999905,0
+2686,Cruisin',Smokey Robinson,classic soul,2013,169,47,50,-11,6,66,268,17,3,9,7.599999905,0.600000024
+2692,Cloud Nine,The Temptations,classic soul,2013,119,61,73,-8,8,82,210,33,6,8,6.400000095,0
+2693,War,Edwin Starr,classic soul,2013,109,82,60,-7,14,72,202,5,17,8,11.80000019,-0.200000003
+2695,Stubborn Kind Of Fellow,Marvin Gaye,classic soul,2013,110,70,69,-8,3,95,169,19,3,8,2.5,0.200000003
+2697,Super Freak,Rick James,disco,2013,132,85,84,-7,6,96,207,22,5,7,4.699999809,0.5
+2702,Ball Of Confusion (That's What The World Is Today),The Temptations,classic soul,2013,79,67,52,-9,8,87,246,14,6,6,6.300000191,0
+2703,"Fingertips, Part 2",Stevie Wonder,boston hardcore,2013,138,92,32,-6,34,29,192,55,27,6,3.299999952,0.100000001
+2807,Somewhere Over The Rainbow,Katharine McPhee,idol,2006,120,20,43,-10,11,11,210,86,4,37,1.899999976,-0.300000012
+2816,(I've Had) The Time of My Life,Bill Medley,folk,2004,109,78,70,-8,6,39,289,9,5,70,7.5,0
+2938,"Baby, It‚Äôs Cold Outside",Rufus Wainwright,canadian pop,2012,74,25,25,-10,11,30,254,90,3,28,5,0.100000001
+3027,I Want You Back,The Jackson 5,motown,2000,98,58,66,-8,17,95,179,49,3,69,5.599999905,0
+3036,ABC,The Jackson 5,motown,2000,94,82,71,-8,10,96,177,45,4,65,19.60000038,0.300000012
+3052,O,The Five Stairsteps,chicago soul,2014,87,56,51,-10,65,55,197,0,4,61,0,0
+3054,Dancing Machine,The Jackson 5,motown,1974,109,79,78,-8,69,85,162,13,7,56,8,0.400000006
+3058,Never Can Say Goodbye,The Jackson 5,motown,1986,167,81,52,-8,26,90,181,28,4,52,9.199999809,-0.600000024
+3075,Money (That's What I Want),Barrett Strong,motown,2013,133,78,70,-7,19,97,158,23,3,12,3.200000048,0.100000001
+3091,I'll Be There,The Jackson 5,motown,2013,94,55,52,-7,62,30,239,56,3,9,4.199999809,0.5
+3150,Beauty And The Beast,Bebel Gilberto,bossa nova,2017,131,44,72,-11,11,60,263,64,3,42,3.900000095,0
+3199,Wolverine Blues,Al Hirt,dixieland,2014,203,51,42,-13,14,91,319,70,7,11,0,0
+3202,Tin Roof Blues,Al Hirt,dixieland,2016,78,6,44,-18,17,47,277,95,4,7,0,0
+3204,Comet,Christopher Willits,ambient,2017,129,16,17,-24,8,4,373,88,4,66,0,0
+3205,Nothing It Can,Helios,ambient,2014,109,25,18,-12,7,4,288,78,4,64,0,0
+3206,As the Lights Fade Away,The Echelon Effect,compositional ambient,2013,89,8,31,-22,11,4,106,89,4,64,0.100000001,0.100000001
+3207,Glaciers,Lights & Motion,atmospheric post-rock,2018,56,16,8,-18,9,4,176,73,4,64,0,0
+3208,Truth (Helios Remix),Balmorhea,bow pop,2009,126,46,45,-16,11,14,225,84,4,63,0,0
+3209,Tracking Aeroplanes,The Echelon Effect,compositional ambient,2012,83,16,40,-16,12,9,469,99,3,62,0,0
+3210,Together / Your Hand in Mine (Radio Edit),Tracey Chattaway,compositional ambient,2017,144,26,36,-14,13,11,296,84,3,62,0,0
+3211,Anything You Synthesize,The American Dollar,compositional ambient,2009,120,9,50,-22,10,3,248,43,4,61,0,0
+3212,Clear Language,Balmorhea,bow pop,2017,123,8,40,-16,10,4,193,96,4,61,0,0
+3213,Shimmer,Tracey Chattaway,compositional ambient,2013,111,34,60,-13,11,9,213,49,3,61,0.100000001,0.100000001
+3214,Near Light,√ìlafur Arnalds,bow pop,2011,118,32,48,-14,10,8,208,96,3,60,0.100000001,0.100000001
+3215,I Can Almost See You,Hammock,compositional ambient,2006,88,46,10,-10,9,4,253,78,4,60,0.100000001,0.100000001
+3216,The Stars In Spring,Epic45,compositional ambient,2007,118,56,53,-11,23,7,256,4,3,60,0,0
+3217,Sky Could Undress,Balmorhea,bow pop,2017,147,20,42,-16,11,4,248,86,3,60,0,0
+3218,You‚Äôre So Very Far Away,Clem Leek,compositional ambient,2011,137,11,31,-18,13,8,179,95,3,60,0,0
+3219,Branch,Keith Kenniff,compositional ambient,2011,140,18,44,-15,11,17,126,97,3,60,0.100000001,0.100000001
+3220,Watching the Storm,U137,compositional ambient,2013,100,41,41,-12,10,7,307,30,3,60,0.100000001,0.100000001
+3221,Goodbye Sierra,The Echelon Effect,compositional ambient,2017,86,23,31,-17,9,6,160,87,3,60,0,0
+3222,Varberg,U137,compositional ambient,2013,110,55,25,-8,15,18,170,91,4,60,0.100000001,0.100000001
+3223,Masollan,Balmorhea,bow pop,2012,91,33,46,-13,11,18,313,32,3,59,0,0
+3224,Daylight Goodbye,Message To Bears,compositional ambient,2012,114,31,30,-14,11,4,351,79,3,59,1,0.100000001
+3226,Turncoat,Goldmund,ambient,2015,81,6,20,-23,4,4,207,96,3,59,0,0
+3227,Bless Those Tired Eyes,Clem Leek,compositional ambient,2013,137,20,30,-19,10,4,232,89,3,58,0.100000001,0.100000001
+3228,They Move on Tracks of Never,This Will Destroy You,compositional ambient,2007,120,19,65,-19,10,7,416,55,4,58,0.100000001,0.100000001
+3229,Shadows Fall,Random Forest,compositional ambient,2014,84,29,17,-15,10,3,328,36,3,58,0.100000001,0.100000001
+3230,Migration,Keith Kenniff,compositional ambient,2018,103,5,28,-23,9,7,218,94,4,58,0,0
+3231,Behind the World,Balmorhea,bow pop,2017,89,16,33,-19,11,7,247,97,3,58,0,0
+3232,Seeming,Helios,ambient,2018,69,22,18,-18,10,4,156,44,4,58,0,0
+3233,Act II,Gavin Luke,compositional ambient,2016,172,17,18,-16,9,4,176,95,4,58,0,0
+3234,Hibernation,Random Forest,compositional ambient,2014,80,42,42,-14,10,10,306,3,3,57,0,0
+3235,Fireflies,Lights & Motion,atmospheric post-rock,2015,105,49,41,-7,15,4,326,2,3,57,0.100000001,0.100000001
+3236,North,Alaskan Tapes,compositional ambient,2018,87,14,9,-22,9,3,374,90,4,57,0,0
+3237,Sometimes,Goldmund,ambient,2015,66,8,21,-26,11,12,169,92,4,57,0,0
+3238,Dungtitled (In a Major),Stars Of The Lid,ambient,2007,74,21,11,-23,10,3,354,95,6,57,0,0
+3239,Starlights,Tracey Chattaway,compositional ambient,2015,135,31,34,-12,10,4,314,9,3,56,0,0
+3240,Catching Fireflies,The Soul's Release,compositional ambient,2016,134,41,46,-12,68,7,348,87,3,56,0,0
+3241,Halving the Compass (Rhian Sheehan Remix),Helios,ambient,2012,115,27,47,-14,12,13,403,81,3,56,0,0
+3242,Kitchen,This Will Destroy You,compositional ambient,2017,127,20,19,-19,8,4,390,93,3,56,0.100000001,0.100000001
+3243,Truth,Peter Sandberg,compositional ambient,2016,75,15,26,-16,11,19,112,87,3,56,0,0
+3244,"""we circle through the night, consumed by fire""",Max Richter,compositional ambient,2017,120,17,20,-21,11,4,595,46,4,56,0,0
+3245,"Articulate Silences, Pt. 1",Stars Of The Lid,ambient,2007,141,9,15,-25,8,3,324,99,5,56,0,0
+3246,Your First Light My Eventide,The Echelon Effect,compositional ambient,2011,130,65,50,-10,12,22,310,63,3,55,0,0
+3247,Mysterium,Hammock,compositional ambient,2017,75,14,7,-19,8,3,432,94,4,55,0,0
+3248,Thunder Rising,The American Dollar,compositional ambient,2017,115,48,42,-11,16,6,347,21,4,55,0,0
+3249,Pale Lights,This Patch of Sky,compositional ambient,2017,73,53,13,-17,12,19,283,29,5,55,0.100000001,0.100000001
+3250,Home,Tracey Chattaway,compositional ambient,2017,140,35,51,-12,11,11,293,25,3,55,0,0
+3251,Bloom,Lights & Motion,atmospheric post-rock,2018,67,22,6,-17,7,4,335,90,4,55,0,0
+3252,The Evil That Never Arrived,Stars Of The Lid,ambient,2007,143,8,14,-21,11,4,305,94,5,55,0,0
+3253,Requiem On Frankfort Ave,Eluvium,ambient,2007,57,7,11,-20,11,4,161,95,5,54,0,0
+3254,Silence of Siberia,Lowercase Noises,compositional ambient,2014,80,22,12,-18,12,4,447,87,4,54,0,0
+3256,Losing You to You,Hammock,compositional ambient,2006,116,28,36,-12,10,11,385,24,3,54,0,0
+3257,Time,The American Dollar,compositional ambient,2017,72,23,11,-15,12,4,312,97,4,54,0,0
+3258,A Course of Strengthening Medicines,Lowercase Noises,compositional ambient,2017,78,29,11,-16,8,4,345,97,3,54,0,0
+3259,Guided by the Glowing Sea,The American Dollar,compositional ambient,2017,116,70,46,-12,10,13,269,0,4,54,0,0
+3260,Amongst Your Earthiest Words The Angels Stray,Years Of Rice And Salt,compositional ambient,2011,143,35,33,-8,15,7,360,17,3,54,0,0
+3261,The First Day of Spring,A Dancing Beggar,compositional ambient,2017,84,56,50,-13,34,21,117,38,4,54,0,0
+3262,Paper,Poppy Ackroyd,bow pop,2018,115,49,61,-14,8,33,275,92,3,54,0,0
+3263,Traces I,Tigran Hamasyan,contemporary jazz,2016,71,3,16,-29,11,7,412,98,3,54,0,0
+3264,Individuation,Eluvium,ambient,2016,101,4,20,-26,9,20,189,66,4,54,0,0
+3265,Amreik,Eluvium,ambient,2007,84,16,8,-18,10,3,198,99,4,54,0.100000001,0.100000001
+3266,Hope Valley Hill,Helios,ambient,2008,108,26,59,-14,73,5,318,72,3,53,0,0
+3267,Let Me Keep This Memory,U137,compositional ambient,2013,95,36,34,-7,8,4,240,68,3,53,0.100000001,0.100000001
+3268,Light the Night,Tracey Chattaway,compositional ambient,2015,120,37,50,-14,13,27,293,53,3,53,0,0
+3269,Silver Lining,Lights & Motion,atmospheric post-rock,2017,114,40,36,-11,7,3,240,6,4,53,0.100000001,0.100000001
+3270,Awakening,Random Forest,compositional ambient,2015,160,31,37,-13,25,5,458,42,3,53,0,0
+3271,Carousel,The American Dollar,compositional ambient,2017,164,47,47,-14,37,9,280,0,3,53,0,0
+3272,Souls and Stars,The Echelon Effect,compositional ambient,2017,166,76,43,-9,7,14,460,14,4,53,0,0
+3273,Skinny Trees,A Dancing Beggar,compositional ambient,2017,102,23,75,-14,39,7,226,98,4,53,0,0
+3274,Creeping into Dusk,A Dancing Beggar,compositional ambient,2011,85,24,9,-18,8,3,334,55,4,53,0,0
+3275,Everest,Lights & Motion,atmospheric post-rock,2017,114,52,49,-13,11,4,183,34,3,52,0,0
+3276,Love Is in Beauty and Chaos,This Patch of Sky,compositional ambient,2014,95,30,43,-11,8,4,283,18,3,52,0.100000001,0.100000001
+3277,The Winter Day Declining,This Patch of Sky,compositional ambient,2014,104,39,23,-8,9,4,396,53,3,52,0.100000001,0.100000001
+3278,The Red Truth,Helios,ambient,2008,115,37,62,-13,15,16,279,76,3,52,0,0
+3279,Pale Lights (This Will Destroy You Remix),This Patch of Sky,compositional ambient,2017,77,17,12,-19,10,3,328,88,4,52,0.100000001,0.100000001
+3281,The Last Stage of Consumption,Lowercase Noises,compositional ambient,2017,169,20,9,-16,10,3,487,97,4,52,0,0
+3282,Winter Of The Electric Beach,Alex Smalley,ambient,2016,81,9,14,-25,12,3,244,75,4,52,0,0
+3283,An Old Peasant Like Me,Explosions In The Sky,compositional ambient,2013,95,7,17,-20,11,3,227,93,4,51,0.100000001,0.100000001
+3284,We Live On,Gavin Luke,compositional ambient,2018,77,9,23,-21,11,4,177,87,3,49,0,0
+3288,Take Five,The Dave Brubeck Quartet,bebop,1959,174,26,45,-13,7,60,324,54,4,65,0.100000001,0.100000001
+3290,When Sunny Gets Blue,McCoy Tyner,avant-garde jazz,2009,60,12,57,-23,10,10,282,85,4,64,0,0
+3291,Goodbye Pork Pie Hat,Charles Mingus,avant-garde jazz,1959,87,9,36,-17,21,28,342,96,4,64,0.100000001,0.100000001
+3296,The Nearness Of You,Bill Charlap,bebop,2002,99,13,38,-18,10,10,447,76,3,61,0,0
+3303,Remember,Hank Mobley,bebop,1999,165,40,54,-9,28,70,342,79,5,59,3.299999952,0.800000012
+3309,In Your Own Sweet Way,Wes Montgomery,bebop,2000,119,10,62,-18,11,10,292,99,4,57,0,0
+3320,Stolen Moments,Oliver Nelson,avant-garde jazz,1961,116,18,58,-13,16,35,526,93,6,54,0.100000001,0.100000001
+3321,Portrait of Jenny,Wynton Kelly,bebop,2013,179,14,42,-16,12,23,279,91,4,54,0,0
+3322,"Uptown, Downtown",Bill Charlap Trio,bebop,2017,63,23,59,-16,10,38,360,83,4,53,0,0
+3326,What Is There To Say,Chico Hamilton,bebop,2011,102,2,50,-32,12,9,173,99,4,53,2.5,0.800000012
+3327,Turiya & Ramakrishna,Alice Coltrane,afropop,1996,111,30,42,-15,28,14,498,91,3,53,0.100000001,0.100000001
+3328,Concierto De Aranjuez,Jim Hall,bebop,1974,131,20,52,-18,11,32,1154,94,3,52,0,0
+3334,Ruby My Dear,Roy Hargrove,bebop,1994,134,20,41,-10,11,8,372,90,3,49,0,0
+3341,Ham Hocks and Cabbage,Christian McBride,bebop,2013,123,10,56,-23,10,31,505,70,4,41,0,0
+3342,Django's Tiger,Django Reinhardt,bebop,1996,113,57,74,-9,11,96,158,96,5,41,0.100000001,0.100000001
+3343,Spanish Rice,Clark Terry,bebop,1966,120,73,67,-7,30,83,164,67,8,40,0,0
+3346,Blue Trombone,J.J. Johnson,bebop,1989,119,40,47,-18,28,66,548,44,4,34,0,0
+3348,Recorda Me,Joe Henderson,avant-garde jazz,1999,91,44,65,-10,13,62,362,95,6,34,0,0
+3349,Sunny,Pat Martino,contemporary post-bop,1997,131,51,41,-14,70,85,628,84,3,33,2.700000048,0.300000012
+3353,California Dreaming,Wes Montgomery,bebop,1966,132,44,68,-14,9,86,189,24,4,28,0.400000006,-0.400000006
+3355,Ev'rybody Wants To Be a Cat,Roy Hargrove,bebop,2011,137,36,59,-11,10,47,300,61,5,26,0,0
+3358,It's A Blue World,Red Garland Trio,bebop,1999,96,30,57,-16,11,64,334,94,5,16,0,0
+3591,The Christmas Song,Count Basie Orchestra,big band,2015,65,26,25,-11,22,15,221,93,4,6,0,0
+3597,This Girl (Kungs Vs. Cookin' On 3 Burners),Kungs,deep tropical house,2016,122,72,79,-5,23,47,196,9,4,78,0,0
+3633,Don't Let the Green Grass Fool You (Live),The California Honeydrops,bay area indie,2012,78,52,53,-7,60,37,570,46,7,45,0,0
+3637,When It Was Wrong (Live),The California Honeydrops,bay area indie,2012,109,60,55,-6,84,74,463,52,6,34,0,0
+3638,The Way To Nice,Mulatu Astatke,afrobeat,2010,120,56,70,-9,7,58,309,88,3,28,0,0
+3640,Cry for Me (Live),The California Honeydrops,bay area indie,2012,107,61,57,-8,81,48,355,12,12,27,0,0
+3641,Singing Waterfall (Live),The California Honeydrops,bay area indie,2012,114,8,53,-15,11,18,309,83,6,25,0,0
+3642,Pumpkin Pie (Live),The California Honeydrops,bay area indie,2012,79,75,69,-12,72,92,345,37,45,25,0,0
+3643,Up Above My Head (Live),The California Honeydrops,bay area indie,2012,66,33,47,-9,41,44,113,90,4,25,0,0
+3644,Pardon Me Love (Live),The California Honeydrops,bay area indie,2012,148,80,61,-6,25,85,366,15,5,24,0,0
+3645,Out in the Crowd,The California Honeydrops,bay area indie,2012,101,64,62,-15,39,78,97,60,5,24,0,0
+3646,Brokedown (Live),The California Honeydrops,bay area indie,2012,99,54,53,-8,95,60,744,6,9,23,0,0
+3743,Evermore,Dan Stevens,disney,2017,79,40,28,-9,10,22,195,67,3,67,2.599999905,0.200000003
+3756,Dig a Little Deeper,Jenifer Lewis,disney,2009,98,83,72,-4,10,80,168,39,5,60,6.800000191,0
+3767,Heigh,The Dwarf Chorus,disney,1997,206,68,52,-11,21,78,167,78,11,48,0,0
+3820,Gramercy Sunset,The Hot Sardines,swing,2016,88,8,45,-19,10,8,255,89,3,52,0,0
+3832,Finesse,Scott Bradlee's Postmodern Jukebox,swing,2018,91,51,47,-7,36,54,222,65,14,40,0,0
+3835,Take It Easy Greasy,Naomi & Her Handsome Devils,swing,2014,134,32,76,-9,7,63,225,55,4,36,0,0
+3841,I Wish I Could Shimmy Like My Sister Kate,Muggsy Spanier,big band,1997,154,44,69,-12,32,93,176,80,13,34,0,0
+3845,Cole Slaw (Sorghum Switch),Louis Jordan & His Tympany Five,big band,2005,134,31,77,-10,8,85,166,69,5,30,0,0
+3849,I Wanna Be Like You,The Hot Sardines,swing,2016,205,37,62,-9,9,65,193,86,36,22,0.800000012,0.400000006
+3851,Sheik of Araby,Kid Ory,big band,2011,97,48,55,-11,12,69,291,88,5,16,0,0
+4789,So Devilish,The Underachievers,hip hop,2013,80,80,56,-5,9,43,211,6,25,33,2.5,-0.300000012
+4790,Maxing Out,The Underachievers,hip hop,2013,136,81,60,-5,12,95,204,45,36,33,6.199999809,-0.100000001
+4791,Play Your Part,The Underachievers,hip hop,2013,126,77,71,-5,30,14,263,0,10,33,5.199999809,0
+4792,Moon Shot,The Underachievers,hip hop,2015,140,90,64,-6,17,47,260,7,34,33,8.399999619,-0.300000012
+4793,The Giver,Mick Jenkins,conscious hip hop,2015,97,79,36,-4,47,28,203,18,32,32,3.599999905,0.5
+4794,John Lennon,The Underachievers,hip hop,2016,60,72,67,-7,28,62,222,9,29,32,3.599999905,0.100000001
+4795,Sun Through the Rain,The Underachievers,hip hop,2013,104,74,62,-6,10,31,195,10,26,31,3.599999905,-0.200000003
+4796,New New York,The Underachievers,hip hop,2013,92,97,48,-3,25,71,170,22,22,31,3.900000095,-0.100000001
+4797,The Brooklyn Way,The Underachievers,hip hop,2015,130,80,72,-8,9,8,270,58,32,31,8.699999809,0.100000001
+4798,Reincarnation (Phase 2 Intro),The Underachievers,hip hop,2015,115,67,79,-8,10,13,154,1,23,30,2.900000095,0
+4799,Unconscious Monsters (Evermore Outro),The Underachievers,hip hop,2015,132,57,60,-8,8,6,240,64,13,30,1.600000024,0.400000006
+4800,We The Hope,The Underachievers,hip hop,2015,121,63,72,-7,11,16,270,16,26,29,2.299999952,0
+4801,Stay The Same,The Underachievers,hip hop,2015,128,76,57,-8,13,10,225,7,4,29,7,0
+4802,I Do This (Remix),Kendrick Lamar,conscious hip hop,2010,148,72,68,-6,22,49,248,23,14,0,7,0
+5133,Glorious (feat. Skylar Grey),Macklemore,pop rap,2017,140,79,73,-5,11,36,220,3,5,80,7.699999809,0.400000006
+5163,Gorgeous,mansionz,emo rap,2017,77,55,83,-4,10,50,148,35,43,69,9.899999619,0.200000003
+5184,Can't Hold Us (feat. Ray Dalton),Macklemore & Ryan Lewis,pop rap,2012,146,93,63,-4,10,88,258,3,8,67,4.800000191,0
+5255,Bailando,Enrique Iglesias,dance pop,2014,91,84,72,-4,6,94,243,8,10,57,5.400000095,0
+5271,Same Love (feat. Mary Lambert),Macklemore & Ryan Lewis,pop rap,2012,85,48,56,-9,10,31,320,72,17,54,3.599999905,0
+5289,Wing$,Macklemore & Ryan Lewis,pop rap,2012,73,60,40,-7,19,9,300,36,20,51,2.5,-0.100000001
+5293,Make The Money,Macklemore & Ryan Lewis,pop rap,2012,89,92,61,-6,37,46,225,17,27,50,3,0
+5320,Starting Over (feat. Ben Bridwell),Macklemore & Ryan Lewis,pop rap,2012,164,87,54,-7,68,64,251,72,41,47,3.599999905,0
+5327,Neon Cathedral (feat. Allen Stone),Macklemore & Ryan Lewis,pop rap,2012,164,59,48,-9,8,54,274,39,46,46,3.599999905,0
+5339,A Wake (feat. Evan Roman),Macklemore & Ryan Lewis,pop rap,2012,101,74,69,-7,7,45,226,17,11,45,3.599999905,0
+5340,Gold (feat. Eighty4 Fly),Macklemore & Ryan Lewis,pop rap,2012,172,68,50,-5,9,62,252,10,15,45,3.599999905,0
+5359,Here I Stand,Usher,dance pop,2008,120,53,54,-6,24,26,250,32,5,42,2.799999952,0.100000001
+5361,BomBom (feat. The Teaching),Macklemore & Ryan Lewis,pop rap,2012,126,58,77,-10,11,26,296,77,4,41,3.599999905,0
+5551,Dat $tick,Rich Brian,indonesian hip hop,2016,108,51,92,-9,13,17,127,10,5,72,2.900000095,-0.699999988
+5568,Foreplay,Jalen Santoy,underground hip hop,2016,119,32,79,-7,11,54,171,14,8,61,4.599999905,0.100000001
+5613,No Peace,Jalen Santoy,underground hip hop,2016,127,53,73,-6,36,84,189,5,34,48,4.199999809,0
+5615,Low,Mura Masa,edm,2015,125,51,51,-12,23,40,194,51,48,48,4,0
+5675,Off the Glass,Jalen Santoy,underground hip hop,2016,124,59,66,-5,22,49,146,77,41,38,3.200000048,0
+5717,Ocean (feat. Khalid),Martin Garrix,big room,2018,140,69,51,-7,9,22,216,58,4,88,6.300000191,0.400000006
+5718,Location,Khalid,indie r&b,2017,80,45,74,-11,9,33,219,33,43,84,3.799999952,0.600000024
+5720,American Teen,Khalid,indie r&b,2017,100,62,66,-7,32,21,251,7,4,76,4,0.300000012
+5725,Tadow,Masego,indie r&b,2017,122,49,72,-6,10,35,302,71,6,74,4.5,0
+5729,Let's Go,Khalid,indie r&b,2017,108,37,78,-7,25,43,205,57,6,70,5,-0.100000001
+5731,Sunday Candy,Donnie Trumpet & The Social Experiment,indie r&b,2015,158,60,51,-7,8,55,226,53,22,70,2.900000095,0.300000012
+5736,Grey Luh,Berhana,indie r&b,2016,126,30,54,-9,8,25,261,60,7,67,4.199999809,0
+5742,Retrograde,James Blake,indie folk,2013,77,25,29,-11,14,19,224,87,5,66,2.700000048,0
+5745,Janet,Berhana,indie r&b,2016,120,31,81,-8,9,56,204,35,8,65,4.599999905,0.200000003
+5751,Why iii Love The Moon.,Phony Ppl,indie r&b,2015,92,48,71,-8,14,66,332,55,4,64,4.5,0.600000024
+5774,Just The Same,Bruno Major,indie r&b,2017,174,30,43,-8,9,36,205,64,8,57,2,0.200000003
+5798,Familiar,Donnie Trumpet & The Social Experiment,indie r&b,2015,104,39,80,-10,5,58,234,28,26,52,4.699999809,-0.200000003
+5807,The Wilhelm Scream,James Blake,indie folk,2011,170,29,55,-12,9,36,274,78,14,50,7.400000095,-0.200000003
+5808,Wanna Be Cool,Donnie Trumpet & The Social Experiment,indie r&b,2015,117,61,66,-8,18,34,208,24,30,50,5.800000191,-0.200000003
+5817,Pass the Vibes,Donnie Trumpet & The Social Experiment,indie r&b,2015,140,45,80,-10,9,31,151,73,6,48,0.200000003,0.200000003
+5823,Windows,Donnie Trumpet & The Social Experiment,indie r&b,2015,99,45,40,-12,13,38,237,69,21,47,4.699999809,-0.400000006
+5824,Brooklyn Drugs,Berhana,indie r&b,2016,152,33,46,-12,37,49,185,82,29,46,3.700000048,-0.400000006
+5829,Slip Slide,Donnie Trumpet & The Social Experiment,indie r&b,2015,120,56,65,-10,37,21,240,31,39,46,4.800000191,0
+5835,Warm Enough,Donnie Trumpet & The Social Experiment,indie r&b,2015,82,48,47,-9,74,27,202,89,23,45,4.5,-0.100000001
+5847,Rememory,Donnie Trumpet & The Social Experiment,indie r&b,2015,84,25,45,-16,8,8,154,81,7,40,1.700000048,-0.200000003
+5848,Caretaker,Donnie Trumpet & The Social Experiment,indie r&b,2015,131,18,67,-18,9,24,95,82,4,39,1.200000048,0.400000006
+5851,Just Wait,Donnie Trumpet & The Social Experiment,indie r&b,2015,140,46,60,-12,9,11,227,30,9,38,1.899999976,0.200000003
+5852,Go,Donnie Trumpet & The Social Experiment,indie r&b,2015,113,46,65,-10,32,26,262,41,4,38,4.199999809,-0.300000012
+5854,Nothing Came to Me,Donnie Trumpet & The Social Experiment,indie r&b,2015,87,9,26,-12,12,12,210,99,3,37,0.100000001,0.100000001
+5855,SmthnthtIwnt,Donnie Trumpet & The Social Experiment,indie r&b,2015,141,27,53,-12,15,15,111,82,8,37,1.299999952,0.400000006
+5856,Something Came to Me,Donnie Trumpet & The Social Experiment,indie r&b,2015,76,32,67,-11,15,29,191,76,9,37,0.300000012,0.100000001
+5857,Questions,Donnie Trumpet & The Social Experiment,indie r&b,2015,116,45,81,-12,9,43,115,84,14,36,1.5,-0.100000001
+5866,All of Me,John Legend,neo soul,2013,120,26,42,-7,13,33,270,92,3,84,7.5,0.400000006
+5867,Let Me Love You,DJ Snake,dance pop,2016,100,71,65,-5,14,15,206,8,4,83,3.599999905,0
+5868,Don't Let Me Down,The Chainsmokers,edm,2016,160,87,53,-5,14,42,208,16,17,83,3.599999905,-0.200000003
+5871,Paradise,Coldplay,permanent wave,2011,140,59,45,-7,8,20,279,5,3,78,2.700000048,0.100000001
+5872,No One,Alicia Keys,hip pop,2007,90,55,65,-5,11,16,254,3,3,78,3.099999905,0
+5873,I Don‚Äôt Wanna Live Forever (Fifty Shades Darker),ZAYN,dance pop,2017,118,45,74,-8,19,10,246,6,5,77,0,0
+5875,Someone Like You,Adele,pop,2011,135,33,56,-8,10,28,285,89,3,77,4.599999905,0
+5886,Set Fire to the Rain,Adele,pop,2011,108,68,61,-4,13,47,242,0,3,74,3.700000048,0
+5888,Gravity,John Mayer,neo mellow,2006,124,33,76,-10,24,24,246,73,3,74,3.400000095,0
+5891,Rolling in the Deep,Adele,pop,2011,105,76,73,-5,5,52,228,13,3,73,6.199999809,0.5
+5892,Cold Water,Major Lazer,dance pop,2016,93,80,60,-5,19,49,185,6,5,72,5.400000095,-0.100000001
+5894,Chandelier,Sia,australian dance,2015,117,79,40,-3,7,57,216,2,5,72,3.900000095,-0.300000012
+5896,Empire State of Mind (Part II) Broken Down,Alicia Keys,hip pop,2009,93,37,48,-8,12,14,216,74,3,71,6.199999809,0.200000003
+5900,Elastic Heart,Sia,australian dance,2015,130,79,42,-5,15,50,257,1,5,70,3.400000095,-0.100000001
+5904,Pray,Sam Smith,pop,2017,176,38,38,-9,9,15,222,28,5,69,4,0
+5912,Bird Set Free,Sia,australian dance,2016,150,81,44,-4,13,31,252,1,7,67,3.900000095,0.100000001
+5913,Alive,Sia,australian dance,2016,100,76,51,-4,11,44,264,25,5,67,3.599999905,0
+5914,Here,Alessia Cara,dance pop,2015,120,82,38,-4,8,33,199,8,10,67,5.099999905,0
+5915,Turning Tables,Adele,pop,2011,80,45,31,-6,13,21,250,95,3,67,5.300000191,-0.200000003
+5919,One And Only,Adele,pop,2011,52,47,46,-5,14,17,347,30,4,66,3.5,-0.100000001
+5923,Palace,Sam Smith,pop,2017,81,19,42,-10,12,28,187,71,3,65,2.400000095,0.100000001
+5928,Rumour Has It,Adele,pop,2011,120,75,62,-5,9,56,221,64,5,65,4.400000095,0.200000003
+5929,Don't You Remember,Adele,pop,2011,115,40,64,-6,9,24,243,21,3,65,7.400000095,0
+5947,Big Girls Cry,Sia,australian dance,2015,162,59,47,-5,11,9,211,4,4,61,5.699999809,-0.200000003
+5951,You Don't Know About Me (R3hab Remix),Ella Vos,dance pop,2017,160,45,67,-8,11,42,157,30,3,60,6.400000095,-0.5
+5952,Lovesong,Adele,pop,2011,117,37,69,-9,11,33,316,72,3,60,4.699999809,0.699999988
+5954,Down in Flames,Ella Vos,dance pop,2017,137,47,79,-6,9,5,188,9,5,59,3.200000048,-0.100000001
+5955,00000 Million,Ella Vos,dance pop,2017,146,28,59,-13,39,11,170,24,4,59,0,0
+5959,Omen,Sam Smith,pop,2015,101,20,44,-8,10,18,205,97,4,58,3.299999952,0
+5960,Fire Meet Gasoline,Sia,australian dance,2015,176,76,42,-3,15,33,241,1,6,58,5.099999905,0.400000006
+5965,He Won't Go,Adele,pop,2011,160,57,71,-7,7,71,278,2,9,57,12.60000038,-0.400000006
+5966,Take It All,Adele,pop,2011,138,27,41,-8,17,30,228,95,3,57,4.900000095,-0.100000001
+5973,I'll Be Waiting,Adele,pop,2011,160,84,55,-3,13,75,242,5,4,55,3.700000048,0.400000006
+5975,Fallin',Alicia Keys,hip pop,2001,96,61,65,-8,23,48,210,26,4,55,4.599999905,0.600000024
+5978,Eye of the Needle,Sia,australian dance,2015,144,70,50,-6,10,28,249,14,14,54,2.700000048,0
+5980,Burn the Pages,Sia,australian dance,2015,180,81,51,-5,12,46,195,5,16,52,5.800000191,0.100000001
+5983,You Don't Know About Me,Ella Vos,dance pop,2017,159,41,57,-8,14,35,188,32,5,51,6.400000095,-0.5
+5985,Free the Animal,Sia,australian dance,2015,109,88,67,-5,8,38,265,6,17,51,6.199999809,0.600000024
+5986,Dressed In Black,Sia,australian dance,2015,87,77,45,-4,30,32,400,3,4,51,4,-0.300000012
+5987,Let You Go,The Chainsmokers,edm,2015,100,63,40,-5,10,30,267,30,5,50,4.400000095,-0.100000001
+5989,Hostage,Sia,australian dance,2015,144,71,64,-3,24,66,176,1,14,49,5.900000095,0.100000001
+4707,Soliloquy,Isaiah Rashad,hip hop,2014,76,79,36,-2,22,31,106,1,5,46,1.899999976,-0.200000003
+4708,Banana,Isaiah Rashad,hip hop,2014,115,78,74,-8,54,59,211,39,36,46,3.400000095,0
+4709,H.O.C,Kendrick Lamar,conscious hip hop,2010,77,59,61,-9,19,37,317,11,39,46,5.5,-0.300000012
+4710,Hands Up,Vince Staples,conscious hip hop,2014,87,70,43,-6,63,24,200,0,27,46,3.099999905,-0.5
+4711,The Mahdi,The Underachievers,hip hop,2013,158,81,56,-6,9,47,199,20,34,46,3.799999952,0
+4712,The Art of Peer Pressure,Kendrick Lamar,conscious hip hop,2012,95,61,56,-9,27,41,325,29,36,46,9.199999809,0
+4714,Tranquility,Isaiah Rashad,hip hop,2014,85,52,58,-11,11,60,260,77,13,45,9,0.300000012
+4715,Don't Matter,Isaiah Rashad,hip hop,2016,148,86,74,-10,75,76,177,1,15,45,4.800000191,0
+4716,by george (outro),Isaiah Rashad,hip hop,2016,126,56,79,-9,33,10,198,0,24,45,3.400000095,0.200000003
+4717,Penthouse,Bas,hip hop,2016,120,55,83,-9,6,36,242,69,17,45,3.400000095,0
+4718,Black Owned Business,Bas,hip hop,2016,78,57,62,-7,22,29,162,4,26,45,3.900000095,0
+4719,R.O.T.C (Interlude),Kendrick Lamar,conscious hip hop,2010,98,78,65,-7,65,37,163,32,32,45,3.5,0
+4720,Pimp Hand,Vince Staples,conscious hip hop,2016,184,79,64,-6,14,45,170,11,27,45,1.899999976,-0.400000006
+4721,Loca,Vince Staples,conscious hip hop,2015,101,73,87,-8,7,28,162,1,7,45,6,-0.100000001
+4722,Dopeman,Vince Staples,conscious hip hop,2015,148,44,75,-9,6,61,113,2,13,45,6.900000095,0.200000003
+4723,Take Your Place,The Underachievers,hip hop,2015,120,74,78,-9,20,26,213,8,21,45,5.599999905,-0.200000003
+4724,good kid,Kendrick Lamar,conscious hip hop,2012,176,83,45,-9,19,41,214,6,31,45,3.5,0
+4725,P's & Q's,Mick Jenkins,conscious hip hop,2015,88,73,67,-4,11,14,153,4,34,44,4.5,0
+4726,"Work for It (feat. Big Sean, Gucci Mane & 2 Chainz)",DJ Khaled,dance pop,2016,153,62,80,-5,15,33,291,28,24,44,4.099999905,0
+4727,Hereditary,Isaiah Rashad,hip hop,2014,98,74,53,-7,76,74,87,87,10,44,1.799999952,0.100000001
+4728,Brad Jordan (feat. Michael Da Vinci),Isaiah Rashad,hip hop,2014,139,70,76,-5,28,72,248,71,38,44,4.300000191,0.100000001
+4729,Housewives,Bas,hip hop,2016,180,62,71,-7,14,38,211,4,20,44,4.199999809,-0.200000003
+4730,Smile,Vince Staples,conscious hip hop,2016,116,69,63,-7,32,57,261,56,32,44,3.099999905,0
+4731,Birds & Bees,Vince Staples,conscious hip hop,2015,136,79,48,-7,64,66,162,1,14,44,1.700000048,0
+4732,Hang N' Bang,Vince Staples,conscious hip hop,2015,114,65,83,-5,24,31,127,0,7,44,1.100000024,0
+4733,Numb / Encore,JAY Z,bulgarian hip hop,2004,107,79,68,-4,57,78,205,5,16,44,0,0
+4734,Compton,Kendrick Lamar,conscious hip hop,2012,170,91,34,-4,38,23,248,8,42,44,5.699999809,0
+4735,Daniels Bloom,Mick Jenkins,conscious hip hop,2016,102,66,55,-8,28,35,221,32,62,43,6,0.300000012
+4736,Mook In New Mexico,Bas,hip hop,2014,102,61,78,-7,11,29,198,4,6,43,4.599999905,-0.300000012
+4737,Live For,Bas,hip hop,2016,170,67,54,-10,25,30,162,79,57,43,0.800000012,-0.400000006
+4738,3230,Vince Staples,conscious hip hop,2015,156,85,72,-6,15,63,173,14,4,43,1.799999952,-0.300000012
+4739,T.A.D.E.D,The Underachievers,hip hop,2013,131,65,64,-8,12,18,203,7,34,43,4,0
+4740,Surf,Vince Staples,conscious hip hop,2015,122,50,98,-13,11,58,152,93,27,43,5.099999905,0
+4741,Sherane a.k.a Master Splinter‚Äôs Daughter,Kendrick Lamar,conscious hip hop,2012,82,51,50,-11,12,32,274,49,52,43,15.69999981,-0.200000003
+4742,Real,Kendrick Lamar,conscious hip hop,2012,100,46,65,-12,66,17,443,3,19,43,15.89999962,0
+4743,Alchemy,Mick Jenkins,conscious hip hop,2015,114,73,60,-5,12,28,189,5,11,42,4.199999809,0
+4744,Big Time,Vince Staples,conscious hip hop,2016,140,95,77,-8,9,11,211,14,36,42,3.700000048,-0.200000003
+4745,C.N.B.,Vince Staples,conscious hip hop,2015,116,68,74,-7,32,37,253,9,10,42,6.800000191,-0.200000003
+4746,514,Mick Jenkins,conscious hip hop,2014,106,67,80,-8,11,28,236,45,28,41,5.900000095,0.100000001
+4747,Plugged,Mick Jenkins,conscious hip hop,2016,90,65,56,-8,16,51,236,70,20,41,2.599999905,0.100000001
+4748,Get Paid,Vince Staples,conscious hip hop,2015,99,77,62,-7,13,41,193,15,37,41,2.799999952,-0.300000012
+4749,Chasing Faith,The Underachievers,hip hop,2015,116,72,81,-6,30,53,237,55,23,41,7.099999905,-0.300000012
+4750,Perception (feat. The Mind),Mick Jenkins,conscious hip hop,2015,134,59,55,-5,9,33,222,17,14,40,4.599999905,-0.200000003
+4751,Like It Is,Vince Staples,conscious hip hop,2015,123,55,46,-11,38,71,276,20,47,40,5.900000095,0
+4752,Allusions,The Underachievers,hip hop,2015,120,76,85,-8,16,53,245,46,21,40,6,-0.300000012
+4753,Al Capone,The Underachievers,hip hop,2016,120,60,85,-6,8,23,238,7,9,39,2.400000095,-0.600000024
+4754,Young Kobe,The Underachievers,hip hop,2016,150,76,80,-7,56,81,197,23,32,39,5.699999809,0.200000003
+4755,Fiji Water In My Iron,Bas,hip hop,2014,126,73,72,-6,12,32,210,2,12,39,4.599999905,0
+4756,Philanthropist,The Underachievers,hip hop,2013,111,80,75,-5,13,15,158,1,11,39,3.599999905,0
+4757,Ramona Park Legend Pt. 1,Vince Staples,conscious hip hop,2015,82,48,52,-13,33,49,36,58,62,39,0.100000001,0.100000001
+4758,Ramona Park Legend Pt. 2,Vince Staples,conscious hip hop,2015,166,32,54,-14,31,46,88,66,47,39,1.5,0.300000012
+4759,Might Be Wrong,Vince Staples,conscious hip hop,2015,82,36,31,-11,27,15,238,13,3,39,3.200000048,-0.200000003
+4760,Piano,Mick Jenkins,conscious hip hop,2015,119,71,69,-6,17,27,129,2,13,38,2.299999952,0
+4761,Strange Love,Mick Jenkins,conscious hip hop,2016,174,71,40,-9,15,23,369,8,55,38,10.10000038,0
+4762,40 Cal,The Underachievers,hip hop,2016,79,94,71,-4,11,68,184,44,18,38,3.200000048,0
+4763,Gangland,The Underachievers,hip hop,2016,144,91,84,-5,30,66,184,21,30,38,2.299999952,-0.5
+4764,Golden Goals,Bas,hip hop,2014,140,52,70,-10,9,54,154,71,37,38,2.599999905,-0.200000003
+4765,'06,Vince Staples,conscious hip hop,2015,103,81,81,-9,31,16,48,0,23,38,1.299999952,0
+4766,Illusions,The Underachievers,hip hop,2015,87,66,46,-8,19,13,257,19,33,38,4.199999809,0.200000003
+4767,As Seen in Bethsaida (feat. theMIND),Mick Jenkins,conscious hip hop,2016,163,72,32,-8,28,43,157,5,30,37,5.800000191,0.100000001
+4768,My Prism,The Underachievers,hip hop,2013,143,74,72,-7,16,91,167,19,41,37,2,0
+4769,Never Win,The Underachievers,hip hop,2016,162,80,65,-6,18,41,154,11,15,36,4.599999905,-0.100000001
+4770,Revelations,The Underachievers,hip hop,2013,126,79,41,-6,19,14,233,0,21,36,2.700000048,0
+4771,Root of All Evil,The Underachievers,hip hop,2013,78,69,73,-5,12,42,200,1,12,36,3.400000095,0
+4772,Outsiders,The Underachievers,hip hop,2016,145,62,84,-10,15,45,190,24,36,35,2.400000095,-0.100000001
+4773,Your World,Bas,hip hop,2014,121,81,55,-7,23,31,180,26,31,35,3.200000048,0
+4774,Last Winter,Bas,hip hop,2014,110,80,54,-7,39,54,192,6,29,35,2.900000095,0
+4775,6th Sense,The Underachievers,hip hop,2013,188,85,30,-6,11,49,185,3,46,35,2,0
+4776,Star Signs,The Underachievers,hip hop,2015,110,72,87,-7,11,56,197,30,29,35,5.199999809,-0.5
+4777,The Dualist,The Underachievers,hip hop,2015,172,84,67,-6,8,96,269,14,23,35,5.900000095,0
+4778,Generation Z,The Underachievers,hip hop,2015,120,52,87,-5,13,12,289,3,13,35,7.099999905,0.300000012
+4779,California Roll,Snoop Dogg,g funk,2015,80,34,75,-8,7,37,252,31,8,35,2.799999952,0.100000001
+4780,Get up Get Down,Mick Jenkins,conscious hip hop,2015,150,83,60,-5,20,39,200,11,70,34,4.900000095,0
+4781,Really Got It,The Underachievers,hip hop,2016,119,60,78,-9,11,35,166,11,20,34,5.400000095,0.200000003
+4782,New World Order (N.W.O),Bas,hip hop,2014,93,81,61,-7,48,59,230,22,21,34,3.700000048,-0.200000003
+4783,Land of Lords,The Underachievers,hip hop,2013,86,92,57,-4,24,53,225,73,30,34,3.900000095,-0.200000003
+4784,Potion Number 25,The Underachievers,hip hop,2013,120,73,85,-6,11,80,218,31,18,34,1.700000048,0
+4785,Shine All Gold,The Underachievers,hip hop,2015,128,72,68,-8,9,19,259,8,34,34,7.5,-0.200000003
+4786,"Slumber (feat. Saba, Sean Deaux & Donnie Trumpet)",Mick Jenkins,conscious hip hop,2015,87,95,56,-3,21,77,216,5,33,33,2.599999905,-0.300000012
+4787,40 Below,Mick Jenkins,conscious hip hop,2015,96,83,38,-2,11,22,205,4,26,33,8.600000381,0
+4788,Vacation,Bas,hip hop,2014,120,55,63,-10,11,10,208,1,5,33,2.599999905,0
+4688,Cut You Off (To Grow Closer),Kendrick Lamar,conscious hip hop,2010,83,68,69,-7,13,61,364,8,48,48,9.699999809,-0.300000012
+4689,Chapter Ten,Kendrick Lamar,conscious hip hop,2011,136,74,52,-6,29,54,76,4,22,48,2.400000095,0
+4690,Ab,Kendrick Lamar,conscious hip hop,2011,116,84,47,-7,66,64,350,12,38,48,7.099999905,0
+4691,Life Round Here,James Blake,indie folk,2013,145,74,43,-6,12,27,189,69,27,48,2.900000095,0
+4692,Street Punks,Vince Staples,conscious hip hop,2015,83,49,76,-12,11,57,187,30,14,48,4,-0.200000003
+4693,Thank You,Dave East,dirty south rap,2018,120,78,80,-4,29,91,223,21,15,47,2.400000095,0
+4694,Menthol (feat. Jean Deaux),Isaiah Rashad,hip hop,2014,154,94,58,-3,9,72,177,45,34,47,4.300000191,0.100000001
+4695,A lot,Isaiah Rashad,hip hop,2016,148,60,78,-9,13,54,206,2,9,47,4,0.100000001
+4696,Brenda,Isaiah Rashad,hip hop,2016,86,51,59,-9,26,56,250,7,46,47,4.800000191,-0.300000012
+4697,Matches,Bas,hip hop,2016,101,55,69,-9,20,39,224,78,22,47,3.400000095,0
+4698,Alien Girl (Today W/ Her),Kendrick Lamar,conscious hip hop,2010,96,54,63,-7,11,26,240,50,4,47,4.300000191,0.100000001
+4699,Michael Jordan,Kendrick Lamar,conscious hip hop,2010,154,80,71,-5,13,52,351,8,29,47,7.300000191,-0.300000012
+4700,Barbed Wire,Kendrick Lamar,conscious hip hop,2010,103,84,61,-8,9,33,266,2,19,47,6.800000191,-0.200000003
+4701,War Ready,Vince Staples,conscious hip hop,2016,97,56,84,-7,20,64,155,51,28,47,3.099999905,-0.200000003
+4702,Loco,Vince Staples,conscious hip hop,2016,100,58,76,-11,22,39,258,14,44,47,7.699999809,-0.300000012
+4703,Lemme Know,Vince Staples,conscious hip hop,2015,156,51,73,-10,22,64,222,1,6,47,5.099999905,0
+4704,"Sing About Me, I'm Dying Of Thirst",Kendrick Lamar,conscious hip hop,2012,111,75,65,-8,13,37,724,30,40,47,28.29999924,-0.100000001
+4585,Wesley's Theory,Kendrick Lamar,conscious hip hop,2015,114,79,51,-7,26,51,287,36,27,61,8.100000381,0
+4586,Hood Politics,Kendrick Lamar,conscious hip hop,2015,88,66,73,-7,12,37,293,14,38,61,9.100000381,-0.300000012
+4587,Bad Religion,Frank Ocean,hip hop,2012,82,36,28,-8,7,13,175,78,4,61,1.200000048,0
+4588,The Recipe,Kendrick Lamar,conscious hip hop,2012,131,78,76,-7,35,51,353,0,7,61,9.600000381,0
+4589,Strange Clouds (feat. Lil Wayne),B.o.B,dance pop,2012,74,67,53,-7,13,80,226,6,29,61,6.800000191,-0.100000001
+4590,Tity and Dolla (feat. Hugh Augustine & Jay Rock),Isaiah Rashad,hip hop,2016,124,60,72,-9,9,54,298,32,32,60,4.900000095,0
+4591,Freestyle 4,Kanye West,pop rap,2016,126,56,47,-8,9,51,123,5,10,60,7.699999809,-0.200000003
+4592,Institutionalized,Kendrick Lamar,conscious hip hop,2015,81,73,54,-5,13,57,272,11,45,60,9.600000381,-0.200000003
+4593,u,Kendrick Lamar,conscious hip hop,2015,72,80,41,-6,46,58,268,26,43,60,11.39999962,-0.100000001
+4594,How Much A Dollar Cost,Kendrick Lamar,conscious hip hop,2015,88,73,62,-5,14,33,262,42,20,60,6.599999905,-0.100000001
+4595,Sweet Life,Frank Ocean,hip hop,2012,84,59,53,-6,8,79,263,28,21,60,7.400000095,0.600000024
+4596,Reality Check (feat. Akenya & Eryn Allen Kane),Noname,escape room,2016,95,52,72,-10,11,66,183,53,23,59,3.900000095,0.100000001
+4597,I Am A God,Kanye West,pop rap,2013,112,54,52,-7,16,29,232,3,7,59,3.299999952,0
+4598,Pop Style,Drake,canadian hip hop,2016,133,48,80,-9,10,6,209,23,22,59,1.799999952,-0.400000006
+4599,Hol' Up,Kendrick Lamar,conscious hip hop,2011,156,87,61,-5,14,58,173,78,35,59,4.900000095,-0.5
+4600,The Spiteful Chant,Kendrick Lamar,conscious hip hop,2011,127,78,60,-4,18,33,321,5,3,59,8.199999809,-0.200000003
+4601,Blow My High (Members Only),Kendrick Lamar,conscious hip hop,2011,120,52,96,-8,27,84,216,32,27,59,5.400000095,0
+4602,D.R.A.M. Sings Special,Chance the Rapper,conscious hip hop,2016,148,21,41,-13,14,21,102,94,4,59,0.899999976,0.400000006
+4603,How Great (feat. Jay Electronica & My cousin Nicole),Chance the Rapper,conscious hip hop,2016,78,48,44,-9,55,29,337,48,32,59,5,0.100000001
+4604,Intro,J. Cole,conscious hip hop,2014,79,27,46,-15,11,12,129,84,4,59,3.599999905,0
+4605,Note to Self,J. Cole,conscious hip hop,2014,83,46,65,-9,17,33,875,86,12,59,90.59999847,0.100000001
+4606,Crack Rock,Frank Ocean,hip hop,2012,89,74,56,-8,15,38,224,9,21,59,4.199999809,-0.200000003
+4607,Trade,Flatbush Zombies,hip hop,2016,140,45,86,-9,16,15,249,4,36,58,7.400000095,-0.100000001
+4608,untitled 08 | 09.06.2014.,Kendrick Lamar,conscious hip hop,2016,120,53,84,-10,14,67,236,24,21,58,9.300000191,-0.300000012
+4609,Momma,Kendrick Lamar,conscious hip hop,2015,112,74,62,-5,67,52,283,25,33,58,7.300000191,0
+4610,You Ain't Gotta Lie (Momma Said),Kendrick Lamar,conscious hip hop,2015,94,64,44,-5,28,67,242,46,22,58,5.800000191,0
+4611,Sierra Leone,Frank Ocean,hip hop,2012,125,61,53,-8,11,64,149,21,9,58,2.400000095,-0.300000012
+4612,Pilot Jones,Frank Ocean,hip hop,2012,125,45,40,-13,82,37,184,48,39,58,2.700000048,0.200000003
+4613,Yesterday,Noname,escape room,2016,174,54,46,-9,6,47,190,49,39,57,3.5,0
+4614,Sunny Duet (feat. the Mind),Noname,escape room,2016,156,46,56,-10,13,90,162,78,42,57,3.900000095,0.100000001
+4615,Angles (feat. Noname & Xavier Om√§r),Mick Jenkins,conscious hip hop,2016,135,55,60,-9,14,35,263,57,34,57,5.800000191,0.100000001
+4616,Shot You Down (feat. Jay Rock & ScHoolboy Q),Isaiah Rashad,hip hop,2014,90,72,68,-4,15,51,427,39,25,57,4.300000191,0.100000001
+4617,Tammy's Song (Her Evils),Kendrick Lamar,conscious hip hop,2011,97,84,48,-6,13,52,162,92,44,57,5.5,-0.100000001
+4618,Ronald Reagan Era,Kendrick Lamar,conscious hip hop,2011,167,83,42,-5,39,30,217,2,34,57,6.5,-0.100000001
+4619,untitled 03 | 05.28.2013.,Kendrick Lamar,conscious hip hop,2016,104,55,83,-12,15,55,154,59,26,57,5.099999905,0
+4620,For Free?,Kendrick Lamar,conscious hip hop,2015,129,90,53,-5,37,75,131,59,20,57,6,-0.699999988
+4621,For Sale?,Kendrick Lamar,conscious hip hop,2015,79,69,30,-8,12,28,292,44,8,57,5.199999809,-0.200000003
+4622,Complexion (A Zulu Love),Kendrick Lamar,conscious hip hop,2015,90,56,67,-8,22,37,263,57,30,57,8.300000191,0.300000012
+4624,White,Frank Ocean,hip hop,2012,138,7,55,-19,10,28,76,78,11,57,2.200000048,-0.100000001
+4625,Backseat Freestyle,Kendrick Lamar,conscious hip hop,2012,78,65,55,-8,24,65,213,0,30,57,10.30000019,0.300000012
+4626,Poetic Justice,Kendrick Lamar,conscious hip hop,2012,136,57,78,-10,25,65,300,16,38,57,7.5,0
+4627,Stuck in the Mud (feat. SZA),Isaiah Rashad,hip hop,2016,150,71,57,-8,12,51,423,10,37,56,8.100000381,0
+4628,My Nigga Just Made Bail,Bas,hip hop,2014,124,62,82,-8,8,62,217,59,21,56,4.599999905,-0.100000001
+4629,Poe Mans Dreams (His Vice),Kendrick Lamar,conscious hip hop,2011,88,89,74,-5,11,60,262,62,28,56,7.400000095,0.100000001
+4630,Need To Know (feat. Chance The Rapper),Macklemore & Ryan Lewis,pop rap,2016,86,49,60,-9,13,33,232,40,13,56,5,0.100000001
+4631,untitled 06 | 06.30.2014.,Kendrick Lamar,conscious hip hop,2016,89,56,67,-11,23,65,208,10,4,56,5.199999809,0.200000003
+4632,Monks,Frank Ocean,hip hop,2012,102,77,73,-5,21,59,200,6,19,56,3.099999905,0.600000024
+4633,"White Walls (feat. ScHoolboy Q, Hollis)",Macklemore & Ryan Lewis,pop rap,2012,116,78,77,-6,34,83,220,5,14,56,4.800000191,0
+4634,All I Need (feat. Xavier Om√§r),Noname,escape room,2016,92,36,65,-10,11,50,240,77,43,55,3.900000095,0.100000001
+4635,Communicate (feat. Ravyn Lenae),Mick Jenkins,conscious hip hop,2016,120,57,73,-10,28,42,237,50,56,55,5.800000191,0.100000001
+4636,Park,Isaiah Rashad,hip hop,2016,100,63,86,-10,31,54,173,17,28,55,4.300000191,-0.300000012
+4637,Lit,Bas,hip hop,2014,126,58,69,-7,7,8,279,6,4,55,4.699999809,0.5
+4638,She Needs Me (Remix),Kendrick Lamar,conscious hip hop,2010,100,84,61,-6,10,31,196,42,27,55,8.899999619,0.100000001
+4639,F*ck Your Ethnicity,Kendrick Lamar,conscious hip hop,2011,151,88,60,-7,40,52,225,39,33,55,0,0
+4640,untitled 05 | 09.21.2014.,Kendrick Lamar,conscious hip hop,2016,154,63,49,-10,16,41,338,37,51,55,4.199999809,-0.200000003
+4641,Mortal Man,Kendrick Lamar,conscious hip hop,2015,87,53,57,-9,71,42,727,67,75,55,22.29999924,0
+4642,Fertilizer,Frank Ocean,hip hop,2012,116,59,71,-7,28,96,40,85,9,55,1.100000024,0
+4643,Ronnie Drake (feat. SZA),Isaiah Rashad,hip hop,2014,154,78,48,-5,17,84,198,36,27,54,4.300000191,0.100000001
+4644,West Savannah (feat. SZA),Isaiah Rashad,hip hop,2014,125,91,65,-4,50,56,167,13,16,54,4.300000191,0.100000001
+4645,Se√±orita,Vince Staples,conscious hip hop,2015,125,64,77,-8,33,16,188,5,12,54,4.400000095,0
+4646,End,Frank Ocean,hip hop,2012,120,30,56,-18,10,33,135,40,12,54,6,-0.100000001
+4647,Swimming Pools (Drank),Kendrick Lamar,conscious hip hop,2012,74,49,72,-8,60,26,314,12,40,54,12.60000038,0
+4648,Forever (feat. Joseph Chilliams & Ravyn Lenae),Noname,escape room,2016,114,66,67,-10,19,91,219,57,47,53,3.900000095,0.100000001
+4649,Bye Bye Baby,Noname,escape room,2016,83,38,52,-13,11,50,169,84,45,53,2,0.200000003
+4650,AA,Isaiah Rashad,hip hop,2016,96,51,73,-10,33,51,210,3,5,53,7.5,-0.100000001
+4651,Dopamine,Bas,hip hop,2016,120,51,76,-8,14,20,216,43,35,53,4.800000191,-0.400000006
+4652,No Make,Kendrick Lamar,conscious hip hop,2011,91,70,54,-7,63,21,236,54,9,53,5.599999905,0.200000003
+4653,Keisha's Song (Her Pain),Kendrick Lamar,conscious hip hop,2011,85,85,47,-8,62,20,227,43,38,53,5.599999905,0.200000003
+4654,25 Bucks (feat. Purity Ring),Danny Brown,alternative hip hop,2013,116,85,72,-7,14,27,211,32,8,53,10.60000038,0
+4655,Drowning (feat. BADBADNOTGOOD),Mick Jenkins,conscious hip hop,2016,134,32,61,-9,8,8,361,10,8,52,5.800000191,0.100000001
+4656,Ignorance Is Bliss,Kendrick Lamar,conscious hip hop,2010,82,80,64,-5,61,76,210,51,39,52,3.900000095,-0.200000003
+4657,Chapter Six,Kendrick Lamar,conscious hip hop,2011,68,54,51,-11,19,67,161,53,8,52,4.099999905,0.200000003
+4658,Kush & Corinthians,Kendrick Lamar,conscious hip hop,2011,177,73,38,-6,50,31,305,73,20,52,5.099999905,0
+4659,untitled 01 | 08.19.2014.,Kendrick Lamar,conscious hip hop,2016,102,57,58,-12,9,14,248,35,35,52,3.400000095,0
+4660,untitled 04 | 08.14.2014.,Kendrick Lamar,conscious hip hop,2016,100,12,53,-21,46,18,110,85,20,52,3.299999952,0
+4661,Gold Soul Theory,The Underachievers,hip hop,2013,79,79,52,-5,12,63,184,19,36,52,1.700000048,-0.300000012
+4662,Lift Me Up,Vince Staples,conscious hip hop,2015,120,63,66,-8,14,28,272,0,4,52,3.900000095,0
+4664,Start,Frank Ocean,hip hop,2012,80,25,27,-20,51,4,46,73,16,52,0.800000012,-0.800000012
+4665,Thinkin Bout You,Frank Ocean,hip hop,2012,130,33,72,-11,15,19,201,41,5,51,3.5,-0.100000001
+4666,Freedom (Interlude),Noname,escape room,2016,93,72,77,-11,8,76,199,36,21,51,6.599999905,0
+4667,Casket Pretty,Noname,escape room,2016,104,49,61,-11,11,50,111,93,41,51,0.800000012,-0.200000003
+4668,Rope (feat. SiR) // rosegold,Isaiah Rashad,hip hop,2016,92,60,62,-9,37,70,284,4,26,51,4.900000095,0
+4669,Find a Topic (homies begged),Isaiah Rashad,hip hop,2016,131,57,91,-5,50,55,167,0,10,51,6.300000191,0.600000024
+4670,Methylone,Bas,hip hop,2016,144,63,76,-6,14,19,163,3,22,51,3.400000095,0
+4672,Herb Shuttles,The Underachievers,hip hop,2013,138,76,65,-7,12,31,195,84,33,51,2.400000095,0.300000012
+4673,R.I.P. Kevin Miller,Isaiah Rashad,hip hop,2014,136,84,70,-4,14,60,229,23,27,50,3.599999905,0
+4674,Bday (feat. Deacon Blues & Kari Faux),Isaiah Rashad,hip hop,2016,89,54,76,-9,48,45,233,1,10,50,8.800000191,0
+4675,Play That Way,The Underachievers,hip hop,2016,153,67,80,-6,12,37,205,13,25,50,2.099999905,-0.200000003
+4676,Clouds Never Get Old,Bas,hip hop,2016,136,56,64,-5,39,33,189,10,31,50,4.900000095,0.300000012
+4677,Ricochet,Bas,hip hop,2016,120,28,55,-14,11,22,196,71,6,49,2.900000095,0.300000012
+4678,Growing Apart (To Get Closer),Kendrick Lamar,conscious hip hop,2010,107,53,59,-10,18,59,221,37,37,49,5.199999809,-0.200000003
+4679,P&P 1.5,Kendrick Lamar,conscious hip hop,2010,146,69,55,-7,20,59,362,30,37,49,12.30000019,0
+4680,Opposites Attract (Tomorrow W/O Her),Kendrick Lamar,conscious hip hop,2010,192,81,61,-6,26,59,272,66,44,49,14.80000019,-0.100000001
+4681,Jump Off The Roof,Vince Staples,conscious hip hop,2015,120,95,73,-5,51,59,224,9,8,49,4.599999905,0
+4682,Your Love,Mick Jenkins,conscious hip hop,2015,95,45,65,-6,14,64,194,5,16,48,5.900000095,0.5
+4683,Cilvia Demo,Isaiah Rashad,hip hop,2014,83,72,60,-5,32,58,183,69,23,48,1.600000024,0
+4684,Modest,Isaiah Rashad,hip hop,2014,130,95,68,-3,14,77,221,13,23,48,2.299999952,0
+4685,Charles De Gaulle To JFK,Bas,hip hop,2014,93,68,73,-8,12,16,190,10,17,48,2.900000095,0
+4686,Too High To Riot,Bas,hip hop,2016,84,76,59,-6,17,43,163,49,39,48,4.099999905,0
+4687,Average Joe,Kendrick Lamar,conscious hip hop,2010,92,73,74,-3,18,22,256,24,25,48,5.400000095,-0.100000001
+4480,Japanese Denim,Daniel Caesar,indie r&b,2016,124,24,71,-9,8,35,271,9,4,75,2.5,0.100000001
+4481,Neighbors,J. Cole,conscious hip hop,2016,139,28,89,-13,11,41,217,36,33,75,4.199999809,-0.100000001
+4482,King Kunta,Kendrick Lamar,conscious hip hop,2015,107,66,88,-5,15,49,235,1,10,75,8.699999809,0
+4483,Live Your Life (feat. Rihanna),T.I.,dance pop,2008,160,86,38,-3,21,48,339,7,26,75,14.60000038,0.5
+4485,Heartless,Kanye West,pop rap,2008,88,65,79,-6,25,62,211,4,12,75,10.19999981,-0.5
+4486,ELEMENT.,Kendrick Lamar,conscious hip hop,2017,190,71,75,-5,25,48,209,20,49,74,7.900000095,-0.5
+4487,Juke Jam (feat. Justin Bieber & Towkio),Chance the Rapper,conscious hip hop,2016,95,40,51,-9,9,56,220,72,32,74,5,0.100000001
+4489,Deja Vu,J. Cole,conscious hip hop,2016,174,41,65,-11,19,19,265,36,42,73,4.300000191,0
+4490,Nikes,Frank Ocean,hip hop,2016,138,39,54,-10,11,12,314,70,9,73,29.10000038,0.100000001
+4491,Self Control,Frank Ocean,hip hop,2016,80,21,57,-10,36,45,250,77,3,73,3.400000095,0.100000001
+4492,Waves,Kanye West,pop rap,2016,96,59,39,-4,33,6,182,4,5,73,4.699999809,0
+4493,Alright,Kendrick Lamar,conscious hip hop,2015,110,77,80,-6,8,56,219,7,24,73,6.400000095,0
+4494,All Of The Lights,Kanye West,pop rap,2010,142,80,54,-3,18,22,300,8,7,73,9.300000191,0.200000003
+4495,All Night (feat. Knox Fortune),Chance the Rapper,conscious hip hop,2016,112,78,70,-6,15,39,142,4,20,72,5,0.100000001
+4496,A.D.H.D,Kendrick Lamar,conscious hip hop,2011,158,80,61,-7,11,58,216,33,24,71,8.800000191,-0.100000001
+4497,Same Drugs,Chance the Rapper,conscious hip hop,2016,180,29,46,-10,9,53,258,95,6,71,5,-0.100000001
+4498,Ultralight Beam,Kanye West,pop rap,2016,107,39,60,-9,54,36,321,64,38,71,10.39999962,0.200000003
+4499,A Tale of 2 Citiez,J. Cole,conscious hip hop,2014,190,56,56,-8,25,36,270,55,53,71,6.800000191,0
+4500,Solo,Frank Ocean,hip hop,2016,124,29,44,-11,16,25,257,85,4,70,1.200000048,0
+4501,THat Part,ScHoolboy Q,gangster rap,2016,113,54,93,-8,14,34,314,9,9,70,7.099999905,0
+4502,Norf Norf,Vince Staples,conscious hip hop,2015,100,54,92,-7,11,11,183,45,7,70,4,0.100000001
+4503,Apparently,J. Cole,conscious hip hop,2014,134,54,80,-9,12,53,293,56,9,70,2.700000048,0
+4504,Love Yourz,J. Cole,conscious hip hop,2014,76,62,50,-9,12,40,212,61,44,70,6.400000095,-0.100000001
+4506,XXX. FEAT. U2.,Kendrick Lamar,conscious hip hop,2017,170,62,57,-7,11,29,254,14,41,69,6.800000191,-0.100000001
+4507,Immortal,J. Cole,conscious hip hop,2016,92,42,71,-11,13,25,202,44,36,69,3.700000048,0
+4508,White Ferrari,Frank Ocean,hip hop,2016,109,9,44,-16,30,22,249,78,4,69,2.400000095,-0.100000001
+4509,Studio,ScHoolboy Q,gangster rap,2014,134,59,71,-8,6,58,278,5,4,69,2.900000095,0.100000001
+4510,Smoke Break (feat. Future),Chance the Rapper,conscious hip hop,2016,125,45,71,-8,14,28,226,26,20,69,5,0.100000001
+4511,FML,Kanye West,pop rap,2016,125,42,67,-7,19,16,236,31,8,69,4,-0.100000001
+4512,Rap God,Eminem,detroit hip hop,2013,148,85,71,-3,85,65,364,38,32,69,15.30000019,-0.100000001
+4513,Provider,Frank Ocean,hip hop,2017,140,33,65,-12,15,39,243,74,28,68,5.800000191,0.100000001
+4514,PRIDE.,Kendrick Lamar,conscious hip hop,2017,139,54,67,-7,15,37,275,8,6,68,5.599999905,0.200000003
+4515,All We Got (feat. Kanye West & Chicago Children's Choir),Chance the Rapper,conscious hip hop,2016,132,54,53,-9,8,40,204,31,46,68,5,0.100000001
+4516,Real Friends,Kanye West,pop rap,2016,171,75,45,-6,14,12,252,27,46,68,7.300000191,-0.100000001
+4517,m.A.A.d city,Kendrick Lamar,conscious hip hop,2012,91,73,49,-7,44,22,350,5,27,68,15.5,-0.100000001
+4518,Losin Control,Russ,hip hop,2016,97,25,76,-7,10,21,238,52,14,67,2.5,0
+4519,YAH.,Kendrick Lamar,conscious hip hop,2017,70,70,67,-8,23,65,160,58,20,67,2.700000048,0.200000003
+4520,FEEL.,Kendrick Lamar,conscious hip hop,2017,110,80,75,-8,14,55,215,14,35,67,3.700000048,-0.400000006
+4521,LUST.,Kendrick Lamar,conscious hip hop,2017,94,56,68,-9,10,57,308,19,51,67,8,-0.5
+4522,FEAR.,Kendrick Lamar,conscious hip hop,2017,150,48,59,-7,53,43,461,60,28,67,10.30000019,-0.300000012
+4523,DUCKWORTH.,Kendrick Lamar,conscious hip hop,2017,175,73,55,-7,26,63,249,5,62,67,4.699999809,0
+4524,Change,J. Cole,conscious hip hop,2016,107,52,58,-11,9,24,331,64,25,67,6.699999809,0
+4525,4 Your Eyez Only,J. Cole,conscious hip hop,2016,79,48,70,-10,9,49,530,38,36,67,6.599999905,-0.100000001
+4526,4r Da Squaw,Isaiah Rashad,hip hop,2016,144,52,67,-9,14,41,233,53,33,67,3.900000095,0
+4527,Wat's Wrong (feat. Zacari & Kendrick Lamar),Isaiah Rashad,hip hop,2016,126,69,71,-6,47,31,331,15,27,67,4.900000095,0
+4528,Angels (feat. Saba),Chance the Rapper,conscious hip hop,2016,156,65,77,-5,37,68,206,29,38,67,5,0.100000001
+4529,Fire Squad,J. Cole,conscious hip hop,2014,175,74,52,-7,62,60,288,28,42,67,8.199999809,0
+4530,Super Rich Kids,Frank Ocean,hip hop,2012,60,42,59,-8,21,61,305,27,9,67,6.199999809,-0.100000001
+4531,Money Trees,Kendrick Lamar,conscious hip hop,2012,72,53,72,-7,22,34,387,7,12,67,14.5,0
+4532,Can't Tell Me Nothing,Kanye West,pop rap,2007,80,61,59,-6,82,10,272,1,5,67,10.30000019,-0.200000003
+4533,GOD.,Kendrick Lamar,conscious hip hop,2017,133,56,71,-6,28,21,249,3,8,66,9.600000381,0.200000003
+4534,Summer Friends (feat. Jeremih & Francis & The Lights),Chance the Rapper,conscious hip hop,2016,145,43,69,-12,12,48,290,68,30,66,7.5,0.100000001
+4535,Lost,Frank Ocean,hip hop,2012,123,60,91,-5,19,49,234,3,24,66,4,-0.100000001
+4536,Clique,Kanye West,pop rap,2012,109,54,66,-6,22,31,294,5,32,66,9.699999809,-0.200000003
+4537,Swim Good,Frank Ocean,hip hop,2011,80,68,53,-8,6,68,257,0,11,65,6.5,0.100000001
+4538,Jazz,Mick Jenkins,conscious hip hop,2014,125,61,64,-10,11,30,260,25,12,65,4.300000191,-0.100000001
+4539,No More Parties In LA,Kanye West,pop rap,2016,94,92,53,-2,22,70,374,23,30,65,4.5,0
+4540,Ville Mentality,J. Cole,conscious hip hop,2016,120,38,86,-8,12,63,194,79,9,65,3.200000048,-0.100000001
+4541,Seigfried,Frank Ocean,hip hop,2016,125,26,38,-11,10,37,335,98,4,65,4.300000191,0.100000001
+4542,Godspeed,Frank Ocean,hip hop,2016,110,10,42,-13,13,8,178,93,5,65,2,0.300000012
+4543,Rigamortus,Kendrick Lamar,conscious hip hop,2011,178,81,52,-6,20,63,169,24,41,65,10.60000038,0.300000012
+4544,Blessings,Chance the Rapper,conscious hip hop,2016,72,34,71,-8,10,37,222,72,38,65,6.599999905,0.300000012
+4545,03' Adolescence,J. Cole,conscious hip hop,2014,146,81,52,-6,28,26,264,39,57,65,5.5,0
+4546,Pink Matter,Frank Ocean,hip hop,2012,84,25,40,-11,11,49,269,95,6,65,4,-0.100000001
+4547,i,Kendrick Lamar,conscious hip hop,2014,122,89,76,-5,24,89,232,2,6,65,0.200000003,0.100000001
+4548,Diddy Bop (feat. Cam O'bi & Raury),Noname,escape room,2016,81,50,64,-7,11,66,208,71,34,64,3.900000095,0.100000001
+4549,New Slaves,Kanye West,pop rap,2013,68,59,50,-4,10,33,256,14,9,64,4.400000095,-0.200000003
+4550,She's Mine Pt. 1,J. Cole,conscious hip hop,2016,140,20,44,-15,25,4,209,78,7,64,1.5,0.100000001
+4551,Skyline To,Frank Ocean,hip hop,2016,129,29,42,-14,10,40,185,88,6,64,2.099999905,0.100000001
+4552,Good Guy,Frank Ocean,hip hop,2016,106,13,51,-13,12,81,67,98,47,64,1.399999976,-0.400000006
+4553,January 28th,J. Cole,conscious hip hop,2014,82,55,48,-9,10,37,243,26,35,64,2,0
+4554,Pyramids,Frank Ocean,hip hop,2012,132,65,41,-6,82,20,593,1,5,64,7,0
+4555,Forrest Gump,Frank Ocean,hip hop,2012,95,39,68,-8,38,24,195,10,3,64,5.099999905,0.400000006
+4556,"Bitch, Don‚Äôt Kill My Vibe",Kendrick Lamar,conscious hip hop,2012,134,70,59,-9,44,10,311,2,9,64,21.89999962,-0.300000012
+4557,Grammys,Drake,canadian hip hop,2016,145,44,71,-10,8,12,220,0,47,63,5.5,-0.200000003
+4558,"Shadow Man (feat. Phoelix, Smino & Saba)",Noname,escape room,2016,93,45,61,-7,19,44,311,47,20,63,4.300000191,0
+4559,BLOOD.,Kendrick Lamar,conscious hip hop,2017,157,24,36,-17,55,49,118,14,27,63,2.5,0
+4560,For Whom The Bell Tolls,J. Cole,conscious hip hop,2016,112,41,65,-11,29,17,128,47,4,63,3.099999905,-0.300000012
+4561,Foldin Clothes,J. Cole,conscious hip hop,2016,162,50,71,-10,8,60,317,22,31,63,4.400000095,0.400000006
+4562,Heavenly Father,Isaiah Rashad,hip hop,2014,81,68,61,-8,35,57,261,21,25,63,10.19999981,0.200000003
+4563,Free Lunch,Isaiah Rashad,hip hop,2016,130,47,87,-7,11,84,192,22,24,63,4.5,-0.100000001
+4564,Mixtape (feat. Young Thug & Lil Yachty),Chance the Rapper,conscious hip hop,2016,127,43,84,-6,10,13,293,5,28,63,5,0.100000001
+4565,These Walls,Kendrick Lamar,conscious hip hop,2015,108,49,75,-5,20,37,301,11,14,63,6,0.100000001
+4566,So Good,B.o.B,dance pop,2012,86,90,66,-5,22,59,213,4,14,63,3.099999905,0.300000012
+4567,Facts (Charlie Heat Version),Kanye West,pop rap,2016,142,65,77,-4,20,40,201,5,18,62,13.19999981,0
+4568,She's Mine Pt. 2,J. Cole,conscious hip hop,2016,70,20,51,-15,11,5,279,78,9,62,7.599999905,0.100000001
+4569,Solo (Reprise),Frank Ocean,hip hop,2016,83,75,54,-7,9,60,79,40,16,62,2.200000048,-0.100000001
+4570,Close To You,Frank Ocean,hip hop,2016,78,67,83,-8,15,78,86,19,23,62,0.600000024,0
+4571,HiiiPower,Kendrick Lamar,conscious hip hop,2011,81,83,70,-6,28,54,280,18,28,62,5.400000095,0
+4572,Finish Line / Drown (feat. T,Chance the Rapper,conscious hip hop,2016,86,61,46,-6,7,41,407,62,38,62,6.300000191,0.100000001
+4574,Highlights,Kanye West,pop rap,2016,102,63,55,-6,30,38,200,1,16,62,3.900000095,-0.100000001
+4575,untitled 02 | 06.23.2014.,Kendrick Lamar,conscious hip hop,2016,85,51,53,-10,65,10,259,34,52,62,10.5,0
+4576,untitled 07 | 2014,Kendrick Lamar,conscious hip hop,2016,127,46,57,-12,71,35,496,74,50,62,9.899999619,0
+4577,The Blacker The Berry,Kendrick Lamar,conscious hip hop,2015,176,85,55,-4,46,27,329,1,31,62,9.699999809,-0.200000003
+4578,St. Tropez,J. Cole,conscious hip hop,2014,84,54,56,-10,6,32,258,5,7,62,2.299999952,-0.200000003
+4580,Grown Up,Danny Brown,alternative hip hop,2012,93,76,65,-6,12,70,140,12,26,62,2.200000048,0
+4581,What They Want,Russ,hip hop,2016,140,40,71,-10,10,40,166,48,38,61,4.099999905,-0.200000003
+4582,False Prophets,J. Cole,conscious hip hop,2016,90,75,73,-9,15,75,237,70,32,61,7.5,-0.600000024
+4583,Night Job,Bas,hip hop,2016,120,62,81,-7,11,20,194,6,34,61,3.799999952,0
+4584,Pretty Sweet,Frank Ocean,hip hop,2016,154,72,20,-7,30,17,158,26,5,61,2,0
+4375,Trouble (Instrumental Version),Instrumental Mafia,,2013,128,58,69,-8,30,24,154,0,4,2,0,0
+4376,All the Wrong Places (Instrumental Version),Instrumental Mafia,,2013,135,96,52,-7,7,66,205,6,4,2,0,0
+4377,Supersoaker (Instrumental Version),Instrumental Mafia,,2013,139,96,47,-7,8,59,231,0,4,2,0,0
+4378,"Music Of The Night (From ""Phantom Of The Opera"")",Dave Willetts,,2009,173,15,16,-19,11,9,336,85,4,2,0,0
+4379,Coffee to Go,Frankie Calzone's Big Band,,2016,141,24,61,-20,12,56,118,83,4,2,0,0
+4380,Blues De La Reuni√≥n,Porte√±a Jazz Band,,2006,115,35,69,-13,17,77,212,91,4,2,0,0
+4381,Blues Del Gato Salvaje,Porte√±a Jazz Band,,2006,97,60,66,-14,69,91,157,97,18,2,0,0
+4382,Mermelada De Clarinete,Porte√±a Jazz Band,,2006,106,59,73,-12,67,96,177,93,24,2,0,0
+4383,ÈæçËàπ,ÈÇµÊ¶Æ‰πÖ,,2000,131,39,55,-12,7,46,321,87,5,1,0,0
+4384,Ê≠•Ê≠•È´ò,ÂçéÂ§èÊ∞ë‰πêÂõ¢,,2013,111,30,60,-12,8,80,136,84,4,1,0,0
+4385,Boys 'Round Here (Instrumental Version),Instrumental Mafia,,2013,85,47,70,-10,35,62,290,16,3,1,0,0
+4386,Don't Stop the Party (Instrumental Version),Instrumental Mafia,,2013,127,85,80,-10,3,62,206,0,6,1,0,0
+4387,Suit and Tie (Instrumental Version),Instrumental Mafia,,2013,102,48,71,-9,6,37,330,0,3,1,0,0
+4388,When I Was Your Man (Instrumental Version),Instrumental Mafia,,2013,76,38,59,-10,11,38,201,99,7,1,0,0
+4389,Begin Again (Instrumental Version),Instrumental Mafia,,2013,79,47,50,-13,24,34,237,1,4,1,0,0
+4390,I Knew You Were Trouble (Instrumental Version),Instrumental Mafia,,2013,77,26,86,-11,10,45,217,2,23,1,0,0
+4391,Reverse Skydiving (Instrumental Version),Instrumental Mafia,,2013,118,52,81,-13,9,15,206,0,7,1,0,0
+4392,More Than Friends (Instrumental Version),Instrumental Mafia,,2013,128,73,97,-10,4,97,233,2,4,1,0,0
+4393,So Good to Me (Instrumental Version),Instrumental Mafia,,2013,121,68,81,-13,9,16,306,2,7,1,0,0
+4394,How Ya Doin' (Instrumental Version),Instrumental Mafia,,2013,202,84,57,-10,29,50,209,0,14,1,0,0
+4395,Panic Cord (Instrumental Version),Instrumental Mafia,,2013,106,65,64,-8,20,53,204,3,4,1,0,0
+4396,You & Me (Instrumental Version),Instrumental Mafia,,2013,130,85,75,-7,6,76,244,3,9,1,0,0
+4397,This Is What It Feels Like (Instrumental Version),Instrumental Mafia,,2013,130,77,50,-9,15,47,198,4,3,1,0,0
+4398,Alive (Instrumental Version),Instrumental Mafia,,2013,128,75,50,-9,13,52,269,13,4,1,0,0
+4399,Fire Blaze (Instrumental Version),Instrumental Mafia,,2013,140,46,49,-10,9,14,237,0,4,1,0,0
+4400,Live While We're Young (Instrumental Version),Instrumental Mafia,,2013,126,45,75,-8,7,70,199,0,4,1,0,0
+4401,Without Me (Instrumental Version),Instrumental Mafia,,2013,150,52,74,-12,33,26,275,3,7,1,0,0
+4402,That's My Kind of Night (Instrumental Version),Instrumental Mafia,,2013,110,54,60,-10,6,56,190,1,4,1,0,0
+4403,Kiss You (Instrumental Version),Instrumental Mafia,,2013,180,65,61,-9,6,21,183,0,9,1,0,0
+4404,Trampoline (Instrumental Version),Instrumental Mafia,,2013,151,58,91,-11,9,70,224,0,31,1,0,0
+4405,You Know You Like It (Instrumental Version),Instrumental Mafia,,2013,90,49,61,-11,9,53,208,3,3,1,0,0
+4406,Crash My Party (Instrumental Version),Instrumental Mafia,,2013,144,59,60,-10,20,53,238,1,3,1,0,0
+4407,Right Here (Instrumental Version),Instrumental Mafia,,2013,165,86,36,-8,16,19,308,0,4,1,0,0
+4408,Big When I Was Little (Instrumental Version),Instrumental Mafia,,2013,170,87,69,-9,9,97,230,0,6,1,0,0
+4409,Redneck Crazy (Instrumental Version),Instrumental Mafia,,2013,146,46,62,-9,11,52,216,1,3,1,0,0
+4410,Beat This Summer (Instrumental Version),Instrumental Mafia,,2013,150,70,63,-9,50,84,246,6,3,1,0,0
+4411,Night Train (Instrumental Version),Instrumental Mafia,,2013,158,69,57,-9,8,78,234,1,3,1,0,0
+4412,Bounce (Instrumental Version),Instrumental Mafia,,2013,126,57,75,-10,11,49,168,0,5,1,0,0
+4413,Ooh La La (Instrumental Version),Instrumental Mafia,,2013,128,41,75,-10,9,28,250,0,7,1,0,0
+4414,True Love (Instrumental Version),Instrumental Mafia,,2013,96,66,72,-10,11,61,233,0,5,1,0,0
+4415,Outta Nowhere (Instrumental Version),Instrumental Mafia,,2013,95,76,72,-7,9,52,208,2,6,1,0,0
+4416,Intentions (Instrumental Version),Instrumental Mafia,,2013,122,57,83,-10,6,7,211,0,5,1,0,0
+4417,All or Nothin (Instrumental Version),Instrumental Mafia,,2013,130,64,74,-9,15,63,198,0,4,1,0,0
+4418,What About Love (Instrumental Version),Instrumental Mafia,,2013,100,73,58,-12,5,12,207,0,3,1,0,0
+4419,Thinking About You (Instrumental Version),Instrumental Mafia,,2013,128,77,72,-10,7,78,246,0,4,1,0,0
+4420,Jack (Instrumental Version),Instrumental Mafia,,2013,124,85,85,-8,10,15,180,0,12,1,0,0
+4421,Gentleman (Instrumental Version),Instrumental Mafia,,2013,133,92,79,-7,37,88,226,0,6,1,0,0
+4422,Brokenhearted (Instrumental Version),Instrumental Mafia,,2013,89,71,63,-11,7,61,213,0,4,1,0,0
+4423,High School (Instrumental Version),Instrumental Mafia,,2013,88,41,77,-13,26,28,221,8,13,1,0,0
+4424,Dance the Pain Away (Instrumental Version),Instrumental Mafia,,2013,124,72,75,-11,7,19,218,8,4,1,0,0
+4425,All Night (Instrumental Version),Instrumental Mafia,,2013,124,56,59,-11,33,34,174,0,3,1,0,0
+4426,We Own the Night (Instrumental Version),Instrumental Mafia,,2013,104,65,55,-8,29,49,207,1,3,1,0,0
+4427,Applause (Instrumental Version),Instrumental Mafia,,2013,140,65,65,-11,9,61,210,2,5,1,0,0
+4428,Lived a Lie (Instrumental Version),Instrumental Mafia,,2013,134,63,44,-10,40,31,202,0,3,1,0,0
+4429,Earthquake (Instrumental Version),Instrumental Mafia,,2013,164,41,75,-10,4,58,192,0,8,1,0,0
+4430,Strong (Instrumental Version),Instrumental Mafia,,2013,78,24,55,-16,10,22,239,30,3,1,0,0
+4431,Boom Boom (Instrumental Version),Instrumental Mafia,,2013,128,56,73,-12,11,7,196,6,4,1,0,0
+4432,As Your Friend (Instrumental Version),Instrumental Mafia,,2013,128,61,70,-9,20,19,207,10,9,1,0,0
+4433,Lost Generation (Instrumental Version),Instrumental Mafia,,2013,117,54,82,-7,9,69,216,0,5,1,0,0
+4434,Only You Know,Frankie Calzone's Big Band,,2016,111,19,69,-18,11,68,105,81,5,1,0,0
+4435,Looking Across the Bay,Frankie Calzone's Big Band,,2016,143,18,51,-20,13,68,124,76,5,1,0,0
+4436,Clarinet Marmalade,Porte√±a Jazz Band,,2010,205,74,50,-9,73,95,182,96,43,1,0,0
+4437,ÂÖâÊòéË°å,Êú±ÊòåËÄÄ,,2000,137,23,43,-14,5,64,270,91,4,0,0,0
+4438,Parking Lot Party (Instrumental Version),Instrumental Mafia,,2013,172,84,55,-10,4,84,214,1,5,0,0,0
+4439,Reload (Instrumental Version),Instrumental Mafia,,2013,128,57,53,-9,8,11,220,36,4,0,0,0
+4440,Drunk Last Night (Instrumental Version),Instrumental Mafia,,2013,174,75,46,-9,9,57,222,0,3,0,0,0
+4441,F for You (Instrumental Version),Instrumental Mafia,,2013,124,54,80,-15,11,6,267,1,6,0,0,0
+4442,Mozart's House (Instrumental Version),Instrumental Mafia,,2013,125,56,81,-7,10,56,228,0,8,0,0,0
+4443,Easy (Instrumental Version),Instrumental Mafia,,2013,128,80,59,-7,39,25,201,0,4,0,0,0
+4444,What a Night (Instrumental Version),Instrumental Mafia,,2013,180,69,68,-9,9,93,171,4,14,0,0,0
+4445,Slip (Instrumental Version),Instrumental Mafia,,2013,105,63,46,-7,8,68,224,0,5,0,0,0
+4446,Dirt Road Diary (Instrumental Version),Instrumental Mafia,,2013,147,53,55,-9,25,45,210,0,4,0,0,0
+4447,Frogs Legs,Cole Portman,,2016,151,21,48,-25,11,52,240,99,6,0,0,0
+4450,The Phantom of the Opera,Barcelona String Players,,2009,120,42,44,-12,8,37,265,13,4,0,0,0
+4451,Prima Donna,Barcelona String Players,,2009,108,19,28,-14,20,26,215,92,3,0,0,0
+4452,Pie Jesu,Barcelona String Players,,2009,79,33,24,-14,12,16,199,10,3,0,0,0
+4455,Angel of Music,Barcelona String Players,,2009,141,6,21,-16,8,8,142,98,4,0,0,0
+4456,Adi√≥s Bardi,Osvaldo Pugliese & Su Orquesta T√≠pica,,2009,121,18,53,-16,9,58,169,93,5,0,0,0
+4457,Bravo Porte√±o,Roberto Firpo Y Nuevo Cuarteto,,2009,137,32,55,-16,16,68,173,96,5,0,0,0
+4458,Buenos Aires,Mark Kramer,,1997,83,33,50,-15,14,30,282,49,3,0,0,0
+4459,It Happened In Monterey,Dani Iannarelli,,2011,137,49,76,-11,31,92,239,56,6,0,0,0
+4460,Corcovado (Quiet Nights of Quiet Stars),Dani Iannarelli,,2011,126,31,52,-17,11,27,220,90,5,0,0,0
+4461,Gar√¥ta De Ipanema (The Girl From Ipanema),Dani Iannarelli,,2011,131,42,49,-12,20,42,226,75,4,0,0,0
+4463,HUMBLE.,Kendrick Lamar,conscious hip hop,2017,150,62,91,-7,10,42,177,0,10,86,2.299999952,-0.200000003
+4464,DNA.,Kendrick Lamar,conscious hip hop,2017,140,52,64,-7,8,42,186,0,36,82,1.899999976,0
+4465,No Role Modelz,J. Cole,conscious hip hop,2014,100,52,70,-8,6,46,293,30,33,82,10,-0.400000006
+4466,LOVE. FEAT. ZACARI.,Kendrick Lamar,conscious hip hop,2017,126,59,80,-7,15,78,213,26,9,81,0,0
+4467,KOD,J. Cole,conscious hip hop,2018,142,78,83,-6,11,20,191,21,15,80,5.699999809,-0.200000003
+4468,Bounce Back,Big Sean,detroit hip hop,2017,81,57,77,-6,13,26,222,11,18,79,4.699999809,-0.300000012
+4469,Wet Dreamz,J. Cole,conscious hip hop,2014,175,71,50,-8,13,58,239,8,36,79,6.199999809,-0.200000003
+4470,POWER,Kanye West,pop rap,2010,154,92,54,-5,74,58,292,2,11,79,9.399999619,-0.200000003
+4471,Lose Yourself,Eminem,detroit hip hop,2005,171,73,70,-5,36,7,326,1,27,79,6.300000191,-0.200000003
+4472,Ni**as In Paris,JAY Z,bulgarian hip hop,2014,140,88,76,-6,25,68,219,8,25,78,0,0
+4473,Nights,Frank Ocean,hip hop,2016,90,55,47,-9,11,42,307,42,12,77,7,-0.300000012
+4474,LOYALTY. FEAT. RIHANNA.,Kendrick Lamar,conscious hip hop,2017,111,54,66,-9,20,42,227,3,6,76,7.699999809,0
+4475,Ivy,Frank Ocean,hip hop,2016,116,39,57,-10,25,45,249,78,4,76,4.599999905,-0.200000003
+4476,Pink + White,Frank Ocean,hip hop,2016,160,55,54,-7,42,55,185,67,10,76,2.200000048,-0.100000001
+4477,No Problem (feat. Lil Wayne & 2 Chainz),Chance the Rapper,conscious hip hop,2016,135,80,65,-5,12,79,305,16,17,76,5,0.100000001
+4478,G.O.M.D.,J. Cole,conscious hip hop,2014,128,39,89,-11,28,30,301,33,27,76,3.700000048,-0.100000001
+4479,Chanel,Frank Ocean,hip hop,2017,110,50,78,-6,11,47,210,87,24,75,3.200000048,0
+4153,Listen,Liisi Lafontaine,,2017,127,61,40,-6,72,26,229,67,7,41,6.900000095,0.200000003
+4154,Tell Me And I'll Forget,Rand Aldo,,2018,90,6,36,-24,11,6,173,94,3,41,0,0
+4155,Million Bucks,TP4Y,,2016,150,93,63,-3,25,90,181,8,7,40,0,0
+4156,I Surrender,Arlissa,,2017,94,38,65,-3,10,35,192,75,3,40,7,-0.100000001
+4157,What's It Gonna Be,Arlissa,,2017,87,29,73,-4,9,37,179,87,4,40,5.5,-0.400000006
+4158,Cups,Lulu & The Lampshades,,2012,128,85,93,-6,7,77,131,50,23,40,0,0
+4159,Charlie's Soliloquy,Stark Sands,,2013,110,21,68,-18,9,20,78,19,3,40,0,0
+4160,Price and Son Theme / The Most Beautiful Thing in the World,Full Company,,2013,174,45,44,-8,15,47,380,77,14,40,0,0
+4161,Christmas Dream,Andreas Weise,,2014,108,47,51,-7,8,29,210,60,3,40,0,0
+4162,Christmas Home,Tony DeSare,,2015,99,24,18,-10,18,10,194,90,3,39,0,0
+4163,Hold On Tight,Greg Holden,,2015,129,82,58,-8,11,35,191,4,5,38,2.700000048,-0.100000001
+4164,Can't Take My Eyes Off Of You,John Lloyd Young,,2005,132,79,69,-7,14,46,197,11,11,38,3.599999905,0.699999988
+4165,Santa Claus Is Coming To Town,Matt Belsante,,2007,136,49,61,-6,8,44,208,84,4,38,2.5,0.300000012
+4166,Charlie's Soliloquy (Reprise),Stark Sands,,2013,187,31,27,-14,9,29,50,23,3,37,0,0
+4167,"Sit Down, You're Rockin' the Boat",Walter Bobbie,,1992,129,30,58,-16,77,52,177,84,46,37,0,0
+4168,Don't Cry For Me Argentina,Julie Covington,,2018,70,21,24,-9,11,15,325,83,3,37,1.100000024,-0.100000001
+4170,Cooties,Aimee Allen,,2007,131,82,75,-7,40,84,162,8,29,35,1.899999976,0
+4171,Clap Your Hands,LeoSoul,,2016,124,85,87,-9,5,97,196,7,4,35,0,0
+4172,Guys and Dolls,Walter Bobbie,,1992,122,30,80,-16,55,82,178,86,9,34,0,0
+4173,Footloose / On Any Sunday,"""Footloose"" Original Broadway Cast",,2011,178,51,43,-9,16,43,458,42,18,34,0,0
+4174,Happy Days Are Here Again,Anika Larsen,,2014,149,61,67,-4,10,96,66,71,5,34,0,0
+4175,1650 Broadway Medley,Beautiful Ensemble,,2014,153,82,57,-4,59,95,120,53,8,34,0,0
+4176,Afternoon Nap,The Gentleman's Jazz Club,,2016,141,17,57,-19,17,71,125,84,21,34,0,0
+4177,Walking In The Rain,Anika Larsen,,2014,138,32,34,-7,13,39,141,84,3,33,0,0
+4178,On Broadway,E. Clayton Cornelious,,2014,128,69,75,-4,16,96,132,56,4,33,0,0
+4181,He's Sure The Boy I Love,Anika Larsen,,2014,142,65,61,-4,9,74,78,51,6,33,0,0
+4183,TooManySunrises,Tane,,2018,88,40,62,-9,18,55,130,59,6,32,0,0
+4184,Fugue for Tinhorns,Walter Bobbie,,1992,82,25,79,-18,7,86,87,80,13,32,0,0
+4185,You've Lost That Lovin' Feeling,Jarrod Spector,,2014,99,37,48,-7,15,64,199,54,3,32,0,0
+4186,The Locomotion,Ashley Blanchet,,2014,134,81,70,-3,21,94,132,62,3,32,3.599999905,0.5
+4188,One Night Only,Amber Riley,,2017,152,71,36,-5,45,35,341,61,11,31,0,0
+4189,I Can't Stand Still,Jeremy Kushnier,,2011,108,59,59,-9,14,62,131,19,18,31,4,-0.200000003
+4191,Bui,Peter Polycarpou,,1990,68,31,41,-13,13,38,246,88,4,30,0,0
+4193,I'm Free (Heaven Helps The Man),Jeremy Kushnier,,2011,156,57,58,-9,8,73,262,10,12,30,0,0
+4194,The Girl Gets Around,Billy Hartung,,2011,147,55,60,-8,47,80,141,19,8,30,0,0
+4195,I Like It,Hudson Loverro,,2017,125,89,64,-3,7,77,154,46,6,30,12.30000019,0.300000012
+4196,Uptown,Alysha Deslorieux,,2014,122,65,58,-5,14,64,96,49,3,30,0,0
+4197,We Gotta Get Out Of This Place,Jarrod Spector,,2014,124,71,54,-3,45,67,119,16,3,30,1.200000048,0
+4199,City Of Stars,Jacob Koller,,2017,109,31,49,-13,9,18,206,98,4,30,0,0
+4201,Dreamgirls,Amber Riley,,2017,152,84,39,-5,70,76,196,57,20,29,0,0
+4202,Almost Paradise,Jeremy Kushnier,,2011,143,24,41,-14,13,13,201,70,3,29,0,0
+4205,Runyonland,Guys and Dolls Orchestra (1992),,1992,81,24,35,-17,25,56,177,66,4,28,0,0
+4206,Charlie Brown,The Ellis Marsalis Trio,,1994,121,30,88,-16,9,60,265,53,5,28,0,0
+4207,Steamboat Willie,The Amazing Keystone Big Band,,2017,113,51,61,-6,18,96,143,58,6,28,0.100000001,0.100000001
+4208,Fools Fall in Love,Jenn Gambatese,,2005,128,34,39,-10,13,26,141,83,4,28,0,0
+4209,Memories,Paris Lounge Jazz Cafe,,2017,86,18,55,-18,15,48,114,67,4,28,0,0
+4210,Guys and Dolls (Reprise),Guys and Dolls Orchestra (1992),,1992,127,42,68,-14,61,98,71,82,4,27,0,0
+4211,Havana,Guys and Dolls Ensemble (1992),,1992,102,31,59,-16,10,64,240,79,20,27,0,0
+4212,I Am Changing,Amber Riley,,2017,149,50,31,-6,76,36,268,76,5,27,5,0.200000003
+4213,Time Goes By,Paris Lounge Jazz Cafe,,2017,84,13,67,-24,9,62,116,87,3,27,0,0
+4214,You Do Something to Me,Brazilian Tropical Orchestra,,1999,82,20,24,-15,11,28,111,83,3,26,0,0
+4215,Get Ready / Dancing In The Street,Original Broadway Cast-Motown The Musical,,2013,151,90,39,-6,43,65,205,1,13,26,0,0
+4216,An American in Paris,An American in Paris Orchestra,,2015,118,36,35,-11,21,24,764,85,4,26,0,0
+4217,Heaven Help Me,Stephen Lee Anderson,,2011,77,22,53,-13,18,49,111,89,4,26,0,0
+4218,Learning To Be Silent,Dee Hoty,,2011,65,13,41,-16,10,34,157,89,5,26,1,-0.300000012
+4219,We Dance,Once on This Island Ensemble,,1990,82,27,52,-18,62,63,327,80,14,26,0,0
+4220,Superstar,Murray Head,,2018,122,64,36,-6,16,65,256,10,4,26,0,0
+4221,Do You Hear The People Sing?,Michael Maguire,,2003,85,37,65,-13,15,54,125,91,5,26,0,0
+4222,Let's Go Fly A Kite,Various Artists,,2005,118,23,45,-16,8,45,124,81,4,26,0,0
+4223,More I Cannot Wish You,John Carpenter,,1992,170,4,25,-27,16,45,138,96,4,25,0,0
+4224,Steppin' to the Bad Side,Joe Aaron Reid,,2017,107,76,44,-6,24,60,351,58,13,25,0,0
+4225,Move,Amber Riley,,2017,159,92,41,-4,67,77,115,66,15,25,1.899999976,0.200000003
+4226,Can You Find It In Your Heart?,Dee Hoty,,2011,84,6,42,-20,9,20,148,95,5,25,0,0
+4227,Hard To Say Goodbye,Liisi Lafontaine,,2017,138,70,61,-6,13,61,186,62,15,24,0,0
+4228,It's All Over,Joe Aaron Reid,,2017,82,62,51,-6,83,87,229,69,31,24,0,0
+4229,Family,Cast - James And The Giant Peach,,1996,96,24,40,-13,22,46,164,78,8,23,0,0
+4230,A Marshmallow World,Seth MacFarlane,,2014,140,44,59,-7,31,77,134,57,5,23,0.899999976,0.899999976
+4231,Dreamgirls (Reprise),Amber Riley,,2017,143,81,26,-5,91,31,127,62,10,23,0,0
+4232,Heavy,Amber Riley,,2017,149,65,46,-6,43,70,284,62,15,23,0,0
+4233,Fake Your Way to the Top,Adam J Bernard,,2017,168,89,48,-4,88,44,212,68,31,23,0,0
+4234,Make Our Garden Grow,Jason Danieley,,1997,83,32,25,-10,19,14,244,96,5,23,0,0
+4235,Four or Five Times,Four,,2004,140,29,63,-11,7,64,289,89,4,23,0,0
+4236,Shoo Fly Pie and Apple Pan Dowdy,Fred Mollin and the Blue Sea Band,,2007,133,63,54,-6,94,78,153,37,4,22,0,0
+4237,Girl From Ipanema,Belinha Bossa Duo,,2015,139,15,50,-14,11,18,236,98,4,22,0,0
+4238,I Want You Back / ABC / The Love You Save,Original Broadway Cast-Motown The Musical,,2013,105,70,72,-6,6,89,149,19,11,22,0,0
+4239,Effie White's Gonna Win/ You Are My Dream (Reprise),Joe Aaron Reid,,2017,147,52,38,-8,10,14,186,52,12,22,0,0
+4241,Cadillac Car,Joe Aaron Reid,,2017,75,65,50,-6,41,56,363,66,15,22,0,0
+4242,"I'm Looking for Something, Baby",Joe Aaron Reid,,2017,148,87,63,-7,76,65,189,57,46,22,0,0
+4244,The Night The Pugilist Learned How To Dance,Michael Esper,,2014,73,36,35,-10,10,34,246,80,6,22,0,0
+4245,Battle Of The Stars: Papa Was A Rolling Stone (Prologue) / I Can‚Äôt Help Myself (Sugar Pie Honey Bunch) / Ain‚Äôt Too Proud To Beg / Baby I Need Your Loving / I Can‚Äôt Get Next To You / Reach Out I‚Äôll Be There / (I Know) I‚Äôm Losing You,Original Broadway Cast-Motown The Musical,,2013,138,83,52,-6,11,69,255,4,9,21,0,0
+4246,"Love, Love You Baby",Liisi Lafontaine,,2017,144,83,69,-4,6,74,283,35,16,21,0,0
+4247,Gethsemane (I Only Want To Say),Ian Gillan,,2018,78,71,22,-7,30,28,336,44,7,21,0,0
+4248,Let It Snow! Let It Snow! Let It Snow!,Seth MacFarlane,,2014,124,32,45,-9,8,30,184,83,5,20,7,0
+4249,Finale B,Various Artists,,1999,145,69,27,-6,14,28,152,40,4,20,0,0
+4250,Ain‚Äôt No Mountain High Enough,Original Broadway Cast-Motown The Musical,,2013,110,54,63,-8,8,53,168,12,5,20,0,0
+4252,A Dream Is A Wish Your Heart Makes,The Rob Mounsey Orchestra,,2016,100,29,46,-12,9,35,258,94,3,20,0.100000001,0.100000001
+4253,I Wan'na Be Like You (The Monkey Song),Raphael Gualazzi,,2016,88,54,68,-8,15,76,234,48,7,20,0,0
+4254,"I Want You, Baby",Adam J Bernard,,2017,138,52,28,-6,11,36,164,69,3,20,0,0
+4255,"Party, Party",Amber Riley,,2017,154,69,58,-6,21,61,170,65,28,20,4.599999905,-0.200000003
+4256,Goin' Downtown,Original London Cast of Dreamgirls Ensemble,,2017,148,87,67,-6,88,71,148,61,41,20,0,0
+4257,Mele Kalikimaka,Seth MacFarlane,,2014,112,45,71,-8,12,49,154,68,4,19,2.400000095,0.600000024
+4258,War / What's Going On,Original Broadway Cast-Motown The Musical,,2013,97,65,43,-6,21,37,246,14,14,19,0,0
+4259,The Motortown Revue: Please Mr. Postman / You‚Äôve Really Got A Hold On Me / Do You Love Me,Original Broadway Cast-Motown The Musical,,2013,85,60,40,-8,95,52,263,6,28,19,0,0
+4260,I'm Somebody,Liisi Lafontaine,,2017,145,63,51,-6,69,49,141,71,22,19,0,0
+4261,The Rap,Adam J Bernard,,2017,107,77,65,-6,41,51,335,55,63,19,0,0
+4262,I Meant You No Harm,Adam J Bernard,,2017,116,59,62,-6,85,82,62,72,48,19,0,0
+4263,Ain't No Party,Ibinabo Jack,,2017,152,77,47,-5,69,72,258,68,21,19,0,0
+4264,When I First Saw You,Joe Aaron Reid,,2017,111,32,37,-10,12,19,173,78,3,19,0,0
+4265,Press Conference,Joe Aaron Reid,,2017,142,46,39,-9,39,42,98,67,9,19,0,0
+4266,I Am The Starlight,Mica Paris,,2018,78,30,19,-9,14,14,306,72,3,19,0,0
+3852,Little Drummer Boy,Count Basie Orchestra,big band,2015,99,45,80,-12,35,67,291,42,21,10,0,0
+3855,Good ‚ÄúSwing‚Äù Wenceslas,Count Basie Orchestra,big band,2015,134,33,57,-8,15,26,214,40,3,9,0,0
+3856,Silent Night,Count Basie Orchestra,big band,2015,66,32,39,-9,11,17,205,91,3,9,0,0
+3859,Let It Snow,Count Basie Orchestra,big band,2015,150,32,66,-10,13,52,356,36,4,8,0,0
+3862,I‚Äôll Be Home For Christmas,Count Basie Orchestra,big band,2015,133,39,55,-9,8,49,272,18,3,6,0,0
+3867,Baby Won't You Please Come Home,Kid Ory,big band,2011,131,44,64,-10,19,74,351,83,3,2,0,0
+3868,Lindyhopper's Delight,Chick Webb,big band,1999,98,48,74,-12,13,91,165,78,4,0,0,0
+3881,I Will Survive,Gloria Gaynor,disco,2000,117,73,78,-9,25,56,198,2,5,66,6.300000191,0
+3896,Y.M.C.A.,Village People,disco,1978,126,79,76,-11,5,76,287,3,6,60,5.699999809,0.200000003
+3904,I Don't Know How To Love Him,Yvonne Elliman,disco,1973,143,14,32,-15,10,33,238,86,3,42,4.099999905,0.100000001
+3912,Everything's Alright,Yvonne Elliman,disco,2018,136,62,39,-8,13,58,311,18,4,23,9,0.100000001
+4021,June Is Bustin' Out All Over,Ren√©e Fleming,cabaret,2018,137,38,51,-10,58,41,405,94,8,36,0,0
+4063,Tightrope,Michelle Williams,,2017,162,33,35,-10,9,19,234,30,4,77,1.399999976,0.699999988
+4064,Dancing in the Moonlight,Jubel,,2018,120,62,66,-6,19,19,164,27,6,76,4.099999905,0.699999988
+4065,Can't Help Falling in Love,Haley Reinhart,,2016,138,5,41,-14,11,25,173,95,4,75,1.899999976,0.400000006
+4066,True Colors (feat. Maya Avedis),XO Cupid,,2018,105,63,64,-6,13,45,184,8,3,74,0,0
+4067,Astral Therapy,Primer Dia,,2018,70,5,24,-24,8,4,137,95,6,71,0,0
+4068,Un Poco Loco,Anthony Gonzalez,,2017,127,50,59,-8,32,59,112,61,14,69,2.700000048,0.200000003
+4069,Soft Upon Your Face,Ave Air,,2018,161,9,19,-23,12,4,195,96,5,68,0,0
+4070,Shiny,Jemaine Clement,,2016,146,68,65,-8,10,57,185,45,24,67,7.800000191,0
+4071,Trancendent Sleep,Eleanor Arroway,,2018,138,10,35,-25,12,12,257,98,4,67,0,0
+4072,Fidelity,Rannar Sillard,,2014,99,6,42,-19,12,22,111,97,3,67,0,0
+4073,Fusion,Eroded Sky,,2017,120,14,55,-17,11,10,228,99,3,66,0,0
+4074,Stillness Speaks,Yuki Sakura,,2017,70,0,42,-34,14,15,167,99,4,66,0,0
+4075,New Endings,Bon Vie,,2018,92,3,23,-28,12,4,189,99,3,66,0,0
+4076,Morro Bay,Lundegard,,2018,122,12,65,-21,10,5,192,97,5,65,0,0
+4077,The Road to Life,Monocle Twins,,2018,66,58,47,-9,12,8,229,2,3,65,0,0
+4078,Remember Me (Ernesto de la Cruz),Benjamin Bratt,,2017,129,58,50,-7,14,60,109,55,4,65,1.100000024,-0.5
+4079,Adrift,Cooper Sams,,2018,85,33,38,-16,11,5,158,50,4,64,0,0
+4080,I'll Be There For You [Theme From FRIENDS] (45 version),The Rembrandts,,1995,94,92,26,-7,28,64,187,7,8,64,0,0
+4082,Evening Mantra,Wilma Harrods,,2017,80,2,60,-26,11,35,142,99,5,64,0,0
+4083,Waiting For Sundown,Monocle Twins,,2017,168,31,42,-14,10,8,235,98,3,63,0,0
+4084,Going Home,Intrinsic Focus,,2016,89,41,26,-13,11,13,253,95,4,62,0,0
+4085,He Needs Help,David Wingo,,2017,67,4,14,-26,9,4,191,95,4,62,0,0
+4086,Fallen,Elise Magnefold,,2017,100,11,54,-22,9,3,278,98,4,61,0,0
+4087,Finding Faith,Amaranth Cove,,2018,110,25,58,-14,8,17,157,89,3,61,0,0
+4088,Mount Kailas,Enzo Electronic,,2018,140,13,28,-21,15,4,207,88,6,61,0,0
+4089,Atmospheric Skies,zephyros,,2018,111,18,70,-18,8,11,224,29,3,61,0,0
+4090,No Matter (Basic Tape vs. Frances),Basic Tape,,2017,103,83,57,-2,10,43,191,3,5,60,0,0
+4091,Broken Promises,Bon Vie,,2017,71,4,11,-27,10,15,197,99,4,60,0,0
+4092,Light in the Fog,Night Sounds,,2017,172,53,41,-14,12,4,184,7,5,59,0,0
+4093,Breathe,Night Sounds,,2018,130,18,26,-21,9,4,253,88,4,59,0,0
+4094,Supernovas,William Roud,,2017,110,50,26,-9,12,5,182,5,3,59,0,0
+4095,The Slide,Eucalyptic,,2018,134,11,28,-17,11,14,175,88,3,59,0,0
+4096,Postcards from You,Life Below Elephants,,2018,135,66,56,-8,12,12,233,1,3,59,0,0
+4097,dream #1 [arrival],charlie dreaming,,2018,67,11,25,-24,10,9,258,88,4,59,0,0
+4098,In This Together,Boil The Ocean,,2016,73,17,45,-18,10,21,130,99,5,58,0,0
+4099,My World Is Changing,Eroded Sky,,2018,81,19,57,-16,12,17,172,96,4,58,0,0
+4100,Hello,Zooey Deschanel,,2016,120,18,54,-9,27,17,98,74,5,58,1.5,0.5
+4101,Gratitude,chillchild,,2018,112,22,23,-21,28,4,160,97,5,58,0,0
+4102,Tree House,Inifinite Room,,2018,110,43,53,-13,9,37,190,95,3,58,0,0
+4103,Sunday Smile,Jake Troth,,2016,125,65,69,-7,11,40,209,54,5,57,0,0
+4104,Bloodflow,Grandbrothers,,2017,97,62,48,-13,13,38,359,65,4,57,0,0
+4105,Euphoria,Lucy Vincent,,2018,82,7,59,-23,9,11,211,99,4,57,0,0
+4106,Escape,David Wingo,,2017,130,17,43,-23,11,4,85,90,5,57,0,0
+4107,Fast Twitch,Jonathan Kawchuk,,2018,78,28,8,-18,22,4,235,93,4,57,0,0
+4108,Falling Up,Lucy Vincent,,2018,155,18,58,-17,11,9,121,99,4,57,0,0
+4109,Numb,Lacy Magic,,2018,120,24,55,-15,12,20,203,42,3,56,0,0
+4110,Solar Flares,Night Sounds,,2018,95,23,22,-18,10,7,162,82,3,56,0,0
+4111,Night After Sidewalk,Kaki King,,2003,130,26,26,-17,11,10,211,78,4,55,0.100000001,0.100000001
+4112,Shores,Heron,,2017,126,52,42,-10,10,18,511,0,3,55,0,0
+4114,Hiking,David Wingo,,2017,78,15,50,-18,11,39,67,56,4,55,0,0
+4115,Late Night Call,Suss,,2018,135,10,22,-21,6,4,290,92,4,55,0,0
+4116,Taken Away,David Wingo,,2017,90,2,19,-28,9,3,93,98,4,55,0,0
+4117,Opening the Gates,Chequerboard,,2013,106,43,68,-14,35,28,283,87,3,54,0,0
+4118,Night In Burma,Joseph Beg,,2018,144,3,14,-33,14,24,209,75,4,54,0,0
+4119,On The 5,Winnetka Bowling League,,2018,120,60,56,-6,10,40,180,67,3,53,5.300000191,0
+4120,Gusts of Wind Blowing in Different Directions,The Last Dinosaur,,2010,133,1,31,-27,11,17,141,96,4,53,0.100000001,0.100000001
+4121,The Greater Lights,Ranges,,2017,136,67,39,-7,9,11,375,1,3,53,0,0
+4122,The Walk Of Life,Eucalyptic,,2017,96,5,33,-15,13,8,167,98,4,53,0,0
+4123,dream #3 [energy wav],charlie dreaming,,2018,136,13,15,-24,11,11,229,89,4,53,0,0
+4124,Canyonlands (Return to Wichita),Suss,,2018,71,9,23,-21,10,3,359,83,4,53,0,0
+4125,Position Position (Here),Rannar Sillard,,2014,133,8,18,-17,11,4,101,87,5,53,0,0
+4126,Entirety,Bon Vie,,2017,90,38,17,-12,11,4,213,46,3,52,0,0
+4127,Essential Attitudes,Peals,,2016,99,50,44,-13,8,25,218,45,4,52,0,0
+4128,Driggs AVE 4 am,Brooklyn Comatose,,2017,84,46,23,-8,12,11,194,32,3,52,0,0
+4129,Golden Chant,Joseph Beg,,2018,71,2,14,-32,12,4,310,90,4,52,0,0
+4130,Petrichor (Bonus Digital Track),Set and Setting,,2013,115,24,68,-18,9,19,130,19,5,51,0,0
+4131,Venice,PLVCES,,2018,120,46,34,-11,29,4,197,23,4,51,0,0
+4132,PLASTIC,sakehands,,2018,140,45,76,-8,6,66,207,37,11,50,6.900000095,0
+4133,Frontiers Are Where You Find Them,Trevor Kowalski,,2018,133,4,17,-25,11,7,194,94,3,50,0,0
+4134,Phenomena,Primer Dia,,2018,136,4,15,-24,9,3,166,96,4,48,0,0
+4135,Let It Grow,The Lorax Singers,,2012,95,39,54,-10,15,33,198,42,7,48,8.699999809,0
+4136,Raise You Up / Just Be,Full Company,,2013,122,70,74,-7,19,64,370,10,9,47,0,0
+4137,How Bad Can I Be?,Ed Helms,,2012,98,87,80,-5,6,76,172,7,14,46,9.300000191,-0.100000001
+4138,Soul of a Man,Stark Sands,,2013,162,71,48,-6,16,48,202,32,4,45,0,0
+4139,Just The Way You Are,James Smith,,2018,130,22,53,-13,11,25,157,91,5,45,2,-0.100000001
+4140,Stratos,Dew Of Light,,2018,67,36,33,-13,16,11,146,96,4,45,0,0
+4141,Blues for Sharpie,David Hazeltine,,2012,74,28,49,-17,12,39,330,62,3,44,0,0
+4142,Everybody Needs Somebody To Love,The Blues Brothers,,2005,194,69,53,-9,27,91,150,18,3,44,0,0
+4143,Step One,Stark Sands,,2013,138,86,60,-5,16,77,168,8,15,44,0,0
+4144,I Try (Living Room Session),Busty and the Bass,,2016,153,42,59,-7,5,47,260,20,29,44,6.199999809,0
+4145,Dynamite,Miller & Bronx,,2018,140,17,65,-15,11,34,197,86,4,44,0,0
+4146,You're A Mean One Mr. Grinch,Jim Carrey,,2000,105,52,43,-8,19,50,152,94,9,43,0,0
+4147,Signed Sealed Delivered,Jackson Breit,,2016,99,58,76,-7,5,49,214,25,3,43,0,0
+4148,These Palace Walls,Courtney Reed,,2014,98,33,52,-7,9,43,161,81,3,42,0,0
+4149,So. Good.,Johnny Stimson,,2015,104,36,56,-5,11,53,227,51,13,42,4,0.300000012
+4150,Take What You Got,Andy Kelso,,2013,122,71,61,-6,36,52,199,33,5,42,0,0
+4151,And I Am Telling You I'm Not Going,Amber Riley,,2017,117,73,37,-5,85,33,312,60,8,42,4.599999905,-0.200000003
+4152,Mon Ch√©ri,Lizzy LeBleu,,2016,131,14,54,-16,11,24,259,81,5,42,0,0

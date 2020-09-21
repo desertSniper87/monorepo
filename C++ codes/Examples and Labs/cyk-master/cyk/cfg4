@@ -1,0 +1,8 @@
+S A3 A1
+A3 b
+S A4 A2
+A4 c
+A1 A3 A2
+A2 b
+A2 A5 A2
+A5 a

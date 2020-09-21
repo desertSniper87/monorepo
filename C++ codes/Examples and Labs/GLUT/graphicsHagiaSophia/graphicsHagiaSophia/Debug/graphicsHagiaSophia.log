@@ -1,0 +1,14 @@
+﻿Build started 10-Nov-15 9:33:43 PM.
+     1>Project "F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\graphicsHagiaSophia\graphicsHagiaSophia.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\graphicsHagiaSophia.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\Debug\graphicsHagiaSophia.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\graphicsHagiaSophia.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\Debug\graphicsHagiaSophia.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\Debug\graphicsHagiaSophia.lib" /MACHINE:X86 Debug\Main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\Debug\graphicsHagiaSophia.exe'
+     1>Done Building Project "F:\Programming Code\C++ codes\GLUT\graphicsHagiaSophia\graphicsHagiaSophia\graphicsHagiaSophia.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.58

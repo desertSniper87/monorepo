@@ -1,0 +1,47 @@
+<html>
+{% load static %}
+    <head>
+        <title>AJAX Home</title>
+    </head>
+
+    <body>
+
+
+        <h1>AJAX HOME</h1>
+        <p id="ajax_data"></p>
+
+        <form>
+            {% csrf_token %}
+            <input name="name" value="">
+            <button>click</button>
+        </form>
+
+        <script src="{% static 'myapp/jquery.min.js' %}"></script>
+        <script src="{% static 'myapp/jquery.cookie.js' %}"></script>
+        <script>
+            $(function() {
+                $('form').submit(function(e) {    
+                    e.preventDefault();
+                    console.log("start");
+                    var csrf_token = $.cookie('csrftoken');
+                    $.ajax({
+                        url: "http://127.0.0.1:8000/ajax/",
+                        beforeSend: function(xhr) {xhr.setRequestHeader("X-CSRFToken", csrf_token);},
+                        type: 'POST',    
+                        data: $(this).serialize(),
+                        dataType: "json",
+                        success: function (json) {
+                            console.log(json);
+                            $("p").html(json.content);
+                        },
+                        error: function(e) {
+            
+                        },
+                    });
+                });
+            });
+
+        </script>
+    </body>
+
+</html>

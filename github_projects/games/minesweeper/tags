@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+ASSETS_DIR	minesweeper/game.py	/^ASSETS_DIR = os.path.join(os.path.dirname(__file__), 'assets')$/;"	v
+BG_COLOR	minesweeper/game.py	/^    BG_COLOR = pygame.Color('Light Slate Gray')$/;"	v	class:Game
+Board	minesweeper/board.py	/^class Board:$/;"	c
+Button	minesweeper/gui.py	/^class Button(GUIElement):$/;"	c
+DELAY_BEFORE_NAME_INPUT_MS	minesweeper/game.py	/^    DELAY_BEFORE_NAME_INPUT_MS = 1000$/;"	v	class:Game
+DIGITS	minesweeper/game.py	/^    DIGITS = {chr(c) for c in range(ord('0'), ord('9') + 1)}$/;"	v	class:Game
+FIELD_BG_COLOR	minesweeper/game.py	/^    FIELD_BG_COLOR = pygame.Color('#d7dcdc')$/;"	v	class:Game
+FIELD_LINES_COLOR	minesweeper/game.py	/^    FIELD_LINES_COLOR = pygame.Color('#738383')$/;"	v	class:Game
+GUIElement	minesweeper/gui.py	/^class GUIElement:$/;"	c
+GUI_FONT_COLOR	minesweeper/game.py	/^    GUI_FONT_COLOR = pygame.Color('Light Yellow')$/;"	v	class:Game
+GUI_FONT_SIZE	minesweeper/game.py	/^    GUI_FONT_SIZE = 13$/;"	v	class:Game
+GUI_WIDTH	minesweeper/game.py	/^    GUI_WIDTH = 91$/;"	v	class:Game
+Game	minesweeper/game.py	/^class Game:$/;"	c
+HUD_HEIGHT	minesweeper/game.py	/^    HUD_HEIGHT = 30$/;"	v	class:Game
+Input	minesweeper/gui.py	/^class Input(GUIElement):$/;"	c
+InputDialogue	minesweeper/gui.py	/^class InputDialogue(GUIElement):$/;"	c
+LEFT_BUTTON	minesweeper/board.py	/^LEFT_BUTTON = 1$/;"	v
+LEFT_CLICK	minesweeper/gui.py	/^LEFT_CLICK = 1$/;"	v
+Label	minesweeper/gui.py	/^class Label(GUIElement):$/;"	c
+Leaderboard	minesweeper/leaderboard.py	/^class Leaderboard:$/;"	c
+MARGIN	minesweeper/game.py	/^    MARGIN = 20$/;"	v	class:Game
+MAX_BOARD_DIMENSION	minesweeper/game.py	/^    MAX_BOARD_DIMENSION = 50$/;"	v	class:Game
+MAX_NAME_LENGTH	minesweeper/game.py	/^    MAX_NAME_LENGTH = 8$/;"	v	class:Game
+MIN_BOARD_DIMENSION_DISPLAY	minesweeper/game.py	/^    MIN_BOARD_DIMENSION_DISPLAY = 10$/;"	v	class:Game
+RIGHT_BUTTON	minesweeper/board.py	/^RIGHT_BUTTON = 3$/;"	v
+SelectionGroup	minesweeper/gui.py	/^class SelectionGroup(GUIElement):$/;"	c
+TILE_CHECKED	minesweeper/board.py	/^    TILE_CHECKED = 2$/;"	v	class:Board
+TILE_CLOSED	minesweeper/board.py	/^    TILE_CLOSED = 0$/;"	v	class:Board
+TILE_OPENED	minesweeper/board.py	/^    TILE_OPENED = 1$/;"	v	class:Board
+TILE_SIZE	minesweeper/game.py	/^    TILE_SIZE = 20$/;"	v	class:Game
+Tile	minesweeper/board.py	/^class Tile(pygame.sprite.Sprite):$/;"	c
+Timer	minesweeper/game.py	/^class Timer:$/;"	c
+__init__	minesweeper/board.py	/^    def __init__(self, image, i, j, tile_size):$/;"	m	class:Tile
+__init__	minesweeper/board.py	/^    def __init__(self, n_rows, n_cols, n_mines, bg_color, bg_lines_color,$/;"	m	class:Board
+__init__	minesweeper/game.py	/^    def __init__(self, on_time_event):$/;"	m	class:Timer
+__init__	minesweeper/game.py	/^    def __init__(self, state_file_path):$/;"	m	class:Game
+__init__	minesweeper/gui.py	/^    def __init__(self, font, font_color, text):$/;"	m	class:Label
+__init__	minesweeper/gui.py	/^    def __init__(self, font, font_color, text, on_click_callback,$/;"	m	class:Button
+__init__	minesweeper/gui.py	/^    def __init__(self, font, font_color, title, on_enter_callback,$/;"	m	class:InputDialogue
+__init__	minesweeper/gui.py	/^    def __init__(self, font, font_color, title, value, delimiter="  ",$/;"	m	class:Input
+__init__	minesweeper/gui.py	/^    def __init__(self, font, font_color,$/;"	m	class:SelectionGroup
+__init__	minesweeper/gui.py	/^    def __init__(self, surface):$/;"	m	class:GUIElement
+__init__	minesweeper/leaderboard.py	/^    def __init__(self, font, font_color, max_items, width,$/;"	m	class:Leaderboard
+_change_game_status	minesweeper/board.py	/^    def _change_game_status(self, new_status):$/;"	m	class:Board
+_check_tile	minesweeper/board.py	/^    def _check_tile(self, i, j):$/;"	m	class:Board
+_get_neighbors_flat	minesweeper/board.py	/^    def _get_neighbors_flat(self, i, j):$/;"	m	class:Board
+_get_tile_indices_at_mouse	minesweeper/board.py	/^    def _get_tile_indices_at_mouse(self):$/;"	m	class:Board
+_init_tiles	minesweeper/board.py	/^    def _init_tiles(self):$/;"	m	class:Board
+_open_tile	minesweeper/board.py	/^    def _open_tile(self, i, j):$/;"	m	class:Board
+_open_tiles	minesweeper/board.py	/^    def _open_tiles(self, i, j):$/;"	m	class:Board
+_prepare_highlight	minesweeper/board.py	/^    def _prepare_highlight(self, i_hold, j_hold):$/;"	m	class:Board
+_prepare_render	minesweeper/leaderboard.py	/^    def _prepare_render(self):$/;"	m	class:Leaderboard
+_prepare_surface	minesweeper/leaderboard.py	/^    def _prepare_surface(self):$/;"	m	class:Leaderboard
+_put_mines	minesweeper/board.py	/^    def _put_mines(self, i_click, j_click):$/;"	m	class:Board
+_render	minesweeper/gui.py	/^    def _render(self):$/;"	m	class:Input
+_render	minesweeper/gui.py	/^    def _render(self):$/;"	m	class:InputDialogue
+_render	minesweeper/gui.py	/^    def _render(self):$/;"	m	class:SelectionGroup
+_update_view	minesweeper/board.py	/^    def _update_view(self):$/;"	m	class:Board
+_update_view_game_over	minesweeper/board.py	/^    def _update_view_game_over(self):$/;"	m	class:Board
+_update_view_running	minesweeper/board.py	/^    def _update_view_running(self):$/;"	m	class:Board
+active_input	minesweeper/gui.py	/^    def active_input(self):$/;"	m	class:Input
+active_input	minesweeper/gui.py	/^    def active_input(self, value):$/;"	m	class:Input
+add_background_color	minesweeper/board.py	/^def add_background_color(tile, color):$/;"	f
+check	minesweeper/game.py	/^    def check(self):$/;"	m	class:Timer
+create_count_tiles	minesweeper/game.py	/^def create_count_tiles(tile_size, font_name):$/;"	f
+create_field	minesweeper/board.py	/^def create_field(n_rows, n_cols, tile_size, bg_color, line_color):$/;"	f
+cross_image	minesweeper/board.py	/^def cross_image(image, color, line_width):$/;"	f
+draw	minesweeper/board.py	/^    def draw(self, surface):$/;"	m	class:Board
+draw	minesweeper/gui.py	/^    def draw(self, other_surface):$/;"	m	class:GUIElement
+draw	minesweeper/leaderboard.py	/^    def draw(self, surface):$/;"	m	class:Leaderboard
+draw_all	minesweeper/game.py	/^    def draw_all(self):$/;"	m	class:Game
+draw_crossed_square_with_frame	minesweeper/gui.py	/^def draw_crossed_square_with_frame(side, color):$/;"	f
+draw_frame	minesweeper/gui.py	/^def draw_frame(width, height, frame_color):$/;"	f
+get_neighbors	minesweeper/board.py	/^    def get_neighbors(self, i, j):$/;"	m	class:Board
+init_screen	minesweeper/game.py	/^    def init_screen(self):$/;"	m	class:Game
+is_digit	minesweeper/game.py	/^def is_digit(key_name):$/;"	f
+is_key_suitable_for_name	minesweeper/game.py	/^def is_key_suitable_for_name(key_name):$/;"	f
+load_font	minesweeper/game.py	/^def load_font(name, size):$/;"	f
+load_image	minesweeper/game.py	/^def load_image(name, size=None):$/;"	f
+needs_update	minesweeper/leaderboard.py	/^    def needs_update(self, difficulty, time):$/;"	m	class:Leaderboard
+on_cols_enter	minesweeper/game.py	/^    def on_cols_enter(self, value):$/;"	m	class:Game
+on_difficulty_change	minesweeper/game.py	/^    def on_difficulty_change(self, difficulty):$/;"	m	class:Game
+on_key_down	minesweeper/gui.py	/^    def on_key_down(self, event):$/;"	m	class:Input
+on_key_down	minesweeper/gui.py	/^    def on_key_down(self, event):$/;"	m	class:InputDialogue
+on_mines_enter	minesweeper/game.py	/^    def on_mines_enter(self, value):$/;"	m	class:Game
+on_mouse_down	minesweeper/board.py	/^    def on_mouse_down(self, button):$/;"	m	class:Board
+on_mouse_up	minesweeper/board.py	/^    def on_mouse_up(self, button):$/;"	m	class:Board
+on_mouse_up	minesweeper/gui.py	/^    def on_mouse_up(self, button):$/;"	m	class:Button
+on_mouse_up	minesweeper/gui.py	/^    def on_mouse_up(self, button):$/;"	m	class:Input
+on_mouse_up	minesweeper/gui.py	/^    def on_mouse_up(self, button):$/;"	m	class:SelectionGroup
+on_name_enter	minesweeper/game.py	/^    def on_name_enter(self, name):$/;"	m	class:Game
+on_rows_enter	minesweeper/game.py	/^    def on_rows_enter(self, value):$/;"	m	class:Game
+on_status_change	minesweeper/game.py	/^    def on_status_change(self, new_status):$/;"	m	class:Game
+place_gui	minesweeper/game.py	/^    def place_gui(self):$/;"	m	class:Game
+place_hud	minesweeper/game.py	/^    def place_hud(self):$/;"	m	class:Game
+process_events	minesweeper/game.py	/^    def process_events(self):$/;"	m	class:Game
+render	minesweeper/gui.py	/^    def render(self):$/;"	m	class:Label
+reset	minesweeper/board.py	/^    def reset(self, n_rows=None, n_cols=None, n_mines=None):$/;"	m	class:Board
+reset_game	minesweeper/game.py	/^    def reset_game(self):$/;"	m	class:Game
+run	minesweeper/game.py	/^def run(state_file_path):$/;"	f
+save_state	minesweeper/game.py	/^    def save_state(self, state_file_path):$/;"	m	class:Game
+selected	minesweeper/gui.py	/^    def selected(self):$/;"	m	class:SelectionGroup
+set_difficulty	minesweeper/game.py	/^    def set_difficulty(self, difficulty):$/;"	m	class:Game
+set_game_parameter	minesweeper/game.py	/^    def set_game_parameter(self, parameter, max_value, value):$/;"	m	class:Game
+set_text	minesweeper/gui.py	/^    def set_text(self, text):$/;"	m	class:Label
+set_value	minesweeper/gui.py	/^    def set_value(self, value):$/;"	m	class:Input
+set_value	minesweeper/gui.py	/^    def set_value(self, value):$/;"	m	class:InputDialogue
+show_leaderboard	minesweeper/game.py	/^    def show_leaderboard(self):$/;"	m	class:Game
+show_name_input	minesweeper/game.py	/^    def show_name_input(self):$/;"	m	class:Game
+start	minesweeper/game.py	/^    def start(self, interval):$/;"	m	class:Timer
+start_main_loop	minesweeper/game.py	/^    def start_main_loop(self):$/;"	m	class:Game
+time	minesweeper/board.py	/^    def time(self):$/;"	m	class:Board
+update	minesweeper/leaderboard.py	/^    def update(self, difficulty, name, time):$/;"	m	class:Leaderboard

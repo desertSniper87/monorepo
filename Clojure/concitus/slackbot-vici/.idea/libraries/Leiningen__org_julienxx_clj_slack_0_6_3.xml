@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.julienxx/clj-slack:0.6.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/julienxx/clj-slack/0.6.3/clj-slack-0.6.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

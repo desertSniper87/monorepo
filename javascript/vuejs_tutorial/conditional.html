@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+ - Author            : desertsniper87 <torshobuet@gmail.com>
+ - Date              : 06.07.2018
+ - Last Modified Date: 08.07.2018
+-->
+<script src="vue.js" charset="utf-8"></script>
+
+<div id="app" class="main">
+  <p> 
+    {{ sayHello() }}
+    <a v-bind:href='link' >Google</a>
+  </p>
+  <p v-on:mousemove='updateCoordinates'>
+    Coordinates: {{ x }}, {{ y }} 
+  </p>
+   <input type="text" v-model="name"/>
+   <h1>
+     {{ name }}
+   </h1>
+   <button v-on:click="counter++">
+       Increase
+   </button>
+   <button v-on:click="counter--">
+       Decrease
+   </button>
+   <h2>
+       {{ counter }}
+   </h2>
+   <p @click="counter++">
+       {{ output }}
+   </p>
+
+   <h3>
+       {{ show }}
+   </h3>
+
+   <div class="square" v-on:click="counter++; show = !show;" :class="{red: show, blue: !show}"></div>
+   <button @click="show = !show">Octupus Paul</button> 
+   <p v-if="show">
+    England
+   </p>
+   <p v-else>
+    France
+   </p>
+
+   <ul>
+     <li v-for="ingredient in ingredients">
+        {{ ingredient }}
+     </li>
+   </ul>
+</div>
+
+
+<script charset="utf-8">
+  new Vue({
+    el:'#app',
+    data: {
+      title: 'Hello World',
+      link: 'http://google.com',
+      x: 0,
+      y: 0,
+      name: 'Torsho',
+      counter: 0,
+      show: false,
+      ingredients: ['meat', 'fruit', 'cookies'],
+      persons: [
+        {name: 'Mbappe', age:'19', color:'blue'},
+        {name: 'Kane', age:'27', color:'red'},
+      ]
+    },
+    computed:{
+        output: function(){
+            console.log("Computed");
+            return this.counter>5 ? 'Greater Than 5' : 'Less than 5';
+        }
+    },
+    methods: {
+      sayHello: function(){
+        return this.title;
+      },
+      updateCoordinates: function(event){
+        this.x = event.clientX;
+        this.y = event.clientY;
+      }
+    },
+  });
+</script>
+
+
+<style type="text/css" media="screen">
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: red;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+</style>

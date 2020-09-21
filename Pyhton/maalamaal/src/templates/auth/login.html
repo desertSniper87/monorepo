@@ -1,0 +1,41 @@
+{%extends "base.html"%}
+
+{% block base_head %}
+<style type="text/css" media="screen">
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: right;
+}
+  
+</style>
+  
+{% endblock base_head %}
+{% block content %}
+
+<div class="row">
+  <div class="col">
+    <div class="col-sm-6 col-12 mx-auto">
+
+    <h1 class='text-center pb-3'>লগইন</h1>
+      
+    <form class="login-form" action="" method="POST"> {% csrf_token %}
+    {% for field in form %}
+    <div class="form-group">
+      {{field.label}}: {{field}}
+    </div>
+    {%endfor%}
+      <button type = 'submit' class = 'btn btn-default'>Submit</button>
+    </form>
+
+    </div>
+  </div>
+</div>
+
+{% endblock  %}

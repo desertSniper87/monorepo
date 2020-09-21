@@ -1,0 +1,43 @@
+
+Line 1: type_specifier : INT
+
+Line 2: variable : ID
+d
+
+Error at Line 2 : Undeclared Variable: d
+
+Line 2: factor : CONST_INT
+5
+
+Line 2: unary_expression : factor
+
+Line 2: term : unary_expression
+
+Line 2: simple_expression : term
+
+Line 2: rel_expression : simple_expression
+
+Line 2: logic_expression : rel_expression
+
+Line 2: expression : variable ASSIGNOP logic_expression
+
+
+Line 2: expression_statement : expression SEMICOLON
+
+Line 2: statement : expression_statement
+
+Line 2: statements : statement
+
+Line 3: type_specifier : INT
+
+Line 3: declaration_list : ID LTHIRD CONST_INT RTHIRD
+c
+3
+
+Error at Line 4 : syntax error, unexpected RETURN, expecting SEMICOLON or COMMA
+
+
+Total Lines: 4
+
+Total Errors: 2
+

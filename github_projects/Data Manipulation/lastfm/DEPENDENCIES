@@ -1,0 +1,17 @@
+# This file describes the project dependencies
+#
+# You can run make deps to install all this dependencies
+# It will pass requirements.txt as the source index to pip
+#
+# The following python packages are necessary to run code tests
+nose - http://pypi.python.org/pypi/nose/
+    sudo pip install nose
+
+rudolf - http://pypi.python.org/pypi/rudolf2
+    sudo pip install rudolf2
+
+ipdb - http://pypi.python.org/pypi/ipdb
+    sudo pip install ipdb
+
+pylint - http://pypi.python.org/pypi/pylint 
+    sudo pip install pylint

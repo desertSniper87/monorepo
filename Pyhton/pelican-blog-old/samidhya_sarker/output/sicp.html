@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Samidhya Sarker" />
+        <meta name="copyright" content="Samidhya Sarker" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="programming, algorithm, Computing, " />
+
+<meta property="og:title" content="What I had learnt from SICP. "/>
+<meta property="og:url" content="https://desertsniper87.github.io/sicp.html" />
+<meta property="og:description" content="hi there." />
+<meta property="og:site_name" content="[torsho@localhost]" />
+<meta property="og:article:author" content="Samidhya Sarker" />
+<meta property="og:article:published_time" content="2018-05-05T00:00:00+06:00" />
+<meta property="" content="2018-05-05T00:00:00+06:00" />
+<meta name="twitter:title" content="What I had learnt from SICP. ">
+<meta name="twitter:description" content="hi there.">
+
+        <title>What I had learnt from SICP.  · [torsho@localhost]
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://desertsniper87.github.io/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://desertsniper87.github.io/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://desertsniper87.github.io/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://desertsniper87.github.io/theme/css/custom.css" media="screen">
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://desertsniper87.github.io/"><span class=site-name>
+<span style=color:black;">[</span><span style="color:darkblue;">torsho</span><span style="color:#AA1032;">@</span><span style=color:black;">localhost]</span>
+</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://desertsniper87.github.io">Home</a></li>
+                            <li ><a href="https://desertsniper87.github.io/categories.html">Categories</a></li>
+                            <li ><a href="https://desertsniper87.github.io/tags.html">Tags</a></li>
+                            <li ><a href="https://desertsniper87.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://desertsniper87.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="https://desertsniper87.github.io/sicp.html"> What I had learnt from SICP.  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <!--Status: draft-->
+
+<p>I wrote this to make a point that, after 33 <em>(1985-2018)</em> years, the book <strong>Structure and Implementation of Programming language</strong> is still useful for leaning useful programming concepts.</p>
+<p><img alt="SICP Cover" src="https://desertsniper87.github.io/images/SICP_cover.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<br/>
+<br/>
+<em>From <a href="http://lambda-the-ultimate.org/node/5335"><strong>lambda-the-ultimate</strong> Programming by poking: why MIT stopped teaching SICP:</a></em></p>
+<blockquote>
+<p>In 1997, Gerald Sussman and Harold Abelson stopped teaching MIT 6.001. They, felt that the SICP curriculum no longer prepared engineers for what engineering is like today. Sussman said that in the 80s and 90s, engineers built complex systems by combining simple and well-understood parts. The goal of SICP was to provide the abstraction language for reasoning about such systems.</p>
+<p>Today, this is no longer the case. Sussman pointed out that engineers now routinely write code for complicated hardware that they don’t fully understand (and often can’t understand because of trade secrecy.) The same is true at the software level. </p>
+</blockquote>
+<p>The working examples of this book is written in LISP as Gerald Sussman was one of the creators of SCHEME. This is an important observation after the usage of C, C++,  JAVA, Python, Javascript etc in introductory CS courses. I tried to reimplement it using python as I am comfortable using it.</p>
+<h3>Chapter 1-4 : The importance of programming abstraction.</h3>
+<p>From Chapter <em>1.1 The Elements of Programming</em>,</p>
+<ol>
+<li><strong>Primitive expressions</strong>, which represent the simplest entities the language is concerned with,</li>
+<li><strong>Means of combination</strong>, by which compound elements are built from simpler ones, and</li>
+<li><strong>Means of abstraction</strong>, by which compound elements can be named and manipulated as units.</li>
+</ol>
+<p>For example, in <em>2.1.1</em> <strong>Arithmatic Operations for rational numbers</strong>, the concept of data abstraction is introduced.</p>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Rational</span><span class="p">():</span>
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">d</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">numerator</span> <span class="o">=</span> <span class="n">n</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">denominator</span> <span class="o">=</span> <span class="n">d</span>
+
+<span class="k">def</span> <span class="nf">numer</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">.</span><span class="n">numerator</span>
+<span class="k">def</span> <span class="nf">denom</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">.</span><span class="n">denominator</span>
+
+<span class="k">def</span> <span class="nf">make_rat</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">d</span><span class="p">):</span>
+    <span class="n">rat</span> <span class="o">=</span> <span class="n">Rational</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rat</span>
+
+<span class="k">def</span> <span class="nf">add_rat</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">numerator</span><span class="p">,</span> <span class="n">y</span><span class="o">.</span><span class="n">numerator</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">denominator</span><span class="p">,</span> <span class="n">y</span><span class="o">.</span><span class="n">denominator</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">make_rat</span><span class="p">(((</span><span class="n">numer</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span> <span class="n">denom</span><span class="p">(</span><span class="n">y</span><span class="p">))</span> <span class="o">+</span>\
+                    <span class="p">(</span><span class="n">numer</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">*</span> <span class="n">denom</span><span class="p">(</span><span class="n">x</span><span class="p">))),</span>\
+                    <span class="p">(</span><span class="n">denom</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">numer</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
+
+<span class="n">rat1</span> <span class="o">=</span> <span class="n">make_rat</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">rat2</span> <span class="o">=</span> <span class="n">make_rat</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">rat</span> <span class="o">=</span> <span class="n">add_rat</span><span class="p">(</span><span class="n">rat1</span><span class="p">,</span> <span class="n">rat2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">rat</span><span class="o">.</span><span class="n">numerator</span><span class="p">,</span> <span class="n">rat</span><span class="o">.</span><span class="n">denominator</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Which yields <code>22 12</code>
+One of the recurring themes of the course is, how complex things can be constructed using simple objects. For example, in LISP, <code>cons</code> creates a pair by taking two arguments. We can implement them using python.</p>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">cons</span><span class="p">:</span>
+    <span class="n">head</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="n">tail</span> <span class="o">=</span> <span class="bp">None</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tail</span> <span class="o">=</span> <span class="n">y</span>
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="s1">&#39;[&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">head</span><span class="p">)</span> <span class="o">+</span><span class="s1">&#39;, &#39;</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tail</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p><code>car</code> returns the first part of the pair and <code>cdr</code> returns the second.</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">car</span><span class="p">(</span><span class="n">cons</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">cons</span><span class="o">.</span><span class="n">head</span>
+
+<span class="k">def</span> <span class="nf">cdr</span><span class="p">(</span><span class="n">cons</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">cons</span><span class="o">.</span><span class="n">tail</span>
+</pre></div>
+
+
+<p>We can implement a list using the <code>cons</code> construct by merging two cons.</p>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">list_</span><span class="p">(</span><span class="n">cons</span><span class="p">):</span>
+    <span class="n">head</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="n">tail</span> <span class="o">=</span> <span class="bp">None</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">!=</span><span class="mi">1</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">tail</span> <span class="o">=</span> <span class="n">list_</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+</pre></div>
+
+
+<p>So <code>print(list_([1, 2, 3, 4]))</code> returns   <code>[1, [2, [3, [4, None]]]]</code></p>
+<p>We can do a simple operation like scaling by 10: </p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">scale_list</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">l</span><span class="o">.</span><span class="n">tail</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">cons</span><span class="p">(</span><span class="n">car</span><span class="p">(</span><span class="n">l</span><span class="p">)</span><span class="o">*</span><span class="n">s</span><span class="p">,</span> <span class="n">scale_list</span><span class="p">(</span><span class="n">cdr</span><span class="p">(</span><span class="n">l</span><span class="p">),</span> <span class="n">s</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">cons</span><span class="p">(</span><span class="n">l</span><span class="o">.</span><span class="n">head</span><span class="o">*</span><span class="n">s</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+</pre></div>
+
+
+<p>So <code>print(scale_list(list_([1, 2, 3, 4]), 10))</code>  returns <code>[10, [20, [30, [40, None]]]]</code></p>
+<p>An interesting point is this: We need more abstractions the drown out the complexities in order the design elegant systems. So, we see from our example that, our list has become too complicated to use in real world. So, we introduce iteration<em>(In the book, it has been done using LISP lambda functions)</em></p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span> <span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">10</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])))</span>
+<span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
+</pre></div>
+
+
+<p><strong>(To be continued)</strong></p>
+            
+            
+            <hr/>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2018-05-05T00:00:00+06:00">May 5, 2018</time>
+
+<h4>Last Updated</h4>
+<time datetime="2018-05-05T00:00:00+06:00">May 5, 2018</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="https://desertsniper87.github.io/categories.html#computing-ref">Computing</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="https://desertsniper87.github.io/tags.html#algorithm-ref">algorithm
+                    <span>1</span>
+</a></li>
+                <li><a href="https://desertsniper87.github.io/tags.html#programming-ref">programming
+                    <span>2</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="http://www.facebook.com/desertsniper87" title="My Facebook Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-facebook sidebar-social-links"></i></a>
+    <a href="https://twitter.com/desertSniper87" title="My Twitter Profile" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-twitter sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

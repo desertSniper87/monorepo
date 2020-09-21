@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;chapter8SocketsForClients.Example81&apos; to &apos;Example81dayTimeClient&apos;&#x0D;&#x0A;- Original project: &apos;chapter8SocketsForClients&apos;&#x0D;&#x0A;- Original element: &apos;chapter8SocketsForClients.Example81&apos;&#x0D;&#x0A;- Renamed element: &apos;chapter8SocketsForClients.Example81dayTimeClient&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Example81&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;chapter8SocketsForClients{Example81.java[Example81" matchStrategy="1" name="Example81dayTimeClient" qualified="false" references="true" similarDeclarations="false" stamp="1407701313347" textual="false" version="1.0"/>
+</session>

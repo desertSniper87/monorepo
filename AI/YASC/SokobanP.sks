@@ -1,0 +1,338 @@
+[Sokoban YASC Skin Script]
+SkinType=SokobanP Skins (2019)
+FileType=Image
+FileFilter=
+Columns=7..16
+Rows=1
+TileBase=0
+UseBackground=No
+
+=====================
+SokobanP Skins (2019)
+=====================
+
+[Graphics]
+perform {Add "Columns" {Columns}}
+
+-- Handle skin-specific settings, if any.
+perform {Filename.Shortname}
+
+end -- script
+
+======================
+[No_Background_Color]
+======================
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- No_Background_Color
+
+===================
+[Background_Color]
+===================
+
+Mask image using background color=yes
+Background color={BackgroundColor Top Left}
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- Background_Color
+
+-- Variables
+-- b=0: No box-on-goal images
+-- b=2: Two box-on-goal images: Normal and highlight
+-- p  : If defined  : b+p = directional pusher tiles index
+-- p  : If undefined: b+q = single pusher tile index
+-- w  : If defined  : b+w = seamless wall tiles index
+-- w  : If undefined: b+x = single wall tile index
+
+===========
+[Columns7]
+===========
+b=0
+q=5
+x=6
+perform Skin
+end
+
+===========
+[Columns9]
+===========
+b=2
+q=5
+x=6
+perform Skin
+end
+
+============
+[Columns10]
+============
+b=0
+p=5
+x=9
+perform Skin
+end
+
+============
+[Columns11]
+============
+b=0
+q=5
+w=6
+perform Skin
+end
+
+============
+[Columns12]
+============
+b=2
+p=5
+x=9
+perform Skin
+end
+
+============
+[Columns13]
+============
+b=2
+q=5
+w=6
+perform Skin
+end
+
+============
+[Columns14]
+============
+b=0
+p=5
+w=9
+perform Skin
+end
+
+============
+[Columns16]
+============
+b=2
+p=5
+w=9
+perform Skin
+end
+
+=======
+[Skin]
+=======
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+if {p}
+FileName={Filename}
+Player-u={Tile {Add 2 {b} {p}} 0}
+FileName={Filename}
+Player-l={Tile {Add 0 {b} {p}} 0}
+FileName={Filename}
+Player-d={Tile {Add 3 {b} {p}} 0}
+FileName={Filename}
+Player-r={Tile {Add 1 {b} {p}} 0}
+else
+FileName={Filename}
+Section={Tile {Add 0 {b} {q}} 0}
+endif
+perform Background_Color
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square]
+Use "Player" image for move animation=Yes
+
+[Graphics - Board - Figures - Player on goal square - Image]
+if {p}
+FileName={Filename}
+Player-u={Tile {Add 2 {b} {p}} 0}
+FileName={Filename}
+Player-l={Tile {Add 0 {b} {p}} 0}
+FileName={Filename}
+Player-d={Tile {Add 3 {b} {p}} 0}
+FileName={Filename}
+Player-r={Tile {Add 1 {b} {p}} 0}
+else
+FileName={Filename}
+Section={Tile {Add 0 {b} {q}} 0}
+endif
+perform Background_Color
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+Section={Tile 1,0}
+perform Background_Color
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=Yes
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+if {b} = 0
+Section={Tile 1,0}
+else
+Section={Tile 4,0}
+endif
+perform Background_Color
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+Section={Tile 3,0}
+perform No_Background_Color
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+if {w}
+FileName={Filename}
+wall={Tile {Add 1 {b} {w}} 0}
+FileName={Filename}
+wall-u-r-d-l={Tile {Add 2 {b} {w}} 0}
+FileName={Filename}
+wall-l-r={Tile {Add 3 {b} {w}} 0}
+FileName={Filename}
+wall-u-d={Tile {Add 4 {b}{w}} 0}
+FileName={Filename}
+wall-cap={Tile {Add 0 {b} {w}} 0}
+perform No_Background_Color
+[Graphics - Board - Figures - Wall]
+Type (appropriate images required)=Seamless walls - with wall cap
+else
+FileName={Filename}
+Section={Tile {Add 0 {b} {x}} 0}
+perform No_Background_Color
+endif
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+Section={Tile 0,0}
+perform No_Background_Color
+
+===========
+Background
+===========
+
+if {Self.Sokoban YASC Skin Script.UseBackground}
+[Graphics - Background - Image]
+FileName={FileName}
+Section={Tile {Add 4 {b}} 0}
+View=Tile
+endif
+
+end -- Skin
+
+===================
+[Bjorn Kallmark24]
+===================
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=1
+Top=1
+Right=6
+Bottom=6
+end
+
+==============
+[Heavy Metal]
+==============
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=4
+Bottom=4
+end
+
+============
+[Metallica]
+============
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=1
+Top=1
+Right=4
+Bottom=4
+end
+
+==============
+[Night Shift]
+==============
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=2
+Top=2
+Right=4
+Bottom=4
+end
+
+=======
+[Poco]
+=======
+-- YASC makes the wrong "guess-timate" and thinks that
+-- the Poco skin has 8 columns. Set the correct number
+-- of columns and load the skin accordingly.
+Columns=10
+Rows=1
+perform Columns10
+end
+
+===========
+[SokoGems]
+===========
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left=4
+Top=4
+Right=6
+Bottom=6
+end
+
+=============
+[XSokoban40]
+=============
+[Control - Move animation]
+Smooth animation=No
+[Graphics - Board - Figures - Player on goal square - Image]
+Background color tolerance (%)=3
+[Graphics - Board - Figures - Box on goal square]
+Use "Box" image for move animation=No
+[Graphics - Board - Figures - Box on goal square - Image]
+Background color tolerance (%)=3
+end
+
+=======
+Layout
+=======
+Columns | Tiles
+07 | floor box box-highlight goal outside pusher wall
+09 | floor box box-highlight goal outside box-on-goal box-on-goal-highlight pusher wall
+10 | floor box box-highlight goal outside pusherL pusherR pusherU pusherD wall
+11 | floor box box-highlight goal outside pusher wallCap wall wallUDLR wallLR wallUD
+12 | floor box box-highlight goal box-on-goal box-on-goal-highlight outside 
+     pusherL pusherR pusherU pusherD wall 
+13 | floor box box-highlight goal box-on-goal box-on-goal-highlight outside 
+     pusher wallCap wall wallUDLR wallLR wallUD
+14 | floor box box-highlight goal outside pusherL pusherR pusherU pusherD 
+     wallCap wall wallUDLR wallLR wallUD 
+16 | floor box box-highlight goal box-on-goal box-on-goal-highlight outside 
+     pusherL pusherR pusherU pusherD wallCap wall wallUDLR wallLR wallUD 

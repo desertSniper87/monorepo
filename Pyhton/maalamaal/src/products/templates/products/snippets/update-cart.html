@@ -1,0 +1,51 @@
+<form class='form-product-ajax form-inline my-2 my-lg-0' method = 'POST' action='{%url "carts:update"%}' data-endpoint='{% url "carts:update" %}' > {%csrf_token%}
+  <input type="hidden" name="product_id" value="{{product.id}}"/>
+
+  {% if in_cart %}
+
+  {#<button class="btn btn-link btn-sm" type="submit" style="padding:0px; cursor:pointer">Remove?</button>#}
+  <div class="cart-item-remove-product" style=' '>       
+
+  {% include 'carts/snippets/remove-product.html' with product_id=product.id%}
+    
+  </div>
+
+  {% elif in_card %}
+
+  <span class="submit-span">
+    {#{{cart.products.all}}#}
+    {#{{product}}#}
+
+    {% if product in cart.products.all %}
+
+    <button class="btn btn-warning" type="submit">Remove?</button>
+
+    {%else%}
+
+    <button class="btn btn-warning" type="submit" >Buy</button>
+
+    {%endif%}
+  </span>
+  {% else %}
+  {#{{object}}#}
+  <span class="submit-span">
+    {#{{cart.products.all}}#}
+
+
+      {% if object in cart.products.all %}
+
+  In cart <button class="btn btn-warning" type="submit">Remove?</button>
+
+      {%else%}
+
+  Not in Cart <button class="btn btn-warning" type="submit" >Add it?</button>
+
+      {%endif%}
+  </span>
+
+
+  {%endif%}
+
+</form>
+
+

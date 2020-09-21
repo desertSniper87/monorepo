@@ -1,0 +1,5 @@
+my_name = 'সমিদ্ধ সরকার'
+my_height = '5 ft 10 inch'
+
+print('Let\'s talk about %s') % my_name
+print('I')

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Checkout</h1>
+
+<p>Cart Total          : {{order.cart.total}}</p>
+<p>Cart Total with tax : {{order.cart.tax_total}}</p>
+<p>Shipping total      : {{order.shipping_total}}</p>
+<p>Order total         : {{order.order_total}}</p>
+
+{% endblock content %}

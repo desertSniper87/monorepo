@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Shop List</h1>
+    
+<table class="table">
+
+  <thead>
+    <tr>
+      <th scope="col">
+          #
+      </th>
+      <th scope="col">
+          Name
+      </th>
+      <th scope="col">
+          Village       
+      </th>
+      <th scope="col">
+          Union Council 
+      </th>
+      <th scope="col">
+          Upazila       
+      </th>
+      <th scope="col">
+          District      
+      </th>
+      <th scope="col">
+          Division      
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    {% for obj in object_list %}
+
+    <tr>
+        <th scope="row">
+            {{obj.id}}
+        </th>
+      <td>
+          {{obj.name}}
+      </td>
+      <td>
+          {{obj.village}}       
+      </td>
+      <td>
+          {{obj.union_council}} 
+      </td>
+      <td>
+          {{obj.upazila}}       
+      </td>
+      <td>
+          {{obj.district}}      
+      </td>
+      <td>
+          {{obj.division}}      
+      </td>
+    </tr>
+
+    {%endfor%}
+
+
+  </tbody>
+
+</table>    
+
+{% endblock content %}
+

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block base_head %}
+<style type="text/css" media="screen">
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: right;
+}
+  
+</style>
+  
+{% endblock base_head %}
+
+{% block content %}
+  
+<div class="row">
+  <div class="col">
+      <h1 class="text-center">রেজিস্টার</h1>
+    <form class="register-form" action="" method="POST"> {% csrf_token %}
+    <div class="form-group mx-auto" style="width:50%">
+    {% for field in form %}
+
+    <div class="form-group">
+      {{field.label}}: {{field}}
+    </div>
+    {%endfor%}
+      {#{{ form }}#}
+      <button type = 'submit' class = 'btn btn-default input'>Submit</button>
+
+
+    </div>
+    </form>
+  </div>
+</div>
+{% endblock content %}

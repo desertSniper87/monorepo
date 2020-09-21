@@ -1,0 +1,978 @@
+
+   ##########################################################################
+   #                                                                        #
+   #  STFL - The Structured Terminal Forms Language/Library                 #
+   #  Copyright (C) 2006, 2007  Clifford Wolf <clifford@clifford.at>        #
+   #                                                                        #
+   #  This library is free software; you can redistribute it and/or         #
+   #  modify it under the terms of the GNU Lesser General Public            #
+   #  License as published by the Free Software Foundation; either          #
+   #  version 3 of the License, or (at your option) any later version.      #
+   #                                                                        #
+   ##########################################################################
+
+
+STFL - Structured Terminal Forms Language/Library
+=================================================
+
+STFL is a library which implements a curses-based widget set for text
+terminals. The STFL API can be used from C, SPL, Python, Perl and Ruby. The
+public STFL API is only 14 simple function calls big and there are already
+generic SWIG bindings. Thus is very easy to port STFL to additional scripting
+languages.
+
+A special language (the Structured Terminal Forms Language) is used to
+describe STFL GUIs. The language is designed to be easy and fast to write
+so an application programmer does not need to spend ages fiddling around
+with the GUI and can concentrate on the more interesting programming tasks.
+
+There are two different syntaxes for STFL code, one designed to make
+handwriting of STFL code as easy as possible and one aiming at generated
+STFL code.
+
+The STFL GUI descriptions (written in STFL code) do not contain any concrete
+layouting information such as x/y coordinates of widgets. Instead container
+widgets such as vertical and horizontal boxes as well as tables are used to
+group widgets and the actual layouting work is done by the STFL library. Thus
+STFL GUIs can handle terminals of different sizes and terminal resize events
+transparently for the application programmer.
+
+
+Building and Installing STFL
+----------------------------
+
+Simply run 'make' and 'make install'. You might want to edit the Makefile.cfg
+file before building and installing STFL.
+
+In order to build a full-featured STFL with all scripting language bindings
+enabled you need to have the following packages installed (including the
+development packages):
+
+	ncursesw
+		The wide-character ncurses library. On some distributions
+		this might be part of the ncurses package, on other
+		distributions this might be an extra package.
+
+	SWIG
+		STFL is using SWIG for generating the Perl, Python and Ruby
+		language bindings.
+
+	Perl, Python, Ruby, SPL
+		In order to create the language bindings you need to have
+		the languages themselves installed.
+
+Since STFL is a wide-character library it will only work on systems which
+do have wide-character support in the system libraries. This might not be
+the case for in older Linux distributions or other UNIXes.
+
+
+The Structured Terminal Forms Language
+--------------------------------------
+
+STFL Forms consist of (instances of) widgets which are organized in a tree. A
+special language - the Structured Terminal Forms Language - can be used to
+describe such trees in an efficient and still easy to read and maintain way.
+
+The Structured Terminal Forms Language has only two syntactical constructs:
+Variable declarations and widget instantiations. Each widget instantiation
+may contain variable declarations and child widget instantiations.
+
+A widget can be instantiated by simply writing down the type of the widget.
+Example given:
+
+	vbox
+
+Sometimes one wants to give the instantiated widget a name so the widget
+can be easily accessed later. This can be done by appending the widget name
+using square brackets:
+
+	label[foobar]
+
+Child widgets are instantiated the same way but must be indented:
+
+	vbox
+	  label[label1]
+	  label[label2]
+
+Note that one must not use tabs for the indenting. Only blanks are allowed.
+
+Variables are declared like child widgets. A variable consists of a key and
+a value, separated by a colon. Values can be quoted using single or double
+quotes when they contain blanks.
+
+	vbox
+	  label[label1]
+	    text:"Hello World!"
+	  label[label2]
+	    text:"This is a test.."
+
+It is also possible to append an additional name to variables using square
+brackets so the application can read and write the variable value:
+
+	vbox
+	  label[label1]
+	    text[label1_text]:"Hello World!"
+	  label[label2]
+	    text[label2_text]:"This is a test.."
+
+Usually variables configure the widget they are directly associated with or
+store status information from that widget. But sometimes variables contain
+information about the relationship of the widget they are directly associated
+with and its parent widget. This variables are always start with a dot.
+
+Example given the .border variable can be used to configure the borders of
+table cells:
+
+	table
+	  label
+	    .border:lrtb
+	    text:"Hello"
+	  label
+	    .border:lrtb
+	    text:"World!"
+
+Sometimes one wants to set a variable not only for the current widget but also
+for all its child widgets. This can be done by prefixing the variable name
+with he at-sign. Example given:
+
+	vbox
+	  @style_normal:fg=white,bg=blue
+	  label
+	    text:"White text.."
+	  label
+	    text:"..on blue background."
+
+This kind of variables can also be defined for only one widget type:
+
+	vbox
+	  @style_normal:fg=white,bg=blue
+	  @input#style_normal:fg=black,bg=red
+	  label
+	    text:"White text on blue background."
+	  input
+	    text:"Black text on red background."
+
+Alternatively it is possible to postfix the widget types with '#classname'
+and prefix the variables with 'classname#':
+
+	vbox
+	  @style_normal:fg=white,bg=blue
+	  @foobar#style_normal:fg=black,bg=red
+	  label
+	    text:"White text on blue background."
+	  input#foobar
+	    text:"Black text on red background."
+
+While widget instantiations must always be on a new line, variable declarations
+can also be written on the same line as the widget they are for and it is
+possible to declare more than one variable in one line:
+
+	table
+	  label .border:lrtb text:"Hello"
+	  label
+	    .border:lrtb text:"World!"
+
+Sometimes one wants to generate STFL code from scripts. In this cases it can
+become hard to automatically generate the indenting correctly. For such
+situations it is possible to use a different format with curly brackets. The
+following two code fragments are identical:
+
+	vbox
+	  hbox
+	    label
+	      .expand:0
+	      text:"Foo: "
+	    input[foo]
+	      text:"Hello"
+	  hbox
+	    label
+	      .expand:0
+	      text:"Bar: "
+	    input[bar]
+	      text:"World!"
+
+	{vbox{hbox{label .expand:0 text:"Foo: "}{input[foo] text:"Hello"}
+	{hbox{label .expand:0 text:"Bar: "}{input[bar] text:"World!"}}}
+
+Newline characters are not allowed inside of an STFL code fragment in curly
+brackets (the example above is just broken up in two line to improve the
+readability). It is even possible to embed an STFL code fragment in curly
+brackets in a normal indented code block. Example given:
+
+	vbox
+	  {hbox{label .expand:0 text:"Foo: "}{input[foo] text:"Hello"}}
+	  {hbox{label .expand:0 text:"Bar: "}{input[bar] text:"World!"}}
+
+It is also possible to include the focus information in STFL code: Simply
+prefix the widget which shall have the focus with a '!'. Only one widget
+may have the focus at a time.
+
+The STFL parser can also read external files. This can be done by putting the
+filename in < > brackets in the STFL file. Note that this is not a verbatim
+include but calls another parser instance recursively. So there is an extra
+indenting / curly brackets state for the external file.
+
+Comment lines in STFL code start with a '*' character. There must be no
+statement in the same line as the comment (i.e. only whitespaces are allowed
+before the '*' character). Comment are not allowed within a code fragment
+in curly brackets.
+
+
+The STFL Style Descriptions
+---------------------------
+
+STFL is using a generic syntax whenever the style (color, etc.) of a text
+can be specified: A comma separated key=value list, where the key can be
+'bg' for background, 'fg' for foreground and 'attr' for text attributes.
+Example given the following style string can be used for creating bold
+blinking white text on blue background:
+
+	bg=blue,fg=white,attr=bold,attr=blink
+
+The following colors are supported:
+
+	black
+	red
+	green
+	yellow
+	blue
+	magenta
+	cyan
+	white
+
+And the following attributes:
+
+	standout
+	underline
+	reverse
+	blink
+	dim
+	bold
+	protect
+	invis
+
+On terminals that support 256 colors it's also possible to use extended colors,
+by using "color<number>" as color name, where "<number>" is a number between
+0 and 255. For a complete chart of numbers and their corresponding colors,
+please see here: http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+
+The terminal default colors are used when no background or no foreground color
+is specified. So keep care when only specifying one value. Example given text
+printed using the style string 'fg=white' can't be seen on terminals with a
+white default background.
+
+
+Key and Keybinding Descriptions
+-------------------------------
+
+Key descriptions are strings describing a key press event. With some
+exceptions this are the return values of the ncurses keyname() and key_name()
+functions. The exceptions are:
+
+	ENTER
+		The return key has been pressed.
+
+	SPACE
+		The space key has been pressed.
+
+	TAB
+		The tabulator key has been pressed.
+
+	ESC
+		The escape key has been pressed.
+
+	F0 .. F63
+		A function key has been pressed.
+
+	UNKNOWN
+		An unknown key has been pressed.
+		(Usually this is the result of a broken multibyte sequence)
+
+A key binding description is a whitespace-separated list of key descriptions
+used in bind_* variables to bind keys to widget actions. Each widget provides
+default bindings for all its actions. If you want to extend the list of bind
+keys instead of overwriting them you must use the special key-description "**"
+in the keybinding description to refer to the default bindings.
+
+Key values can e.g. be dumped using the following little Perl script:
+
+perl -mstfl -le '$_ = stfl::create("label text:\"Press a key\"")->run(0);
+stfl::reset(); print;'
+
+
+The STFL Widget Library
+-----------------------
+
+vbox and hbox
+~~~~~~~~~~~~~
+
+This widgets simply layouts its child widgets vertically or horizontally
+respectively. The following variables are supported by both widgets:
+
+	bind_left, bind_right
+		The keybindings in a hbox for changing the focus to the
+		next or previous child widget. Default values are the
+		LEFT and RIGHT keys.
+
+	bind_up, bind_down
+		The keybindings in a vbox for changing the focus to the
+		next or previous child widget. Default values are the UP
+		and DOWN keys.
+
+	style_normal
+		The background style.
+
+	tie
+		Tie the box containing the widgets to the specified borders.
+		The value is a string containing the characters 'l' (left
+		border), 'r' (right border), 't' (top border), 'b' (bottom
+		border) and 'c' (center). The default value is 'lrtb'.
+
+	.tie
+		Tie this widget within its sub-box to the specified borders.
+		The value is using the same syntax as the "tie" variable above.
+
+	.expand
+		Contains the information if child widgets should be expanded
+		to fit the available space. The value is a string that may
+		contain the characters 'v' (for vertical expansion), 'h' (for
+		horizontal expansion) and '0' (for no expansion).
+
+		The hbox widget ignores the vertical expansion information and
+		the vbox widget the horizontal expansion information.
+
+		The default value is 'vh'.
+
+	.height
+		Hardcode the height of this child widget to the specified
+		number of lines. Usually one wants to also declare .expand:0
+		when declaring this variable.
+
+	.width
+		Hardcode the width of this child widget to the specified
+		number of characters. Usually one wants to also declare
+		.expand:0 when declaring this variable.
+
+	.display
+		Simply ignore this child widget if this variable is set to '0'.
+		The default value is '1'.
+
+label
+~~~~~
+
+A simple text label. The following variables are supported by this widget:
+
+	style_normal
+		The style used for displaying the text.
+
+	text
+		The text to be displayed
+
+input
+~~~~~
+
+A simple input widget for one line of text input. The following variables are
+supported by this widget:
+
+	bind_left, bind_right
+		Move the cursor left and right. Default values are the LEFT
+		and RIGHT keys.
+
+	bind_home
+		Move the cursor to the first character. Default values are
+		the HOME key or Ctrl-A.
+		
+	bind_end
+		Move the cursor after the last character. Default values are
+		the END key or Ctrl-E.
+
+	bind_delete
+		Delete the character under the cursor. Default value is the
+		DC (DEL) key.
+
+	bind_backspace
+		Delete the character before the cursor. Default value is the
+		BACKSPACE key.
+		
+	style_normal
+		The style of this widget when it does not have the
+		focus.
+
+	style_focus
+		The style of this widget when it does have the focus.
+
+	size
+		The length (width) of the input box.
+
+	text
+		The value displayed in the input box.
+
+	pos
+		The current cursor position in the input box.
+
+	offset
+		The offset of the text displayed in the input box
+		(when the text is larger then the input box).
+
+checkbox
+~~~~~~~~
+
+Implementation of a checkbox. The following variables are supported
+by this widget:
+
+	bind_toggle
+		The keys used to toggle the checkbox value. Default value is
+		"ENTER SPACE", meaning the ENTER and SPACE keys.
+
+	style_normal
+		The style of this widget when it does not have the
+		focus.
+
+	style_focus
+		The style of this widget when it does have the focus.
+
+	text_0
+		The text displayed when the checkbox' value is 0. Default value
+		is "[ ]".
+
+	text_1
+		The text displayed when the checkbox' value is 1. Default value
+		is "[X]".
+
+	pos
+		The cursor position within text_0/text_1. The default value is
+		1, which works fine for "[ ]" and "[X]". But for example for
+		text_0:"--> <--" and text_1:"==>X<==" you would want to set it
+		to 3 instead.
+
+	value
+		The checkbox' state (0 or 1).
+
+table
+~~~~~
+
+The most important container widget. The special widget 'tablebr' is used to
+mark the begin of a new table row. The following variables are supported by
+this widget:
+
+	bind_left, bind_right, bind_up, bind_down
+		The keybindings for changing the focus within a table.
+		Default values are the UP, DOWN, LEFT and RIGHT keys.
+
+	style_normal
+		The style for the table borders.
+
+	.expand
+		Contains the information if child widgets should be expanded
+		to fit the available space. The value is a string that may
+		contain the characters 'v' (for vertical expansion), 'h' (for
+		horizontal expansion) and '0' (for no expansion).
+
+		Since there is just one width for all cells in a column and
+		just one height for all cells in a row it still may happen
+		that cells are expanded a bit.
+
+		The default value is 'vh'.
+
+	.height, .width
+		Hardcode the height or .width of this table cell to the
+		specified number of characters. Usually one wants to also
+		declare .expand:0 when declaring one of this variables.
+
+	.colspan, .rowspan
+		The number of columns or rows for this cell. Default is '1'.
+
+	.border
+		The borders for this cell. This is a string which may contain
+		the characters 'l', 'r', 't' and 'b' for left, right, top and
+		bottom borders.
+
+	.spacer
+		Like .border, but only adds a spacer between the cells.
+
+	.tie
+		Tie this table cell within its box to the specified borders.
+		The value is a string containing the characters 'l' (left
+		border), 'r' (right border), 't' (top border), 'b' (bottom
+		border) and 'c' (center). The default value is 'lrtb'.
+
+list
+~~~~
+
+The list widget can be used to display a list of items, one per line. The
+items are stored as 'listitem' child widgets of the 'list' widget. When
+there are more items then the list widget has lines the list widget is
+automatically scrolling. The list widget implements the following variables:
+
+	bind_up, bind_down
+		The key bindings for scrolling up or down by line. Default
+		values are the UP and DOWN keys.
+
+	bind_page_up, bind_page_down
+		The key bindings for scrolling up or down by page. Default
+		values are the PPAGE (PAGE_UP) and NPAGE (PAGE_DOWN) keys.
+
+	bind_home, bind_end
+		The key bindings for moving to top or bottom of list. Default
+		values are the HOME and END keys.
+
+	style_focus
+		Style of the active list item when the widget has the focus.
+
+	style_selected
+		Style of the active list item when the widget has not the
+		focus.
+
+	style_normal
+		Style of the currently not active list items.
+
+	pos
+		The number of the current list item
+
+	pos_name
+		The widget name of the current list item.
+
+	offset
+		The number of the list item displayed in the first line (this
+		becomes >0 when scrolling).
+
+
+listitem
+~~~~~~~~
+
+An in a list widget. Implements the following variables:
+
+	text
+		The text displayed in this list item.
+
+textview
+~~~~~~~~
+
+A widget for displaying multiline text. The text itself is stored within
+listitem child widgets. Implements the following variables:
+
+	bind_up, bind_down
+		The key bindings for scrolling up or down by line. Default
+		values are the UP and DOWN keys.
+
+	bind_page_up, bind_page_down
+		The key bindings for scrolling up or down by page. Default
+		values are the PPAGE (PAGE_UP) and NPAGE (PAGE_DOWN) keys.
+
+	bind_home, bind_end
+		The key bindings for moving to top or bottom of text. Default
+		values are the HOME and END keys.
+
+	style_normal
+		The style the text itself is displayed.
+
+	style_end
+		The style used for the EOT-Markers.
+
+	offset
+		The number of the first line displayed
+		(becomes >0 when scrolling).
+
+	richtext
+		Set to '1' to enable richtext support
+
+	style_FOOBAR_normal
+		The style for text after a <FOOBAR>. the </> token can
+		be used to restore the style_normal settings. this variables
+		are only used if the 'richtext' variable is set.
+
+textedit
+~~~~~~~~
+
+A widget for editing multiline text. The text itself is stored within
+listitem child widgets.
+
+	bind_up, bind_down, bind_left, bind_right, bind_page_up, bind_page_down,
+	bind_home, bind_end, bind_delete, bind_backspace, bind_enter
+		Key bindings for navigating the text. The default values are UP, DOWN,
+		LEFT, RIGHT, PPAGE (PAGE_UP), NPAGE (PAGE_DOWN), HOME or Ctrl-A,
+		END of Ctrl-E, DC (DEL), BACKSPACE and ENTER keys respectively.
+
+	style_normal
+		The style the text itself is displayed.
+
+	style_end
+		The style used for the EOT-Markers.
+
+	cursor_x, cursor_y
+		Cursor position within the text
+
+	scroll_x, scroll_y
+		Current offset for horizontal and vertical scrolling
+
+Common Variables
+----------------
+
+There are some variables which are used by the STFL core to configure some
+widget-independent features.
+
+modal
+~~~~~
+
+A widget which has the modal variable set to '1' will not pass any events
+to its parent widgets. Either the event is handled by the widget itself or
+it is returned directly to the caller of stfl_run().
+
+autobind
+~~~~~~~~
+
+Setting autobind to '0' disables all automatically assigned keybindings for
+this widget. Actions which aren't set explicitly bind to keys using the
+bind_* variables are left unbind and can't be triggered using the user
+interface. Setting autobind to '0' does not prevent typing of regular text
+into input and textedit widgets; for such functionality see 'process'. 
+
+process
+~~~~~~~~
+
+Setting process to '0' disables all keypress processing on the widget and
+passes the keypress events to the caller of stfl_run(). This setting is
+similar to autobind, but it will stop all key processing on the widget,
+including typing of regular text into input and textedit widgets. When
+this variable is set back to '1', processing resumes as usual.
+
+on_*
+~~~~
+
+The on_* variables can be used to catch keypresses in this widget and return
+the value of the on_* variable to the caller of stfl_run(). The on_* variables
+are evaluated before the keypresses are passed to the widget. The '*' part
+of the on_* variables is a key description. E.g. "on_^X:foobar" will let
+stfl_run() return the string "foobar" when Ctrl-X is being pressed.
+
+can_focus
+~~~~~~~~~
+
+Setting can_focus to '0' on a widget will make it non-focusable, even if
+it is a widget that could otherwise have focus (input, listitem, etc.).
+The widget is still focusable manually by prefixing it with a '!' or
+using stfl_set_focus().
+
+
+The Common STFL Scripting Language API
+--------------------------------------
+
+STFL has a big C-API which allows a wide range of in-depth operations on
+widget trees. But most of this C-API is only needed for writing new STFL
+widgets. The common STFL scripting language API only has a small number of
+functions and besides the 'form handlers' this functions do only operate
+on read-only scalar values, so it is pretty easy to write additional bindings
+for scripting languages not yet supported by STFL.
+
+C API Notes
+~~~~~~~~~~~
+
+All functions listed here are also available through the STFL C-API.
+
+All strings returned by stfl functions are constant and must not be freed or
+modified by the caller. When the caller wants to preserve a string for longer
+than until the next stfl function call the caller must copy the strings.
+
+All strings passed to STFL functions are considered read-only by STFL and
+are neither modified nor freed by STFL.
+
+The functions which may return an null value will return a null-pointer
+in C. All string parameters which are null-pointers are interpreted as they
+where empty strings.
+
+Unicode Support
+~~~~~~~~~~~~~~~
+
+The STFL C Library handles all strings as wide character strings (wchar_t*). So
+the STFL library itself has complete Unicode support.
+
+All current scripting language bindings convert all strings passed between STFL
+and the scripting language to UTF-8.
+
+Programs using STFL directly might use the STFL "ipool" API for easy conversion
+between wide characters and other encodings.
+
+SPL API Notes
+~~~~~~~~~~~~~
+
+The stfl_free() function is not implemented in SPL because the SPL garbage
+collector does call the low-level STFL free function automatically. The
+stfl_reset() function is automatically called when the STFL module is unloaded
+(i.e. on program termination).
+
+The stfl_quote() function can also be called using the name encode_stfl() so
+it can be used with the SPL encoding/quoting operator (::).
+
+Python API Notes
+~~~~~~~~~~~~~~~~
+
+The stfl_free() function is not implemented in Python because the garbage
+collector does call the low-level STFL free function automatically. The
+stfl_reset() function is automatically called on program termination.
+
+The functions which take a form as first parameter can also be called as method
+of the form. All functions are in the "stfl" namespace, so the "stfl_" prefix
+for the function names is replaced with "stfl." in python.
+
+Perl API Notes
+~~~~~~~~~~~~~~
+
+The stfl_free() function is not implemented in Perl because the garbage
+collector does call the low-level STFL free function automatically. The
+stfl_reset() function is automatically called on program termination.
+
+The functions which take a form as first parameter can also be called as method
+of the form. All functions are in the "stfl" namespace, so the "stfl_" prefix
+for the function names is replaced with "stfl::" in perl.
+
+Ruby API Notes
+~~~~~~~~~~~~~~
+
+The stfl_free() function is not implemented in Perl because the garbage
+collector does call the low-level STFL free function automatically. The
+stfl_reset() function is automatically called on program termination.
+
+The functions which take a form as first parameter can also be called as method
+of the form. All functions are in the "Stfl" namespace, so the "stfl_" prefix
+for the function names is replaced with "Stfl." in ruby.
+
+stfl_create(text)
+~~~~~~~~~~~~~~~~~
+
+Parses the the STFL description text passed as parameter and returns a form
+handler. Most of the following functions expect such a form handler as first
+parameter.
+
+stfl_free(form)
+~~~~~~~~~~~~~~~
+
+Free all resources associated with this form. On languages with a garbage
+collector calling this function is optional and might even be implemented
+as no-op.
+
+stfl_run(form, timeout)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Return the next event. If no more prior generated events are waiting display
+the form and process one input character. The event string can be an null
+value when something changed in the form (e.g. the user changed the focus of
+the current widget) but all inputs have been handled internally inside of STFL.
+The event string can be "TIMEOUT" when the timeout has been reached, a key
+description is key has been pressed that is not being handled internally in
+STFL or the value of an on_* variable can be returned if a keypress has been
+caught using such a variable.
+
+The 2nd parameter is a timeout in ms. When no key has been pressed until this
+timeout has been reached the function returns with a "TIMEOUT" event. Set this
+parameter to 0 to disable the timeout.
+
+When the timeout parameter is set to -1 the form is displayed independent of
+the current status of the event queue and the function returns right after
+displaying the form without handling any input characters. In this mode always
+an null value is returned.
+
+When the timeout parameter is set to -2 the displayed is not updated and the
+next pending event is returned. If there are no pending events an null
+value is returned.
+
+When the timeout parameter is set to -3, rendering (and setting the :x, :y, :w
+and :h pseudo-variables) is done but the screen is not updated and no events
+are fetched. This is useful for incrementing rendering processes where
+appropriate :x, :y, :w and/or :h values are needed for finishing the layout.
+
+stfl_redraw()
+~~~~~~~~~~~~
+
+The stfl_run() function automatically refreshes the screen on each run.
+This function can be used to instruct stfl_run() to completely redraw the
+screen on its next run, instead of just refreshing. This feature is useful
+when another program has printed unwanted text to the terminal and a full
+redraw is needed. In most programs that support "clear screen" feature, it
+is made available on Ctrl+L.
+
+stfl_reset()
+~~~~~~~~~~~~
+
+The stfl_run() function automatically activates ncurses. This function
+can be used to explicitly switch back to normal text mode. In some
+languages this is automatically done on program termination.
+
+stfl_get(form, name)
+~~~~~~~~~~~~~~~~~~~~
+
+Returns the current value of the specified variable. When the variable does not
+exist this function returns an null value.
+
+stfl_set(form, name, value)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This sets the specified variable to the specified value.
+
+stfl_get_focus(form)
+~~~~~~~~~~~~~~~~~~~~
+
+Returns the name of the widget which currently has the focus or an null
+value when the widget having the focus has no name.
+
+stfl_set_focus(form, name)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set the focus to the specified widget.
+
+stfl_quote(text)
+~~~~~~~~~~~~~~~~
+
+Quote the text so it can be safely used as variable value in STFL code.
+
+stfl_dump(form, name, prefix, focus)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Return the subtree starting with the widget specified in the 2nd parameter as
+STFL code fragment. The entire form is return when the 2nd parameter is an
+empty string or null. All widget and variable names in the dump are
+prefixed with the string in the 3rd parameter. The information which widget has
+the focus is also included in the dump when the 4th parameter is an integer
+not equal 0.
+
+The function returns an null value when there was an error.
+
+stfl_text(form, name)
+~~~~~~~~~~~~~~~~~~~~~
+
+Return the concatenation of all "listitem text" variables under the specified
+widget. This is useful for reading the text in "textedit" widgets.
+
+The function returns an null value when there was an error.
+
+stfl_modify(form, name, mode, text)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Import the STFL code specified in the 4th parameter to an existing form. The
+2nd parameter is used to specify a widget which is used as starting point for
+the modification. The 3rd parameter is a string specifying how the new STFL
+code should be added to the widget tree:
+
+	delete
+		Delete the widget. The 4th parameter is ignored in this mode.
+
+	replace
+		Replace the widget in the tree with the new tree.
+
+	replace_inner
+		Replace the child list of the widget with the child list
+		of the root element of the new tree.
+
+	insert
+		Add the new tree at the begin of the child list of the widget.
+
+	insert_inner
+		Add the child list of the root element of the new tree at the
+		begin of the child list of the widget.
+
+	append
+		Add the new tree at the end of the child list of the widget.
+
+	append_inner
+		Add the child list of the root element of the new tree at the
+		end of the child list of the widget.
+
+	before
+		Add the new tree before the widget.
+
+	before_inner
+		Add the child list of the root element of the new tree before
+		the widget.
+
+	after
+		Add the new tree after the widget.
+
+	after_inner
+		Add the child list of the root element of the new tree after
+		the widget.
+
+The widget type of the root element of the tree passed in the 4th parameter
+doesn't matter in the *_inner modes.
+
+stfl_error()
+~~~~~~~~~~~~
+
+Return the error status of the last STFL call. This is null when no error
+occurred and the error message otherwise. An error could e.g. be a parser
+error for broken STFL code.
+
+WARNING: This is a planned feature! This version of STFL simply calls abort()
+if an internal error is caught.
+
+stfl_error_action(mode)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Set the error handling algorithm. The following strings are valid as mode
+parameter:
+
+	abort
+		Print error message to stderr and call the abort() function.
+
+	exit
+		Print error message to stderr and call exit(1).
+
+	print
+		Print error message to stderr and continue execution.
+
+	interactive
+		Display a little menu and let the user decide what to do.
+
+	none
+		Do nothing - just continue program execution.
+
+The default mode is "interactive".
+
+WARNING: This is a planned feature! This version of STFL simply calls abort()
+if an internal error is caught.
+
+
+Pseudo Variables
+----------------
+
+When a widget has a name (declared using the 'widget[name]' syntax in the STFL
+code), there are also some special pseudo-variables which can only be accessed
+for reading. Note that this pseudo-variables do only have valid values after
+the widget has been drawn already. So it is always a good idea to run
+stfl_run() with a timeout of -1 before accessing the pseudo-variables.
+
+widgetname:x
+~~~~~~~~~~~~
+
+The absolute x-position of the widget on the screen. (from the left border)
+
+widgetname:y
+~~~~~~~~~~~~
+
+The absolute y-position of the widget on the screen. (from the upper border)
+
+widgetname:w
+~~~~~~~~~~~~
+
+The width of the widget.
+
+widgetname:h
+~~~~~~~~~~~~
+
+The height of the widget.
+
+widgetname:minw
+~~~~~~~~~~~~~~~
+
+The minimal width (i.e. before expanding) of the widget.
+
+widgetname:minh
+~~~~~~~~~~~~~~~
+
+The minimal height (i.e. before expanding) of the widget.
+
+
+TODOs
+-----
+
+- Implement so far unimplemented widgets
+- Missing error handling and reporting
+

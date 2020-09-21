@@ -1,0 +1,253 @@
+[Sokoban YASC Skin Script]
+SkinType=JSoko (2019)
+FileType=INI
+FileFilter=INI-files (*.ini)|*.ini
+ImageFile=combined_file
+TileBase=0
+
+=============
+JSoko (2019)
+=============
+
+perform JSoko
+end -- script
+
+======================
+[No_Background_Color]
+======================
+
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+end -- No_Background_Color
+
+============
+[Animation]
+============
+
+// 'a' is the target animation object in YASC, i.e., 'Player' or 'Box'
+// 'b' is the key stub for the animation in JSoko, e.g., 'mover_animation'
+// 'i' is the frame index
+
+c={{add {b} {i}}}
+// 'c' example: 
+// the value of the key 'mover_animation1' in the JSoko script, e.g., '1,4'
+
+if {c}
+
+FileName={combined_file}
+{a} {i}={Tile {c}}
+
+if {i}=1
+[Control - Pathfinding - Show legal moves - Animation (appropriate images required)]
+{a} animation enabled=yes
+
+[Control - Solutions - Animation (appropriate images required)]
+{a} animation enabled=yes
+endif
+
+endif
+
+end -- Animation
+
+========
+[JSoko]
+========
+
+[Graphics]
+Columns=0
+Rows=0
+ColWidth={real_width}
+RowHeight={real_height}
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={combined_file}
+Player-u={Tile {mover_up}}
+FileName={combined_file}
+Player-l={Tile {mover_left}}
+FileName={combined_file}
+Player-d={Tile {mover_down}}
+FileName={combined_file}
+Player-r={Tile {mover_right}}
+perform No_Background_Color
+
+[Graphics - Board - Figures - Player - Animation - Image]
+a=Player
+b=mover_animation
+c=true
+perform Animation varying i from 1 to 30 until {c} = {}
+perform No_Background_Color
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={combined_file}
+Player-u={Tile {mover_up_store}}
+FileName={combined_file}
+Player-l={Tile {mover_left_store}}
+FileName={combined_file}
+Player-d={Tile {mover_down_store}}
+FileName={combined_file}
+Player-r={Tile {mover_right_store}}
+perform No_Background_Color
+
+[Graphics - Board - Figures - Player on goal square - Animation - Image]
+a=Player
+b=mover_store_animation
+c=true
+perform Animation varying i from 1 to 30 until {c} = {}
+perform No_Background_Color
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={combined_file}
+Section={Tile {object}}
+perform No_Background_Color
+
+[Graphics - Board - Figures - Box - Animation - Image]
+a=Box
+b=object_animation
+c=true
+perform Animation varying i from 1 to 30 until {c} = {}
+perform No_Background_Color
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={combined_file}
+Section={Tile {object_store}}
+perform No_Background_Color
+
+[Graphics - Board - Figures - Box on goal square - Animation - Image]
+a=Box
+b=object_store_animation
+c=true
+perform Animation varying i from 1 to 30 until {c} = {}
+perform No_Background_Color
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={combined_file}
+Section={Tile {store}}
+perform No_Background_Color
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+perform No_Background_Color
+FileName={combined_file}
+if {wall}
+wall={Tile {wall}}
+endif
+if {wall_u}
+wall-u={Tile {wall_u}}
+endif
+if {wall_r}
+wall-r={Tile {wall_r}}
+endif
+if {wall_d}
+wall-d={Tile {wall_d}}
+endif
+if {wall_l}
+wall-l={Tile {wall_l}}
+endif
+if {wall_u_r}
+wall-u-r={Tile {wall_u_r}}
+endif
+if {wall_u_d}
+wall-u-d={Tile {wall_u_d}}
+endif
+if {wall_u_l}
+wall-u-l={Tile {wall_u_l}}
+endif
+if {wall_d_r}
+wall-r-d={Tile {wall_d_r}}
+endif
+if {wall_l_r}
+wall-r-l={Tile {wall_l_r}}
+endif
+if {wall_d_l}
+wall-d-l={Tile {wall_d_l}}
+endif
+if {wall_u_d_r}
+wall-u-r-d={Tile {wall_u_d_r}}
+endif
+if {wall_u_l_r}
+wall-u-r-l={Tile {wall_u_l_r}}
+endif
+if {wall_u_d_l}
+wall-u-d-l={Tile {wall_u_d_l}}
+endif
+if {wall_d_l_r}
+wall-r-d-l={Tile {wall_d_l_r}}
+endif
+if {wall_u_d_l_r}
+wall-u-r-d-l={Tile {wall_u_d_l_r}}
+endif
+if {wall_top}
+wall-cap={Tile {wall_top}}
+endif
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left={wall_top_x}
+Top={wall_top_y}
+
+[Graphics - Board - Figures - Wall - Outer wall trimming, pixels]
+Left={leftBorder}
+Top={topBorder}
+Right={rightBorder}
+Bottom={bottomBorder}
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={combined_file}
+Section={Tile {ground}}
+perform No_Background_Color
+
+=======================
+Skin-specific settings
+=======================
+
+perform {name}
+
+end -- JSoko
+
+===============
+[Antique Desk]
+===============
+
+[Control - Pathfinding - Show legal moves - Player cursor]
+Enabled=No
+
+[Control - Pathfinding - Show legal moves - Box cursor]
+Enabled=No
+end
+
+===========================
+[Björn Källmark's Sokoban]
+[Sokoban Classic]
+===========================
+
+[Graphics - Board - Figures - Wall - Wall cap offset, pixels]
+Left=16
+Top=16
+end

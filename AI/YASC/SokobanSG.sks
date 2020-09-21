@@ -1,0 +1,125 @@
+[Sokoban YASC Skin Script]
+SkinType=Sokoban SG (2019)
+FileType=Image
+FileFilter=
+Columns=9
+Rows=1
+
+==================
+Sokoban SG (2019)
+==================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={Filename}
+Section={Tile 5}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Antialiasing=High quality
+FileName={Filename}
+Player-d={Tile 5}
+FileName={Filename}
+Player-l={Tile 6}
+FileName={Filename}
+Player-u={Tile 7}
+FileName={Filename}
+Player-r={Tile 8}
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={Filename}
+Section={Tile 5}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Antialiasing=High quality
+FileName={Filename}
+Player-d={Tile 5}
+FileName={Filename}
+Player-l={Tile 6}
+FileName={Filename}
+Player-u={Tile 7}
+FileName={Filename}
+Player-r={Tile 8}
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+Section={Tile 3}
+Mask image using background color=no
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+Section={Tile 4}
+Mask image using background color=no
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+Section={Tile 2}
+Mask image using background color=no
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={Filename}
+Section={Tile 0}
+Mask image using background color=no
+Antialiasing=High quality
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+Section={Tile 1}
+Mask image using background color=no
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+
+[Graphics - Board - Figures]
+Maximum zoom factor (%)=100
+
+perform {Filename.Shortname}
+end -- script
+
+[Vousk]
+[Graphics - Board - Figures - Player - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+[Graphics - Board - Figures - Player on goal square - Image]
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+[Graphics - Board - Figures - Box - Image]
+Background color tolerance (%)=3
+Mask image using background color=yes
+Background color={BackgroundColor}
+
+[Graphics - Board - Figures - Box on goal square - Image]
+Background color tolerance (%)=1
+end

@@ -1,0 +1,4 @@
+Sample executable files (assignment1.exe for windows and assignment1.out for linux) are given.
+Input is taken from input.txt file and output is printed both on console and output.txt file.
+You are encouraged to change the input file and check output. 
+You will get some marks if you follow the sample i/o pattern given. 

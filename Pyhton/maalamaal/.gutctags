@@ -1,0 +1,10 @@
+--extra=+f
+--exclude=bin
+--exclude=lib
+--exclude=static_cdn
+--exclude=include
+--exclude=src/carts/migrations
+--exclude=src/search/migrations
+--exclude=src/products/migrations
+--exclude=src/tags/migrations
+

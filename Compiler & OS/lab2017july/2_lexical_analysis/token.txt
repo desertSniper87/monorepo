@@ -1,0 +1,28 @@
+
+<KEYWORD, int>
+
+<KEYWORD, int>
+
+<RELOP, =>
+
+<ADDOP, +>
+<CONST_INT, 1>
+
+<KEYWORD, char>
+
+<RELOP, =>
+
+<RELOP, =>
+
+<KEYWORD, char>
+
+<RELOP, =>
+
+<STRING, "ab\td">
+
+<KEYWORD, printf>
+
+<STRING, "abc\
+def\
+ghi">
+<CONST_INT, 0>

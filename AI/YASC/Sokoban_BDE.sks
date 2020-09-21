@@ -1,0 +1,127 @@
+[Sokoban YASC Skin Script]
+SkinType=Sokoban BDE (2019)
+FileType=Image
+FileFilter=
+
+===================
+Sokoban BDE (2019)
+===================
+
+=======
+Player
+=======
+
+[Graphics - Board - Figures - Player - Image]
+FileName={Filename}
+Section={Rect 192, 0, 224, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player - Highlight animation - Image]
+FileName={Filename}
+Section={Rect 192, 0, 224, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======================
+Player on goal square
+======================
+
+[Graphics - Board - Figures - Player on goal square - Image]
+FileName={Filename}
+Section={Rect 128, 0, 160, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Player on goal square - Highlight animation - Image]
+FileName={Filename}
+Section={Rect 128, 0, 160, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+====
+Box
+====
+
+[Graphics - Board - Figures - Box - Image]
+FileName={Filename}
+Section={Rect 160, 0, 192, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Box - Highlight animation - Image]
+FileName={Filename}
+Section={Rect 160, 0, 192, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=10
+Antialiasing=High quality
+
+===================
+Box on goal square
+===================
+
+[Graphics - Board - Figures - Box on goal square - Image]
+FileName={Filename}
+Section={Rect 160, 0, 192, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Box on goal square - Highlight animation - Image]
+FileName={Filename}
+Section={Rect 160, 0, 192, 32}
+Mask image using background color=yes
+Background color={BackgroundColor}
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Goal
+=====
+
+[Graphics - Board - Figures - Goal square - Image]
+FileName={Filename}
+Section={Rect 96, 0, 128, 32}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+=====
+Wall
+=====
+
+[Graphics - Board - Figures - Wall - Image]
+FileName={Filename}
+Section={Rect 32, 0, 64, 32}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+======
+Floor
+======
+
+[Graphics - Board - Figures - Floor - Image]
+FileName={Filename}
+Section={Rect 64, 0, 96, 32}
+Mask image using background color=no
+Background color tolerance (%)=5
+Antialiasing=High quality
+
+[Graphics - Board - Figures - Floor]
+Visible=yes
+
+end -- script
+

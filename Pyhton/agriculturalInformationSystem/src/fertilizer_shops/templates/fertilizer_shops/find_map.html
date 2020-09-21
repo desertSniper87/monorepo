@@ -1,0 +1,146 @@
+{#from get_shops.py import *#}
+{%load get_shops%}
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+      var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 23.72, lng: 90.42},
+          zoom: 8
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            {#infoWindow.setContent('Location found.');#}
+            infoWindow.open(map);
+            map.setCenter(pos);
+            map.setZoom(11)
+            {#var input = document.getElementById('latlng').value;#}
+            {#var latlngStr = input.split(',', 2);#}
+            {#var latlng = {lat: parseFloat(latlngStr[0]), lng: parseFloat(latlngStr[1])};#}
+            var latlng = {lat: parseFloat(pos.lat), lng: parseFloat(pos.lng)};
+            var geocoder = new google.maps.Geocoder;
+            {#alert(latlng.lat)#}
+            geocoder.geocode({'location': latlng}, function(results, status) {
+              if (status === 'OK') {
+                i = 0;
+                while(results[i]) {
+                  console.log(results[i].types[0]);
+                  console.log(results[i].formatted_address);
+                  if (results[i].types[0]=='administrative_area_level_3') {
+                    var upazila = results[i].formatted_address;
+                  }
+
+                  else if (results[i].types[0]=='administrative_area_level_2') {
+                    var district = results[i].formatted_address;
+                  }
+
+                  else if (results[i].types[0]=='administrative_area_level_1') {
+                    var division = results[i].formatted_address;
+                  }
+                  {#{% narrow_down_shop(upazila, district, division) %}#}
+                  console.log("upazila, district, division: ", upazila, district, division);
+
+
+                  i++;
+                }
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                {#var road = results[0]#}
+                if (results[0]) {
+                  map.setZoom(11);
+                  var marker = new google.maps.Marker({
+                    position: latlng,
+                    map: map
+                  });
+                  infoWindow.setContent(results[0].formatted_address);
+                  infoWindow.open(map, marker);
+                } else {
+                  window.alert('No results found');
+                }
+              } else {
+                window.alert('Geocoder failed due to: ' + status);
+              }
+            });
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function geocodeLatLng(geocoder, map, infowindow, pos) {
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+          'Error: The Geolocation service failed.' :
+          'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+      }
+      {#function geocodeLatLng(geocoder, map, infowindow) {#}
+        {#var input = document.getElementById('latlng').value;#}
+        {#var latlngStr = input.split(',', 2);#}
+        {#var latlng = {lat: parseFloat(latlngStr[0]), lng: parseFloat(latlngStr[1])};#}
+        {#geocoder.geocode({'location': latlng}, function(results, status) {#}
+          {#if (status === 'OK') {#}
+            {#if (results[0]) {#}
+              {#map.setZoom(11);#}
+              {#var marker = new google.maps.Marker({#}
+                {#position: latlng,#}
+                {#map: map#}
+                {#});#}
+              {#infowindow.setContent(results[0].formatted_address);#}
+              {#infowindow.open(map, marker);#}
+              {#} else {#}
+              {#window.alert('No results found');#}
+              {#}#}
+            {#} else {#}
+            {#window.alert('Geocoder failed due to: ' + status);#}
+            {#}#}
+          {#});#}
+    </script>
+    <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZlKZkhvVQXjqm5F3zf66u-nHaHCodJzQ&callback=initMap">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "io.apptik.widget.example.multislider"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.compileSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.supportCoreUi
+    implementation project(':lib')
+    implementation project(':holo-style')
+    implementation project(':mslider-espresso')
+    implementation project(':mslider-uiautomator')
+    androidTestImplementation rootProject.ext.junit
+    androidTestImplementation rootProject.ext.supportTestUiautomator
+    androidTestImplementation rootProject.ext.supportAnnotations
+    androidTestImplementation rootProject.ext.supportTestRunner
+    androidTestImplementation rootProject.ext.supportTestRules
+    androidTestImplementation rootProject.ext.supportTestEspresso
+}

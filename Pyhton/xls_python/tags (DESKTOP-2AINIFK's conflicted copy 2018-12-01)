@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/06f9fde0/
+MATCH_ARTIST_NAME	main.py	/^MATCH_ARTIST_NAME = 1$/;"	v
+artist_name	main.py	/^                        artist_name = None$/;"	v
+bcolors	main.py	/^import bcolors as bcolors$/;"	I
+browser	youtube_playlist_automation.py	/^        browser = webdriver.Firefox()$/;"	v
+choice	main.py	/^choice = '1'$/;"	v
+conn	database_transfer.py	/^    conn = create_connection("playlist.sqlite3")$/;"	v
+conn	youtube_playlist_automation.py	/^    conn = create_connection("playlist.sqlite3")$/;"	v
+create_connection	database_transfer.py	/^def create_connection(db_file):$/;"	f
+create_connection	youtube_playlist_automation.py	/^def create_connection(db_file):$/;"	f
+create_table	database_transfer.py	/^def create_table(conn):$/;"	f
+cur	youtube_playlist_automation.py	/^    cur = conn.cursor()$/;"	v
+file	main.py	/^                file = name$/;"	v
+filename	database_transfer.py	/^    filename = 'playlist.xlsx'$/;"	v
+filename	main.py	/^filename = 'playlist_2.xlsx'$/;"	v
+first_video	youtube_playlist_automation.py	/^        first_video = browser.find_element_by_id("video-title")$/;"	v
+fv_link	youtube_playlist_automation.py	/^        fv_link = first_video.get_attribute('href')$/;"	v
+i	database_transfer.py	/^    i = 1$/;"	v
+i	youtube_playlist_automation.py	/^    i = 1$/;"	v
+lookfor	main.py	/^                lookfor = re.sub(r'[ ]', '', lookfor)$/;"	v
+lookfor	main.py	/^        lookfor = sheet['A' + str(row)].value$/;"	v
+n	youtube_playlist_automation.py	/^    n = cur.fetchone()[0]$/;"	v
+name	main.py	/^                    name = name[:-4]$/;"	v
+name	main.py	/^                name = re.sub(r'[ .-]', '', name)$/;"	v
+name	main.py	/^                name = re.sub(r'\\d+', '', name)$/;"	v
+sheet	database_transfer.py	/^    sheet = wb.get_active_sheet()$/;"	v
+sheet	main.py	/^sheet = wb.get_active_sheet()$/;"	v
+wb	database_transfer.py	/^    wb = openpyxl.load_workbook(filename)$/;"	v
+wb	main.py	/^wb = openpyxl.load_workbook(filename)$/;"	v

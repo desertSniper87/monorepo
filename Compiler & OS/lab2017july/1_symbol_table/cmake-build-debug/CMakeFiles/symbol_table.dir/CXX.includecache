@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/torsho/Dropbox/Programming Code/Compiler & OS/lab2017july/symbol_table/main.cpp
+iostream
+-
+fstream
+-
+malloc.h
+-
+sstream
+-
+
